@@ -65,14 +65,14 @@
         }
       ],
       "captions": [
-        [0.13099559996044263, "Tạo reel thủ công và chọn dự án trống."],
+        [0.13099559996044263, "Mở “Dựng thủ công” rồi chọn “Bắt đầu trống”."],
         [
           4.30450699996436,
-          "Thêm video từ tệp Windows. Hộp thoại tệp nằm ngoài bản ghi ứng dụng này."
+          "Thêm video qua hộp thoại chọn tệp của Windows. Hộp thoại này không xuất hiện trong bản ghi màn hình ứng dụng."
         ],
         [
           10.588493399962317,
-          "Nguồn đã nhập sẵn sàng. Mở Chọn và chọn các khoảnh khắc cho reel."
+          "Nguồn đã nhập sẵn sàng. Mở “Chọn” để chọn các cảnh cho bản dựng."
         ]
       ],
       "captureMethod": "graphics",
@@ -99,7 +99,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "047ccfc5d45a5cd3aefcba15879372687f79428d84ba048f7fe4fef520da2e56",
         "randomSeed": "10871980447553721037",
         "startSeconds": 48.419
@@ -117,7 +117,7 @@
           "event": "action",
           "key": "source-select-control-c69cbd81-141b-4d69-8a3a-a615d8cba7ba",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.6552471812662619
+            0, 0.060711188204683436, 0.6728713279266838, 0.6552471812662619
           ],
           "videoSeconds": 2.41,
           "inputVideoSeconds": 1.058
@@ -131,7 +131,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 1.0,
+          "sourceSeconds": 1,
           "videoSeconds": 4.01,
           "inputVideoSeconds": 2.731
         },
@@ -145,7 +145,7 @@
           "event": "action",
           "key": "select-draw-part",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.6552471812662619
+            0, 0.060711188204683436, 0.6728713279266838, 0.6552471812662619
           ],
           "videoSeconds": 6.135,
           "inputVideoSeconds": 4.854
@@ -159,7 +159,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 8.0,
+          "sourceSeconds": 8,
           "videoSeconds": 7.733,
           "inputVideoSeconds": 6.448
         },
@@ -172,7 +172,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 10.0,
+          "sourceSeconds": 10,
           "videoSeconds": 9.291,
           "inputVideoSeconds": 8.047
         },
@@ -186,7 +186,7 @@
           "event": "action",
           "key": "select-draw-part",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.6552471812662619
+            0, 0.060711188204683436, 0.6728713279266838, 0.6552471812662619
           ],
           "videoSeconds": 11.4,
           "inputVideoSeconds": 10.124
@@ -200,7 +200,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 13.0,
+          "sourceSeconds": 13,
           "videoSeconds": 12.995,
           "inputVideoSeconds": 11.708
         },
@@ -214,7 +214,7 @@
           "event": "action",
           "key": "select-stage-preview",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 15.128,
           "inputVideoSeconds": 13.836
@@ -229,7 +229,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 17.228,
           "inputVideoSeconds": 15.947
@@ -244,7 +244,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 23.345,
           "inputVideoSeconds": 22.091
@@ -253,11 +253,11 @@
       "captions": [
         [
           0.21012289996724576,
-          "Mở Chọn, bấm điểm đầu, nút cộng, rồi điểm cuối."
+          "Trong “Chọn”, bấm điểm đầu, nhấn + rồi bấm điểm cuối."
         ],
         [
           7.73469459998887,
-          "Chọn khoảnh khắc thứ hai. Bản xem trước chỉ phát phần đã chọn và bỏ qua khoảng trống."
+          "Chọn thêm cảnh thứ hai. “Xem trước” chỉ phát các đoạn đã chọn và bỏ qua những đoạn không được chọn."
         ]
       ],
       "captureMethod": "graphics",
@@ -310,7 +310,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "65cdb3933cfc6b3008bef60e5653bf78c47ff45c647fbb0a94c8aa05b35ca376",
         "randomSeed": "10871980447553721037",
         "startSeconds": 48.324
@@ -352,7 +352,7 @@
           "event": "action",
           "key": "parts-add-after",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 6.566,
           "inputVideoSeconds": 5.275
@@ -392,7 +392,7 @@
           "event": "action",
           "key": "item-settings-back",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 12.849,
           "inputVideoSeconds": 11.58
@@ -413,7 +413,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 13.908,
           "inputVideoSeconds": 13.601
@@ -428,17 +428,17 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 15.827,
           "inputVideoSeconds": 15.253
         }
       ],
       "captions": [
-        [0.16714080004021525, "Thêm chữ trên hình sau phần đã chọn."],
+        [0.16714080004021525, "Thêm chữ dưới dạng lớp phủ sau đoạn đã chọn."],
         [
           8.876128000032622,
-          "Cảnh tiếp tục chuyển động khi tiêu đề xuất hiện phía trên trong bản xem trước."
+          "Trong bản xem trước, video tiếp tục phát và tiêu đề xuất hiện trên hình."
         ]
       ],
       "captureMethod": "graphics",
@@ -482,7 +482,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "4f9c91e02f8f6173c5207e61ce58b462738381b3a737de786a4c8353d695304d",
         "randomSeed": "10871980447553721037",
         "startSeconds": 14.627
@@ -512,7 +512,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 4.388,
           "inputVideoSeconds": 3.046
@@ -527,7 +527,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 10.574,
           "inputVideoSeconds": 9.319
@@ -536,7 +536,7 @@
       "captions": [
         [
           0.11326339998049662,
-          "Bảng Các phần hiển thị thứ tự. Kéo tay nắm có số để di chuyển phần."
+          "Bảng “Các đoạn” hiển thị thứ tự phát. Kéo tay nắm có số để di chuyển đoạn."
         ],
         [
           1.753322999982629,
@@ -593,7 +593,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "75a01d887400d13fb0b871a0d642782af11bc01e637f94cb71c8f06d6d002adf",
         "randomSeed": "10871980447553721037",
         "startSeconds": 37.671
@@ -654,7 +654,7 @@
           "event": "action",
           "key": "item-tab-place",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 10.331,
           "inputVideoSeconds": 9.047
@@ -682,7 +682,7 @@
           "event": "action",
           "key": "item-settings-back",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 14.857,
           "inputVideoSeconds": 13.509
@@ -697,7 +697,7 @@
           "event": "action",
           "key": "part-play-a612878b-ccb6-4fd0-baf6-947527f7759f",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 17.079,
           "inputVideoSeconds": 15.696
@@ -706,11 +706,11 @@
       "captions": [
         [
           0.11990480002714321,
-          "Thêm ảnh thành phần riêng. Chọn ảnh trong hộp thoại Windows ngoài bản ghi này."
+          "Thêm ảnh thành một đoạn riêng. Chọn ảnh trong hộp thoại chọn tệp của Windows; hộp thoại này không xuất hiện trong bản ghi."
         ],
         [
           12.634797500038985,
-          "Đặt thời lượng rồi phát phần ảnh để xem ảnh hiển thị bao lâu."
+          "Đặt thời lượng rồi phát đoạn ảnh để xem ảnh hiển thị bao lâu."
         ]
       ],
       "captureMethod": "graphics",
@@ -737,7 +737,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "ca5c87943cee46b19ce81dede1917ec213b655cad77e2feb61020aa1c4d8d1d1",
         "randomSeed": "10871980447553721037",
         "startSeconds": 57.255
@@ -804,7 +804,7 @@
           "event": "action",
           "key": "transition-settings-done",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 10.926,
           "inputVideoSeconds": 9.654
@@ -819,7 +819,7 @@
           "event": "action",
           "key": "part-play-06e69b25-2543-473a-becb-630e9ce137c7",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 13.128,
           "inputVideoSeconds": 11.779
@@ -834,7 +834,7 @@
           "event": "action",
           "key": "select-preview-stop",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 25.296,
           "inputVideoSeconds": 24.018
@@ -843,11 +843,11 @@
       "captions": [
         [
           0.10399370000232011,
-          "Mở điểm nối trước ảnh và chọn hòa tan chéo từ thư viện."
+          "Mở điểm nối trước ảnh và chọn “Hòa tan chéo” từ thư viện."
         ],
         [
           10.928852699988056,
-          "Phát qua điểm nối: cảnh chuyển động hòa dần vào ảnh tĩnh."
+          "Phát qua điểm nối: cảnh chuyển động chuyển dần sang ảnh tĩnh."
         ]
       ],
       "captureMethod": "graphics",
@@ -891,7 +891,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "7a71b172cb5fb0390dfaa45a0e55f7d2ca3bbe024a69fd75f1fcde18fcf9c2cd",
         "randomSeed": "10871980447553721037",
         "startSeconds": 22.757
@@ -975,11 +975,11 @@
       "captions": [
         [
           0.16509249998489395,
-          "Mở Nhạc và dùng nút cộng thêm bài có sẵn Bouncy Groove."
+          "Mở “Nhạc” và nhấn + để thêm bản nhạc đi kèm Bouncy Groove."
         ],
         [
           6.59554740000749,
-          "Đường nhạc giờ thuộc reel. Phát để kiểm tra thời điểm cùng hình ảnh."
+          "Nhạc đã được thêm vào bản dựng. Phát để kiểm tra nhạc có khớp với hình ảnh hay không."
         ]
       ],
       "captureMethod": "graphics",
@@ -1023,7 +1023,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "b44be949d8986f40ec86fff685a10f30c360f063d0c670922798da361366c4c4",
         "randomSeed": "10871980447553721037",
         "startSeconds": 14.776
@@ -1041,7 +1041,7 @@
           "event": "action",
           "key": "part-tune-c0ebba35-094f-489f-9a1e-cbd579afb8d4",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 2.242,
           "inputVideoSeconds": 0.963
@@ -1056,7 +1056,7 @@
           "event": "action",
           "key": "part-tab-lens",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 6.435,
           "inputVideoSeconds": 5.091
@@ -1084,7 +1084,7 @@
           "event": "action",
           "key": "part-tab-adjust",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 12.944,
           "inputVideoSeconds": 11.599
@@ -1099,7 +1099,7 @@
           "event": "action",
           "key": "part-panel-close",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 18.132,
           "inputVideoSeconds": 16.797
@@ -1114,7 +1114,7 @@
           "event": "action",
           "key": "part-play-c0ebba35-094f-489f-9a1e-cbd579afb8d4",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 20.244,
           "inputVideoSeconds": 18.98
@@ -1129,7 +1129,7 @@
           "event": "action",
           "key": "part-tune-c0ebba35-094f-489f-9a1e-cbd579afb8d4",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 25.435,
           "inputVideoSeconds": 24.141
@@ -1138,7 +1138,7 @@
       "captions": [
         [
           0.13379009999334812,
-          "Mở cài đặt phần video. Mỗi thẻ thay đổi phần này của reel."
+          "Mở cài đặt đoạn video. Mỗi thẻ cho phép điều chỉnh đoạn này."
         ],
         [
           6.4350251000141725,
@@ -1146,7 +1146,7 @@
         ],
         [
           18.132511500036344,
-          "Phát phần này để thấy khung hình gần hơn khi cảnh chuyển động."
+          "Phát đoạn này để kiểm tra bố cục sau khi phóng to trong cảnh chuyển động."
         ]
       ],
       "captureMethod": "graphics",
@@ -1190,7 +1190,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "c851e4d5627aed10ac9f6af6a6c417011391806be20332a22e46969dfff4ece7",
         "randomSeed": "10871980447553721037",
         "startSeconds": 9.553
@@ -1208,7 +1208,7 @@
           "event": "action",
           "key": "part-tab-photo",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 2.259,
           "inputVideoSeconds": 0.919
@@ -1223,7 +1223,7 @@
           "event": "action",
           "key": "photo-capture-enabled",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 4.438,
           "inputVideoSeconds": 3.101
@@ -1276,9 +1276,9 @@
         {
           "event": "action",
           "key": "photo-capture-preview-held",
-          "captureAtSeconds": 2.0,
+          "captureAtSeconds": 2,
           "flashSeconds": 0.8,
-          "holdSeconds": 3.0,
+          "holdSeconds": 3,
           "previewSeconds": 4.306024,
           "videoSeconds": 13.016,
           "inputVideoSeconds": 11.476
@@ -1344,7 +1344,7 @@
           "event": "action",
           "key": "photo-capture-region-apply",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 26.318,
           "inputVideoSeconds": 25.06
@@ -1359,7 +1359,7 @@
           "event": "action",
           "key": "part-panel-close",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 28.488,
           "inputVideoSeconds": 27.154
@@ -1380,30 +1380,33 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
+            0, 0.060711188204683436, 0.6728713279266838, 0.8048568950563747
           ],
           "videoSeconds": 31.004,
           "inputVideoSeconds": 29.697
         }
       ],
       "captions": [
-        [0.07649710000259802, "Mở Chụp ảnh và bật cho phần video này."],
+        [
+          0.07649710000259802,
+          "Mở “Chụp ảnh” và bật tính năng này cho đoạn video đang chọn."
+        ],
         [
           4.437730500008911,
-          "Chọn thời điểm chụp, lóe sáng ngắn và giữ ảnh ba giây."
+          "Đặt thời điểm chụp, thời gian chớp sáng ngắn và thời gian giữ ảnh ba giây."
         ],
         [
           11.167218299990054,
-          "Di chuyển đầu phát qua thời điểm chụp, đến ảnh được giữ, để thấy các chỉnh sửa."
+          "Đưa đầu phát đến khoảng giữ ảnh sau thời điểm chụp để xem kết quả chỉnh sửa."
         ],
         [13.016331600025296, "Nghiêng và thu nhỏ ảnh rồi thêm viền trắng."],
         [
           22.12627790000988,
-          "Khung tùy chỉnh chọn vùng chụp. Áp dụng xác nhận vùng cắt."
+          "Mở “Khung tùy chỉnh” để chọn vùng chụp, rồi nhấn “Áp dụng” để xác nhận vùng cắt."
         ],
         [
           28.830578199995216,
-          "Nhấn Phát: lóe sáng, ảnh nghiêng có viền, rồi chuyển động trở lại."
+          "Khi phát, chớp sáng xuất hiện, tiếp theo là ảnh nghiêng có viền, rồi video tiếp tục chuyển động."
         ]
       ],
       "captureMethod": "graphics",
@@ -1457,7 +1460,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "39e7184b983559ad4fe47ca8d09d2813ae7ccdd90fbd82321b9878a876b40891",
         "randomSeed": "10871980447553721037",
         "startSeconds": 28.97
@@ -1497,19 +1500,19 @@
       "captions": [
         [
           0.14986649999627843,
-          "Phát toàn bộ reel có âm thanh trước khi lưu và xuất."
+          "Phát toàn bộ bản dựng có âm thanh trước khi lưu và xuất."
         ],
         [
           20.1541269000154,
-          "Lưu giữ dự án có thể chỉnh sửa. Xuất tạo một tệp video riêng."
+          "“Lưu” giữ lại dự án có thể chỉnh sửa. “Xuất” tạo một tệp video riêng."
         ],
         [
           24.316969199979212,
-          "Chọn kích thước, chất lượng và định dạng rồi xuất. Bản demo lưu vào thư mục đã chuẩn bị."
+          "Chọn kích thước, chất lượng và định dạng rồi xuất. Trong ví dụ này, video được lưu vào thư mục đã chuẩn bị."
         ],
         [
           39.17336700001033,
-          "Video đã xuất sẵn sàng. Dự án vẫn có thể chỉnh sửa sau này."
+          "Video đã xuất xong. Bạn vẫn có thể chỉnh sửa dự án sau này."
         ]
       ],
       "captureMethod": "graphics",
@@ -1563,7 +1566,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "702ab119bb8e243af04bd5332033fdd0cdffa294388ddbf3475346a75c4a95b6",
         "randomSeed": "10871980447553721037",
         "startSeconds": 25.139
@@ -1636,19 +1639,19 @@
       "captions": [
         [
           0.12725160003174096,
-          "Reel tự động là cách bắt đầu khác. Chọn thời lượng, nhịp độ và độ chính xác."
+          "Bạn cũng có thể bắt đầu với “Dựng tự động”. Chọn thời lượng, nhịp độ và độ chính xác phân tích."
         ],
         [
           4.260139900026843,
-          "Thời lượng tự động chọn độ dài. Độ chính xác thấp hơn dùng ít mẫu phân tích hơn."
+          "Với “Thời lượng tự động”, ứng dụng quyết định độ dài bản dựng. Độ chính xác thấp hơn sẽ dùng ít mẫu phân tích hơn."
         ],
         [
           8.537631300045177,
-          "Tạo reel phân tích nội dung trên thiết bị này. Thời gian chờ được rút ngắn trong video."
+          "Nhấn “Tạo bản dựng” để ứng dụng phân tích tư liệu trên thiết bị này. Thời gian chờ đã được rút ngắn trong video."
         ],
         [
           15.764441200066358,
-          "Xem các phần được tạo và phát bản nháp trước khi xuất."
+          "Xem các đoạn được tạo và phát bản nháp trước khi xuất."
         ]
       ],
       "captureMethod": "graphics",
@@ -1692,7 +1695,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "559f4bb2298174941bb749f4ba809cd925670d7a4d42454a8a0fb136a5f48cfc",
         "randomSeed": "10871980447553721037",
         "startSeconds": 32.677

@@ -65,14 +65,14 @@
         }
       ],
       "captions": [
-        [0.11522709997370839, "Buat reel manual dan pilih proyek kosong."],
+        [0.11522709997370839, "Buka “Edit manual”, lalu pilih “Mulai kosong”."],
         [
           4.427091699966695,
-          "Tambahkan video dari berkas Windows. Dialog berkas berada di luar rekaman aplikasi ini."
+          "Tambahkan video melalui dialog pemilihan berkas Windows. Dialog ini tidak terlihat dalam rekaman aplikasi."
         ],
         [
           10.621275799931027,
-          "Sumber yang diimpor siap. Buka Pilih untuk memilih momen dalam reel."
+          "Sumber yang diimpor sudah siap. Buka “Pilih” untuk memilih adegan yang akan digunakan dalam montase."
         ]
       ],
       "captureMethod": "graphics",
@@ -99,7 +99,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "6b45a0537925303360f3fe1cad2e2c6506b7cdf1fc40e4ab7a2bcce79f96f545",
         "randomSeed": "12830796882457006119",
         "startSeconds": 60.261
@@ -117,7 +117,7 @@
           "event": "action",
           "key": "source-select-control-ed6939f0-269e-46de-9f91-f45085adb77d",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.6552471812662619
+            0, 0.060711188204683436, 0.6857381293199541, 0.6552471812662619
           ],
           "videoSeconds": 2.335,
           "inputVideoSeconds": 0.983
@@ -131,7 +131,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 1.0,
+          "sourceSeconds": 1,
           "videoSeconds": 4.015,
           "inputVideoSeconds": 2.653
         },
@@ -145,7 +145,7 @@
           "event": "action",
           "key": "select-draw-part",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.6552471812662619
+            0, 0.060711188204683436, 0.6857381293199541, 0.6552471812662619
           ],
           "videoSeconds": 6.12,
           "inputVideoSeconds": 4.836
@@ -159,7 +159,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 8.0,
+          "sourceSeconds": 8,
           "videoSeconds": 7.742,
           "inputVideoSeconds": 6.429
         },
@@ -172,7 +172,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 10.0,
+          "sourceSeconds": 10,
           "videoSeconds": 9.304,
           "inputVideoSeconds": 8.053
         },
@@ -186,7 +186,7 @@
           "event": "action",
           "key": "select-draw-part",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.6552471812662619
+            0, 0.060711188204683436, 0.6857381293199541, 0.6552471812662619
           ],
           "videoSeconds": 11.373,
           "inputVideoSeconds": 10.127
@@ -200,7 +200,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 13.0,
+          "sourceSeconds": 13,
           "videoSeconds": 12.972,
           "inputVideoSeconds": 11.683
         },
@@ -214,7 +214,7 @@
           "event": "action",
           "key": "select-stage-preview",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 15.12,
           "inputVideoSeconds": 13.8
@@ -229,7 +229,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 17.329,
           "inputVideoSeconds": 15.959
@@ -244,7 +244,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 23.487,
           "inputVideoSeconds": 22.232
@@ -253,11 +253,11 @@
       "captions": [
         [
           0.14328279998153448,
-          "Buka Pilih, klik awal, tekan tambah, lalu klik akhir."
+          "Dalam “Pilih”, klik titik awal, tekan +, lalu klik titik akhir."
         ],
         [
           7.743805499980226,
-          "Pilih momen kedua. Pratinjau hanya memutar bagian terpilih dan melewati celah."
+          "Pilih adegan kedua. “Pratinjau” hanya memutar bagian yang dipilih dan melewati bagian yang tidak dipilih."
         ]
       ],
       "captureMethod": "graphics",
@@ -310,7 +310,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "12c933eef57dd98bf6d62398dbee6db51ea46f001c8d52cbdd9d96f6d11123f6",
         "randomSeed": "12830796882457006119",
         "startSeconds": 46.77
@@ -352,7 +352,7 @@
           "event": "action",
           "key": "parts-add-after",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 6.587,
           "inputVideoSeconds": 5.258
@@ -392,7 +392,7 @@
           "event": "action",
           "key": "item-settings-back",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 13.034,
           "inputVideoSeconds": 11.746
@@ -413,7 +413,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 14.063,
           "inputVideoSeconds": 13.798
@@ -428,7 +428,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 15.987,
           "inputVideoSeconds": 15.418
@@ -437,11 +437,11 @@
       "captions": [
         [
           0.08417119999649003,
-          "Tambahkan tulisan di atas gambar setelah bagian terpilih."
+          "Tambahkan teks sebagai lapisan di atas gambar setelah bagian yang dipilih."
         ],
         [
           8.908182299986947,
-          "Rekaman terus bergerak di pratinjau sementara judul muncul di atasnya."
+          "Video terus diputar di pratinjau sementara judul muncul di atasnya."
         ]
       ],
       "captureMethod": "graphics",
@@ -485,7 +485,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "05a76f65bd2eedbc73ae7c4a2841bc786cf302a138059962b85cb4ea353853fb",
         "randomSeed": "12830796882457006119",
         "startSeconds": 18.447
@@ -515,7 +515,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 4.424,
           "inputVideoSeconds": 3.078
@@ -530,7 +530,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 10.597,
           "inputVideoSeconds": 9.314
@@ -596,7 +596,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "84a0c5d794b6118484586ae00a515d0ca48f783cf2759894a77448187bb6799f",
         "randomSeed": "12830796882457006119",
         "startSeconds": 36.597
@@ -657,7 +657,7 @@
           "event": "action",
           "key": "item-tab-place",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 10.542,
           "inputVideoSeconds": 9.197
@@ -685,7 +685,7 @@
           "event": "action",
           "key": "item-settings-back",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 14.942,
           "inputVideoSeconds": 13.651
@@ -700,7 +700,7 @@
           "event": "action",
           "key": "part-play-75686e3e-92da-482c-8a80-b3a0d1a7d3e0",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 17.115,
           "inputVideoSeconds": 15.775
@@ -709,11 +709,11 @@
       "captions": [
         [
           0.11989430000539869,
-          "Tambahkan foto sebagai bagian tersendiri. Pilih dalam dialog Windows di luar rekaman ini."
+          "Tambahkan foto sebagai bagian tersendiri. Pilih foto dalam dialog pemilihan berkas Windows; dialog ini tidak terlihat dalam rekaman."
         ],
         [
           12.82387339998968,
-          "Atur durasi lalu putar bagian foto untuk melihat berapa lama foto ditampilkan."
+          "Atur durasi, lalu putar bagian foto untuk memeriksa lama foto ditampilkan."
         ]
       ],
       "captureMethod": "graphics",
@@ -740,7 +740,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "dcfbcf421fcb7ab43fa6d3b10d44349820423ebc569de70360da7f377ff9d2fa",
         "randomSeed": "12830796882457006119",
         "startSeconds": 30.449
@@ -807,7 +807,7 @@
           "event": "action",
           "key": "transition-settings-done",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 10.908,
           "inputVideoSeconds": 9.638
@@ -822,7 +822,7 @@
           "event": "action",
           "key": "part-play-7b7d8a87-68e9-4d6f-b90a-e3db77318c8a",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 13.127,
           "inputVideoSeconds": 11.781
@@ -837,7 +837,7 @@
           "event": "action",
           "key": "select-preview-stop",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 25.303,
           "inputVideoSeconds": 23.948
@@ -846,11 +846,11 @@
       "captions": [
         [
           0.11914189998060465,
-          "Buka sambungan sebelum foto dan pilih larut silang dari galeri."
+          "Buka transisi sebelum foto dan pilih “Larut silang” dari galeri."
         ],
         [
           10.91027579997899,
-          "Putar sambungan: rekaman bergerak berbaur ke foto diam."
+          "Putar transisi: video beralih secara perlahan ke foto diam."
         ]
       ],
       "captureMethod": "graphics",
@@ -894,7 +894,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "98feb866c60b28b69a9d12339485c7f4c806ef985ef2c8e3d7a7761fe0b97433",
         "randomSeed": "12830796882457006119",
         "startSeconds": 19.556
@@ -978,11 +978,11 @@
       "captions": [
         [
           0.1638338000047952,
-          "Buka Musik dan tambahkan lagu bawaan Bouncy Groove dengan tombol tambah."
+          "Buka “Musik” dan tambahkan lagu bawaan Bouncy Groove dengan tombol +."
         ],
         [
           6.579420999973081,
-          "Jalur musik kini menjadi bagian reel. Putar untuk memeriksa waktunya dengan gambar."
+          "Lagu sudah ditambahkan ke montase. Putar untuk memeriksa kesesuaian musik dengan gambar."
         ]
       ],
       "captureMethod": "graphics",
@@ -1026,7 +1026,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "e75dfe817809dcd6edfefc36477a6ad93a00fe98b64d6c24793ea36a0b09565f",
         "randomSeed": "12830796882457006119",
         "startSeconds": 66.902
@@ -1044,7 +1044,7 @@
           "event": "action",
           "key": "part-tune-8901b382-2fd3-40eb-b0a8-28f4c2c74397",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 2.43,
           "inputVideoSeconds": 1.065
@@ -1059,7 +1059,7 @@
           "event": "action",
           "key": "part-tab-lens",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 6.571,
           "inputVideoSeconds": 5.318
@@ -1087,7 +1087,7 @@
           "event": "action",
           "key": "part-tab-adjust",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 13.133,
           "inputVideoSeconds": 11.786
@@ -1102,7 +1102,7 @@
           "event": "action",
           "key": "part-panel-close",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 18.339,
           "inputVideoSeconds": 16.988
@@ -1117,7 +1117,7 @@
           "event": "action",
           "key": "part-play-8901b382-2fd3-40eb-b0a8-28f4c2c74397",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 20.468,
           "inputVideoSeconds": 19.171
@@ -1132,7 +1132,7 @@
           "event": "action",
           "key": "part-tune-8901b382-2fd3-40eb-b0a8-28f4c2c74397",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 25.622,
           "inputVideoSeconds": 24.327
@@ -1141,15 +1141,15 @@
       "captions": [
         [
           0.1929740000050515,
-          "Buka pengaturan bagian video. Setiap tab mengubah bagian reel ini."
+          "Buka pengaturan bagian video. Setiap tab digunakan untuk menyesuaikan bagian ini."
         ],
         [
           6.571171200019307,
-          "Perbesar untuk memperbaiki komposisi dan bandingkan hasil di pratinjau."
+          "Perbesar gambar untuk mengatur komposisi, lalu bandingkan hasilnya di pratinjau."
         ],
         [
           18.338722600019537,
-          "Putar bagian untuk melihat bingkai yang lebih dekat pada rekaman bergerak."
+          "Putar bagian ini untuk memeriksa komposisi yang diperbesar saat video bergerak."
         ]
       ],
       "captureMethod": "graphics",
@@ -1193,7 +1193,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "e99657c67c6cd2537262dc70d62c3c11b9ef5411e84ca7652c72af6d8744aa8e",
         "randomSeed": "12830796882457006119",
         "startSeconds": 49.943
@@ -1211,7 +1211,7 @@
           "event": "action",
           "key": "part-tab-photo",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 2.243,
           "inputVideoSeconds": 0.98
@@ -1226,7 +1226,7 @@
           "event": "action",
           "key": "photo-capture-enabled",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 4.439,
           "inputVideoSeconds": 3.085
@@ -1279,9 +1279,9 @@
         {
           "event": "action",
           "key": "photo-capture-preview-held",
-          "captureAtSeconds": 2.0,
+          "captureAtSeconds": 2,
           "flashSeconds": 0.8,
-          "holdSeconds": 3.0,
+          "holdSeconds": 3,
           "previewSeconds": 4.303242,
           "videoSeconds": 13.199,
           "inputVideoSeconds": 11.656
@@ -1347,7 +1347,7 @@
           "event": "action",
           "key": "photo-capture-region-apply",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 26.321,
           "inputVideoSeconds": 25.064
@@ -1362,7 +1362,7 @@
           "event": "action",
           "key": "part-panel-close",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 28.525,
           "inputVideoSeconds": 27.155
@@ -1383,7 +1383,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
+            0, 0.060711188204683436, 0.6857381293199541, 0.8048568950563747
           ],
           "videoSeconds": 31.084,
           "inputVideoSeconds": 29.813
@@ -1392,27 +1392,27 @@
       "captions": [
         [
           0.15001069998834282,
-          "Buka Pengambilan foto dan aktifkan untuk bagian video ini."
+          "Buka “Pengambilan foto” dan aktifkan untuk bagian video ini."
         ],
         [
           4.439488900010474,
-          "Pilih waktu pengambilan, kilatan singkat, dan penahanan tiga detik."
+          "Atur waktu pengambilan, kilatan singkat, dan durasi tampilan foto selama tiga detik."
         ],
         [
           11.344696699990891,
-          "Geser posisi pemutaran melewati waktu pengambilan ke foto yang ditahan agar penyesuaian terlihat."
+          "Geser penunjuk putar ke saat foto ditampilkan setelah waktu pengambilan untuk melihat hasil penyesuaian."
         ],
         [
           13.198842899990268,
-          "Miringkan dan perkecil foto, lalu tambahkan tepi putih."
+          "Miringkan dan perkecil foto, lalu tambahkan bingkai putih."
         ],
         [
           22.200497500016354,
-          "Bingkai khusus memilih area foto. Terapkan menyimpan potongan."
+          "Buka “Bingkai khusus” untuk memilih area foto, lalu tekan “Terapkan” untuk mengonfirmasi potongan."
         ],
         [
           28.95835299999453,
-          "Tekan Putar: kilatan, foto miring berbingkai, lalu kembali bergerak."
+          "Saat diputar, kilatan muncul, disusul foto miring berbingkai, lalu video kembali bergerak."
         ]
       ],
       "captureMethod": "graphics",
@@ -1466,7 +1466,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "8c80e906e4569e6259550f29ea7fa575558f9ac2b28b67886128a605e4d6c089",
         "randomSeed": "12830796882457006119",
         "startSeconds": 0.14
@@ -1506,19 +1506,19 @@
       "captions": [
         [
           0.08090870000887662,
-          "Putar seluruh reel dengan suara sebelum menyimpan dan mengekspor."
+          "Putar seluruh montase dengan suara sebelum menyimpan dan mengekspor."
         ],
         [
           20.02485779998824,
-          "Simpan mempertahankan proyek yang dapat diedit. Ekspor membuat berkas video terpisah."
+          "“Simpan” mempertahankan proyek yang dapat diedit. “Ekspor” membuat berkas video terpisah."
         ],
         [
           24.151851100032218,
-          "Pilih ukuran, kualitas, dan format lalu ekspor. Demo menyimpan ke folder yang disiapkan."
+          "Pilih ukuran, kualitas, dan format, lalu ekspor. Dalam contoh ini, video disimpan ke folder yang sudah disiapkan."
         ],
         [
           38.40446130000055,
-          "Video hasil ekspor siap. Proyek tetap tersedia untuk diedit lagi."
+          "Video selesai diekspor. Proyek tetap tersedia untuk diedit lagi."
         ]
       ],
       "captureMethod": "graphics",
@@ -1548,7 +1548,7 @@
             "encodedFps": 60,
             "frames": 101,
             "maximumStillSeconds": 0.06666666666666667,
-            "movingFps": 33.0
+            "movingFps": 33
           },
           {
             "startSeconds": 7.019,
@@ -1572,7 +1572,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "bab54794aff70eb17048ad87c6fb54d6f342c4fd2009eaf82bc69b51995a4c34",
         "randomSeed": "12830796882457006119",
         "startSeconds": 25.293
@@ -1645,15 +1645,15 @@
       "captions": [
         [
           0.15523340000072494,
-          "Reel otomatis adalah cara lain untuk memulai. Atur durasi, tempo, dan presisi analisis."
+          "Anda juga dapat memulai dengan “Montase otomatis”. Atur durasi, tempo, dan ketelitian analisis."
         ],
         [
           4.271934700023849,
-          "Durasi otomatis memilih panjang. Presisi lebih rendah menggunakan lebih sedikit sampel."
+          "Dengan “Durasi otomatis”, aplikasi menentukan panjang montase. Ketelitian yang lebih rendah menggunakan lebih sedikit sampel analisis."
         ],
         [
           8.483513200015295,
-          "Buat reel menganalisis media di perangkat ini. Waktu tunggu dipersingkat dalam video ini."
+          "Tekan “Buat montase” untuk menganalisis media di perangkat ini. Waktu tunggu dipersingkat dalam video ini."
         ],
         [
           15.698696800041944,
@@ -1662,7 +1662,7 @@
       ],
       "captureMethod": "graphics",
       "demonstration": "direct-editor",
-      "duration": 30.0,
+      "duration": 30,
       "height": 970,
       "sha256": "8b5b9b93e4226777e5301fa84e9af23eaed948d4a85ee5bd01fc3d6928595bc0",
       "size": 3832963,
@@ -1701,7 +1701,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "44e285a4d282086e23040ca9cb224317eede6f4a09aa0279264b76b6d8b1dc22",
         "randomSeed": "12830796882457006119",
         "startSeconds": 31.026

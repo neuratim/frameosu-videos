@@ -65,12 +65,15 @@
         }
       ],
       "captions": [
-        [0.19916379998903722, "创建手动短片，并选择空白项目。"],
+        [0.19916379998903722, "打开“手动剪辑”，选择“从空项目开始”。"],
         [
           4.447793900035322,
-          "从 Windows 文件中添加视频。文件对话框不包含在此应用录屏中。"
+          "通过 Windows 文件选择对话框添加视频。这个对话框不包含在应用录屏中。"
         ],
-        [10.533415400015656, "导入的素材已就绪。打开选取，选择短片中的时刻。"]
+        [
+          10.533415400015656,
+          "导入的素材已就绪。打开“选择”，挑出短片要用的场景。"
+        ]
       ],
       "captureMethod": "graphics",
       "demonstration": "direct-editor",
@@ -96,7 +99,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "70aa0ffbb9032c53a413966d97b662ed7d98903c32d4749640d5b9f27ed572a8",
         "randomSeed": "7186853200821026612",
         "startSeconds": 46.621
@@ -114,7 +117,7 @@
           "event": "action",
           "key": "source-select-control-17aeb0f8-c9fb-4384-a7af-320264f8fbef",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.6552471812662619
+            0, 0.060711188204683436, 0.7243690841706895, 0.6552471812662619
           ],
           "videoSeconds": 2.359,
           "inputVideoSeconds": 0.981
@@ -128,7 +131,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 1.0,
+          "sourceSeconds": 1,
           "videoSeconds": 3.953,
           "inputVideoSeconds": 2.671
         },
@@ -142,7 +145,7 @@
           "event": "action",
           "key": "select-draw-part",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.6552471812662619
+            0, 0.060711188204683436, 0.7243690841706895, 0.6552471812662619
           ],
           "videoSeconds": 6.147,
           "inputVideoSeconds": 4.798
@@ -156,7 +159,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 8.0,
+          "sourceSeconds": 8,
           "videoSeconds": 7.734,
           "inputVideoSeconds": 6.457
         },
@@ -169,7 +172,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 10.0,
+          "sourceSeconds": 10,
           "videoSeconds": 9.31,
           "inputVideoSeconds": 8.044
         },
@@ -183,7 +186,7 @@
           "event": "action",
           "key": "select-draw-part",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.6552471812662619
+            0, 0.060711188204683436, 0.7243690841706895, 0.6552471812662619
           ],
           "videoSeconds": 11.492,
           "inputVideoSeconds": 10.141
@@ -197,7 +200,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 13.0,
+          "sourceSeconds": 13,
           "videoSeconds": 13.061,
           "inputVideoSeconds": 11.801
         },
@@ -211,7 +214,7 @@
           "event": "action",
           "key": "select-stage-preview",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 15.177,
           "inputVideoSeconds": 13.887
@@ -226,7 +229,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 17.421,
           "inputVideoSeconds": 16.048
@@ -241,17 +244,17 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 23.551,
           "inputVideoSeconds": 22.285
         }
       ],
       "captions": [
-        [0.1405580000136979, "打开选取，点击起点、加号，再点击终点。"],
+        [0.1405580000136979, "在“选择”中点击起点，按＋，再点击终点。"],
         [
           7.735197099973448,
-          "选择第二个时刻。预览只播放所选片段，跳过中间空隙。"
+          "再选择第二段场景。“预览”只播放所选片段，跳过未选中的区间。"
         ]
       ],
       "captureMethod": "graphics",
@@ -304,7 +307,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "24646ef7a143b0d28d30766152fa7d23dfb0947d40baa39baf83d77d77654bf3",
         "randomSeed": "7186853200821026612",
         "startSeconds": 35.579
@@ -346,7 +349,7 @@
           "event": "action",
           "key": "parts-add-after",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 6.669,
           "inputVideoSeconds": 5.33
@@ -386,7 +389,7 @@
           "event": "action",
           "key": "item-settings-back",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 12.945,
           "inputVideoSeconds": 11.697
@@ -407,7 +410,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 13.87,
           "inputVideoSeconds": 13.606
@@ -422,15 +425,15 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 15.766,
           "inputVideoSeconds": 15.207
         }
       ],
       "captions": [
-        [0.1350393000175245, "在所选片段之后添加覆盖画面的文字。"],
-        [8.891078000015114, "画面继续运动，标题在预览中显示在上方。"]
+        [0.1350393000175245, "在所选片段之后添加叠加在画面上的文字。"],
+        [8.891078000015114, "预览时，视频继续播放，标题叠加在画面上。"]
       ],
       "captureMethod": "graphics",
       "demonstration": "direct-editor",
@@ -473,7 +476,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "74ed830c9773261d8a26743c79536df24d3197e2d8ecc4dd75cfca941987f155",
         "randomSeed": "7186853200821026612",
         "startSeconds": 14.253
@@ -503,7 +506,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 4.344,
           "inputVideoSeconds": 3.069
@@ -518,7 +521,7 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 10.54,
           "inputVideoSeconds": 9.253
@@ -578,7 +581,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "f3503cad2ddfb5fc8aef7a446718dec0e427d28f95993a6b4d4b05be22ede810",
         "randomSeed": "7186853200821026612",
         "startSeconds": 70.503
@@ -639,7 +642,7 @@
           "event": "action",
           "key": "item-tab-place",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 10.56,
           "inputVideoSeconds": 9.208
@@ -667,7 +670,7 @@
           "event": "action",
           "key": "item-settings-back",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 14.871,
           "inputVideoSeconds": 13.594
@@ -682,7 +685,7 @@
           "event": "action",
           "key": "part-play-84bde0a1-e442-4b14-928b-b42b3efe9c7c",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 17.007,
           "inputVideoSeconds": 15.699
@@ -691,9 +694,9 @@
       "captions": [
         [
           0.1866238999646157,
-          "将照片添加为独立片段。在录屏之外的 Windows 文件对话框中选择图片。"
+          "将照片添加为独立片段。在 Windows 文件选择对话框中选择图片，这个对话框不包含在录屏中。"
         ],
-        [12.752481999981683, "设置时长，然后播放照片片段，查看照片停留多久。"]
+        [12.752481999981683, "设置时长，然后播放照片片段，查看照片的显示时间。"]
       ],
       "captureMethod": "graphics",
       "demonstration": "direct-editor",
@@ -719,7 +722,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "dc1f507b2b2c0e87edbf3ff1c1fe3a589e6e97992db5719b0d68692fe9b7ffb6",
         "randomSeed": "7186853200821026612",
         "startSeconds": 61.112
@@ -786,7 +789,7 @@
           "event": "action",
           "key": "transition-settings-done",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 10.901,
           "inputVideoSeconds": 9.598
@@ -801,7 +804,7 @@
           "event": "action",
           "key": "part-play-84bda7d6-8a63-4a4f-8aae-992dc63dca4b",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 13.092,
           "inputVideoSeconds": 11.742
@@ -816,15 +819,15 @@
           "event": "action",
           "key": "select-preview-stop",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 25.334,
           "inputVideoSeconds": 23.976
         }
       ],
       "captions": [
-        [0.11261359998025, "打开照片前的连接处，从图库选择交叉溶解。"],
-        [10.903891799971461, "播放连接处：动态画面渐渐融合为静态照片。"]
+        [0.11261359998025, "打开照片前的转场，从图库选择“交叉溶解”。"],
+        [10.903891799971461, "播放转场：动态画面逐渐过渡为静态照片。"]
       ],
       "captureMethod": "graphics",
       "demonstration": "direct-editor",
@@ -867,7 +870,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "6479631df28127406f459f7eb32c292665a1658e632a859bf54444773e2906cb",
         "randomSeed": "7186853200821026612",
         "startSeconds": 38.866
@@ -949,11 +952,8 @@
         }
       ],
       "captions": [
-        [0.1411530000041239, "打开音乐，用加号添加内置曲目 Bouncy Groove。"],
-        [
-          6.604609399975743,
-          "音乐轨道现已加入短片。播放以检查音乐与画面的时间配合。"
-        ]
+        [0.1411530000041239, "打开“音乐”，用＋添加内置曲目 Bouncy Groove。"],
+        [6.604609399975743, "曲目已加入短片。播放以检查音乐与画面的配合。"]
       ],
       "captureMethod": "graphics",
       "demonstration": "direct-editor",
@@ -996,7 +996,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "e1adebeaf7d251577faf26e025ae6a0496ddd368d40ddfff186536d421a347af",
         "randomSeed": "7186853200821026612",
         "startSeconds": 57.357
@@ -1014,7 +1014,7 @@
           "event": "action",
           "key": "part-tune-9c1e82f9-5e80-4edc-93ca-88ec9cc060e3",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 2.322,
           "inputVideoSeconds": 0.973
@@ -1029,7 +1029,7 @@
           "event": "action",
           "key": "part-tab-lens",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 6.518,
           "inputVideoSeconds": 5.173
@@ -1057,7 +1057,7 @@
           "event": "action",
           "key": "part-tab-adjust",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 12.906,
           "inputVideoSeconds": 11.555
@@ -1072,7 +1072,7 @@
           "event": "action",
           "key": "part-panel-close",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 18.128,
           "inputVideoSeconds": 16.769
@@ -1087,7 +1087,7 @@
           "event": "action",
           "key": "part-play-9c1e82f9-5e80-4edc-93ca-88ec9cc060e3",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 20.318,
           "inputVideoSeconds": 18.97
@@ -1102,16 +1102,16 @@
           "event": "action",
           "key": "part-tune-9c1e82f9-5e80-4edc-93ca-88ec9cc060e3",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 25.532,
           "inputVideoSeconds": 24.208
         }
       ],
       "captions": [
-        [0.12806760001694784, "打开视频片段设置。每个选项卡都调整此短片片段。"],
-        [6.517970299988519, "放大以调整构图，再在预览中比较结果。"],
-        [18.12833390000742, "播放片段，查看动态画面中更近的取景。"]
+        [0.12806760001694784, "打开视频片段设置。各选项卡用于调整当前片段。"],
+        [6.517970299988519, "放大画面以调整构图，再在预览中比较结果。"],
+        [18.12833390000742, "播放片段，查看放大后的构图在动态画面中的效果。"]
       ],
       "captureMethod": "graphics",
       "demonstration": "direct-editor",
@@ -1154,7 +1154,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "e9131fef27930e9768fb68b6119e45bfd7b096508680a396671b265fb05d8d34",
         "randomSeed": "7186853200821026612",
         "startSeconds": 25.818
@@ -1172,7 +1172,7 @@
           "event": "action",
           "key": "part-tab-photo",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 2.298,
           "inputVideoSeconds": 0.965
@@ -1187,7 +1187,7 @@
           "event": "action",
           "key": "photo-capture-enabled",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 4.48,
           "inputVideoSeconds": 3.168
@@ -1240,9 +1240,9 @@
         {
           "event": "action",
           "key": "photo-capture-preview-held",
-          "captureAtSeconds": 2.0,
+          "captureAtSeconds": 2,
           "flashSeconds": 0.8,
-          "holdSeconds": 3.0,
+          "holdSeconds": 3,
           "previewSeconds": 4.302008,
           "videoSeconds": 13.261,
           "inputVideoSeconds": 11.705
@@ -1308,7 +1308,7 @@
           "event": "action",
           "key": "photo-capture-region-apply",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 26.571,
           "inputVideoSeconds": 25.291
@@ -1323,7 +1323,7 @@
           "event": "action",
           "key": "part-panel-close",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 28.689,
           "inputVideoSeconds": 27.407
@@ -1332,7 +1332,7 @@
           "event": "native-click",
           "position": [0.006572029442691904, 0.9045967042497832],
           "sequence": 67,
-          "videoSeconds": 29.0
+          "videoSeconds": 29
         },
         {
           "event": "native-click",
@@ -1344,22 +1344,28 @@
           "event": "action",
           "key": "select-preview-play",
           "stageBounds": [
-            0.0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
+            0, 0.060711188204683436, 0.7243690841706895, 0.8048568950563747
           ],
           "videoSeconds": 31.244,
           "inputVideoSeconds": 29.9
         }
       ],
       "captions": [
-        [0.09607149998191744, "打开照片捕获，并为此视频片段启用它。"],
-        [4.480429699993692, "选择捕获时刻、短暂闪光和三秒停留。"],
+        [0.09607149998191744, "打开“拍照定格”，为这个视频片段启用此功能。"],
+        [4.480429699993692, "设置拍摄时刻、短暂闪光和三秒的照片停留时间。"],
         [
           11.392185500008054,
-          "将播放头移到捕获时间之后、照片停留期间，才能看到调整效果。"
+          "将播放头移到拍摄时刻之后的照片停留区间，查看调整效果。"
         ],
         [13.260787400009576, "倾斜并缩小照片，再添加白色边框。"],
-        [22.42745489999652, "自定义取景框选择拍摄区域。点击应用确认裁剪。"],
-        [29.026580500009004, "点击播放：闪光、带边框的倾斜照片，然后恢复运动。"]
+        [
+          22.42745489999652,
+          "打开“自定义画框”，选择拍摄区域，再点击“应用”确认裁剪。"
+        ],
+        [
+          29.026580500009004,
+          "播放时先出现闪光和带边框的倾斜照片，然后视频继续播放。"
+        ]
       ],
       "captureMethod": "graphics",
       "demonstration": "direct-editor",
@@ -1412,7 +1418,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "5f88adf212e4ba2c1aa95c462607a4935f97e45a09ec20e9a16a8ab9663c82f6",
         "randomSeed": "7186853200821026612",
         "startSeconds": 5.69
@@ -1450,17 +1456,20 @@
         }
       ],
       "captions": [
-        [0.12065629998687655, "保存和导出前，带声音播放完整短片。"],
-        [20.191224100010004, "保存保留可编辑项目。导出创建独立视频文件。"],
+        [0.12065629998687655, "保存和导出前，打开声音，播放完整短片。"],
+        [
+          20.191224100010004,
+          "“保存”保留可编辑的项目。“导出”创建独立的视频文件。"
+        ],
         [
           24.3233382999897,
-          "选择尺寸、质量和格式，然后导出。本演示保存到预先准备的文件夹。"
+          "选择尺寸、质量和格式，然后导出。本演示将视频保存到预先准备的文件夹。"
         ],
-        [39.23717759997817, "导出的视频已就绪。项目仍可继续编辑。"]
+        [39.23717759997817, "视频已导出完成。项目仍可继续编辑。"]
       ],
       "captureMethod": "graphics",
       "demonstration": "direct-editor",
-      "duration": 44.0,
+      "duration": 44,
       "height": 970,
       "sha256": "f495824e6c4512c089e862b6f12734eccd879c783269e8fe0931598610946547",
       "size": 12156388,
@@ -1509,7 +1518,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "bf96303b7c098d7ddd293433d7dd4c018a7824a90b946e20f1b2176201bc770a",
         "randomSeed": "7186853200821026612",
         "startSeconds": 30.439
@@ -1582,12 +1591,15 @@
       "captions": [
         [
           0.09499579999828711,
-          "自动短片是另一种起点。设置时长、节奏和分析精度。"
+          "也可以从“自动剪辑”开始。设置时长、节奏和分析精度。"
         ],
-        [4.219974600011483, "自动时长决定长度。较低的精度使用更少的分析样本。"],
+        [
+          4.219974600011483,
+          "“自动时长”让应用决定短片长度。降低精度会减少分析样本的数量。"
+        ],
         [
           8.510877599997912,
-          "创建短片会在本设备上分析媒体。本视频缩短了等待时间。"
+          "点击“创建短片”后，应用会在本设备上分析素材。本视频缩短了等待时间。"
         ],
         [15.644271600001957, "检查生成的片段，导出前先播放草稿。"]
       ],
@@ -1632,7 +1644,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "359f833b1bc78ea2409b3e41ee7d8700d19cb660bfb7b9147f7566534e8c3467",
         "randomSeed": "7186853200821026612",
         "startSeconds": 5.895

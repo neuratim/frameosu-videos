@@ -65,14 +65,14 @@
         }
       ],
       "captions": [
-        [0.13179800001671538, "أنشئ مونتاجًا يدويًا واختر مشروعًا فارغًا."],
+        [0.13179800001671538, "اختر «تحرير يدوي»، ثم «ابدأ فارغًا»."],
         [
           4.286427100014407,
-          "أضف فيديو واختر اللقطات من ملفات Windows. مربع الملفات خارج تسجيل التطبيق."
+          "أضف فيديو واختره من نافذة اختيار الملفات في Windows. هذه النافذة لا تظهر في تسجيل التطبيق."
         ],
         [
           10.456422200019006,
-          "المصدر المستورد جاهز. افتح الاختيار لتحديد لحظات المونتاج."
+          "المصدر المستورد جاهز. افتح «اختيار» لتحديد اللحظات التي تريدها في الريل."
         ]
       ],
       "captureMethod": "graphics",
@@ -99,7 +99,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "4a090b2e742446a6079bb941555283b699ad20650dde939cc4ef3c3c5cdceeda",
         "randomSeed": "4393573735483054680",
         "startSeconds": 69.322
@@ -128,7 +128,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 1.0,
+          "sourceSeconds": 1,
           "videoSeconds": 3.89,
           "inputVideoSeconds": 2.64
         },
@@ -153,7 +153,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 8.0,
+          "sourceSeconds": 8,
           "videoSeconds": 7.659,
           "inputVideoSeconds": 6.275
         },
@@ -166,7 +166,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 10.0,
+          "sourceSeconds": 10,
           "videoSeconds": 9.247,
           "inputVideoSeconds": 7.972
         },
@@ -191,7 +191,7 @@
         {
           "event": "action",
           "key": "select-strip",
-          "sourceSeconds": 13.0,
+          "sourceSeconds": 13,
           "videoSeconds": 13.041,
           "inputVideoSeconds": 11.759
         },
@@ -235,11 +235,11 @@
       "captions": [
         [
           0.1491752999718301,
-          "افتح الاختيار، وانقر البداية، ثم علامة الجمع، ثم النهاية."
+          "افتح «اختيار»، وانقر موضع البداية، ثم +، ثم موضع النهاية."
         ],
         [
           7.660776200005785,
-          "اختر لحظة ثانية. تشغّل المعاينة الأجزاء المختارة فقط وتتجاوز الفجوة."
+          "اختر لحظة ثانية. تشغّل «معاينة» الأجزاء المختارة فقط، وتتجاوز ما بينها من لقطات."
         ]
       ],
       "captureMethod": "graphics",
@@ -277,9 +277,9 @@
         "sourceClock": {
           "sourceFps": 30,
           "confidenceMinimum": 0.9918212294578552,
-          "movingFps": 30.0,
+          "movingFps": 30,
           "maximumStillSeconds": 0.05,
-          "sourceSecondsPerRecordedSecond": 1.0
+          "sourceSecondsPerRecordedSecond": 1
         }
       },
       "audio": {
@@ -290,7 +290,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "5504c2bda8e9fe7cca46b55e70131be831b633152b975bc4ae2e05c510b0592f",
         "randomSeed": "4393573735483054680",
         "startSeconds": 4.724
@@ -403,10 +403,13 @@
         }
       ],
       "captions": [
-        [0.170901799981948, "أضف كلمات فوق الصورة بعد الجزء المحدد."],
+        [
+          0.170901799981948,
+          "أضف نصًا متراكبًا بعد الجزء المحدد لعرضه فوق اللقطات."
+        ],
         [
           8.888187400007155,
-          "تستمر اللقطات بالحركة في المعاينة بينما يظهر العنوان فوقها."
+          "تستمر اللقطات بالحركة في «معاينة» بينما يظهر العنوان فوقها."
         ]
       ],
       "captureMethod": "graphics",
@@ -450,7 +453,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "a4a755ddb60d8cce2e1a703cd04c9b99f2f509b5821d6bfb2f73d40b5cbe2648",
         "randomSeed": "4393573735483054680",
         "startSeconds": 12.743
@@ -498,11 +501,11 @@
       "captions": [
         [
           0.1377710000379011,
-          "تعرض لوحة الأجزاء ترتيب التشغيل. اسحب المقبض المرقّم لتحريك جزء."
+          "تعرض لوحة «الأجزاء» ترتيب التشغيل. اسحب المقبض المرقّم لتغيير موضع جزء."
         ],
         [
           1.777961200044956,
-          "تتبع المعاينة الترتيب الجديد. يبقى العنوان مع جزء الفيديو الخاص به."
+          "تتبع «معاينة» الترتيب الجديد. يبقى العنوان مرتبطًا بجزء الفيديو الذي أُضيف إليه."
         ]
       ],
       "captureMethod": "graphics",
@@ -553,7 +556,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "21fec5ea388bad3362fbc37f8a529c05e586a7e833e0b1d53ede85172ab2397d",
         "randomSeed": "4393573735483054680",
         "startSeconds": 27.507
@@ -657,11 +660,11 @@
       "captions": [
         [
           0.14442080003209412,
-          "أضف صورة كجزء مستقل. اخترها من مربع ملفات Windows خارج هذا التسجيل."
+          "أضف الصورة كـ«جزء مستقل». اخترها من نافذة اختيار الملفات في Windows التي لا تظهر في التسجيل."
         ],
         [
           12.496966600010637,
-          "حدد المدة وشغّل جزء الصورة لترى مدة بقائها في المونتاج."
+          "حدد المدة، ثم شغّل جزء الصورة لترى كم تستمر في الظهور داخل الريل."
         ]
       ],
       "captureMethod": "graphics",
@@ -688,7 +691,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "e7b7a0bcede8fe827d368d84fbdbbd9a7e95ed6bd1e1ca0db12c4f9c330d8842",
         "randomSeed": "4393573735483054680",
         "startSeconds": 26.175
@@ -785,7 +788,7 @@
       "captions": [
         [
           0.18747339997207746,
-          "افتح الوصلة قبل الصورة واختر التلاشي المتقاطع من المعرض."
+          "افتح الوصلة قبل الصورة واختر «تلاشٍ متبادل» من المعرض."
         ],
         [
           10.846586899948306,
@@ -833,7 +836,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "5c49135acd1067cd6767f637454e7fbfa12c9053bad76abca486566d8ff8c8c7",
         "randomSeed": "4393573735483054680",
         "startSeconds": 19.137
@@ -917,11 +920,11 @@
       "captions": [
         [
           0.15781240002252162,
-          "افتح الموسيقى وأضف المقطوعة المرفقة Bouncy Groove بعلامة الجمع."
+          "افتح «الموسيقى» وأضف المقطوعة المرفقة Bouncy Groove باستخدام +."
         ],
         [
           6.642652400012594,
-          "أصبح مسار الموسيقى ضمن المونتاج. شغّله للتحقق من توقيته مع الصور."
+          "أُضيفت المقطوعة إلى الريل. شغّله للتحقق من توقيت الموسيقى مع الصور."
         ]
       ],
       "captureMethod": "graphics",
@@ -965,7 +968,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "e66fa66975388e8c5b99d37bc597b8b0e0f248a613c9fde441aa179de9f16a8e",
         "randomSeed": "4393573735483054680",
         "startSeconds": 33.933
@@ -1062,13 +1065,13 @@
       "captions": [
         [
           0.15377050003735349,
-          "افتح إعدادات جزء الفيديو. تعدّل كل علامة تبويب هذا الجزء من المونتاج."
+          "افتح إعدادات جزء الفيديو. تعدّل علامات التبويب هذا الجزء من الريل."
         ],
-        [6.47681870002998, "كبّر لتحسين التكوين ثم قارن النتيجة في المعاينة."],
         [
-          18.2265444000368,
-          "شغّل الجزء لرؤية الإطار الأقرب في اللقطات المتحركة."
-        ]
+          6.47681870002998,
+          "كبّر الصورة لتحسين تكوينها، ثم قارن النتيجة في «معاينة»."
+        ],
+        [18.2265444000368, "شغّل الجزء لترى اللقطات المتحركة بعد تقريبها."]
       ],
       "captureMethod": "graphics",
       "demonstration": "direct-editor",
@@ -1111,7 +1114,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "51c6cd7a0d77c345ae14d57ded8adaf24ee45690c6fda269e08f8abf9c3b61ec",
         "randomSeed": "4393573735483054680",
         "startSeconds": 55.797
@@ -1166,7 +1169,7 @@
           "event": "action",
           "key": "photo-capture-flash-duration",
           "value": "0.800",
-          "videoSeconds": 9.0,
+          "videoSeconds": 9,
           "inputVideoSeconds": 7.642
         },
         {
@@ -1191,9 +1194,9 @@
         {
           "event": "action",
           "key": "photo-capture-preview-held",
-          "captureAtSeconds": 2.0,
+          "captureAtSeconds": 2,
           "flashSeconds": 0.8,
-          "holdSeconds": 3.0,
+          "holdSeconds": 3,
           "previewSeconds": 4.298525,
           "videoSeconds": 13.229,
           "inputVideoSeconds": 11.591
@@ -1295,24 +1298,24 @@
       "captions": [
         [
           0.12141189997782931,
-          "افتح التقاط الصورة وفعّله لهذا الجزء من الفيديو."
+          "افتح «التقاط صورة» وفعّله لهذا الجزء من الفيديو."
         ],
         [
           4.433290300017688,
-          "حدد وقت الالتقاط ووميضًا قصيرًا وتثبيتًا لمدة ثلاث ثوانٍ."
+          "حدد وقت الالتقاط، واجعل الوميض قصيرًا، ومدة تثبيت الصورة ثلاث ثوانٍ."
         ],
         [
           11.277787400002126,
-          "حرّك مؤشر التشغيل بعد وقت الالتقاط إلى الصورة الثابتة لترى التعديلات."
+          "حرّك رأس التشغيل إلى فترة تثبيت الصورة بعد وقت الالتقاط لترى التعديلات."
         ],
         [13.229550199990626, "أمِل الصورة وصغّرها وأضف إطارًا أبيض."],
         [
           22.468069399998058,
-          "يحدد الإطار المخصص منطقة التصوير. يحفظ التطبيق الاقتصاص."
+          "يحدد «إطار مخصص» المنطقة التي ستظهر في الصورة. اختر «تطبيق» لتأكيد الاقتصاص."
         ],
         [
           29.02130490000127,
-          "اضغط تشغيل: وميض، ثم صورة مائلة بإطار، ثم عودة إلى الحركة."
+          "اضغط «تشغيل»: يظهر وميض، ثم صورة مائلة بإطار، ثم يستأنف الفيديو حركته."
         ]
       ],
       "captureMethod": "graphics",
@@ -1366,7 +1369,7 @@
         "music": "Reel Guide Glow.mp3",
         "musicDurationSeconds": 85.224,
         "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "94f0563b1dd555928df595b41be33d6b78188606287f659c2c6896fb0d4bcab1",
         "randomSeed": "4393573735483054680",
         "startSeconds": 37.064
@@ -1404,17 +1407,14 @@
         }
       ],
       "captions": [
-        [
-          0.0634066000347957,
-          "شغّل المونتاج كاملًا مع الصوت قبل الحفظ والتصدير."
-        ],
+        [0.0634066000347957, "شغّل الريل كاملًا مع الصوت قبل الحفظ والتصدير."],
         [
           20.017357200034894,
-          "الحفظ يحتفظ بالمشروع القابل للتعديل. التصدير ينشئ ملف فيديو مستقلًا."
+          "يحتفظ «حفظ» بالمشروع القابل للتعديل. وينشئ «تصدير» ملف فيديو مستقلًا."
         ],
         [
           24.15081950003514,
-          "حدد الحجم والجودة والصيغة، ثم صدّر. تحفظ هذه التجربة في مجلد مُعد مسبقًا."
+          "حدد الحجم والجودة والصيغة، ثم صدّر الفيديو. يُحفظ الملف في هذا المثال داخل مجلد مُعد مسبقًا."
         ],
         [
           39.11256100004539,
@@ -1472,7 +1472,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "a708f5f11495e3cffa8c8dc0bb563c41e3eee6d258a79648c798ad44f9f7f4b9",
         "randomSeed": "4393573735483054680",
         "startSeconds": 13.075
@@ -1545,17 +1545,17 @@
       "captions": [
         [
           0.1461360999965109,
-          "المونتاج التلقائي طريقة أخرى للبدء. حدد المدة والإيقاع ودقة التحليل."
+          "«مونتاج تلقائي» طريقة أخرى للبدء. حدد المدة والإيقاع ودقة التحليل."
         ],
         [
           4.262674500001594,
-          "تحدد المدة التلقائية الطول. تقلل الدقة المنخفضة عدد عينات التحليل."
+          "يختار «مدة تلقائية» طول الريل. وخفض الدقة يقلل عدد عينات التحليل."
         ],
         [
           8.570369000022765,
-          "يحلل إنشاء المونتاج الوسائط على هذا الجهاز. اختُصرت فترة الانتظار في هذا الفيديو."
+          "عند الضغط على «إنشاء مونتاج»، يحلل التطبيق الوسائط على هذا الجهاز. اختُصرت فترة الانتظار في هذا الفيديو."
         ],
-        [15.819732299947646, "راجع الأجزاء الناتجة وشغّل المونتاج قبل التصدير."]
+        [15.819732299947646, "راجع الأجزاء الناتجة وشغّل الريل قبل التصدير."]
       ],
       "captureMethod": "graphics",
       "demonstration": "direct-editor",
@@ -1598,7 +1598,7 @@
         "music": "Reel Guide Glow (1).mp3",
         "musicDurationSeconds": 84.312,
         "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-        "minimumSpacingSeconds": 5.0,
+        "minimumSpacingSeconds": 5,
         "originalVideoSha256": "3dfa9c3ea94d97ffd641cf44a30a379accb9c736b82f6841335ed3ac1a1fc474",
         "randomSeed": "4393573735483054680",
         "startSeconds": 50.319
