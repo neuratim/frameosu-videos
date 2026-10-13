@@ -10,7 +10,13 @@ recordings become available. Within a language use purpose folders such as
 Only English Windows guides currently exist; no translations are implied.
 
 `en/guides/windows/` contains twelve native MP4 recordings, WebVTT captions
-and the original capture provenance, migrated byte-for-byte from frameosu-web.
+and capture provenance. The October 13 replacement set uses the optimized Windows
+app with GPU capture/encoding at 60 fps, a visible cursor and blue click rings.
+Nine chapters demonstrate playback; picture-only motion checks cover their
+moving spans, with the longest repeated picture lasting 67 ms. Original 30 fps
+source-frame matching confirms normal playback speed in Parts and Pick. Capture
+provenance includes every measured span and excludes authored photo holds and
+still-image parts. Recording and audit tools live in the sibling app's `tool/`.
 The clips include quiet supplied instrumental music and no narration.
 
 After preparing and checking an asset change, commit it locally on main. From
