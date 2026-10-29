@@ -37,7 +37,7 @@
                         0.6470820189274448,
                         0.6454900260190807
                     ],
-                    "videoSeconds": 4.381,
+                    "videoSeconds": 8.815,
                     "inputVideoSeconds": 3.079
                 },
                 {
@@ -47,13 +47,13 @@
                         0.29054640069384213
                     ],
                     "sequence": 3,
-                    "videoSeconds": 5.209
+                    "videoSeconds": 9.643
                 },
                 {
                     "event": "action",
                     "key": "reel-add-empty",
-                    "videoSeconds": 6.554,
-                    "inputVideoSeconds": 5.209
+                    "videoSeconds": 10.988,
+                    "inputVideoSeconds": 9.643
                 },
                 {
                     "event": "native-click",
@@ -62,13 +62,13 @@
                         0.2992194275802255
                     ],
                     "sequence": 4,
-                    "videoSeconds": 7.416
+                    "videoSeconds": 11.85
                 },
                 {
                     "event": "action",
                     "key": "add-media-video",
-                    "videoSeconds": 8.67,
-                    "inputVideoSeconds": 7.416
+                    "videoSeconds": 13.104,
+                    "inputVideoSeconds": 11.85
                 },
                 {
                     "event": "native-click",
@@ -78,29 +78,29 @@
                         0.9107437126551725
                     ],
                     "sequence": 5,
-                    "videoSeconds": 8.991
+                    "videoSeconds": 13.425
                 }
             ],
             "captions": [
                 [
-                    0.1536796999971557,
-                    "Elle bir reel oluşturun ve boş bir proje seçin."
+                    0.154,
+                    "Yeni bir kurguya başlamak için önce Elle düzenle seçeneğini, ardından Boş başlayın seçeneğini seçin."
                 ],
                 [
-                    4.38104949999979,
-                    "Windows dosyalarından bir video ekleyin. Dosya penceresi bu uygulama kaydının dışındadır."
+                    8.815,
+                    "Bir video ekleyin ve görüntülerinizi bu videoda gösterilmeyen Windows dosya seçme penceresinden seçin."
                 ],
                 [
-                    10.62495289999788,
-                    "İçe aktarılan kaynak hazır. Seç’i açıp reel için anları seçin."
+                    15.753,
+                    "Videonuz artık bu kurgunun kaynaklarından biri; henüz bölüm seçilmedi."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 15.616667,
+            "duration": 21.119,
             "height": 970,
-            "sha256": "a950500be93591a2f1adf03a80bbac47bb9be0edfdd813472522d8000b4bc3e9",
-            "size": 1345944,
+            "sha256": "699fa041ed0f62a64eceed0935645b14bc48c119bf97a1df0f30ca051a0a5592",
+            "size": 1997183,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -122,7 +122,58 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "3471cbc9ff7d839c69b6072cb95b90ca8d0a7df9ab5795a35c4e8159a5b0e118",
                 "randomSeed": "4175333339105576321",
-                "startSeconds": 35.747
+                "startSeconds": 35.747,
+                "narration": {
+                    "createdAt": "2026-10-29T12:49:28.638095+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "home.3",
+                            "text": "Yeni bir kurguya başlamak için önce Elle düzenle seçeneğini, ardından Boş başlayın seçeneğini seçin.",
+                            "voiceSeconds": 0.404,
+                            "durationSeconds": 8.061,
+                            "sha256": "9c503d4374c72099dd2e0c74e489ecc9c0a866c467aa5c360fd33b539ab12800"
+                        },
+                        {
+                            "key": "home.2",
+                            "text": "Bir video ekleyin ve görüntülerinizi bu videoda gösterilmeyen Windows dosya seçme penceresinden seçin.",
+                            "voiceSeconds": 9.065,
+                            "durationSeconds": 6.337,
+                            "sha256": "e5989b62092a79e0734fa59121e017f023bf391fb1bfff3864a11550f3915045"
+                        },
+                        {
+                            "key": "home.1",
+                            "text": "Videonuz artık bu kurgunun kaynaklarından biri; henüz bölüm seçilmedi.",
+                            "voiceSeconds": 16.003,
+                            "durationSeconds": 4.516,
+                            "sha256": "7a4c9e2be36eae7c863b3bb480ac4a67da3dc31db19227cd595740866b9af58b"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 4.381,
+                            "seconds": 4.434
+                        },
+                        {
+                            "atSeconds": 10.625,
+                            "seconds": 0.694
+                        },
+                        {
+                            "atSeconds": 15.617,
+                            "seconds": 0.374
+                        }
+                    ],
+                    "unnarratedSha256": "a950500be93591a2f1adf03a80bbac47bb9be0edfdd813472522d8000b4bc3e9",
+                    "unnarratedDurationSeconds": 15.616667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "select": {
@@ -208,14 +259,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 10,
-                    "videoSeconds": 8.263
+                    "videoSeconds": 8.581
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 10.0,
-                    "videoSeconds": 9.614,
-                    "inputVideoSeconds": 8.263
+                    "videoSeconds": 9.932,
+                    "inputVideoSeconds": 8.581
                 },
                 {
                     "event": "native-click",
@@ -224,7 +275,7 @@
                         0.853642671292281
                     ],
                     "sequence": 11,
-                    "videoSeconds": 10.448
+                    "videoSeconds": 10.766
                 },
                 {
                     "event": "action",
@@ -235,8 +286,8 @@
                         0.6479074787015544,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 11.774,
-                    "inputVideoSeconds": 10.448
+                    "videoSeconds": 12.092,
+                    "inputVideoSeconds": 10.766
                 },
                 {
                     "event": "native-click",
@@ -245,14 +296,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 12,
-                    "videoSeconds": 12.09
+                    "videoSeconds": 12.408
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 13.0,
-                    "videoSeconds": 13.449,
-                    "inputVideoSeconds": 12.09
+                    "videoSeconds": 13.767,
+                    "inputVideoSeconds": 12.408
                 },
                 {
                     "event": "native-click",
@@ -261,7 +312,7 @@
                         0.030355594102341718
                     ],
                     "sequence": 13,
-                    "videoSeconds": 14.281
+                    "videoSeconds": 14.599
                 },
                 {
                     "event": "action",
@@ -272,8 +323,8 @@
                         0.6479074787015544,
                         0.852558542931483
                     ],
-                    "videoSeconds": 15.621,
-                    "inputVideoSeconds": 14.281
+                    "videoSeconds": 15.939,
+                    "inputVideoSeconds": 14.599
                 },
                 {
                     "event": "native-click",
@@ -282,7 +333,7 @@
                         0.7117779824595191
                     ],
                     "sequence": 14,
-                    "videoSeconds": 16.462
+                    "videoSeconds": 16.78
                 },
                 {
                     "event": "action",
@@ -293,8 +344,8 @@
                         0.6479074787015544,
                         0.852558542931483
                     ],
-                    "videoSeconds": 17.797,
-                    "inputVideoSeconds": 16.462
+                    "videoSeconds": 18.115,
+                    "inputVideoSeconds": 16.78
                 },
                 {
                     "event": "native-click",
@@ -303,7 +354,7 @@
                         0.7117779824595191
                     ],
                     "sequence": 15,
-                    "videoSeconds": 22.662
+                    "videoSeconds": 22.98
                 },
                 {
                     "event": "action",
@@ -314,26 +365,26 @@
                         0.6479074787015544,
                         0.852558542931483
                     ],
-                    "videoSeconds": 23.996,
-                    "inputVideoSeconds": 22.662
+                    "videoSeconds": 24.314,
+                    "inputVideoSeconds": 22.98
                 }
             ],
             "captions": [
                 [
-                    0.178734600001917,
-                    "Seç’i açın, bir anın başlangıcına tıklayın, artıya basın, ardından sonuna tıklayın."
+                    0.179,
+                    "Seç sayfasını açın, bir anın başlangıcına tıklayın, artı düğmesine basın, ardından sonuna tıklayın."
                 ],
                 [
-                    7.947913600000902,
-                    "İkinci bir an seçin. Önizleme yalnızca seçilen parçaları oynatıp aradaki boşluğu atlar."
+                    8.266,
+                    "İkinci bir an seçin. Önizleme yalnızca seçilen bölümleri oynatıp aradaki boşluğu atlar."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 26.033333,
+            "duration": 26.351,
             "height": 970,
-            "sha256": "ff2ae359d997c2bd832958e0dffeadf488e8a38344d430f8349322b6b9ad7a9f",
-            "size": 12041852,
+            "sha256": "9c08a48799ea7c2e2189f632151f15d39ec623d3c151eb26a75e51adc0cb1103",
+            "size": 13725736,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -343,32 +394,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 16.762,
-                        "seconds": 5.75,
-                        "crop": "997:543:20:79",
-                        "changedFrames": 177,
-                        "encodedFps": 60,
-                        "frames": 345,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.872093023255815
-                    }
-                ],
-                "movingFps": 30.872093023255815,
-                "maximumStillSeconds": 0.05,
-                "sourceClock": {
-                    "confidenceMinimum": 0.9912188053131104,
-                    "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.05,
-                    "movingFps": 30.697674418604652,
-                    "originalFrameConfidenceMinimum": 0.9847955107688904,
-                    "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 1.0043604373931885
-                }
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:35.929880+00:00",
@@ -381,7 +406,69 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "3a607f0fafa466c9eb8166d0a2c48ccd75c44c3a5e35cd4f4d8e77469e408163",
                 "randomSeed": "4175333339105576321",
-                "startSeconds": 20.043
+                "startSeconds": 20.043,
+                "narration": {
+                    "createdAt": "2026-10-29T12:49:49.258729+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "select.2",
+                            "text": "Seç sayfasını açın, bir anın başlangıcına tıklayın, artı düğmesine basın, ardından sonuna tıklayın.",
+                            "voiceSeconds": 0.429,
+                            "durationSeconds": 7.487,
+                            "sha256": "fc21f849c531172e1df5cb8dcda97bfb5ea75108704bb180a394a2e24d1fcfdb"
+                        },
+                        {
+                            "key": "select.1",
+                            "text": "İkinci bir an seçin. Önizleme yalnızca seçilen bölümleri oynatıp aradaki boşluğu atlar.",
+                            "voiceSeconds": 8.516,
+                            "durationSeconds": 7.274,
+                            "sha256": "254e14c96f549121aecc518070875af8b6bdc39610ce273c926f5420ef857dd8"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 7.948,
+                            "seconds": 0.318
+                        }
+                    ],
+                    "unnarratedSha256": "ff2ae359d997c2bd832958e0dffeadf488e8a38344d430f8349322b6b9ad7a9f",
+                    "unnarratedDurationSeconds": 26.033333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 17.08,
+                        "seconds": 5.75,
+                        "crop": "997:543:20:79",
+                        "changedFrames": 177,
+                        "encodedFps": 60,
+                        "frames": 345,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 30.872093023255815
+                    }
+                ],
+                "movingFps": 30.872093023255815,
+                "maximumStillSeconds": 0.05,
+                "sourceClock": {
+                    "confidenceMinimum": 0.9912635684013367,
+                    "matching": "original source frames or adjacent-frame interpolation",
+                    "maximumStillSeconds": 0.05,
+                    "movingFps": 30.523255813953487,
+                    "originalFrameConfidenceMinimum": 0.9848307967185974,
+                    "sourceFps": 30,
+                    "sourceSecondsPerRecordedSecond": 1.0043604373931885
+                }
             }
         },
         "text": {
@@ -555,20 +642,20 @@
             ],
             "captions": [
                 [
-                    0.09328009999808273,
-                    "Seçilen parçadan sonra görüntünün üstüne yazı ekleyin."
+                    0.093,
+                    "Seçili bölümden sonra görüntünün üzerine metin ekleyin, ardından metni yazın."
                 ],
                 [
-                    9.01451989999623,
+                    9.015,
                     "Önizlemede görüntü hareket ederken başlığınız üstünde görünür."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 19.183333,
+            "duration": 19.183008,
             "height": 970,
-            "sha256": "b96a5d2eb1129bd6a8e9e1925846b5a7416767a67feb9eb28ab24149ef4dc9f0",
-            "size": 4177787,
+            "sha256": "31228c1dde9a3e2826835cb92705ac3900382b6876d090c309edac5490497d0d",
+            "size": 6227708,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -578,23 +665,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 14.255,
-                        "seconds": 2.213,
-                        "crop": "997:543:20:79",
-                        "changedFrames": 68,
-                        "encodedFps": 60,
-                        "frames": 132,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.145038167938935
-                    }
-                ],
-                "movingFps": 31.145038167938935,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:36.653551+00:00",
@@ -607,7 +677,55 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "ad1fe6ee564166bd3ccf9803b2c4d3404877cc830ff8a9cc56d8f3b109f2f668",
                 "randomSeed": "4175333339105576321",
-                "startSeconds": 59.207
+                "startSeconds": 59.207,
+                "narration": {
+                    "createdAt": "2026-10-29T12:50:08.881465+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "text.2",
+                            "text": "Seçili bölümden sonra görüntünün üzerine metin ekleyin, ardından metni yazın.",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.683,
+                            "sha256": "05519d5b84ec6c31d87ef7fe155b7ebc6396b88cfd3f34a8bd1908cb9b0e1f91"
+                        },
+                        {
+                            "key": "text.1",
+                            "text": "Önizlemede görüntü hareket ederken başlığınız üstünde görünür.",
+                            "voiceSeconds": 9.265,
+                            "durationSeconds": 4.061,
+                            "sha256": "8c7abfb6cbfea8ebefb4fa9ad32d36fa84d5e00939a29423d82df5fd98d41e9e"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "b96a5d2eb1129bd6a8e9e1925846b5a7416767a67feb9eb28ab24149ef4dc9f0",
+                    "unnarratedDurationSeconds": 19.183333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 14.255,
+                        "seconds": 2.213,
+                        "crop": "997:543:20:79",
+                        "changedFrames": 69,
+                        "encodedFps": 60,
+                        "frames": 133,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.36363636363636
+                    }
+                ],
+                "movingFps": 31.36363636363636,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "parts": {
@@ -616,7 +734,7 @@
                     "event": "action",
                     "key": "parts-reorder",
                     "clipId": "db01c35a-d7e9-47b8-a3c4-3214b74ba569",
-                    "videoSeconds": 1.687
+                    "videoSeconds": 7.426
                 },
                 {
                     "event": "native-click",
@@ -625,7 +743,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 25,
-                    "videoSeconds": 2.01
+                    "videoSeconds": 7.749
                 },
                 {
                     "event": "native-click",
@@ -634,7 +752,7 @@
                         0.7117779824595191
                     ],
                     "sequence": 26,
-                    "videoSeconds": 3.008
+                    "videoSeconds": 8.747
                 },
                 {
                     "event": "action",
@@ -645,8 +763,8 @@
                         0.6479074787015544,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.342,
-                    "inputVideoSeconds": 3.008
+                    "videoSeconds": 10.081,
+                    "inputVideoSeconds": 8.747
                 },
                 {
                     "event": "native-click",
@@ -655,7 +773,7 @@
                         0.7117779824595191
                     ],
                     "sequence": 27,
-                    "videoSeconds": 9.208
+                    "videoSeconds": 14.947
                 },
                 {
                     "event": "action",
@@ -666,26 +784,26 @@
                         0.6479074787015544,
                         0.852558542931483
                     ],
-                    "videoSeconds": 10.487,
-                    "inputVideoSeconds": 9.208
+                    "videoSeconds": 16.226,
+                    "inputVideoSeconds": 14.947
                 }
             ],
             "captions": [
                 [
-                    0.057466599999315804,
+                    0.057,
                     "Bölümler listesi oynatma sırasını gösterir. Bir bölümü taşımak için numaralı tutamacı sürükleyin."
                 ],
                 [
-                    1.6871824000008928,
-                    "Önizleme yeni sırayı izler. Başlık kendi video bloğuyla kalır."
+                    7.426,
+                    "Önizleme yeni sırayı izler. Başlık, ait olduğu videoyla birlikte kalır."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 12.566667,
+            "duration": 18.306,
             "height": 970,
-            "sha256": "b9b4f298b87c05adf13efcbbcb0ac7dcd2f1a09435f7556c620709856634bf5a",
-            "size": 8633318,
+            "sha256": "e68d539195ff210532f699cf924756135afa380eee48d358ecad9f9a1fc7b0e5",
+            "size": 9179480,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -695,32 +813,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 3.308,
-                        "seconds": 5.75,
-                        "crop": "997:543:20:79",
-                        "changedFrames": 176,
-                        "encodedFps": 60,
-                        "frames": 344,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.787172011661806
-                    }
-                ],
-                "movingFps": 30.787172011661806,
-                "maximumStillSeconds": 0.06666666666666667,
-                "sourceClock": {
-                    "confidenceMinimum": 0.9950964450836182,
-                    "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.06666666666666667,
-                    "movingFps": 30.612244897959183,
-                    "originalFrameConfidenceMinimum": 0.9909732341766357,
-                    "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 0.9868804812431335
-                }
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:37.287882+00:00",
@@ -733,7 +825,69 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "68fadd1a08c6f26f967da3ca482eee75bb887563df4e526652dbaa2f2c33d266",
                 "randomSeed": "4175333339105576321",
-                "startSeconds": 30.909
+                "startSeconds": 30.909,
+                "narration": {
+                    "createdAt": "2026-10-29T12:50:31.056697+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "parts.2",
+                            "text": "Bölümler listesi oynatma sırasını gösterir. Bir bölümü taşımak için numaralı tutamacı sürükleyin.",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 6.726,
+                            "sha256": "b58df6296593eb0252d3ecbaf5abf04077c2495bb1499aece664ddd31926c1a3"
+                        },
+                        {
+                            "key": "parts.1",
+                            "text": "Önizleme yeni sırayı izler. Başlık, ait olduğu videoyla birlikte kalır.",
+                            "voiceSeconds": 7.676,
+                            "durationSeconds": 5.486,
+                            "sha256": "2bae1edfefa1d77b52417ec5bc87dd4caff06fc85eeef6ceccbaab3dfccecc88"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 1.687,
+                            "seconds": 5.739
+                        }
+                    ],
+                    "unnarratedSha256": "b9b4f298b87c05adf13efcbbcb0ac7dcd2f1a09435f7556c620709856634bf5a",
+                    "unnarratedDurationSeconds": 12.566667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 9.047,
+                        "seconds": 5.75,
+                        "crop": "997:543:20:79",
+                        "changedFrames": 177,
+                        "encodedFps": 60,
+                        "frames": 345,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.872093023255815
+                    }
+                ],
+                "movingFps": 30.872093023255815,
+                "maximumStillSeconds": 0.06666666666666667,
+                "sourceClock": {
+                    "confidenceMinimum": 0.9950588941574097,
+                    "matching": "original source frames or adjacent-frame interpolation",
+                    "maximumStillSeconds": 0.06666666666666667,
+                    "movingFps": 30.872093023255815,
+                    "originalFrameConfidenceMinimum": 0.9909825325012207,
+                    "sourceFps": 30,
+                    "sourceSecondsPerRecordedSecond": 0.9898256659507751
+                }
             }
         },
         "image": {
@@ -893,20 +1047,20 @@
             ],
             "captions": [
                 [
-                    0.09801560000050813,
-                    "Fotoğrafı ayrı bir parça olarak ekleyin. Kaydın dışındaki Windows dosya penceresinde seçin."
+                    0.098,
+                    "Fotoğrafı ayrı bir bölüm olarak ekleyin. Burada gösterilmeyen Windows dosya seçme penceresinden seçin."
                 ],
                 [
-                    12.777709800000594,
-                    "Süreyi ayarlayıp fotoğraf parçasını oynatarak ne kadar kaldığını görün."
+                    12.778,
+                    "“Süre”yi üç saniyeye ayarlayın, ardından kurguda ne kadar kaldığını görmek için fotoğraf bölümünü oynatın."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.316667,
+            "duration": 22.317,
             "height": 970,
-            "sha256": "66dcb098f5061557b586418c50b9aa9ad7a84b4b65822d34bd11c9cb9420e7ec",
-            "size": 2801787,
+            "sha256": "244a65afe7b662a7176b7bcce716bcde044a4869b750ebe5d366ffc9af22c258",
+            "size": 5097532,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -928,7 +1082,38 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "59128273d66819782728a1a58d963a27aed693fef7391454de3ee6861f0e9f0c",
                 "randomSeed": "4175333339105576321",
-                "startSeconds": 36.635
+                "startSeconds": 36.635,
+                "narration": {
+                    "createdAt": "2026-10-29T12:50:56.573076+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "image.2",
+                            "text": "Fotoğrafı ayrı bir bölüm olarak ekleyin. Burada gösterilmeyen Windows dosya seçme penceresinden seçin.",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 6.807,
+                            "sha256": "acf4962c72884fbbbdcab8c9a3edbd8dda48a5009a9733b2a621ee997fb4649d"
+                        },
+                        {
+                            "key": "image.1",
+                            "text": "“Süre”yi üç saniyeye ayarlayın, ardından kurguda ne kadar kaldığını görmek için fotoğraf bölümünü oynatın.",
+                            "voiceSeconds": 13.028,
+                            "durationSeconds": 8.029,
+                            "sha256": "f8c867ba82df61fd286b06929a9ff079a3fd86b3dff1a111d54d2c835f31500c"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "66dcb098f5061557b586418c50b9aa9ad7a84b4b65822d34bd11c9cb9420e7ec",
+                    "unnarratedDurationSeconds": 22.316667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "transition": {
@@ -1078,20 +1263,20 @@
             ],
             "captions": [
                 [
-                    0.4142089999986638,
-                    "Fotoğraftan önceki birleşimi açıp galeriden çapraz çözünmeyi seçin."
+                    0.414,
+                    "Fotoğraftan önceki birleşme noktasını açın, galeriden “Çapraz çözülme”yi seçin ve süresini ayarlayın."
                 ],
                 [
-                    11.155886699998518,
-                    "Birleşimi oynatın: hareketli görüntü fotoğrafa yumuşakça geçer."
+                    11.156,
+                    "Birleşme noktasını oynatıp hareketli görüntünün sabit fotoğrafa yumuşakça geçişini izleyin."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
             "duration": 25.7,
             "height": 970,
-            "sha256": "b910e2ec05139c26ae17fd141d16312ee28caecc3d63f92d202c254db3514ac3",
-            "size": 18314205,
+            "sha256": "48c39f0ae7a815e921588cd07ffa0a4d907e5d632a6200fdffc5a1ba85fb3e29",
+            "size": 16925886,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1101,6 +1286,50 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:33:38.894085+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "db542abb7cb7394b61034dc894a564afab6ee26ff992dbeafb36dbdad6ea02a4",
+                "randomSeed": "4175333339105576321",
+                "startSeconds": 2.866,
+                "narration": {
+                    "createdAt": "2026-10-29T12:51:18.077099+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "transition.2",
+                            "text": "Fotoğraftan önceki birleşme noktasını açın, galeriden “Çapraz çözülme”yi seçin ve süresini ayarlayın.",
+                            "voiceSeconds": 0.664,
+                            "durationSeconds": 7.148,
+                            "sha256": "9182c11f5ab27cc2405d389c02c6e4098ce0bd18803460aeb9be97b9b7502f09"
+                        },
+                        {
+                            "key": "transition.1",
+                            "text": "Birleşme noktasını oynatıp hareketli görüntünün sabit fotoğrafa yumuşakça geçişini izleyin.",
+                            "voiceSeconds": 11.406,
+                            "durationSeconds": 6.594,
+                            "sha256": "3c7d78e098e2795f9787cfaf9f0535c27044ff0dd4261547a4a0986c428407f6"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "b910e2ec05139c26ae17fd141d16312ee28caecc3d63f92d202c254db3514ac3",
+                    "unnarratedDurationSeconds": 25.7,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -1118,19 +1347,6 @@
                 ],
                 "movingFps": 32.148541114058354,
                 "maximumStillSeconds": 0.06666666666666667
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:33:38.894085+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "db542abb7cb7394b61034dc894a564afab6ee26ff992dbeafb36dbdad6ea02a4",
-                "randomSeed": "4175333339105576321",
-                "startSeconds": 2.866
             }
         },
         "music": {
@@ -1183,7 +1399,7 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 6.533,
+                    "videoSeconds": 8.145,
                     "inputVideoSeconds": 5.225
                 },
                 {
@@ -1193,7 +1409,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 46,
-                    "videoSeconds": 7.367
+                    "videoSeconds": 8.979
                 },
                 {
                     "event": "action",
@@ -1204,8 +1420,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 8.639,
-                    "inputVideoSeconds": 7.367
+                    "videoSeconds": 10.251,
+                    "inputVideoSeconds": 8.979
                 },
                 {
                     "event": "native-click",
@@ -1214,7 +1430,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 47,
-                    "videoSeconds": 14.497
+                    "videoSeconds": 16.109
                 },
                 {
                     "event": "action",
@@ -1225,26 +1441,26 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 15.783,
-                    "inputVideoSeconds": 14.497
+                    "videoSeconds": 17.395,
+                    "inputVideoSeconds": 16.109
                 }
             ],
             "captions": [
                 [
-                    0.10150849999990896,
-                    "Sol çubukta Müzik’i açıp artı ile sunulan Bouncy Groove parçasını ekleyin."
+                    0.102,
+                    "Soldaki Müzik bölümünü açın ve artı düğmesiyle uygulamada sunulan Bouncy Groove parçasını ekleyin."
                 ],
                 [
-                    6.533090599998104,
-                    "Müzik şeridi artık reele aittir. Görüntülerle zamanlamasını kontrol etmek için oynatın."
+                    8.145,
+                    "Müzik artık tüm kurgu boyunca arka planda çalar. Müziğin görüntülerle uyumlu ilerleyip ilerlemediğini kontrol etmek için oynatın."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 17.733333,
+            "duration": 19.35,
             "height": 970,
-            "sha256": "23cbf57530a335be8b9ee2f0533cc29fe8235f686bda6c8864d0cd3a0015a1d3",
-            "size": 10722805,
+            "sha256": "ae529a2af862b5fa7e8246874b9de0c534703fc0bb2a287a5d03b2e086e25048",
+            "size": 11087751,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1254,23 +1470,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 7.667,
-                        "seconds": 6.68,
-                        "crop": "950:517:599:83",
-                        "changedFrames": 211,
-                        "encodedFps": 60,
-                        "frames": 400,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 31.729323308270676
-                    }
-                ],
-                "movingFps": 31.729323308270676,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:39.624807+00:00",
@@ -1283,7 +1482,60 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "fcd3fe936b8d47245640d9a797ea2251f1790cbb6b31102599236615437426f6",
                 "randomSeed": "4175333339105576321",
-                "startSeconds": 60.536
+                "startSeconds": 60.536,
+                "narration": {
+                    "createdAt": "2026-10-29T12:51:40.864175+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "music.2",
+                            "text": "Soldaki Müzik bölümünü açın ve artı düğmesiyle uygulamada sunulan Bouncy Groove parçasını ekleyin.",
+                            "voiceSeconds": 0.352,
+                            "durationSeconds": 7.444,
+                            "sha256": "fac71b2bc0828e5d0b212dcd9f3833e0b4736a5864901ba712b4f64e41b1abf9"
+                        },
+                        {
+                            "key": "music.1",
+                            "text": "Müzik artık tüm kurgu boyunca arka planda çalar. Müziğin görüntülerle uyumlu ilerleyip ilerlemediğini kontrol etmek için oynatın.",
+                            "voiceSeconds": 8.395,
+                            "durationSeconds": 9.585,
+                            "sha256": "a39b88f1c84aae7262c9720f40306a8d6db2d7161f84b586ec045cf33ae686df"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 6.533,
+                            "seconds": 1.612
+                        }
+                    ],
+                    "unnarratedSha256": "23cbf57530a335be8b9ee2f0533cc29fe8235f686bda6c8864d0cd3a0015a1d3",
+                    "unnarratedDurationSeconds": 17.733333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 9.279,
+                        "seconds": 6.68,
+                        "crop": "950:517:599:83",
+                        "changedFrames": 211,
+                        "encodedFps": 60,
+                        "frames": 401,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 31.65
+                    }
+                ],
+                "movingFps": 31.65,
+                "maximumStillSeconds": 0.05
             }
         },
         "video": {
@@ -1433,24 +1685,24 @@
             ],
             "captions": [
                 [
-                    0.13356309999653604,
-                    "Video parçasının ayarlarını açın. Her sekme reelin bu parçasını değiştirir."
+                    0.134,
+                    "Video bölümünün ayarlarını açın. Her sekme kurgunun bu bölümünü değiştirir."
                 ],
                 [
-                    6.527645799997117,
-                    "Kadraj sekmesinde kompozisyonu iyileştirmek için yakınlaştırın, sonra sonucu Önizleme’de karşılaştırın."
+                    6.528,
+                    "Kadrajı daraltmak için “Kadraj” sekmesinde yakınlaştırın. Işık ve renk ayarları “Ayarla” sekmesindedir."
                 ],
                 [
-                    17.920010599998932,
-                    "Daha yakın kadrajı hareketli görüntüde görmek için parçayı oynatın."
+                    17.92,
+                    "Daha yakın kadrajı hareketli görüntüde görmek için bölümü oynatın, ardından ayarlarını yeniden açın."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 26.966667,
+            "duration": 26.967,
             "height": 970,
-            "sha256": "8762a072ed652d75e0380b796743fe6cd27cc471b2ecf797819bdde86e3e4a90",
-            "size": 7746516,
+            "sha256": "8f70e13fab4bb590cde4639dd7ca5a5d2702fea650758edbe19497385930ac35",
+            "size": 10011599,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1460,6 +1712,57 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:33:40.479361+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "267e18c851bc18168f10b394cad0e9eddf34db9fa4d417ea44744778984ae35a",
+                "randomSeed": "4175333339105576321",
+                "startSeconds": 44.402,
+                "narration": {
+                    "createdAt": "2026-10-29T12:52:11.676022+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "video.3",
+                            "text": "Video bölümünün ayarlarını açın. Her sekme kurgunun bu bölümünü değiştirir.",
+                            "voiceSeconds": 0.384,
+                            "durationSeconds": 4.456,
+                            "sha256": "e387e33bde4bdb3df47680fdd8b2bf843b64e886c530d0f681c94728bc1c451e"
+                        },
+                        {
+                            "key": "video.2",
+                            "text": "Kadrajı daraltmak için “Kadraj” sekmesinde yakınlaştırın. Işık ve renk ayarları “Ayarla” sekmesindedir.",
+                            "voiceSeconds": 6.778,
+                            "durationSeconds": 8.325,
+                            "sha256": "c0bf5bb1c8f835fb6354a557d4f23d93727e35846e08b83f1e0ca9a5a12df7fd"
+                        },
+                        {
+                            "key": "video.1",
+                            "text": "Daha yakın kadrajı hareketli görüntüde görmek için bölümü oynatın, ardından ayarlarını yeniden açın.",
+                            "voiceSeconds": 18.17,
+                            "durationSeconds": 7.27,
+                            "sha256": "7141ee4cdc0cd2a21a09a3b1922444d77c4ccc035e678d1227dc40c054930bb7"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "8762a072ed652d75e0380b796743fe6cd27cc471b2ecf797819bdde86e3e4a90",
+                    "unnarratedDurationSeconds": 26.966667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -1477,19 +1780,6 @@
                 ],
                 "movingFps": 31.094890510948908,
                 "maximumStillSeconds": 0.06666666666666667
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:33:40.479361+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "267e18c851bc18168f10b394cad0e9eddf34db9fa4d417ea44744778984ae35a",
-                "randomSeed": "4175333339105576321",
-                "startSeconds": 44.402
             }
         },
         "photo-capture": {
@@ -1533,7 +1823,7 @@
                         0.6479074787015544,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 4.371,
+                    "videoSeconds": 5.613,
                     "inputVideoSeconds": 3.05
                 },
                 {
@@ -1543,14 +1833,14 @@
                         0.25477016478751086
                     ],
                     "sequence": 57,
-                    "videoSeconds": 5.33
+                    "videoSeconds": 6.572
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-at",
                     "value": "2.000",
-                    "videoSeconds": 6.641,
-                    "inputVideoSeconds": 5.33
+                    "videoSeconds": 7.883,
+                    "inputVideoSeconds": 6.572
                 },
                 {
                     "event": "native-click",
@@ -1559,14 +1849,14 @@
                         0.37185602775368604
                     ],
                     "sequence": 58,
-                    "videoSeconds": 7.583
+                    "videoSeconds": 8.825
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-flash-duration",
                     "value": "0.800",
-                    "videoSeconds": 8.859,
-                    "inputVideoSeconds": 7.583
+                    "videoSeconds": 10.101,
+                    "inputVideoSeconds": 8.825
                 },
                 {
                     "event": "native-click",
@@ -1575,14 +1865,14 @@
                         0.46725932350390287
                     ],
                     "sequence": 59,
-                    "videoSeconds": 9.801
+                    "videoSeconds": 11.043
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-hold-duration",
                     "value": "3.000",
-                    "videoSeconds": 11.07,
-                    "inputVideoSeconds": 9.801
+                    "videoSeconds": 12.312,
+                    "inputVideoSeconds": 11.043
                 },
                 {
                     "event": "native-click",
@@ -1591,7 +1881,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 60,
-                    "videoSeconds": 11.383
+                    "videoSeconds": 12.625
                 },
                 {
                     "event": "action",
@@ -1600,8 +1890,8 @@
                     "flashSeconds": 0.8,
                     "holdSeconds": 3.0,
                     "previewSeconds": 4.301888,
-                    "videoSeconds": 12.943,
-                    "inputVideoSeconds": 11.383
+                    "videoSeconds": 18.387,
+                    "inputVideoSeconds": 12.625
                 },
                 {
                     "event": "native-click",
@@ -1610,14 +1900,14 @@
                         0.5149609713790113
                     ],
                     "sequence": 61,
-                    "videoSeconds": 13.886
+                    "videoSeconds": 19.33
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-angle",
                     "value": "-12",
-                    "videoSeconds": 15.233,
-                    "inputVideoSeconds": 13.886
+                    "videoSeconds": 20.677,
+                    "inputVideoSeconds": 19.33
                 },
                 {
                     "event": "native-click",
@@ -1626,14 +1916,14 @@
                         0.5626626192541198
                     ],
                     "sequence": 62,
-                    "videoSeconds": 16.164
+                    "videoSeconds": 21.608
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-size",
                     "value": "76",
-                    "videoSeconds": 17.469,
-                    "inputVideoSeconds": 16.164
+                    "videoSeconds": 22.913,
+                    "inputVideoSeconds": 21.608
                 },
                 {
                     "event": "native-click",
@@ -1642,14 +1932,14 @@
                         0.6103642671292281
                     ],
                     "sequence": 63,
-                    "videoSeconds": 18.398
+                    "videoSeconds": 23.842
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-border-width",
                     "value": "16",
-                    "videoSeconds": 19.682,
-                    "inputVideoSeconds": 18.398
+                    "videoSeconds": 25.126,
+                    "inputVideoSeconds": 23.842
                 },
                 {
                     "event": "native-click",
@@ -1658,7 +1948,7 @@
                         0.31331309627059845
                     ],
                     "sequence": 64,
-                    "videoSeconds": 20.523
+                    "videoSeconds": 25.967
                 },
                 {
                     "event": "action",
@@ -1669,8 +1959,8 @@
                         0.6479074787015544,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 21.876,
-                    "inputVideoSeconds": 20.523
+                    "videoSeconds": 27.32,
+                    "inputVideoSeconds": 25.967
                 },
                 {
                     "event": "native-click",
@@ -1679,7 +1969,7 @@
                         0.9653078924544666
                     ],
                     "sequence": 65,
-                    "videoSeconds": 24.745
+                    "videoSeconds": 30.189
                 },
                 {
                     "event": "action",
@@ -1690,8 +1980,8 @@
                         0.6479074787015544,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 26.111,
-                    "inputVideoSeconds": 24.745
+                    "videoSeconds": 31.555,
+                    "inputVideoSeconds": 30.189
                 },
                 {
                     "event": "native-click",
@@ -1700,7 +1990,7 @@
                         0.13876843018213356
                     ],
                     "sequence": 66,
-                    "videoSeconds": 26.94
+                    "videoSeconds": 32.384
                 },
                 {
                     "event": "action",
@@ -1711,8 +2001,8 @@
                         0.6479074787015544,
                         0.852558542931483
                     ],
-                    "videoSeconds": 28.28,
-                    "inputVideoSeconds": 26.94
+                    "videoSeconds": 33.724,
+                    "inputVideoSeconds": 32.384
                 },
                 {
                     "event": "native-click",
@@ -1721,7 +2011,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 67,
-                    "videoSeconds": 28.593
+                    "videoSeconds": 34.037
                 },
                 {
                     "event": "native-click",
@@ -1730,7 +2020,7 @@
                         0.7117779824595191
                     ],
                     "sequence": 68,
-                    "videoSeconds": 29.577
+                    "videoSeconds": 35.021
                 },
                 {
                     "event": "action",
@@ -1741,42 +2031,42 @@
                         0.6479074787015544,
                         0.852558542931483
                     ],
-                    "videoSeconds": 30.935,
-                    "inputVideoSeconds": 29.577
+                    "videoSeconds": 36.379,
+                    "inputVideoSeconds": 35.021
                 }
             ],
             "captions": [
                 [
-                    0.10206359999938286,
-                    "Fotoğraf yakalamayı açıp bu video parçası için etkinleştirin."
+                    0.102,
+                    "Fotoğraf çekimi ayarlarını açıp bu video bölümü için etkinleştirin."
                 ],
                 [
-                    4.371066600000631,
-                    "Yakalama anını, kısa bir flaşı ve üç saniyelik beklemeyi ayarlayın."
+                    5.613,
+                    "Çekim anını seçin, ardından kısa bir flaş ve üç saniyelik bekleme süresi ayarlayın."
                 ],
                 [
-                    11.070126300000993,
-                    "Değişiklikleri görmek için oynatma başlığını yakalama zamanının ötesindeki sabit fotoğrafa taşıyın."
+                    12.312,
+                    "Değişiklikleri görmek için oynatma imlecini fotoğrafın sabit kaldığı bölüme taşıyın."
                 ],
                 [
-                    12.943065299998125,
+                    18.387,
                     "Fotoğrafı eğin, küçültün ve beyaz kenarlık ekleyin."
                 ],
                 [
-                    21.876621100000193,
-                    "Özel çerçeve fotoğraflanacak alanı belirler. Uygula kırpmayı onaylar."
+                    27.321,
+                    "Özel çerçeve ile fotoğraflanacak alanı seçin. Uygula düğmesi bu kırpmayı kaydeder."
                 ],
                 [
-                    28.7120943000009,
-                    "Oynat’a basın: flaş, eğik çerçeveli fotoğraf ve yeniden hareket."
+                    34.156,
+                    "Oynat düğmesine basın. Video bir an parlar, eğik ve çerçeveli fotoğrafta duraklar, ardından devam eder."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 41.983333,
+            "duration": 47.433008,
             "height": 970,
-            "sha256": "328735f25fd17262c32926d35418d487e26b6a23f83fb9b2424d0434b616b2f0",
-            "size": 14653438,
+            "sha256": "14cc7902caeb24fc4b9d4c4b0bedbe0223e324c3b61c03be7fdcb1368bcd8099",
+            "size": 17676885,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1786,33 +2076,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 30.027,
-                        "seconds": 1.6,
-                        "crop": "997:543:20:79",
-                        "changedFrames": 49,
-                        "encodedFps": 60,
-                        "frames": 96,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.947368421052634
-                    },
-                    {
-                        "startSeconds": 35.877,
-                        "seconds": 5.906,
-                        "crop": "997:543:20:79",
-                        "changedFrames": 188,
-                        "encodedFps": 60,
-                        "frames": 355,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 31.864406779661014
-                    }
-                ],
-                "movingFps": 30.947368421052634,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:41.566881+00:00",
@@ -1825,7 +2088,102 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "7ca00007ab331d6a16342a0745bcf7abd34d5787c87598fd96c3c46c0d5cae05",
                 "randomSeed": "4175333339105576321",
-                "startSeconds": 11.024
+                "startSeconds": 11.024,
+                "narration": {
+                    "createdAt": "2026-10-29T12:52:56.142587+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "photo.6",
+                            "text": "Fotoğraf çekimi ayarlarını açıp bu video bölümü için etkinleştirin.",
+                            "voiceSeconds": 0.352,
+                            "durationSeconds": 4.911,
+                            "sha256": "7ba0aabfc210e0f637118410dbb594bcdf05ab742cf534700bcdefd6ac115435"
+                        },
+                        {
+                            "key": "photo.5",
+                            "text": "Çekim anını seçin, ardından kısa bir flaş ve üç saniyelik bekleme süresi ayarlayın.",
+                            "voiceSeconds": 5.863,
+                            "durationSeconds": 5.492,
+                            "sha256": "2f42c10261cb99ab916e8aa7f7ab9322da340349c535e57691257ce950074426"
+                        },
+                        {
+                            "key": "photo.1",
+                            "text": "Değişiklikleri görmek için oynatma imlecini fotoğrafın sabit kaldığı bölüme taşıyın.",
+                            "voiceSeconds": 12.562,
+                            "durationSeconds": 5.475,
+                            "sha256": "145f046523614eb849c13106950b8dcc8839bf56f184b9fa30433219ab1116f4"
+                        },
+                        {
+                            "key": "photo.4",
+                            "text": "Fotoğrafı eğin, küçültün ve beyaz kenarlık ekleyin.",
+                            "voiceSeconds": 18.637,
+                            "durationSeconds": 3.087,
+                            "sha256": "72423c727f47510faaf30316c0b4b312dd8884ca596de6d14693d4302e89e388"
+                        },
+                        {
+                            "key": "photo.3",
+                            "text": "Özel çerçeve ile fotoğraflanacak alanı seçin. Uygula düğmesi bu kırpmayı kaydeder.",
+                            "voiceSeconds": 27.571,
+                            "durationSeconds": 5.984,
+                            "sha256": "85abbe33502c260675da7371e312a2d6f04d25b19567333aa98dde22a910f8ac"
+                        },
+                        {
+                            "key": "photo.2",
+                            "text": "Oynat düğmesine basın. Video bir an parlar, eğik ve çerçeveli fotoğrafta duraklar, ardından devam eder.",
+                            "voiceSeconds": 34.406,
+                            "durationSeconds": 7.158,
+                            "sha256": "e1505aa2dbe903f35cb8b65b2572e8079bf6a7bd04aa70061f756123c346c28d"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 4.371,
+                            "seconds": 1.242
+                        },
+                        {
+                            "atSeconds": 12.943,
+                            "seconds": 4.202
+                        }
+                    ],
+                    "unnarratedSha256": "328735f25fd17262c32926d35418d487e26b6a23f83fb9b2424d0434b616b2f0",
+                    "unnarratedDurationSeconds": 41.983333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 35.471,
+                        "seconds": 1.6,
+                        "crop": "997:543:20:79",
+                        "changedFrames": 49,
+                        "encodedFps": 60,
+                        "frames": 96,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 30.947368421052634
+                    },
+                    {
+                        "startSeconds": 41.321,
+                        "seconds": 5.912,
+                        "crop": "997:543:20:79",
+                        "changedFrames": 188,
+                        "encodedFps": 60,
+                        "frames": 355,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 31.864406779661014
+                    }
+                ],
+                "movingFps": 30.947368421052634,
+                "maximumStillSeconds": 0.05
             }
         },
         "export-frame": {
@@ -1858,7 +2216,7 @@
                 {
                     "event": "action",
                     "key": "select-export-frame",
-                    "videoSeconds": 3.893,
+                    "videoSeconds": 7.504,
                     "inputVideoSeconds": 2.507
                 },
                 {
@@ -1868,13 +2226,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 71,
-                    "videoSeconds": 6.236
+                    "videoSeconds": 9.847
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 7.499,
-                    "inputVideoSeconds": 6.236
+                    "videoSeconds": 11.11,
+                    "inputVideoSeconds": 9.847
                 },
                 {
                     "event": "native-click",
@@ -1883,13 +2241,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 72,
-                    "videoSeconds": 8.332
+                    "videoSeconds": 11.943
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 9.578,
-                    "inputVideoSeconds": 8.332
+                    "videoSeconds": 13.189,
+                    "inputVideoSeconds": 11.943
                 },
                 {
                     "event": "native-click",
@@ -1898,13 +2256,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 73,
-                    "videoSeconds": 10.4
+                    "videoSeconds": 14.011
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-export",
-                    "videoSeconds": 11.73,
-                    "inputVideoSeconds": 10.4
+                    "videoSeconds": 15.341,
+                    "inputVideoSeconds": 14.011
                 },
                 {
                     "event": "native-click",
@@ -1913,13 +2271,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 74,
-                    "videoSeconds": 14.613
+                    "videoSeconds": 18.224
                 },
                 {
                     "event": "action",
                     "key": "still-export-start",
-                    "videoSeconds": 15.877,
-                    "inputVideoSeconds": 14.613
+                    "videoSeconds": 23.386,
+                    "inputVideoSeconds": 18.224
                 },
                 {
                     "event": "native-click",
@@ -1928,7 +2286,7 @@
                         0.030355594102341718
                     ],
                     "sequence": 75,
-                    "videoSeconds": 19.776
+                    "videoSeconds": 27.285
                 },
                 {
                     "event": "action",
@@ -1939,34 +2297,34 @@
                         0.6479074787015544,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 21.117,
-                    "inputVideoSeconds": 19.776
+                    "videoSeconds": 28.626,
+                    "inputVideoSeconds": 27.285
                 }
             ],
             "captions": [
                 [
-                    0.08709939999971539,
-                    "Bir videonun Seç sayfasında Kare dışa aktar, oynatma başlığından itibaren her kareyi gösterir."
+                    0.087,
+                    "“Seç” sayfasında oynatma imlecini konumlandırın ve kareleri görmek için “Kare dışa aktar”ı açın."
                 ],
                 [
-                    3.8944857999995293,
+                    7.505,
                     "En net görüntüyü bulmak için Sonraki kare ile ilerleyin."
                 ],
                 [
-                    9.579944199998863,
-                    "Bu kareyi dışa aktar, kareyi özgün boyutunda PNG olarak kaydeder. Gösterim hazırlanmış bir klasöre kaydeder."
+                    13.191,
+                    "“Dışa aktar”, bu kareyi özgün boyutunda PNG biçiminde kaydeder. Bu örnekte hazırlanmış bir klasör kullanılır."
                 ],
                 [
-                    15.877848399999493,
-                    "Kare resim olarak kaydedildi. Klasörde göster konumunu açar."
+                    23.387,
+                    "Kare kaydedildi. “Bir kare seçin” ekranını kapattığınızda “Seç” sayfasına dönersiniz."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.8,
+            "duration": 30.6,
             "height": 970,
-            "sha256": "035617085e8e0494e44210649f0a13cdf8e526da2c6abae5a4da5b2ee728bc5e",
-            "size": 5610160,
+            "sha256": "9960a20f20a4fe55f25806d22977485f30e87ddef959c989207098b510ce4e0e",
+            "size": 8860047,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1988,7 +2346,65 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "e808506f106d9cc344ce868563eab611acddc2c0e0cf07ba36fe6bc70ee06075",
                 "randomSeed": "4175333339105576321",
-                "startSeconds": 1.493
+                "startSeconds": 1.493,
+                "narration": {
+                    "createdAt": "2026-10-29T12:53:31.072843+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "exportFrame.4",
+                            "text": "“Seç” sayfasında oynatma imlecini konumlandırın ve kareleri görmek için “Kare dışa aktar”ı açın.",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 6.806,
+                            "sha256": "c3e7ae45e4cbc43eeaa6920baa8394d78b2b2789a0912898672ee746b614e7d5"
+                        },
+                        {
+                            "key": "exportFrame.3",
+                            "text": "En net görüntüyü bulmak için Sonraki kare ile ilerleyin.",
+                            "voiceSeconds": 7.755,
+                            "durationSeconds": 3.498,
+                            "sha256": "cdb39b4f6ae5cda564b17d0d1d2f7e2b029c65e0bcb491e841aab6e9f2d4fd34"
+                        },
+                        {
+                            "key": "exportFrame.2",
+                            "text": "“Dışa aktar”, bu kareyi özgün boyutunda PNG biçiminde kaydeder. Bu örnekte hazırlanmış bir klasör kullanılır.",
+                            "voiceSeconds": 13.441,
+                            "durationSeconds": 9.596,
+                            "sha256": "a008dbba501329ff5ed2c4b060a4143a4d633593e1eed8c64313a6feb007ba93"
+                        },
+                        {
+                            "key": "exportFrame.1",
+                            "text": "Kare kaydedildi. “Bir kare seçin” ekranını kapattığınızda “Seç” sayfasına dönersiniz.",
+                            "voiceSeconds": 23.637,
+                            "durationSeconds": 6.361,
+                            "sha256": "b4d168d8a2bfc99ccb53fcbd4178b74e0ccdd6754d12384fe963af5506519bf9"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 3.894,
+                            "seconds": 3.611
+                        },
+                        {
+                            "atSeconds": 15.878,
+                            "seconds": 3.898
+                        },
+                        {
+                            "atSeconds": 22.8,
+                            "seconds": 0.289
+                        }
+                    ],
+                    "unnarratedSha256": "035617085e8e0494e44210649f0a13cdf8e526da2c6abae5a4da5b2ee728bc5e",
+                    "unnarratedDurationSeconds": 22.8,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "split": {
@@ -2342,28 +2758,28 @@
             ],
             "captions": [
                 [
-                    0.5583320999976422,
-                    "Ekle’yi, ardından Bölme’yi seçin ve reeldeki yerini belirleyin."
+                    0.558,
+                    "Ekle ve ardından Bölme seçeneklerini seçip kurgudaki yerini belirleyin."
                 ],
                 [
-                    6.875466900000902,
-                    "Yan yana iki videoyu aynı anda gösterir. İlk hücre için videoyu ve bölümü seçin."
+                    6.875,
+                    "İki videoyu aynı anda göstermek için “Yan yana”yı seçin, ardından ilk hücre için videoyu ve bölümü seçin."
                 ],
                 [
-                    18.203868199998396,
+                    18.204,
                     "Her hücrenin kendi Seç sayfası vardır. İkinci hücre için farklı bir an seçin."
                 ],
                 [
-                    27.482201899998472,
-                    "Bölmeyi oynatın: iki parça tek bir görüntüde birlikte hareket eder."
+                    27.482,
+                    "İki bölümün tek görüntüde birlikte oynatıldığını görmek için bölmeyi oynatın."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 38.283333,
+            "duration": 38.283008,
             "height": 970,
-            "sha256": "2a3aceb1fd59171bbb7cceeda91be489862f0272c2e0a05760299f206fa491c4",
-            "size": 21955682,
+            "sha256": "125c9677437634ef2f72fface374301e21e8b80ad1d4eaa54c4b8bd900d7c364",
+            "size": 21550287,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2373,6 +2789,64 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:33:43.303655+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "27a26b80b0d4407a289772a5c9c8a4357634c72fc9395008b4bf7797ec92efff",
+                "randomSeed": "4175333339105576321",
+                "startSeconds": 22.259,
+                "narration": {
+                    "createdAt": "2026-10-29T12:54:04.272479+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "split.4",
+                            "text": "Ekle ve ardından Bölme seçeneklerini seçip kurgudaki yerini belirleyin.",
+                            "voiceSeconds": 0.808,
+                            "durationSeconds": 4.597,
+                            "sha256": "c667c5e052fe32a50fe309b22de68cd8dd0810950466bd8a5e8e656a72f27e91"
+                        },
+                        {
+                            "key": "split.3",
+                            "text": "İki videoyu aynı anda göstermek için “Yan yana”yı seçin, ardından ilk hücre için videoyu ve bölümü seçin.",
+                            "voiceSeconds": 7.125,
+                            "durationSeconds": 8.614,
+                            "sha256": "0529e4cd997c38d90e87e8c35cc4b75a7375d5985b33242a9df31bb44d37db63"
+                        },
+                        {
+                            "key": "split.2",
+                            "text": "Her hücrenin kendi Seç sayfası vardır. İkinci hücre için farklı bir an seçin.",
+                            "voiceSeconds": 18.454,
+                            "durationSeconds": 5.344,
+                            "sha256": "fb074f5ac0fd2504fe62926b5c44549a3ae2a5180c2ee07da0303059a44585d9"
+                        },
+                        {
+                            "key": "split.1",
+                            "text": "İki bölümün tek görüntüde birlikte oynatıldığını görmek için bölmeyi oynatın.",
+                            "voiceSeconds": 27.732,
+                            "durationSeconds": 4.517,
+                            "sha256": "98c40db7a8d0ea74d468330c92b9234de957996c31d7cdb46c2cf3f02f091319"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "2a3aceb1fd59171bbb7cceeda91be489862f0272c2e0a05760299f206fa491c4",
+                    "unnarratedDurationSeconds": 38.283333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -2390,19 +2864,6 @@
                 ],
                 "movingFps": 36.90851735015773,
                 "maximumStillSeconds": 0.05
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:33:43.303655+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "27a26b80b0d4407a289772a5c9c8a4357634c72fc9395008b4bf7797ec92efff",
-                "randomSeed": "4175333339105576321",
-                "startSeconds": 22.259
             }
         },
         "audio": {
@@ -2419,7 +2880,7 @@
                 {
                     "event": "action",
                     "key": "editor-top-audio",
-                    "videoSeconds": 2.154,
+                    "videoSeconds": 6.728,
                     "inputVideoSeconds": 0.895
                 },
                 {
@@ -2430,7 +2891,7 @@
                         0.9107437126551725
                     ],
                     "sequence": 95,
-                    "videoSeconds": 4.008
+                    "videoSeconds": 8.582
                 },
                 {
                     "event": "native-click",
@@ -2439,7 +2900,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 96,
-                    "videoSeconds": 7.932
+                    "videoSeconds": 16.451
                 },
                 {
                     "event": "action",
@@ -2450,8 +2911,8 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 9.217,
-                    "inputVideoSeconds": 7.932
+                    "videoSeconds": 17.736,
+                    "inputVideoSeconds": 16.451
                 },
                 {
                     "event": "native-click",
@@ -2460,7 +2921,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 97,
-                    "videoSeconds": 15.083
+                    "videoSeconds": 23.602
                 },
                 {
                     "event": "action",
@@ -2471,30 +2932,30 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 16.375,
-                    "inputVideoSeconds": 15.083
+                    "videoSeconds": 24.894,
+                    "inputVideoSeconds": 23.602
                 }
             ],
             "captions": [
                 [
-                    0.04092339999988326,
-                    "Yalnızca bu reele seslendirme veya başka bir kayıt eklemek için sol çubukta Ses’i açın."
+                    0.041,
+                    "Bu kurguya seslendirme veya başka bir kayıt eklemek için soldaki Ses bölümünü açın."
                 ],
                 [
-                    2.154409399998258,
-                    "Ses dosyasını Windows dosyalarından seçin. Dosya penceresi bu uygulama kaydının dışındadır."
+                    6.728,
+                    "“Dosyalar”ı seçin, ardından kaydı bu videoda gösterilmeyen Windows dosya seçme penceresinden seçin."
                 ],
                 [
-                    5.549654099999316,
-                    "Kayıt, görüntülerin altında kendi şeridini alır. Reel ile birlikte duymak için oynatın."
+                    14.069,
+                    "Kayıt, görüntülerin altında ayrı bir şeride yerleşir. Kurguyla birlikte dinlemek için oynatın."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 18.166667,
+            "duration": 26.686,
             "height": 970,
-            "sha256": "0eb63fe5dc1421abedb8dfa917ae0ac4b957b78e78c23cd9dde86b174f97278d",
-            "size": 10366062,
+            "sha256": "2eabb59aa7d3e8d30a3df38ce2e83b3a7df99fae7f501d0262967e3ca20781a1",
+            "size": 12337411,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2504,23 +2965,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 8.682,
-                        "seconds": 6.251,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 197,
-                        "encodedFps": 60,
-                        "frames": 376,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.52
-                    }
-                ],
-                "movingFps": 31.52,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:43.961313+00:00",
@@ -2533,7 +2977,71 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "60f0def25d75f4f7de12b352af045f9cb5ff1bd0d32940347b4bcfb4a1e17400",
                 "randomSeed": "4175333339105576321",
-                "startSeconds": 53.709
+                "startSeconds": 53.709,
+                "narration": {
+                    "createdAt": "2026-10-29T12:54:30.124935+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "audio.3",
+                            "text": "Bu kurguya seslendirme veya başka bir kayıt eklemek için soldaki Ses bölümünü açın.",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 6.028,
+                            "sha256": "8f92a17c3afc6ca71d85c442f3f894d4c96370836d88a475f0839c8d3d25ec78"
+                        },
+                        {
+                            "key": "audio.2",
+                            "text": "“Dosyalar”ı seçin, ardından kaydı bu videoda gösterilmeyen Windows dosya seçme penceresinden seçin.",
+                            "voiceSeconds": 6.978,
+                            "durationSeconds": 6.74,
+                            "sha256": "02cc311759740b87d7194dbe583261a6f046efbbcc3535b428940b78a22432b1"
+                        },
+                        {
+                            "key": "audio.1",
+                            "text": "Kayıt, görüntülerin altında ayrı bir şeride yerleşir. Kurguyla birlikte dinlemek için oynatın.",
+                            "voiceSeconds": 14.319,
+                            "durationSeconds": 6.104,
+                            "sha256": "1787d141685647dc6cb42be14b3a2776d5566918995cad53de459c2b5084c40d"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 2.154,
+                            "seconds": 4.574
+                        },
+                        {
+                            "atSeconds": 5.55,
+                            "seconds": 3.945
+                        }
+                    ],
+                    "unnarratedSha256": "0eb63fe5dc1421abedb8dfa917ae0ac4b957b78e78c23cd9dde86b174f97278d",
+                    "unnarratedDurationSeconds": 18.166667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 17.201,
+                        "seconds": 6.251,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 197,
+                        "encodedFps": 60,
+                        "frames": 376,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.52
+                    }
+                ],
+                "movingFps": 31.52,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "export": {
@@ -2650,28 +3158,28 @@
             ],
             "captions": [
                 [
-                    0.19500730000436306,
-                    "Kaydetmeden ve dışa aktarmadan önce tüm reeli sesli oynatın."
+                    0.195,
+                    "Kaydetmeden ve dışa aktarmadan önce kurgunun tamamını sesli izleyin."
                 ],
                 [
-                    17.88562400000228,
-                    "Kaydet düzenlenebilir projeyi korur. Altın renkli Dışa aktar düğmesi ayrı bir video dosyası oluşturur."
+                    17.886,
+                    "Kaydet, projeyi düzenlenebilir olarak saklar. Altın renkli Dışa aktar düğmesi ayrı bir video dosyası oluşturur."
                 ],
                 [
-                    28.457762600002752,
-                    "Boyutu, kaliteyi ve biçimi seçip dışa aktarın. Gösterim hazırlanmış bir klasöre kaydeder."
+                    28.458,
+                    "Boyutu, kaliteyi ve biçimi kontrol edip “Dışa aktar” düğmesine basın. Bu örnekte video, hazırlanmış bir klasöre kaydedilir."
                 ],
                 [
-                    44.00919420000355,
-                    "Dışa aktarılan video hazır. Proje daha sonra düzenlenebilir."
+                    44.009,
+                    "Kurgu dışa aktarıldı. “Tamamla” bu ekranı kapatır; proje daha sonra da düzenlenebilir."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
             "duration": 51.3,
             "height": 970,
-            "sha256": "54ba79d1657b7e2280e39d731c946140c33f6d60ca7a1b1fee7952305aa800eb",
-            "size": 15199160,
+            "sha256": "69896ce3da089cc3f6a099472ce1e0a52c0746ef7d52ffcdbb8adb17c9d9a545",
+            "size": 17903112,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2681,33 +3189,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 1.39,
-                        "seconds": 1.7,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 51,
-                        "encodedFps": 60,
-                        "frames": 101,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.599999999999998
-                    },
-                    {
-                        "startSeconds": 7.14,
-                        "seconds": 8.1,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 262,
-                        "encodedFps": 60,
-                        "frames": 485,
-                        "maximumStillSeconds": 0.08333333333333333,
-                        "movingFps": 32.47933884297521
-                    }
-                ],
-                "movingFps": 30.599999999999998,
-                "maximumStillSeconds": 0.08333333333333333
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:45.061804+00:00",
@@ -2720,7 +3201,79 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "767e0d6ffbf7a32f0a610ccd4afe05049fb71c6e08591513873543fea1922f1c",
                 "randomSeed": "4175333339105576321",
-                "startSeconds": 27.057
+                "startSeconds": 27.057,
+                "narration": {
+                    "createdAt": "2026-10-29T12:55:16.562281+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "export.4",
+                            "text": "Kaydetmeden ve dışa aktarmadan önce kurgunun tamamını sesli izleyin.",
+                            "voiceSeconds": 0.445,
+                            "durationSeconds": 4.592,
+                            "sha256": "ede5fb60b858fff9706f4efb5421a44671b32ccd11cf2421935391bd18fd31e3"
+                        },
+                        {
+                            "key": "export.3",
+                            "text": "Kaydet, projeyi düzenlenebilir olarak saklar. Altın renkli Dışa aktar düğmesi ayrı bir video dosyası oluşturur.",
+                            "voiceSeconds": 18.136,
+                            "durationSeconds": 7.783,
+                            "sha256": "585fee2b263400a356746dec9c848bde01ea69c9f4903d40e1a01856089bb5b0"
+                        },
+                        {
+                            "key": "export.2",
+                            "text": "Boyutu, kaliteyi ve biçimi kontrol edip “Dışa aktar” düğmesine basın. Bu örnekte video, hazırlanmış bir klasöre kaydedilir.",
+                            "voiceSeconds": 28.708,
+                            "durationSeconds": 10.335,
+                            "sha256": "72109d760cdffe735f16a2849a4072707003be83006ef02e5b4e84d4be25f37b"
+                        },
+                        {
+                            "key": "export.1",
+                            "text": "Kurgu dışa aktarıldı. “Tamamla” bu ekranı kapatır; proje daha sonra da düzenlenebilir.",
+                            "voiceSeconds": 44.259,
+                            "durationSeconds": 6.109,
+                            "sha256": "d4d61fc31e36c37dfecd18449d3ed3b84cd295314deb78a8eb1faa8b81ff0096"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "54ba79d1657b7e2280e39d731c946140c33f6d60ca7a1b1fee7952305aa800eb",
+                    "unnarratedDurationSeconds": 51.3,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 1.39,
+                        "seconds": 1.7,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 51,
+                        "encodedFps": 60,
+                        "frames": 102,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 30.297029702970296
+                    },
+                    {
+                        "startSeconds": 7.14,
+                        "seconds": 8.1,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 262,
+                        "encodedFps": 60,
+                        "frames": 486,
+                        "maximumStillSeconds": 0.08333333333333333,
+                        "movingFps": 32.41237113402062
+                    }
+                ],
+                "movingFps": 30.297029702970296,
+                "maximumStillSeconds": 0.08333333333333333
             }
         },
         "auto": {
@@ -2747,14 +3300,14 @@
                         0.24653078924544664
                     ],
                     "sequence": 105,
-                    "videoSeconds": 7.299
+                    "videoSeconds": 12.646
                 },
                 {
                     "event": "action",
                     "key": "auto-analysis-precision",
                     "value": "25",
-                    "videoSeconds": 8.548,
-                    "inputVideoSeconds": 7.299
+                    "videoSeconds": 13.895,
+                    "inputVideoSeconds": 12.646
                 },
                 {
                     "event": "native-click",
@@ -2763,13 +3316,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 106,
-                    "videoSeconds": 11.464
+                    "videoSeconds": 20.214
                 },
                 {
                     "event": "action",
                     "key": "auto-make",
-                    "videoSeconds": 12.772,
-                    "inputVideoSeconds": 11.464
+                    "videoSeconds": 21.522,
+                    "inputVideoSeconds": 20.214
                 },
                 {
                     "event": "native-click",
@@ -2778,7 +3331,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 107,
-                    "videoSeconds": 20.664
+                    "videoSeconds": 29.414
                 },
                 {
                     "event": "action",
@@ -2789,8 +3342,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 22.037,
-                    "inputVideoSeconds": 20.664
+                    "videoSeconds": 30.787,
+                    "inputVideoSeconds": 29.414
                 },
                 {
                     "event": "native-click",
@@ -2799,7 +3352,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 108,
-                    "videoSeconds": 28.926
+                    "videoSeconds": 37.676
                 },
                 {
                     "event": "action",
@@ -2810,8 +3363,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 30.186,
-                    "inputVideoSeconds": 28.926
+                    "videoSeconds": 38.936,
+                    "inputVideoSeconds": 37.676
                 },
                 {
                     "event": "shortened-analysis-wait",
@@ -2820,28 +3373,28 @@
             ],
             "captions": [
                 [
-                    0.13720180000018445,
-                    "Bölümleri benim için seç, başka bir başlangıç yolu olan Otomatik kurgu’yu açar. Süreyi, tempoyu ve analiz hassasiyetini ayarlayın."
+                    0.137,
+                    "“Bölümleri benim için seç”, süre ve müzik ayarlarının bulunduğu “Otomatik kurgu” ekranını açar. Bu da başlamanın başka bir yoludur."
                 ],
                 [
-                    6.329173699999956,
-                    "Otomatik süre uzunluğu belirler. Düşük hassasiyet daha az analiz örneği kullanır."
+                    11.676,
+                    "“Otomatik süre” uzunluğu belirler. Hassasiyet düşürüldüğünde daha az örnek analiz edilir."
                 ],
                 [
-                    10.595950800001447,
-                    "Reel oluştur, bu cihazdaki medyayı analiz eder. Bu videoda bekleme süresi kısaltılmıştır."
+                    19.346,
+                    "Kurgu oluştur, bu cihazdaki medyayı analiz eder. Bu videoda bekleme süresi kısaltılmıştır."
                 ],
                 [
-                    17.77505470000324,
-                    "Oluşturulan parçaları inceleyin ve dışa aktarmadan önce taslağı oynatın."
+                    26.525,
+                    "Taslak hazır; bölümleri kurguya eklendi. Dışa aktarmadan önce oynatın."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 31.866667,
+            "duration": 40.617,
             "height": 970,
-            "sha256": "a017e36bb77ab026fdb82dab82eeb7cfd7b3c76bc92a96966bda7fbb8b3b4f47",
-            "size": 5020022,
+            "sha256": "77b9ffcb029cbbe0c0b767616351c323fc948c2cf6ef6add367bff5d7eb3513f",
+            "size": 9339795,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2851,23 +3404,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 21.014,
-                        "seconds": 4.4,
-                        "crop": "950:517:599:83",
-                        "changedFrames": 136,
-                        "encodedFps": 60,
-                        "frames": 264,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 31.026615969581748
-                    }
-                ],
-                "movingFps": 31.026615969581748,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:45.789301+00:00",
@@ -2880,7 +3416,78 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "0b3e0c516f3e9d610aa1a111d846af888a683ef4ab5f56c2a6c9e07fbf51a23b",
                 "randomSeed": "4175333339105576321",
-                "startSeconds": 8.64
+                "startSeconds": 8.64,
+                "narration": {
+                    "createdAt": "2026-10-29T12:55:54.305236+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-serkan-tr",
+                    "lines": [
+                        {
+                            "key": "auto.5",
+                            "text": "“Bölümleri benim için seç”, süre ve müzik ayarlarının bulunduğu “Otomatik kurgu” ekranını açar. Bu da başlamanın başka bir yoludur.",
+                            "voiceSeconds": 0.387,
+                            "durationSeconds": 10.939,
+                            "sha256": "7c30c52d4774a8bee68b5fdd2104d29c224e1e3d3e6c94c2e8d31633ec32177c"
+                        },
+                        {
+                            "key": "auto.4",
+                            "text": "“Otomatik süre” uzunluğu belirler. Hassasiyet düşürüldüğünde daha az örnek analiz edilir.",
+                            "voiceSeconds": 11.926,
+                            "durationSeconds": 7.069,
+                            "sha256": "b6726b5a461d63cd1bb9ff204aebbaee94c0cef55687425fad39936724277184"
+                        },
+                        {
+                            "key": "auto.3",
+                            "text": "Kurgu oluştur, bu cihazdaki medyayı analiz eder. Bu videoda bekleme süresi kısaltılmıştır.",
+                            "voiceSeconds": 19.596,
+                            "durationSeconds": 5.526,
+                            "sha256": "bc6497e5d651517823e075189f23194d47625b27570a291001ec2f1c86036d49"
+                        },
+                        {
+                            "key": "auto.2",
+                            "text": "Taslak hazır; bölümleri kurguya eklendi. Dışa aktarmadan önce oynatın.",
+                            "voiceSeconds": 26.775,
+                            "durationSeconds": 4.57,
+                            "sha256": "a4e7e4b7a7c413e3207a2c1f4e06238697e9f2461a5c790e7d070866db2edb51"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 6.329,
+                            "seconds": 5.347
+                        },
+                        {
+                            "atSeconds": 10.596,
+                            "seconds": 3.403
+                        }
+                    ],
+                    "unnarratedSha256": "a017e36bb77ab026fdb82dab82eeb7cfd7b3c76bc92a96966bda7fbb8b3b4f47",
+                    "unnarratedDurationSeconds": 31.866667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 29.764,
+                        "seconds": 4.4,
+                        "crop": "950:517:599:83",
+                        "changedFrames": 136,
+                        "encodedFps": 60,
+                        "frames": 264,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 31.026615969581748
+                    }
+                ],
+                "movingFps": 31.026615969581748,
+                "maximumStillSeconds": 0.05
             }
         }
     },
