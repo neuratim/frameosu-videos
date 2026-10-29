@@ -37,7 +37,7 @@
                         0.6470820189274448,
                         0.6454900260190807
                     ],
-                    "videoSeconds": 4.375,
+                    "videoSeconds": 6.107,
                     "inputVideoSeconds": 3.033
                 },
                 {
@@ -47,13 +47,13 @@
                         0.29054640069384213
                     ],
                     "sequence": 3,
-                    "videoSeconds": 5.254
+                    "videoSeconds": 6.986
                 },
                 {
                     "event": "action",
                     "key": "reel-add-empty",
-                    "videoSeconds": 6.574,
-                    "inputVideoSeconds": 5.254
+                    "videoSeconds": 8.306,
+                    "inputVideoSeconds": 6.986
                 },
                 {
                     "event": "native-click",
@@ -62,13 +62,13 @@
                         0.2992194275802255
                     ],
                     "sequence": 4,
-                    "videoSeconds": 7.421
+                    "videoSeconds": 9.153
                 },
                 {
                     "event": "action",
                     "key": "add-media-video",
-                    "videoSeconds": 8.68,
-                    "inputVideoSeconds": 7.421
+                    "videoSeconds": 10.412,
+                    "inputVideoSeconds": 9.153
                 },
                 {
                     "event": "native-click",
@@ -78,29 +78,29 @@
                         0.909783242478747
                     ],
                     "sequence": 5,
-                    "videoSeconds": 8.997
+                    "videoSeconds": 10.729
                 }
             ],
             "captions": [
                 [
-                    0.06960229999822332,
-                    "手動リールを作り、空のプロジェクトを選びます。"
+                    0.07,
+                    "「手動編集」、次に「空の状態から始める」を選び、新しいリールを作ります。"
                 ],
                 [
-                    4.37555330000032,
-                    "Windowsのファイルから動画を追加します。ファイル選択画面はこの録画の範囲外です。"
+                    6.108,
+                    "「追加」から動画を追加し、Windowsのファイル選択画面で素材を選びます。この画面は、この動画には映っていません。"
                 ],
                 [
-                    10.652288899997075,
-                    "読み込んだ素材が準備できました。選択を開き、リールに使う場面を選びます。"
+                    14.03,
+                    "動画がリールの素材として追加されました。パートはまだ選ばれていません。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 15.633333,
+            "duration": 19.883008,
             "height": 970,
-            "sha256": "c441d5e869fc3bc144850d834a4f8e886c0fd4feaa09f26c946223961bf940ad",
-            "size": 1253687,
+            "sha256": "fe3477779204964f098ce841f41ea3fdef69e1393f6d5c7aee39bd095a53d057",
+            "size": 1841497,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -122,7 +122,58 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "96080f8238862ee7b3c9728d355f4344d93675d231eb102ee37bcd151f7f6e18",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 61.408
+                "startSeconds": 61.408,
+                "narration": {
+                    "createdAt": "2026-10-29T12:22:39.094374+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "home.3",
+                            "text": "「手動編集」、次に「空の状態から始める」を選び、新しいリールを作ります。",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.407,
+                            "sha256": "adf3fd4a8383f3ded82beb31b4387a11d982888aa5717876197e436f5673125a"
+                        },
+                        {
+                            "key": "home.2",
+                            "text": "「追加」から動画を追加し、Windowsのファイル選択画面で素材を選びます。この画面は、この動画には映っていません。",
+                            "voiceSeconds": 6.358,
+                            "durationSeconds": 7.322,
+                            "sha256": "b46a2c2801392a87f49d9f48ab3c1aef2b30164cb50a006eec141625ed9a6a86"
+                        },
+                        {
+                            "key": "home.1",
+                            "text": "動画がリールの素材として追加されました。パートはまだ選ばれていません。",
+                            "voiceSeconds": 14.28,
+                            "durationSeconds": 4.992,
+                            "sha256": "bb09b18ce35ea81f7888fe3b1a557592947aac94a2bdfa1be02d8d3fbf351261"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 4.376,
+                            "seconds": 1.732
+                        },
+                        {
+                            "atSeconds": 10.652,
+                            "seconds": 1.646
+                        },
+                        {
+                            "atSeconds": 15.633,
+                            "seconds": 0.861
+                        }
+                    ],
+                    "unnarratedSha256": "c441d5e869fc3bc144850d834a4f8e886c0fd4feaa09f26c946223961bf940ad",
+                    "unnarratedDurationSeconds": 15.633333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "select": {
@@ -208,14 +259,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 10,
-                    "videoSeconds": 7.959
+                    "videoSeconds": 8.634
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 10.0,
-                    "videoSeconds": 9.216,
-                    "inputVideoSeconds": 7.959
+                    "videoSeconds": 9.891,
+                    "inputVideoSeconds": 8.634
                 },
                 {
                     "event": "native-click",
@@ -224,7 +275,7 @@
                         0.853642671292281
                     ],
                     "sequence": 11,
-                    "videoSeconds": 10.047
+                    "videoSeconds": 10.722
                 },
                 {
                     "event": "action",
@@ -235,8 +286,8 @@
                         0.6651769210863564,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 11.394,
-                    "inputVideoSeconds": 10.047
+                    "videoSeconds": 12.069,
+                    "inputVideoSeconds": 10.722
                 },
                 {
                     "event": "native-click",
@@ -245,14 +296,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 12,
-                    "videoSeconds": 11.703
+                    "videoSeconds": 12.378
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 13.0,
-                    "videoSeconds": 13.009,
-                    "inputVideoSeconds": 11.703
+                    "videoSeconds": 13.684,
+                    "inputVideoSeconds": 12.378
                 },
                 {
                     "event": "native-click",
@@ -261,7 +312,7 @@
                         0.030355594102341718
                     ],
                     "sequence": 13,
-                    "videoSeconds": 13.849
+                    "videoSeconds": 14.524
                 },
                 {
                     "event": "action",
@@ -272,8 +323,8 @@
                         0.6651769210863564,
                         0.852558542931483
                     ],
-                    "videoSeconds": 15.206,
-                    "inputVideoSeconds": 13.849
+                    "videoSeconds": 15.881,
+                    "inputVideoSeconds": 14.524
                 },
                 {
                     "event": "native-click",
@@ -282,7 +333,7 @@
                         0.7278023924087299
                     ],
                     "sequence": 14,
-                    "videoSeconds": 16.052
+                    "videoSeconds": 16.727
                 },
                 {
                     "event": "action",
@@ -293,8 +344,8 @@
                         0.6651769210863564,
                         0.852558542931483
                     ],
-                    "videoSeconds": 17.404,
-                    "inputVideoSeconds": 16.052
+                    "videoSeconds": 18.079,
+                    "inputVideoSeconds": 16.727
                 },
                 {
                     "event": "native-click",
@@ -303,7 +354,7 @@
                         0.7278023924087299
                     ],
                     "sequence": 15,
-                    "videoSeconds": 22.274
+                    "videoSeconds": 22.949
                 },
                 {
                     "event": "action",
@@ -314,26 +365,26 @@
                         0.6651769210863564,
                         0.852558542931483
                     ],
-                    "videoSeconds": 23.549,
-                    "inputVideoSeconds": 22.274
+                    "videoSeconds": 24.224,
+                    "inputVideoSeconds": 22.949
                 }
             ],
             "captions": [
                 [
-                    0.17981379999764613,
-                    "選択を開き、場面の開始位置をクリックし、プラスを押してから終了位置をクリックします。"
+                    0.18,
+                    "「選択」を開き、場面の開始位置をクリックし、プラスボタンを押してから終了位置をクリックします。"
                 ],
                 [
-                    7.644792199997028,
-                    "次の場面を選びます。プレビューは選択したパートだけを再生し、間を飛ばします。"
+                    8.32,
+                    "2つ目の場面を選びます。プレビューは選択したパートだけを再生し、間を飛ばします。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 25.533333,
+            "duration": 26.216667,
             "height": 970,
-            "sha256": "71d447ca3262dada1258db654aec393436db9ee3252ad4d0fff53306f1734df4",
-            "size": 12206846,
+            "sha256": "b2593f5fdef10ada133d1e158d3d8160ff246efd25fec8108b71dcf2b9d5232d",
+            "size": 13997434,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -343,32 +394,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 16.352,
-                        "seconds": 5.772,
-                        "crop": "1024:559:20:79",
-                        "changedFrames": 178,
-                        "encodedFps": 60,
-                        "frames": 346,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.956521739130434
-                    }
-                ],
-                "movingFps": 30.956521739130434,
-                "maximumStillSeconds": 0.06666666666666667,
-                "sourceClock": {
-                    "confidenceMinimum": 0.989915132522583,
-                    "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.06666666666666667,
-                    "movingFps": 30.782608695652176,
-                    "originalFrameConfidenceMinimum": 0.9876812100410461,
-                    "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 1.0028985738754272
-                }
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:36.525475+00:00",
@@ -381,7 +406,69 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "0869fbb22e9bb6d64469c2a3132cda2511a22909ab7eabe05cdb8b7cc6a1cc0f",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 18.709
+                "startSeconds": 18.709,
+                "narration": {
+                    "createdAt": "2026-10-29T12:22:56.531303+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "select.2",
+                            "text": "「選択」を開き、場面の開始位置をクリックし、プラスボタンを押してから終了位置をクリックします。",
+                            "voiceSeconds": 0.43,
+                            "durationSeconds": 7.54,
+                            "sha256": "939c5f3823e229ca91e49fcc8dddba7bc7ba257363e1883fba4efa17c2683a84"
+                        },
+                        {
+                            "key": "select.1",
+                            "text": "2つ目の場面を選びます。プレビューは選択したパートだけを再生し、間を飛ばします。",
+                            "voiceSeconds": 8.57,
+                            "durationSeconds": 5.762,
+                            "sha256": "809c9b1259bdfebae3ebbcdc5c3728540fdcb3166d3586bcc931e9162d8a3e5a"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 7.645,
+                            "seconds": 0.675
+                        }
+                    ],
+                    "unnarratedSha256": "71d447ca3262dada1258db654aec393436db9ee3252ad4d0fff53306f1734df4",
+                    "unnarratedDurationSeconds": 25.533333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 17.027,
+                        "seconds": 5.772,
+                        "crop": "1024:559:20:79",
+                        "changedFrames": 178,
+                        "encodedFps": 60,
+                        "frames": 347,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.86705202312139
+                    }
+                ],
+                "movingFps": 30.86705202312139,
+                "maximumStillSeconds": 0.06666666666666667,
+                "sourceClock": {
+                    "confidenceMinimum": 0.9899446368217468,
+                    "matching": "original source frames or adjacent-frame interpolation",
+                    "maximumStillSeconds": 0.06666666666666667,
+                    "movingFps": 30.69364161849711,
+                    "originalFrameConfidenceMinimum": 0.9877005219459534,
+                    "sourceFps": 30,
+                    "sourceSecondsPerRecordedSecond": 1.0
+                }
             }
         },
         "text": {
@@ -555,11 +642,11 @@
             ],
             "captions": [
                 [
-                    0.1655473999962851,
-                    "選択したパートの後に、画像に重ねる文字を追加します。"
+                    0.166,
+                    "選択したパートの後に、映像に重ねるテキストを追加し、文字を入力します。"
                 ],
                 [
-                    9.10724659999687,
+                    9.107,
                     "プレビューでは映像が動き続け、その上にタイトルが現れます。"
                 ]
             ],
@@ -567,8 +654,8 @@
             "demonstration": "direct-editor",
             "duration": 19.2,
             "height": 970,
-            "sha256": "bfc23a4aa434e49b3ccf3231eb8ed748581ed033c79802f7460f54f4b17f7428",
-            "size": 4229118,
+            "sha256": "db3effc2a684070e81541fbd0b300108e8cd43e76876116f954edc86f5aa379b",
+            "size": 6271110,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -578,6 +665,50 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:34:37.190888+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "a2228699cdf1fa6927940f9a2ba287f53386c3c3888818f98b69f62f4fd0c361",
+                "randomSeed": "1334820435970905283",
+                "startSeconds": 9.361,
+                "narration": {
+                    "createdAt": "2026-10-29T12:23:09.935241+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "text.2",
+                            "text": "選択したパートの後に、映像に重ねるテキストを追加し、文字を入力します。",
+                            "voiceSeconds": 0.416,
+                            "durationSeconds": 5.328,
+                            "sha256": "a4a5f6413a9c29efde585af1270c8cb232878f207dd036927cd3020b0c22b0f8"
+                        },
+                        {
+                            "key": "text.1",
+                            "text": "プレビューでは映像が動き続け、その上にタイトルが現れます。",
+                            "voiceSeconds": 9.357,
+                            "durationSeconds": 4.109,
+                            "sha256": "2bf90d047bfebbf887e31f9d7849142bba52f60998e8826109cfa4ac84a91fef"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "bfc23a4aa434e49b3ccf3231eb8ed748581ed033c79802f7460f54f4b17f7428",
+                    "unnarratedDurationSeconds": 19.2,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -595,19 +726,6 @@
                 ],
                 "movingFps": 32.27272727272727,
                 "maximumStillSeconds": 0.06666666666666667
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:34:37.190888+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "a2228699cdf1fa6927940f9a2ba287f53386c3c3888818f98b69f62f4fd0c361",
-                "randomSeed": "1334820435970905283",
-                "startSeconds": 9.361
             }
         },
         "parts": {
@@ -616,7 +734,7 @@
                     "event": "action",
                     "key": "parts-reorder",
                     "clipId": "4f5e2f3b-5805-4c46-8e98-c4702028ad6a",
-                    "videoSeconds": 1.666
+                    "videoSeconds": 7.231
                 },
                 {
                     "event": "native-click",
@@ -625,7 +743,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 25,
-                    "videoSeconds": 1.989
+                    "videoSeconds": 7.554
                 },
                 {
                     "event": "native-click",
@@ -634,7 +752,7 @@
                         0.7278023924087299
                     ],
                     "sequence": 26,
-                    "videoSeconds": 2.888
+                    "videoSeconds": 8.453
                 },
                 {
                     "event": "action",
@@ -645,8 +763,8 @@
                         0.6651769210863564,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.217,
-                    "inputVideoSeconds": 2.888
+                    "videoSeconds": 9.782,
+                    "inputVideoSeconds": 8.453
                 },
                 {
                     "event": "native-click",
@@ -655,7 +773,7 @@
                         0.7278023924087299
                     ],
                     "sequence": 27,
-                    "videoSeconds": 9.085
+                    "videoSeconds": 14.65
                 },
                 {
                     "event": "action",
@@ -666,26 +784,26 @@
                         0.6651769210863564,
                         0.852558542931483
                     ],
-                    "videoSeconds": 10.368,
-                    "inputVideoSeconds": 9.085
+                    "videoSeconds": 15.933,
+                    "inputVideoSeconds": 14.65
                 }
             ],
             "captions": [
                 [
-                    0.03638860000137356,
+                    0.036,
                     "パート一覧は再生順を示します。番号付きハンドルをドラッグしてパートを移動します。"
                 ],
                 [
-                    1.665744199999608,
-                    "プレビューは新しい順序に従います。タイトルは元の動画ブロックに付いたままです。"
+                    7.231,
+                    "プレビューも新しい順序で再生されます。タイトルは元の動画に付いたままです。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 12.533333,
+            "duration": 18.1,
             "height": 970,
-            "sha256": "ee767430f0f899b9fca9e29ecb138c9f01a09221a532394af4a45a3d60d8d2a7",
-            "size": 8844685,
+            "sha256": "c8c2e355cee820d5993db083fcda96c27dddee5dd1ecaa2fa371a0dc71599f49",
+            "size": 9373273,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -695,32 +813,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 3.188,
-                        "seconds": 5.747,
-                        "crop": "1024:559:20:79",
-                        "changedFrames": 178,
-                        "encodedFps": 60,
-                        "frames": 344,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.137026239067055
-                    }
-                ],
-                "movingFps": 31.137026239067055,
-                "maximumStillSeconds": 0.06666666666666667,
-                "sourceClock": {
-                    "confidenceMinimum": 0.9924126267433167,
-                    "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.06666666666666667,
-                    "movingFps": 30.962099125364432,
-                    "originalFrameConfidenceMinimum": 0.9907342791557312,
-                    "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 0.9868804812431335
-                }
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:37.855677+00:00",
@@ -733,7 +825,70 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "1f3023adb297b0c4a0e84a199d92fe444ee040a7c2bc9ba9fd702e889b40ff29",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 70.03
+                "startSeconds": 66.164,
+                "narration": {
+                    "createdAt": "2026-10-29T12:23:24.147637+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "parts.2",
+                            "text": "パート一覧は再生順を示します。番号付きハンドルをドラッグしてパートを移動します。",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 6.531,
+                            "sha256": "0cd5efb29b71eec7d9e17a6933ccab2dcaf3126a6c6258069c43aea01b50ebf5"
+                        },
+                        {
+                            "key": "parts.1",
+                            "text": "プレビューも新しい順序で再生されます。タイトルは元の動画に付いたままです。",
+                            "voiceSeconds": 7.481,
+                            "durationSeconds": 5.315,
+                            "sha256": "b2edb688e91a4601c34226a3e99c6550054d77233635ff3fc02ecfb8f23e73fa"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 1.666,
+                            "seconds": 5.565
+                        }
+                    ],
+                    "unnarratedSha256": "ee767430f0f899b9fca9e29ecb138c9f01a09221a532394af4a45a3d60d8d2a7",
+                    "unnarratedDurationSeconds": 12.533333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "musicStartMovedFromSeconds": 70.03,
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 8.753,
+                        "seconds": 5.747,
+                        "crop": "1024:559:20:79",
+                        "changedFrames": 178,
+                        "encodedFps": 60,
+                        "frames": 345,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.046511627906977
+                    }
+                ],
+                "movingFps": 31.046511627906977,
+                "maximumStillSeconds": 0.06666666666666667,
+                "sourceClock": {
+                    "confidenceMinimum": 0.9924185276031494,
+                    "matching": "original source frames or adjacent-frame interpolation",
+                    "maximumStillSeconds": 0.06666666666666667,
+                    "movingFps": 30.872093023255815,
+                    "originalFrameConfidenceMinimum": 0.9907079339027405,
+                    "sourceFps": 30,
+                    "sourceSecondsPerRecordedSecond": 0.984011709690094
+                }
             }
         },
         "image": {
@@ -893,20 +1048,20 @@
             ],
             "captions": [
                 [
-                    0.16757399999914924,
-                    "写真を独立したパートとして追加します。録画範囲外のWindows画面で写真を選びます。"
+                    0.168,
+                    "写真を独立したパートとして追加します。Windowsのファイル選択画面で選びますが、この動画には映っていません。"
                 ],
                 [
-                    12.618275299999368,
-                    "長さを設定して写真パートを再生し、表示時間を確かめます。"
+                    12.618,
+                    "「長さ」を3秒に設定して写真パートを再生し、表示時間を確かめます。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.366667,
+            "duration": 22.367,
             "height": 970,
-            "sha256": "cec806dbb8c88c9128f1f706e4c7fd8fd9c4036ff2037091d01320b15bdb8aca",
-            "size": 2717818,
+            "sha256": "c775736290068fb26e7d769aaa81d93289ac4e77afa54487fac2f1067d3f3a15",
+            "size": 5078696,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -928,7 +1083,38 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "fd737dc29caa803efc4a49342bfd530713496bc6fb40c00046ef429aa650859f",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 47.692
+                "startSeconds": 47.692,
+                "narration": {
+                    "createdAt": "2026-10-29T12:23:44.402165+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "image.2",
+                            "text": "写真を独立したパートとして追加します。Windowsのファイル選択画面で選びますが、この動画には映っていません。",
+                            "voiceSeconds": 0.418,
+                            "durationSeconds": 7.475,
+                            "sha256": "d9a3fa6c01f9985f32ce993d53f49a0baf2e1a12b48adc8ef89d79c5f1785567"
+                        },
+                        {
+                            "key": "image.1",
+                            "text": "「長さ」を3秒に設定して写真パートを再生し、表示時間を確かめます。",
+                            "voiceSeconds": 12.868,
+                            "durationSeconds": 6.194,
+                            "sha256": "760d30499177fd5d6d8decf7bbacc7e97e916849f61c45fe7923be2a46d86d82"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "cec806dbb8c88c9128f1f706e4c7fd8fd9c4036ff2037091d01320b15bdb8aca",
+                    "unnarratedDurationSeconds": 22.366667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "transition": {
@@ -1078,11 +1264,11 @@
             ],
             "captions": [
                 [
-                    0.08956199999738601,
-                    "写真の前のつなぎ目を開き、ギャラリーからクロスディゾルブを選びます。"
+                    0.09,
+                    "写真の前のつなぎ目を開き、ギャラリーから「クロスディゾルブ」を選んで長さを設定します。"
                 ],
                 [
-                    10.887886099997559,
+                    10.888,
                     "つなぎ目を再生すると、動く映像が写真へ滑らかに溶け込みます。"
                 ]
             ],
@@ -1090,8 +1276,8 @@
             "demonstration": "direct-editor",
             "duration": 25.4,
             "height": 970,
-            "sha256": "915503cf87dc2b44c718f2e960090c6bd9732549098cda576aeede6967178f9a",
-            "size": 18471912,
+            "sha256": "6440ed9dd689010a4616c5f83fb32304d9575283c3b4b970cdb73a7fc8e9cbf2",
+            "size": 17159154,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1101,23 +1287,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 12.306,
-                        "seconds": 6.3,
-                        "crop": "1024:559:20:79",
-                        "changedFrames": 191,
-                        "encodedFps": 60,
-                        "frames": 377,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.47872340425532
-                    }
-                ],
-                "movingFps": 30.47872340425532,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:39.400411+00:00",
@@ -1130,7 +1299,55 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "dfc64276b3efd78b889eeb28d031341c725debf9b55be94ad701714814c2eba4",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 39.169
+                "startSeconds": 39.169,
+                "narration": {
+                    "createdAt": "2026-10-29T12:23:59.658113+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "transition.2",
+                            "text": "写真の前のつなぎ目を開き、ギャラリーから「クロスディゾルブ」を選んで長さを設定します。",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.639,
+                            "sha256": "2f6d77fe85fb9330abf55f2dc52fa35739f6c55494960968425ed2f4bb67cb56"
+                        },
+                        {
+                            "key": "transition.1",
+                            "text": "つなぎ目を再生すると、動く映像が写真へ滑らかに溶け込みます。",
+                            "voiceSeconds": 11.138,
+                            "durationSeconds": 5.214,
+                            "sha256": "65a4a76c4aefb05644107eac2dc50bf167676b128fb48a074fa943155bbbf1b6"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "915503cf87dc2b44c718f2e960090c6bd9732549098cda576aeede6967178f9a",
+                    "unnarratedDurationSeconds": 25.4,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 12.306,
+                        "seconds": 6.3,
+                        "crop": "1024:559:20:79",
+                        "changedFrames": 191,
+                        "encodedFps": 60,
+                        "frames": 378,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 30.397877984084882
+                    }
+                ],
+                "movingFps": 30.397877984084882,
+                "maximumStillSeconds": 0.05
             }
         },
         "music": {
@@ -1231,20 +1448,20 @@
             ],
             "captions": [
                 [
-                    0.5753016000016942,
-                    "左のサイドバーで音楽を開き、プラスで付属曲Bouncy Grooveを追加します。"
+                    0.575,
+                    "左の「音楽」を開き、プラスボタンで付属曲の「バウンシーグルーヴ」を追加します。"
                 ],
                 [
-                    7.088472200000979,
-                    "音楽トラックがリールに加わりました。再生して映像とのタイミングを確かめます。"
+                    7.088,
+                    "音楽がリール全体に流れます。再生して映像とのタイミングを確かめます。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 18.166667,
+            "duration": 18.167,
             "height": 970,
-            "sha256": "7d19b5a95592212a2422de77e264fa4b2439f2e10af5fc8b2192ca34dd85331d",
-            "size": 10767067,
+            "sha256": "45e06f8ebe0309d0c34b40e3235baff2c3e1230b0c4626edb0e07e34d8eaefab",
+            "size": 11140924,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1254,23 +1471,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 8.234,
-                        "seconds": 6.754,
-                        "crop": "950:517:599:83",
-                        "changedFrames": 214,
-                        "encodedFps": 60,
-                        "frames": 405,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.78217821782178
-                    }
-                ],
-                "movingFps": 31.78217821782178,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:40.138840+00:00",
@@ -1283,7 +1483,55 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "b76db36c3e8e9f2561006c7cd98efaf7082abe7785c380ba930d0fe98b892b47",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 24.203
+                "startSeconds": 24.203,
+                "narration": {
+                    "createdAt": "2026-10-29T12:24:16.359756+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "music.2",
+                            "text": "左の「音楽」を開き、プラスボタンで付属曲の「バウンシーグルーヴ」を追加します。",
+                            "voiceSeconds": 0.825,
+                            "durationSeconds": 5.523,
+                            "sha256": "52870a31ff81a6ef40dbe3c4c41a7d2b24cd88723fb3d5c3ec0593050faf3777"
+                        },
+                        {
+                            "key": "music.1",
+                            "text": "音楽がリール全体に流れます。再生して映像とのタイミングを確かめます。",
+                            "voiceSeconds": 7.338,
+                            "durationSeconds": 6.205,
+                            "sha256": "eabf62e6880e8811f8b36e51dd30eaf7af37717fb0d2cdd21f96d6667e92a74a"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "7d19b5a95592212a2422de77e264fa4b2439f2e10af5fc8b2192ca34dd85331d",
+                    "unnarratedDurationSeconds": 18.166667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 8.234,
+                        "seconds": 6.754,
+                        "crop": "950:517:599:83",
+                        "changedFrames": 214,
+                        "encodedFps": 60,
+                        "frames": 406,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.703703703703702
+                    }
+                ],
+                "movingFps": 31.703703703703702,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "video": {
@@ -1433,24 +1681,24 @@
             ],
             "captions": [
                 [
-                    0.17469879999771365,
-                    "動画パートの設定を開きます。各タブはこのパートを調整します。"
+                    0.175,
+                    "動画パートの設定を開きます。各タブで、このパートを調整できます。"
                 ],
                 [
-                    6.492440199996054,
-                    "フレームタブで拡大して構図を整え、プレビューで結果を比べます。"
+                    6.492,
+                    "「フレーム」タブで拡大して、より寄った構図にします。「調整」タブには明るさや色の設定があります。"
                 ],
                 [
-                    18.008974399996077,
-                    "パートを再生し、動く映像で拡大した構図を確認します。"
+                    18.009,
+                    "パートを再生し、動く映像で拡大した構図を確認します。その後、設定をもう一度開きます。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 27.533333,
+            "duration": 27.533008,
             "height": 970,
-            "sha256": "499f00ed4ae79d1d5938fa8c89434b1a26fe002d3396ab30791f2b86ba8ab7eb",
-            "size": 8064765,
+            "sha256": "92721b6fa297ff0a9b9962d863eaa865c98161750572493a22398035b728af29",
+            "size": 10192273,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1460,23 +1708,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 19.301,
-                        "seconds": 4.654,
-                        "crop": "1024:559:20:79",
-                        "changedFrames": 143,
-                        "encodedFps": 60,
-                        "frames": 279,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.863309352517984
-                    }
-                ],
-                "movingFps": 30.863309352517984,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:41.002937+00:00",
@@ -1489,7 +1720,62 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "0fd5fc1d0ce803ae7ac6cb7794b0725bac8a025831153dbc48658824f60cac82",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 35.605
+                "startSeconds": 35.605,
+                "narration": {
+                    "createdAt": "2026-10-29T12:24:36.877150+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "video.3",
+                            "text": "動画パートの設定を開きます。各タブで、このパートを調整できます。",
+                            "voiceSeconds": 0.425,
+                            "durationSeconds": 5.266,
+                            "sha256": "e129ed63363cd4e47aa9b11970f93701336397c121a28599a94599d515ac1768"
+                        },
+                        {
+                            "key": "video.2",
+                            "text": "「フレーム」タブで拡大して、より寄った構図にします。「調整」タブには明るさや色の設定があります。",
+                            "voiceSeconds": 6.742,
+                            "durationSeconds": 6.604,
+                            "sha256": "4bcd95f9b587bdabc514c638ba3154f86b22160d067af8807727bc58a5cc8634"
+                        },
+                        {
+                            "key": "video.1",
+                            "text": "パートを再生し、動く映像で拡大した構図を確認します。その後、設定をもう一度開きます。",
+                            "voiceSeconds": 18.259,
+                            "durationSeconds": 8.372,
+                            "sha256": "1ea519467e3d649c8f776373f405014644987c677272004596fdfed631092978"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "499f00ed4ae79d1d5938fa8c89434b1a26fe002d3396ab30791f2b86ba8ab7eb",
+                    "unnarratedDurationSeconds": 27.533333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 19.301,
+                        "seconds": 4.654,
+                        "crop": "1024:559:20:79",
+                        "changedFrames": 143,
+                        "encodedFps": 60,
+                        "frames": 280,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.75268817204301
+                    }
+                ],
+                "movingFps": 30.75268817204301,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "photo-capture": {
@@ -1600,7 +1886,7 @@
                     "flashSeconds": 0.8,
                     "holdSeconds": 3.0,
                     "previewSeconds": 4.301888,
-                    "videoSeconds": 12.986,
+                    "videoSeconds": 16.133,
                     "inputVideoSeconds": 11.456
                 },
                 {
@@ -1610,14 +1896,14 @@
                         0.6027753686036427
                     ],
                     "sequence": 61,
-                    "videoSeconds": 13.906
+                    "videoSeconds": 17.053
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-angle",
                     "value": "-12",
-                    "videoSeconds": 15.174,
-                    "inputVideoSeconds": 13.906
+                    "videoSeconds": 18.321,
+                    "inputVideoSeconds": 17.053
                 },
                 {
                     "event": "native-click",
@@ -1626,14 +1912,14 @@
                         0.6504770164787511
                     ],
                     "sequence": 62,
-                    "videoSeconds": 16.119
+                    "videoSeconds": 19.266
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-size",
                     "value": "76",
-                    "videoSeconds": 17.508,
-                    "inputVideoSeconds": 16.119
+                    "videoSeconds": 20.655,
+                    "inputVideoSeconds": 19.266
                 },
                 {
                     "event": "native-click",
@@ -1642,14 +1928,14 @@
                         0.6981786643538596
                     ],
                     "sequence": 63,
-                    "videoSeconds": 18.446
+                    "videoSeconds": 21.593
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-border-width",
                     "value": "16",
-                    "videoSeconds": 19.858,
-                    "inputVideoSeconds": 18.446
+                    "videoSeconds": 23.005,
+                    "inputVideoSeconds": 21.593
                 },
                 {
                     "event": "native-click",
@@ -1658,7 +1944,7 @@
                         0.40112749349522986
                     ],
                     "sequence": 64,
-                    "videoSeconds": 20.707
+                    "videoSeconds": 23.854
                 },
                 {
                     "event": "action",
@@ -1669,8 +1955,8 @@
                         0.6651769210863564,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 21.983,
-                    "inputVideoSeconds": 20.707
+                    "videoSeconds": 25.13,
+                    "inputVideoSeconds": 23.854
                 },
                 {
                     "event": "native-click",
@@ -1679,7 +1965,7 @@
                         0.9653078924544666
                     ],
                     "sequence": 65,
-                    "videoSeconds": 24.868
+                    "videoSeconds": 28.015
                 },
                 {
                     "event": "action",
@@ -1690,8 +1976,8 @@
                         0.6651769210863564,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 26.15,
-                    "inputVideoSeconds": 24.868
+                    "videoSeconds": 29.297,
+                    "inputVideoSeconds": 28.015
                 },
                 {
                     "event": "native-click",
@@ -1700,7 +1986,7 @@
                         0.13876843018213356
                     ],
                     "sequence": 66,
-                    "videoSeconds": 26.991
+                    "videoSeconds": 30.138
                 },
                 {
                     "event": "action",
@@ -1711,8 +1997,8 @@
                         0.6651769210863564,
                         0.852558542931483
                     ],
-                    "videoSeconds": 28.343,
-                    "inputVideoSeconds": 26.991
+                    "videoSeconds": 31.49,
+                    "inputVideoSeconds": 30.138
                 },
                 {
                     "event": "native-click",
@@ -1721,7 +2007,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 67,
-                    "videoSeconds": 28.654
+                    "videoSeconds": 31.801
                 },
                 {
                     "event": "native-click",
@@ -1730,7 +2016,7 @@
                         0.7278023924087299
                     ],
                     "sequence": 68,
-                    "videoSeconds": 29.535
+                    "videoSeconds": 32.682
                 },
                 {
                     "event": "action",
@@ -1741,42 +2027,42 @@
                         0.6651769210863564,
                         0.852558542931483
                     ],
-                    "videoSeconds": 30.859,
-                    "inputVideoSeconds": 29.535
+                    "videoSeconds": 34.006,
+                    "inputVideoSeconds": 32.682
                 }
             ],
             "captions": [
                 [
-                    0.12037149999741814,
-                    "写真キャプチャを開き、この動画パートで有効にします。"
+                    0.12,
+                    "「写真撮影」を開き、この動画パートで有効にします。"
                 ],
                 [
-                    4.40731699999742,
-                    "撮影時刻、短いフラッシュ、3秒間の写真表示を設定します。"
+                    4.407,
+                    "撮影のタイミングを選び、短いフラッシュと3秒間の写真表示を設定します。"
                 ],
                 [
-                    11.140789199998835,
-                    "再生位置を撮影時刻より後の写真表示中へ移し、調整結果を見ます。"
+                    11.141,
+                    "再生位置を写真が静止表示される区間に移し、変更を確認します。"
                 ],
                 [
-                    12.986038399998506,
+                    16.133,
                     "写真を傾けて小さくし、白い枠を付けます。"
                 ],
                 [
-                    21.983465499997692,
-                    "カスタムフレームで撮影範囲を選びます。適用で切り抜きを確定します。"
+                    25.13,
+                    "「カスタムフレーム」で撮影範囲を選び、「適用」で切り抜きを確定します。"
                 ],
                 [
-                    28.675051399997756,
-                    "再生すると、フラッシュ、傾いた枠付き写真、動く映像の順に表示されます。"
+                    31.822,
+                    "「再生」を押すと、フラッシュの後に傾いた枠付き写真が静止表示され、映像が再び動き出します。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 41.95,
+            "duration": 45.1,
             "height": 970,
-            "sha256": "2e33f09a38c69923c87b8d1c7ea25f2dc182c46c4beaeed773570e580f6b122b",
-            "size": 14998519,
+            "sha256": "4cc56cf22378f8dafcd74b25018a06113fb20b78f6f61ac6ff2808fb1436c98a",
+            "size": 17523769,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1786,33 +2072,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 29.985,
-                        "seconds": 1.6,
-                        "crop": "1024:559:20:79",
-                        "changedFrames": 49,
-                        "encodedFps": 60,
-                        "frames": 95,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 31.27659574468085
-                    },
-                    {
-                        "startSeconds": 35.835,
-                        "seconds": 5.915,
-                        "crop": "1024:559:20:79",
-                        "changedFrames": 189,
-                        "encodedFps": 60,
-                        "frames": 354,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 32.124645892351275
-                    }
-                ],
-                "movingFps": 31.27659574468085,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:42.139592+00:00",
@@ -1825,7 +2084,98 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "01dc8b705d3d4687119f51e8698683303b2c4da70da280e3e4924724160d926e",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 17.925
+                "startSeconds": 17.925,
+                "narration": {
+                    "createdAt": "2026-10-29T12:25:10.233268+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "photo.6",
+                            "text": "「写真撮影」を開き、この動画パートで有効にします。",
+                            "voiceSeconds": 0.37,
+                            "durationSeconds": 3.604,
+                            "sha256": "0961b23a21942bf765c0d366b2cb215a7dffd0c2583bf8f0c2ee05fa9be58fbe"
+                        },
+                        {
+                            "key": "photo.5",
+                            "text": "撮影のタイミングを選び、短いフラッシュと3秒間の写真表示を設定します。",
+                            "voiceSeconds": 4.657,
+                            "durationSeconds": 5.197,
+                            "sha256": "64b6542cebfe33533a09729cb2730d0566abcd6da7cd87244871473690fb8b85"
+                        },
+                        {
+                            "key": "photo.1",
+                            "text": "再生位置を写真が静止表示される区間に移し、変更を確認します。",
+                            "voiceSeconds": 11.391,
+                            "durationSeconds": 4.392,
+                            "sha256": "413c32e9ab95caeac8252b142c8282a38f6ef0c36b9cfe79cebce4766512e0b2"
+                        },
+                        {
+                            "key": "photo.4",
+                            "text": "写真を傾けて小さくし、白い枠を付けます。",
+                            "voiceSeconds": 16.383,
+                            "durationSeconds": 3.624,
+                            "sha256": "afbafa0bd47f54d5bd26a072505fa020e99bc021793dbfdc62c45e4ccd182692"
+                        },
+                        {
+                            "key": "photo.3",
+                            "text": "「カスタムフレーム」で撮影範囲を選び、「適用」で切り抜きを確定します。",
+                            "voiceSeconds": 25.38,
+                            "durationSeconds": 4.879,
+                            "sha256": "4ebc96cf82135a4eb962a78d4b1b65dd583a660fe0c0636fe89401af392f498e"
+                        },
+                        {
+                            "key": "photo.2",
+                            "text": "「再生」を押すと、フラッシュの後に傾いた枠付き写真が静止表示され、映像が再び動き出します。",
+                            "voiceSeconds": 32.072,
+                            "durationSeconds": 6.986,
+                            "sha256": "e77ad3477196f887d58e3de98453c9d9091dad6dbfe18be9ea3769cf9067a9b6"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 12.986,
+                            "seconds": 3.147
+                        }
+                    ],
+                    "unnarratedSha256": "2e33f09a38c69923c87b8d1c7ea25f2dc182c46c4beaeed773570e580f6b122b",
+                    "unnarratedDurationSeconds": 41.95,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 33.132,
+                        "seconds": 1.6,
+                        "crop": "1024:559:20:79",
+                        "changedFrames": 49,
+                        "encodedFps": 60,
+                        "frames": 96,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 30.947368421052634
+                    },
+                    {
+                        "startSeconds": 38.982,
+                        "seconds": 5.918,
+                        "crop": "1024:559:20:79",
+                        "changedFrames": 190,
+                        "encodedFps": 60,
+                        "frames": 356,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 32.112676056338024
+                    }
+                ],
+                "movingFps": 30.947368421052634,
+                "maximumStillSeconds": 0.05
             }
         },
         "export-frame": {
@@ -1858,7 +2208,7 @@
                 {
                     "event": "action",
                     "key": "select-export-frame",
-                    "videoSeconds": 3.966,
+                    "videoSeconds": 6.701,
                     "inputVideoSeconds": 2.609
                 },
                 {
@@ -1868,13 +2218,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 71,
-                    "videoSeconds": 6.343
+                    "videoSeconds": 9.078
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 7.607,
-                    "inputVideoSeconds": 6.343
+                    "videoSeconds": 10.342,
+                    "inputVideoSeconds": 9.078
                 },
                 {
                     "event": "native-click",
@@ -1883,13 +2233,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 72,
-                    "videoSeconds": 8.439
+                    "videoSeconds": 11.174
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 9.698,
-                    "inputVideoSeconds": 8.439
+                    "videoSeconds": 12.433,
+                    "inputVideoSeconds": 11.174
                 },
                 {
                     "event": "native-click",
@@ -1898,13 +2248,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 73,
-                    "videoSeconds": 10.547
+                    "videoSeconds": 13.282
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-export",
-                    "videoSeconds": 11.892,
-                    "inputVideoSeconds": 10.547
+                    "videoSeconds": 14.627,
+                    "inputVideoSeconds": 13.282
                 },
                 {
                     "event": "native-click",
@@ -1913,13 +2263,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 74,
-                    "videoSeconds": 14.76
+                    "videoSeconds": 17.495
                 },
                 {
                     "event": "action",
                     "key": "still-export-start",
-                    "videoSeconds": 16.005,
-                    "inputVideoSeconds": 14.76
+                    "videoSeconds": 21.475,
+                    "inputVideoSeconds": 17.495
                 },
                 {
                     "event": "native-click",
@@ -1928,7 +2278,7 @@
                         0.030355594102341718
                     ],
                     "sequence": 75,
-                    "videoSeconds": 19.888
+                    "videoSeconds": 25.358
                 },
                 {
                     "event": "action",
@@ -1939,34 +2289,34 @@
                         0.6651769210863564,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 21.23,
-                    "inputVideoSeconds": 19.888
+                    "videoSeconds": 26.7,
+                    "inputVideoSeconds": 25.358
                 }
             ],
             "captions": [
                 [
-                    0.17721369999708259,
-                    "動画の選択ページでフレームを書き出すを押すと、再生位置からすべてのフレームが表示されます。"
+                    0.177,
+                    "「選択」ページで再生位置を合わせ、「フレームを書き出す」を開いてフレームを表示します。"
                 ],
                 [
-                    3.967477799997141,
-                    "次のフレームで1枚ずつ進め、最も鮮明な画像を探します。"
+                    6.702,
+                    "「次のフレーム」で1枚ずつ進め、最も鮮明な画像を探します。"
                 ],
                 [
-                    9.699106199997914,
-                    "このフレームを書き出すで、元のサイズのPNGとして保存します。この例は用意したフォルダーに保存します。"
+                    12.434,
+                    "「書き出し」で、このフレームを元のサイズのPNG画像として保存します。このデモでは、用意したフォルダーに保存します。"
                 ],
                 [
-                    16.00567239999873,
-                    "フレームが画像として保存されました。フォルダーで表示で保存場所を開きます。"
+                    21.476,
+                    "フレームが保存されました。「フレームを選択」を閉じると、「選択」ページに戻ります。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.916667,
+            "duration": 28.721,
             "height": 970,
-            "sha256": "cce9a703aa31805d9cfec69e4538e4ce8c57c6d6fcaa16aacef259197ac0b42c",
-            "size": 5167102,
+            "sha256": "22ddda339d6ee54977302068a986e85389c0ea87dd8a595e370df95d559cce50",
+            "size": 8638740,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1988,7 +2338,66 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "4b7a0ea3ff7f4afaba60d84cb150a9faeb32f05fee1639a35ffd410667503e6b",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 59.022
+                "startSeconds": 55.541,
+                "narration": {
+                    "createdAt": "2026-10-29T12:25:41.740810+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "exportFrame.4",
+                            "text": "「選択」ページで再生位置を合わせ、「フレームを書き出す」を開いてフレームを表示します。",
+                            "voiceSeconds": 0.427,
+                            "durationSeconds": 5.925,
+                            "sha256": "a6a68ef79c704539e74593f70a962a5691e2457546c9b73ef9b42eb0fbc2e0cc"
+                        },
+                        {
+                            "key": "exportFrame.3",
+                            "text": "「次のフレーム」で1枚ずつ進め、最も鮮明な画像を探します。",
+                            "voiceSeconds": 6.952,
+                            "durationSeconds": 4.276,
+                            "sha256": "c41219dc853541761a62d0a5846284dd275d07c501f2424ea53dd65c238d6ada"
+                        },
+                        {
+                            "key": "exportFrame.2",
+                            "text": "「書き出し」で、このフレームを元のサイズのPNG画像として保存します。このデモでは、用意したフォルダーに保存します。",
+                            "voiceSeconds": 12.684,
+                            "durationSeconds": 8.442,
+                            "sha256": "9a4b0179e553b70773a051cc697cade7b303d523ee482daf2cd1e15bf3f53fba"
+                        },
+                        {
+                            "key": "exportFrame.1",
+                            "text": "フレームが保存されました。「フレームを選択」を閉じると、「選択」ページに戻ります。",
+                            "voiceSeconds": 21.726,
+                            "durationSeconds": 6.395,
+                            "sha256": "c85940883a74809539d7bee1596fb859407b4f2090a3c57b8570290a8be45aee"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 3.967,
+                            "seconds": 2.735
+                        },
+                        {
+                            "atSeconds": 16.006,
+                            "seconds": 2.735
+                        },
+                        {
+                            "atSeconds": 22.917,
+                            "seconds": 0.334
+                        }
+                    ],
+                    "unnarratedSha256": "cce9a703aa31805d9cfec69e4538e4ce8c57c6d6fcaa16aacef259197ac0b42c",
+                    "unnarratedDurationSeconds": 22.916667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "musicStartMovedFromSeconds": 59.022,
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "split": {
@@ -2342,28 +2751,28 @@
             ],
             "captions": [
                 [
-                    0.18358019999868702,
-                    "追加、分割の順に選び、リール内の位置を決めます。"
+                    0.184,
+                    "「追加」、「分割」の順に選び、リール内の位置を決めます。"
                 ],
                 [
-                    6.573175599998649,
-                    "左右は2本の動画を同時に表示します。1つ目のセルの動画とパートを選びます。"
+                    6.573,
+                    "「左右」を選んで2本の動画を同時に表示し、1つ目のセルの動画とパートを選びます。"
                 ],
                 [
-                    18.043802099997265,
-                    "各セルに専用の選択ページがあります。2つ目のセルには別の場面を選びます。"
+                    18.044,
+                    "各セルに専用の「選択」ページがあります。2つ目のセルには別の場面を選びます。"
                 ],
                 [
-                    27.27890059999845,
-                    "分割を再生します。2つのパートが1つの画面で同時に動きます。"
+                    27.279,
+                    "「分割」を再生すると、2つのパートが1つの画面で同時に動きます。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 37.816667,
+            "duration": 37.817,
             "height": 970,
-            "sha256": "3e2dca73db6c290d7f076cb51bef14c61e52a070176f7a148319f227ed428187",
-            "size": 21388506,
+            "sha256": "6a46733c7d17a4a00e20182de0b34ce65fad6f5abffb414e841b19e43dd29e41",
+            "size": 21204633,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2373,23 +2782,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 28.572,
-                        "seconds": 5.3,
-                        "crop": "1135:621:28:152",
-                        "changedFrames": 188,
-                        "encodedFps": 60,
-                        "frames": 317,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 35.69620253164557
-                    }
-                ],
-                "movingFps": 35.69620253164557,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:44.078374+00:00",
@@ -2402,7 +2794,69 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "fa380ea473f4b02a57143f1e71d12696aa3057b6d464bb0dd271f386167aa18b",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 25.159
+                "startSeconds": 25.159,
+                "narration": {
+                    "createdAt": "2026-10-29T12:26:16.480383+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "split.4",
+                            "text": "「追加」、「分割」の順に選び、リール内の位置を決めます。",
+                            "voiceSeconds": 0.434,
+                            "durationSeconds": 4.198,
+                            "sha256": "f98cdcbfc2f1094bd9ba83401a3c8a1b87b27c9f76ce9e01b41ddc09e960e4c2"
+                        },
+                        {
+                            "key": "split.3",
+                            "text": "「左右」を選んで2本の動画を同時に表示し、1つ目のセルの動画とパートを選びます。",
+                            "voiceSeconds": 6.823,
+                            "durationSeconds": 6.195,
+                            "sha256": "c239703a83133481e7b4ac7582df1a1ed517d232490b883c75bd5c54ea5450d8"
+                        },
+                        {
+                            "key": "split.2",
+                            "text": "各セルに専用の「選択」ページがあります。2つ目のセルには別の場面を選びます。",
+                            "voiceSeconds": 18.294,
+                            "durationSeconds": 5.763,
+                            "sha256": "febbd2ba2d043456d8ad4438d92754fb2332e391708aa19e32aab3e084c99448"
+                        },
+                        {
+                            "key": "split.1",
+                            "text": "「分割」を再生すると、2つのパートが1つの画面で同時に動きます。",
+                            "voiceSeconds": 27.529,
+                            "durationSeconds": 5.956,
+                            "sha256": "e7612334423e39f04f723a307cb5b5a98317dcb0db565f98b707386439647dd4"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "3e2dca73db6c290d7f076cb51bef14c61e52a070176f7a148319f227ed428187",
+                    "unnarratedDurationSeconds": 37.816667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 28.572,
+                        "seconds": 5.3,
+                        "crop": "1135:621:28:152",
+                        "changedFrames": 188,
+                        "encodedFps": 60,
+                        "frames": 318,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 35.58359621451104
+                    }
+                ],
+                "movingFps": 35.58359621451104,
+                "maximumStillSeconds": 0.05
             }
         },
         "audio": {
@@ -2419,7 +2873,7 @@
                 {
                     "event": "action",
                     "key": "editor-top-audio",
-                    "videoSeconds": 2.161,
+                    "videoSeconds": 5.684,
                     "inputVideoSeconds": 0.911
                 },
                 {
@@ -2430,7 +2884,7 @@
                         0.909783242478747
                     ],
                     "sequence": 95,
-                    "videoSeconds": 4.002
+                    "videoSeconds": 7.525
                 },
                 {
                     "event": "native-click",
@@ -2439,7 +2893,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 96,
-                    "videoSeconds": 8.012
+                    "videoSeconds": 16.204
                 },
                 {
                     "event": "action",
@@ -2450,8 +2904,8 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 9.293,
-                    "inputVideoSeconds": 8.012
+                    "videoSeconds": 17.485,
+                    "inputVideoSeconds": 16.204
                 },
                 {
                     "event": "native-click",
@@ -2460,7 +2914,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 97,
-                    "videoSeconds": 15.163
+                    "videoSeconds": 23.355
                 },
                 {
                     "event": "action",
@@ -2471,30 +2925,30 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 16.402,
-                    "inputVideoSeconds": 15.163
+                    "videoSeconds": 24.594,
+                    "inputVideoSeconds": 23.355
                 }
             ],
             "captions": [
                 [
-                    0.05423090000113007,
-                    "左のサイドバーでオーディオを開き、ナレーションなどの録音をこのリールだけに追加します。"
+                    0.054,
+                    "左の「オーディオ」を開き、ナレーションなどの録音をこのリールに追加します。"
                 ],
                 [
-                    2.1611999000015203,
-                    "Windowsのファイルから録音を選びます。ファイル選択画面はこの録画の範囲外です。"
+                    5.684,
+                    "「ファイル」を選び、Windowsのファイル選択画面で録音を選びます。この画面は、この動画には映っていません。"
                 ],
                 [
-                    5.643885699999373,
-                    "録音は映像の下に専用のレーンを持ちます。再生してリールと一緒に聞きます。"
+                    13.836,
+                    "録音は映像の下の専用レーンに追加されます。再生すると、リールと一緒に録音を聞けます。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 18.183333,
+            "duration": 26.375,
             "height": 970,
-            "sha256": "de13f36b715f01b9ece624e1564f4d03a67ce840523ecd02b66ea0e6e5b7ed91",
-            "size": 10354725,
+            "sha256": "15383edbf848a0264822c36a838f6961f9d4d9c444f451d5348b54c2b01b1e80",
+            "size": 12298024,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2504,23 +2958,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 8.762,
-                        "seconds": 6.251,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 197,
-                        "encodedFps": 60,
-                        "frames": 376,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 31.52
-                    }
-                ],
-                "movingFps": 31.52,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:44.877874+00:00",
@@ -2533,7 +2970,71 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "ba5171f17035e9cb991e72bb9ff8ce7b503d567fd87ed8a4c4c2bc4910ac1367",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 49.642
+                "startSeconds": 49.642,
+                "narration": {
+                    "createdAt": "2026-10-29T12:26:37.236531+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "audio.3",
+                            "text": "左の「オーディオ」を開き、ナレーションなどの録音をこのリールに追加します。",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 4.984,
+                            "sha256": "79808002d4d06987b8fdc867d9ed8dbc077dcbfa26521e08448fee3a9cc96cb7"
+                        },
+                        {
+                            "key": "audio.2",
+                            "text": "「ファイル」を選び、Windowsのファイル選択画面で録音を選びます。この画面は、この動画には映っていません。",
+                            "voiceSeconds": 5.934,
+                            "durationSeconds": 7.552,
+                            "sha256": "a1e4367746fcfbac28909f9313fbb631dcd69c103e4990ae754ab15c01603e1f"
+                        },
+                        {
+                            "key": "audio.1",
+                            "text": "録音は映像の下の専用レーンに追加されます。再生すると、リールと一緒に録音を聞けます。",
+                            "voiceSeconds": 14.086,
+                            "durationSeconds": 7.166,
+                            "sha256": "8ec75595ac29743bc51d9973a802834cea94eafa79310dfa5ec1f1dd73ff3a88"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 2.161,
+                            "seconds": 3.523
+                        },
+                        {
+                            "atSeconds": 5.644,
+                            "seconds": 4.669
+                        }
+                    ],
+                    "unnarratedSha256": "de13f36b715f01b9ece624e1564f4d03a67ce840523ecd02b66ea0e6e5b7ed91",
+                    "unnarratedDurationSeconds": 18.183333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 16.954,
+                        "seconds": 6.251,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 197,
+                        "encodedFps": 60,
+                        "frames": 376,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 31.52
+                    }
+                ],
+                "movingFps": 31.52,
+                "maximumStillSeconds": 0.05
             }
         },
         "export": {
@@ -2650,28 +3151,28 @@
             ],
             "captions": [
                 [
-                    0.10255319999851054,
+                    0.103,
                     "保存と書き出しの前に、リール全体を音声付きで再生します。"
                 ],
                 [
-                    17.852444999996806,
-                    "保存は編集可能なプロジェクトを残します。金色の書き出しボタンは別の動画ファイルを作ります。"
+                    17.852,
+                    "「保存」で編集可能なプロジェクトを残します。金色の「書き出し」ボタンで、別の動画ファイルを作ります。"
                 ],
                 [
-                    28.38980459999948,
-                    "サイズ、品質、形式を選んで書き出します。この例は用意したフォルダーに保存します。"
+                    28.39,
+                    "サイズ、品質、形式を確認し、「書き出し」を押します。このデモでは、用意したフォルダーに保存します。"
                 ],
                 [
-                    43.813629299998865,
-                    "書き出した動画が完成しました。プロジェクトは後から編集できます。"
+                    43.814,
+                    "リールの書き出しが完了しました。「完了」でこの画面を閉じます。プロジェクトは後から編集できます。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 50.7,
+            "duration": 51.983008,
             "height": 970,
-            "sha256": "c9ccc6991e5987ce9a18c17910987604444f7e49dea4caaa09a687915842801d",
-            "size": 15139991,
+            "sha256": "2d0ec4ffee60aa394917593c6b61e8a2abfb601ef9abd216daff54e6f6bbca7f",
+            "size": 17650938,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2681,33 +3182,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 1.317,
-                        "seconds": 1.7,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 51,
-                        "encodedFps": 60,
-                        "frames": 101,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.599999999999998
-                    },
-                    {
-                        "startSeconds": 7.067,
-                        "seconds": 8.1,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 256,
-                        "encodedFps": 60,
-                        "frames": 485,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.735537190082646
-                    }
-                ],
-                "movingFps": 30.599999999999998,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:46.066380+00:00",
@@ -2720,7 +3194,84 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "49c9fa2ceb7961bdfda045c3e5b500cf6b98ce3d2435e6eea76fa545db385b0d",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 3.313
+                "startSeconds": 3.313,
+                "narration": {
+                    "createdAt": "2026-10-29T12:27:04.040843+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "export.4",
+                            "text": "保存と書き出しの前に、リール全体を音声付きで再生します。",
+                            "voiceSeconds": 0.353,
+                            "durationSeconds": 4.587,
+                            "sha256": "5b20f23434db537491c589b1fc8553748a5318a5a105ef6911521bc09cb3c462"
+                        },
+                        {
+                            "key": "export.3",
+                            "text": "「保存」で編集可能なプロジェクトを残します。金色の「書き出し」ボタンで、別の動画ファイルを作ります。",
+                            "voiceSeconds": 18.102,
+                            "durationSeconds": 7.126,
+                            "sha256": "9c5535b5bff0dca5dc26d349ef310a8ee0c2acae9dc8aa8b78761858d8a5f823"
+                        },
+                        {
+                            "key": "export.2",
+                            "text": "サイズ、品質、形式を確認し、「書き出し」を押します。このデモでは、用意したフォルダーに保存します。",
+                            "voiceSeconds": 28.64,
+                            "durationSeconds": 9.612,
+                            "sha256": "ceb8c8218eb244206943cbad17661263cfeef9d98a39e494c8891055a3472949"
+                        },
+                        {
+                            "key": "export.1",
+                            "text": "リールの書き出しが完了しました。「完了」でこの画面を閉じます。プロジェクトは後から編集できます。",
+                            "voiceSeconds": 44.064,
+                            "durationSeconds": 7.314,
+                            "sha256": "eb44d7d42a8b3b406d41bea30d8b5f844fe3e5672cfefbcfd9b81939ab39c00f"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 50.7,
+                            "seconds": 1.278
+                        }
+                    ],
+                    "unnarratedSha256": "c9ccc6991e5987ce9a18c17910987604444f7e49dea4caaa09a687915842801d",
+                    "unnarratedDurationSeconds": 50.7,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 1.317,
+                        "seconds": 1.7,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 51,
+                        "encodedFps": 60,
+                        "frames": 102,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.297029702970296
+                    },
+                    {
+                        "startSeconds": 7.067,
+                        "seconds": 8.1,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 256,
+                        "encodedFps": 60,
+                        "frames": 486,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.670103092783503
+                    }
+                ],
+                "movingFps": 30.297029702970296,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "auto": {
@@ -2763,13 +3314,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 106,
-                    "videoSeconds": 11.448
+                    "videoSeconds": 15.456
                 },
                 {
                     "event": "action",
                     "key": "auto-make",
-                    "videoSeconds": 12.747,
-                    "inputVideoSeconds": 11.448
+                    "videoSeconds": 16.755,
+                    "inputVideoSeconds": 15.456
                 },
                 {
                     "event": "native-click",
@@ -2778,7 +3329,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 107,
-                    "videoSeconds": 20.62
+                    "videoSeconds": 25.717
                 },
                 {
                     "event": "action",
@@ -2789,8 +3340,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 21.974,
-                    "inputVideoSeconds": 20.62
+                    "videoSeconds": 27.071,
+                    "inputVideoSeconds": 25.717
                 },
                 {
                     "event": "native-click",
@@ -2799,7 +3350,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 108,
-                    "videoSeconds": 28.824
+                    "videoSeconds": 33.921
                 },
                 {
                     "event": "action",
@@ -2810,8 +3361,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 30.093,
-                    "inputVideoSeconds": 28.824
+                    "videoSeconds": 35.19,
+                    "inputVideoSeconds": 33.921
                 },
                 {
                     "event": "shortened-analysis-wait",
@@ -2820,28 +3371,28 @@
             ],
             "captions": [
                 [
-                    0.08731589999661082,
-                    "パートを自動で選ぶで自動リールが開きます。別の始め方として、長さ、テンポ、分析精度を設定します。"
+                    0.087,
+                    "「パートを自動で選ぶ」からも「自動リール」を開けます。長さや音楽を設定できます。"
                 ],
                 [
-                    6.254062399999384,
-                    "自動の長さが尺を決めます。精度を下げると分析するサンプルが減ります。"
+                    6.254,
+                    "「長さを自動設定」で長さが決まります。精度を下げると、分析に使うサンプル数が減ります。"
                 ],
                 [
-                    10.613824599997315,
-                    "リール作成はこの端末で素材を分析します。この動画では待ち時間を短縮しています。"
+                    14.622,
+                    "「リールを作成」で、この端末上で素材を分析します。この動画では待ち時間を短縮しています。"
                 ],
                 [
-                    17.75690709999617,
-                    "生成されたパートを確認し、書き出す前に下書きを再生します。"
+                    22.854,
+                    "リールに各パートが入り、下書きができました。書き出す前に再生します。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 31.883333,
+            "duration": 36.98,
             "height": 970,
-            "sha256": "9e885cf1ce86a4457b61c3665ff24699c7064a11190a01a907542c3609169b25",
-            "size": 4823067,
+            "sha256": "4498544b94d1cb7c73be14c42f505eae640e6d7426efb170eee619bd98d4e9a7",
+            "size": 8972837,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2851,23 +3402,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 20.97,
-                        "seconds": 4.4,
-                        "crop": "950:517:599:83",
-                        "changedFrames": 139,
-                        "encodedFps": 60,
-                        "frames": 263,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.83206106870229
-                    }
-                ],
-                "movingFps": 31.83206106870229,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:46.921624+00:00",
@@ -2880,7 +3414,78 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "5fd85d9423ee7a73781f0cfbdfe9250f3fbb715e4b806e31b3840486250d452d",
                 "randomSeed": "1334820435970905283",
-                "startSeconds": 30.064
+                "startSeconds": 30.064,
+                "narration": {
+                    "createdAt": "2026-10-29T12:27:36.055484+00:00",
+                    "provider": "Deepgram",
+                    "model": "aura-2-izanami-ja",
+                    "lines": [
+                        {
+                            "key": "auto.5",
+                            "text": "「パートを自動で選ぶ」からも「自動リール」を開けます。長さや音楽を設定できます。",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.356,
+                            "sha256": "4260b3f37a000f36df58380a744e39fe13b265a16c17753ff1b3d6b249b4c18b"
+                        },
+                        {
+                            "key": "auto.4",
+                            "text": "「長さを自動設定」で長さが決まります。精度を下げると、分析に使うサンプル数が減ります。",
+                            "voiceSeconds": 6.504,
+                            "durationSeconds": 7.768,
+                            "sha256": "188bf7d69052a1445c47f5a6172708e19a8a37fe3d6df61f22aa1c8a1a3ebcdd"
+                        },
+                        {
+                            "key": "auto.3",
+                            "text": "「リールを作成」で、この端末上で素材を分析します。この動画では待ち時間を短縮しています。",
+                            "voiceSeconds": 14.872,
+                            "durationSeconds": 7.632,
+                            "sha256": "c0345a64b01cec62e35a08511be0f6d2dff022282fa2a41bc3d8ce97af44914f"
+                        },
+                        {
+                            "key": "auto.2",
+                            "text": "リールに各パートが入り、下書きができました。書き出す前に再生します。",
+                            "voiceSeconds": 23.104,
+                            "durationSeconds": 4.918,
+                            "sha256": "292d6dd505d30e5bed864847ef2a1f6c001ec1728357a39526d9abec3d904062"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 10.614,
+                            "seconds": 4.008
+                        },
+                        {
+                            "atSeconds": 17.757,
+                            "seconds": 1.089
+                        }
+                    ],
+                    "unnarratedSha256": "9e885cf1ce86a4457b61c3665ff24699c7064a11190a01a907542c3609169b25",
+                    "unnarratedDurationSeconds": 31.883333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 26.067,
+                        "seconds": 4.4,
+                        "crop": "950:517:599:83",
+                        "changedFrames": 139,
+                        "encodedFps": 60,
+                        "frames": 264,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.71102661596958
+                    }
+                ],
+                "movingFps": 31.71102661596958,
+                "maximumStillSeconds": 0.06666666666666667
             }
         }
     },
