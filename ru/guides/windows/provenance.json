@@ -37,7 +37,7 @@
                         0.6470820189274448,
                         0.6454900260190807
                     ],
-                    "videoSeconds": 4.902,
+                    "videoSeconds": 6.529,
                     "inputVideoSeconds": 3.518
                 },
                 {
@@ -47,13 +47,13 @@
                         0.29054640069384213
                     ],
                     "sequence": 3,
-                    "videoSeconds": 5.734
+                    "videoSeconds": 7.361
                 },
                 {
                     "event": "action",
                     "key": "reel-add-empty",
-                    "videoSeconds": 6.991,
-                    "inputVideoSeconds": 5.734
+                    "videoSeconds": 8.618,
+                    "inputVideoSeconds": 7.361
                 },
                 {
                     "event": "native-click",
@@ -62,13 +62,13 @@
                         0.2992194275802255
                     ],
                     "sequence": 4,
-                    "videoSeconds": 7.826
+                    "videoSeconds": 9.453
                 },
                 {
                     "event": "action",
                     "key": "add-media-video",
-                    "videoSeconds": 9.048,
-                    "inputVideoSeconds": 7.826
+                    "videoSeconds": 10.675,
+                    "inputVideoSeconds": 9.453
                 },
                 {
                     "event": "native-click",
@@ -78,29 +78,29 @@
                         0.9107437126551725
                     ],
                     "sequence": 5,
-                    "videoSeconds": 9.369
+                    "videoSeconds": 10.996
                 }
             ],
             "captions": [
                 [
-                    0.577036800001224,
-                    "Создайте ручной монтаж и выберите пустой проект."
+                    0.577,
+                    "Выберите «Ручной монтаж», затем «Начать с пустого проекта», чтобы создать новый ролик."
                 ],
                 [
-                    4.902483699999721,
-                    "Добавьте видео через файлы Windows. Окно выбора файлов не входит в запись приложения."
+                    6.529,
+                    "Нажмите «Добавить», чтобы добавить видео, и выберите его в окне выбора файлов Windows. В этом видео окно не показано."
                 ],
                 [
-                    10.987586499999452,
-                    "Импортированный источник готов. Нажмите Выбрать и отметьте моменты для ролика."
+                    15.609,
+                    "Видео добавлено как источник ролика. Фрагменты пока не выбраны."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 16.133333,
+            "duration": 20.766016,
             "height": 970,
-            "sha256": "b925e9acaf8f9afef21c75211956833f85a98222b3b96911396d598951e29f4d",
-            "size": 1387067,
+            "sha256": "120e1bacf19d9d20d6f1600738cbf0f5cb35b913424b0038e1f6579ff1498762",
+            "size": 2090997,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -122,7 +122,55 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "75e34d17dab7f970be70d28ced814dd7420a6fb7e0205c25aef263882fb13d68",
                 "randomSeed": "7948859601248132958",
-                "startSeconds": 63.572
+                "startSeconds": 63.508,
+                "narration": {
+                    "createdAt": "2026-10-29T13:07:08.590245+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "home.3",
+                            "text": "Выберите «Ручной монтаж», затем «Начать с пустого проекта», чтобы создать новый ролик.",
+                            "voiceSeconds": 0.827,
+                            "durationSeconds": 5.352,
+                            "sha256": "8c98c805d7810fa560302c13be5534c4fa412e6979ff5b5b7b74283e77f03855"
+                        },
+                        {
+                            "key": "home.2",
+                            "text": "Нажмите «Добавить», чтобы добавить видео, и выберите его в окне выбора файлов Windows. В этом видео окно не показано.",
+                            "voiceSeconds": 6.779,
+                            "durationSeconds": 8.479,
+                            "sha256": "c3a7ea67dffb5a9328607eecc046e789c184748e080e540c73ee391130d1aa3f"
+                        },
+                        {
+                            "key": "home.1",
+                            "text": "Видео добавлено как источник ролика. Фрагменты пока не выбраны.",
+                            "voiceSeconds": 15.859,
+                            "durationSeconds": 3.793,
+                            "sha256": "45a7e3440fae5d3fa9e0135fa1ce79b8e35246b50477d385e850756989ef816d"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 4.902,
+                            "seconds": 1.627
+                        },
+                        {
+                            "atSeconds": 10.988,
+                            "seconds": 2.994
+                        }
+                    ],
+                    "unnarratedSha256": "b925e9acaf8f9afef21c75211956833f85a98222b3b96911396d598951e29f4d",
+                    "unnarratedDurationSeconds": 16.133333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "musicStartMovedFromSeconds": 63.572,
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "select": {
@@ -208,14 +256,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 10,
-                    "videoSeconds": 8.102
+                    "videoSeconds": 8.85
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 10.0,
-                    "videoSeconds": 9.446,
-                    "inputVideoSeconds": 8.102
+                    "videoSeconds": 10.194,
+                    "inputVideoSeconds": 8.85
                 },
                 {
                     "event": "native-click",
@@ -224,7 +272,7 @@
                         0.853642671292281
                     ],
                     "sequence": 11,
-                    "videoSeconds": 10.285
+                    "videoSeconds": 11.033
                 },
                 {
                     "event": "action",
@@ -235,8 +283,8 @@
                         0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 11.568,
-                    "inputVideoSeconds": 10.285
+                    "videoSeconds": 12.316,
+                    "inputVideoSeconds": 11.033
                 },
                 {
                     "event": "native-click",
@@ -245,14 +293,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 12,
-                    "videoSeconds": 11.883
+                    "videoSeconds": 12.631
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 13.0,
-                    "videoSeconds": 13.221,
-                    "inputVideoSeconds": 11.883
+                    "videoSeconds": 13.969,
+                    "inputVideoSeconds": 12.631
                 },
                 {
                     "event": "native-click",
@@ -261,7 +309,7 @@
                         0.030355594102341718
                     ],
                     "sequence": 13,
-                    "videoSeconds": 14.103
+                    "videoSeconds": 14.851
                 },
                 {
                     "event": "action",
@@ -272,8 +320,8 @@
                         0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 15.405,
-                    "inputVideoSeconds": 14.103
+                    "videoSeconds": 16.153,
+                    "inputVideoSeconds": 14.851
                 },
                 {
                     "event": "native-click",
@@ -282,7 +330,7 @@
                         0.6969861231569818
                     ],
                     "sequence": 14,
-                    "videoSeconds": 16.252
+                    "videoSeconds": 17.0
                 },
                 {
                     "event": "action",
@@ -293,8 +341,8 @@
                         0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 17.576,
-                    "inputVideoSeconds": 16.252
+                    "videoSeconds": 18.324,
+                    "inputVideoSeconds": 17.0
                 },
                 {
                     "event": "native-click",
@@ -303,7 +351,7 @@
                         0.6969861231569818
                     ],
                     "sequence": 15,
-                    "videoSeconds": 22.452
+                    "videoSeconds": 23.2
                 },
                 {
                     "event": "action",
@@ -314,26 +362,26 @@
                         0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 23.814,
-                    "inputVideoSeconds": 22.452
+                    "videoSeconds": 24.562,
+                    "inputVideoSeconds": 23.2
                 }
             ],
             "captions": [
                 [
-                    0.18045160000110627,
-                    "Нажмите Выбрать, щёлкните начало момента, нажмите плюс, затем щёлкните его конец."
+                    0.18,
+                    "Нажмите «Выбрать», щёлкните там, где начинается нужный момент, нажмите кнопку «плюс», затем щёлкните там, где он заканчивается."
                 ],
                 [
-                    7.782967300001474,
-                    "Выберите второй момент. Предпросмотр показывает только выбранные части, пропуская промежуток."
+                    8.531,
+                    "Выберите второй момент. «Предпросмотр» воспроизводит только выбранные фрагменты, пропуская промежуток."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 25.433333,
+            "duration": 26.183008,
             "height": 970,
-            "sha256": "4378a82425de9210235a4dd13ddbe62f4e8c6e60928c58fba0a507be6ed6d0b5",
-            "size": 11678216,
+            "sha256": "22f92ee64773504e331a8761d055985c88941d2d71356cad58749b69c8e1bf6d",
+            "size": 13601340,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -343,32 +391,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 16.552,
-                        "seconds": 5.75,
-                        "crop": "971:529:20:79",
-                        "changedFrames": 179,
-                        "encodedFps": 60,
-                        "frames": 344,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 31.311953352769677
-                    }
-                ],
-                "movingFps": 31.311953352769677,
-                "maximumStillSeconds": 0.05,
-                "sourceClock": {
-                    "confidenceMinimum": 0.9903485774993896,
-                    "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.05,
-                    "movingFps": 30.962099125364432,
-                    "originalFrameConfidenceMinimum": 0.9881292581558228,
-                    "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 0.9956268072128296
-                }
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:20.771098+00:00",
@@ -381,7 +403,69 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "290547171b7b39f48b8f608fe5ae5ebc2da5f41330f9aa966e3243452e820dbf",
                 "randomSeed": "7948859601248132958",
-                "startSeconds": 32.001
+                "startSeconds": 32.001,
+                "narration": {
+                    "createdAt": "2026-10-29T13:07:16.455981+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "select.2",
+                            "text": "Нажмите «Выбрать», щёлкните там, где начинается нужный момент, нажмите кнопку «плюс», затем щёлкните там, где он заканчивается.",
+                            "voiceSeconds": 0.43,
+                            "durationSeconds": 7.751,
+                            "sha256": "6707ab7ab85ab9b83353ec80cb5dd91093965da0f344db176fe39e07de1fc8f0"
+                        },
+                        {
+                            "key": "select.1",
+                            "text": "Выберите второй момент. «Предпросмотр» воспроизводит только выбранные фрагменты, пропуская промежуток.",
+                            "voiceSeconds": 8.781,
+                            "durationSeconds": 7.481,
+                            "sha256": "851336e388448c124ee45e1965b2133ebeec0717d62a9ff5d5816cd3fa9af670"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 7.783,
+                            "seconds": 0.748
+                        }
+                    ],
+                    "unnarratedSha256": "4378a82425de9210235a4dd13ddbe62f4e8c6e60928c58fba0a507be6ed6d0b5",
+                    "unnarratedDurationSeconds": 25.433333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 17.3,
+                        "seconds": 5.75,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 180,
+                        "encodedFps": 60,
+                        "frames": 345,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 31.3953488372093
+                    }
+                ],
+                "movingFps": 31.3953488372093,
+                "maximumStillSeconds": 0.05,
+                "sourceClock": {
+                    "confidenceMinimum": 0.9903684258460999,
+                    "matching": "original source frames or adjacent-frame interpolation",
+                    "maximumStillSeconds": 0.05,
+                    "movingFps": 31.046511627906977,
+                    "originalFrameConfidenceMinimum": 0.9881390929222107,
+                    "sourceFps": 30,
+                    "sourceSecondsPerRecordedSecond": 1.0
+                }
             }
         },
         "text": {
@@ -555,20 +639,20 @@
             ],
             "captions": [
                 [
-                    0.15610949999972945,
-                    "Добавьте слова поверх изображения после выбранной части."
+                    0.156,
+                    "После выбранного фрагмента добавьте текст поверх изображения, затем введите нужные слова."
                 ],
                 [
-                    8.942512899997382,
-                    "Кадры продолжают двигаться в предпросмотре, пока поверх них появляется заголовок."
+                    8.943,
+                    "В «Предпросмотре» видео продолжает воспроизводиться, а поверх него появляется заголовок."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 19.316667,
+            "duration": 19.317,
             "height": 970,
-            "sha256": "0c85f8dea7a8e87a84a109d2b602f97381aaa58a7b2c43039cbb4db200bb3082",
-            "size": 4065006,
+            "sha256": "a898d71e77f75a6330f92ac1c808ccfc7d9aa08cb37822ee9971375886caa5d7",
+            "size": 6064043,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -578,6 +662,50 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:33:21.419912+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "027e8b039a25c43abccc70ccd71f6824ed1a2fe183c817612b13d09370385e91",
+                "randomSeed": "7948859601248132958",
+                "startSeconds": 16.894,
+                "narration": {
+                    "createdAt": "2026-10-29T13:07:22.694339+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "text.2",
+                            "text": "После выбранного фрагмента добавьте текст поверх изображения, затем введите нужные слова.",
+                            "voiceSeconds": 0.406,
+                            "durationSeconds": 6.093,
+                            "sha256": "87dc0bcc9854afd05264ef6d5d837855cb53cc41000d6e0b78f17d96a8709194"
+                        },
+                        {
+                            "key": "text.1",
+                            "text": "В «Предпросмотре» видео продолжает воспроизводиться, а поверх него появляется заголовок.",
+                            "voiceSeconds": 9.193,
+                            "durationSeconds": 6.158,
+                            "sha256": "8ce4f23415e8fc3ebf990a5ad1c0b15a9b5ec75456ed57f2d57388bf6585e42b"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "0c85f8dea7a8e87a84a109d2b602f97381aaa58a7b2c43039cbb4db200bb3082",
+                    "unnarratedDurationSeconds": 19.316667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -595,19 +723,6 @@
                 ],
                 "movingFps": 31.40625,
                 "maximumStillSeconds": 0.05
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:33:21.419912+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "027e8b039a25c43abccc70ccd71f6824ed1a2fe183c817612b13d09370385e91",
-                "randomSeed": "7948859601248132958",
-                "startSeconds": 16.894
             }
         },
         "parts": {
@@ -616,7 +731,7 @@
                     "event": "action",
                     "key": "parts-reorder",
                     "clipId": "89ad1d9b-4b1d-4d04-8bbd-fcfba8eee1be",
-                    "videoSeconds": 1.796
+                    "videoSeconds": 7.749
                 },
                 {
                     "event": "native-click",
@@ -625,7 +740,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 25,
-                    "videoSeconds": 2.112
+                    "videoSeconds": 8.065
                 },
                 {
                     "event": "native-click",
@@ -634,7 +749,7 @@
                         0.6969861231569818
                     ],
                     "sequence": 26,
-                    "videoSeconds": 2.999
+                    "videoSeconds": 8.952
                 },
                 {
                     "event": "action",
@@ -645,8 +760,8 @@
                         0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.338,
-                    "inputVideoSeconds": 2.999
+                    "videoSeconds": 10.291,
+                    "inputVideoSeconds": 8.952
                 },
                 {
                     "event": "native-click",
@@ -655,7 +770,7 @@
                         0.6969861231569818
                     ],
                     "sequence": 27,
-                    "videoSeconds": 9.2
+                    "videoSeconds": 15.153
                 },
                 {
                     "event": "action",
@@ -666,26 +781,26 @@
                         0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 10.448,
-                    "inputVideoSeconds": 9.2
+                    "videoSeconds": 16.401,
+                    "inputVideoSeconds": 15.153
                 }
             ],
             "captions": [
                 [
-                    0.14155029999892577,
-                    "Список Фрагменты показывает порядок воспроизведения. Перетащите пронумерованную ручку, чтобы переместить фрагмент."
+                    0.142,
+                    "Список «Фрагменты» показывает порядок воспроизведения. Чтобы переместить фрагмент, перетащите его за номер."
                 ],
                 [
-                    1.7964882999986003,
-                    "Предпросмотр следует новому порядку. Заголовок остаётся со своим видеоблоком."
+                    7.749,
+                    "В «Предпросмотре» фрагменты воспроизводятся в новом порядке. Заголовок остаётся со своим видео."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 12.5,
+            "duration": 18.453,
             "height": 970,
-            "sha256": "4a8545d6a2fbd65a90041d2a72b9975b059118f46ee8d5bad3360a8eb51b2313",
-            "size": 8399837,
+            "sha256": "4975e8595a66fffa8e81336fb3b7021a41d2ff9f207a286502dc2201d78513a8",
+            "size": 9219955,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -695,32 +810,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 3.299,
-                        "seconds": 5.751,
-                        "crop": "971:529:20:79",
-                        "changedFrames": 176,
-                        "encodedFps": 60,
-                        "frames": 346,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.608695652173914
-                    }
-                ],
-                "movingFps": 30.608695652173914,
-                "maximumStillSeconds": 0.06666666666666667,
-                "sourceClock": {
-                    "confidenceMinimum": 0.9962003231048584,
-                    "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.06666666666666667,
-                    "movingFps": 30.26086956521739,
-                    "originalFrameConfidenceMinimum": 0.9950466752052307,
-                    "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 0.9826087355613708
-                }
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:21.928360+00:00",
@@ -733,7 +822,69 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "21b3f4e7ecbab23275d057d802e68c55c593c61b58c6dedf68621eae80250c2b",
                 "randomSeed": "7948859601248132958",
-                "startSeconds": 30.627
+                "startSeconds": 30.627,
+                "narration": {
+                    "createdAt": "2026-10-29T13:07:28.643054+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "parts.2",
+                            "text": "Список «Фрагменты» показывает порядок воспроизведения. Чтобы переместить фрагмент, перетащите его за номер.",
+                            "voiceSeconds": 0.392,
+                            "durationSeconds": 7.008,
+                            "sha256": "9d2c58b596ff42a5360de2a60358405ef1ae5f0147ade6881bd0f3480360bdc1"
+                        },
+                        {
+                            "key": "parts.1",
+                            "text": "В «Предпросмотре» фрагменты воспроизводятся в новом порядке. Заголовок остаётся со своим видео.",
+                            "voiceSeconds": 7.999,
+                            "durationSeconds": 5.489,
+                            "sha256": "3fe09b19f4ce0477b4a45f02d5f7ac56a27f03a2c295699b2d1469b6ab27d7df"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 1.796,
+                            "seconds": 5.953
+                        }
+                    ],
+                    "unnarratedSha256": "4a8545d6a2fbd65a90041d2a72b9975b059118f46ee8d5bad3360a8eb51b2313",
+                    "unnarratedDurationSeconds": 12.5,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 9.252,
+                        "seconds": 5.751,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 176,
+                        "encodedFps": 60,
+                        "frames": 346,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.608695652173914
+                    }
+                ],
+                "movingFps": 30.608695652173914,
+                "maximumStillSeconds": 0.06666666666666667,
+                "sourceClock": {
+                    "confidenceMinimum": 0.9961901307106018,
+                    "matching": "original source frames or adjacent-frame interpolation",
+                    "maximumStillSeconds": 0.06666666666666667,
+                    "movingFps": 30.26086956521739,
+                    "originalFrameConfidenceMinimum": 0.9950282573699951,
+                    "sourceFps": 30,
+                    "sourceSecondsPerRecordedSecond": 0.9826087355613708
+                }
             }
         },
         "image": {
@@ -893,20 +1044,20 @@
             ],
             "captions": [
                 [
-                    0.46229329999914626,
-                    "Добавьте фото отдельной частью. Выберите его в окне Windows вне этой записи."
+                    0.462,
+                    "Добавьте фото отдельным фрагментом. Выберите его в окне выбора файлов Windows, которое здесь не показано."
                 ],
                 [
-                    12.928643200000806,
-                    "Задайте длительность и воспроизведите часть с фото, чтобы увидеть время её показа."
+                    12.929,
+                    "В настройке «Длительность» задайте 3 секунды, затем воспроизведите фрагмент с фото, чтобы увидеть, как долго оно показывается."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.666667,
+            "duration": 22.667,
             "height": 970,
-            "sha256": "0eab6f48bd7bd98a6820353e125caf9a4aafec3df7e15d3d76aff468fa466bc7",
-            "size": 2861180,
+            "sha256": "f581753f73aa85615b847f3558a67bef9c8369979ac749779bc6272321a99857",
+            "size": 5000406,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -928,7 +1079,38 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "5f36d7e87e412901b2d15f5d67d5aae70c865928dab4d3f3b0ce67106c8c974d",
                 "randomSeed": "7948859601248132958",
-                "startSeconds": 5.653
+                "startSeconds": 5.653,
+                "narration": {
+                    "createdAt": "2026-10-29T13:07:35.700537+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "image.2",
+                            "text": "Добавьте фото отдельным фрагментом. Выберите его в окне выбора файлов Windows, которое здесь не показано.",
+                            "voiceSeconds": 0.712,
+                            "durationSeconds": 6.487,
+                            "sha256": "bc139852627635c268ac250fff499c66d86e5b48ce8f0aef6166e77f4eab6f42"
+                        },
+                        {
+                            "key": "image.1",
+                            "text": "В настройке «Длительность» задайте 3 секунды, затем воспроизведите фрагмент с фото, чтобы увидеть, как долго оно показывается.",
+                            "voiceSeconds": 13.179,
+                            "durationSeconds": 7.55,
+                            "sha256": "d1a260793c01d57ebcae942a4210bc83d56f90e22647fd8f1fac44e92e993d17"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "0eab6f48bd7bd98a6820353e125caf9a4aafec3df7e15d3d76aff468fa466bc7",
+                    "unnarratedDurationSeconds": 22.666667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "transition": {
@@ -1078,20 +1260,20 @@
             ],
             "captions": [
                 [
-                    0.0737531000013405,
-                    "Откройте стык перед фото и выберите перекрёстное растворение в галерее."
+                    0.074,
+                    "Откройте настройки стыка перед фото, выберите «Наплыв» в галерее и задайте длительность перехода."
                 ],
                 [
-                    10.84446939999907,
-                    "Воспроизведите стык: движущиеся кадры плавно переходят в фотографию."
+                    10.844,
+                    "Воспроизведите переход на стыке, чтобы увидеть, как видео плавно переходит в неподвижное фото."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 25.366667,
+            "duration": 25.367,
             "height": 970,
-            "sha256": "f26d801d01728ce91f51a4c28246444e28c143943bfe887567f0d4210b425e98",
-            "size": 17816900,
+            "sha256": "b7241e8ad616e49c1cd133458714338341e8b767bf73504288004fcabc8cc45e",
+            "size": 16743033,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1101,23 +1283,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 12.322,
-                        "seconds": 6.3,
-                        "crop": "971:529:20:79",
-                        "changedFrames": 194,
-                        "encodedFps": 60,
-                        "frames": 377,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.95744680851064
-                    }
-                ],
-                "movingFps": 30.95744680851064,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:23.305347+00:00",
@@ -1130,7 +1295,55 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "1a19a9617a6c64912a0f65fb19eb5bbc7fba9df7c804c7c2e4c426bf1b053dae",
                 "randomSeed": "7948859601248132958",
-                "startSeconds": 10.601
+                "startSeconds": 10.601,
+                "narration": {
+                    "createdAt": "2026-10-29T13:07:43.515751+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "transition.2",
+                            "text": "Откройте настройки стыка перед фото, выберите «Наплыв» в галерее и задайте длительность перехода.",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.8,
+                            "sha256": "a74d2435a6aaf3cb7666f220b501d752d2d56a56361f06172d9eaf90d53e8b46"
+                        },
+                        {
+                            "key": "transition.1",
+                            "text": "Воспроизведите переход на стыке, чтобы увидеть, как видео плавно переходит в неподвижное фото.",
+                            "voiceSeconds": 11.094,
+                            "durationSeconds": 5.222,
+                            "sha256": "422e91a5503ced27acdacd93ce4ef3555eae04f754458119eff618915cfa9721"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "f26d801d01728ce91f51a4c28246444e28c143943bfe887567f0d4210b425e98",
+                    "unnarratedDurationSeconds": 25.366667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 12.322,
+                        "seconds": 6.3,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 194,
+                        "encodedFps": 60,
+                        "frames": 378,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.875331564986737
+                    }
+                ],
+                "movingFps": 30.875331564986737,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "music": {
@@ -1231,20 +1444,20 @@
             ],
             "captions": [
                 [
-                    0.11590509999950882,
-                    "Откройте Музыку на левой панели и кнопкой плюс добавьте встроенную композицию Bouncy Groove."
+                    0.116,
+                    "Откройте «Музыку» слева и кнопкой «плюс» добавьте встроенную композицию «Баунси Грув»."
                 ],
                 [
-                    8.576099000001705,
-                    "Музыкальная дорожка теперь относится к ролику. Воспроизведите его и проверьте синхронизацию."
+                    8.576,
+                    "Теперь музыка звучит на протяжении всего ролика. Нажмите «Воспроизвести», чтобы проверить синхронизацию музыки с видеорядом."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
             "duration": 19.75,
             "height": 970,
-            "sha256": "00e418303fb51396ea9e0dd97dbfa5fa011b086c1fea74749faed9904e0c3951",
-            "size": 10790367,
+            "sha256": "0f1dd1cd985eb8c6c84382f61194ec9d2ba07c9731845c7fc4acb58f64eb2fe0",
+            "size": 10900328,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1254,6 +1467,50 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:33:24.025518+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "a5f67c5ca60172038337d2d9d8df0017173b79229afc430319dc00e5a1a37899",
+                "randomSeed": "7948859601248132958",
+                "startSeconds": 54.012,
+                "narration": {
+                    "createdAt": "2026-10-29T13:07:49.845224+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "music.2",
+                            "text": "Откройте «Музыку» слева и кнопкой «плюс» добавьте встроенную композицию «Баунси Грув».",
+                            "voiceSeconds": 0.366,
+                            "durationSeconds": 5.411,
+                            "sha256": "a591205119aad20aea444aec8d0b1458778489a7f30321ab82243d7f3318919a"
+                        },
+                        {
+                            "key": "music.1",
+                            "text": "Теперь музыка звучит на протяжении всего ролика. Нажмите «Воспроизвести», чтобы проверить синхронизацию музыки с видеорядом.",
+                            "voiceSeconds": 8.826,
+                            "durationSeconds": 7.69,
+                            "sha256": "f034b4870a54f7ca80c4cca0f66c455a918faf7e138a713965d58612e58a1688"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "00e418303fb51396ea9e0dd97dbfa5fa011b086c1fea74749faed9904e0c3951",
+                    "unnarratedDurationSeconds": 19.75,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -1271,19 +1528,6 @@
                 ],
                 "movingFps": 30.663390663390665,
                 "maximumStillSeconds": 0.05
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:33:24.025518+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "a5f67c5ca60172038337d2d9d8df0017173b79229afc430319dc00e5a1a37899",
-                "randomSeed": "7948859601248132958",
-                "startSeconds": 54.012
             }
         },
         "video": {
@@ -1433,24 +1677,24 @@
             ],
             "captions": [
                 [
-                    0.11153059999924153,
-                    "Откройте настройки части видео. Каждая вкладка изменяет эту часть ролика."
+                    0.112,
+                    "Откройте настройки видеофрагмента. На каждой вкладке можно изменить этот фрагмент ролика."
                 ],
                 [
-                    6.500933799998165,
-                    "На вкладке Кадр приблизьте изображение, уточните композицию и сравните результат в Предпросмотре."
+                    6.501,
+                    "На вкладке «Кадр» приблизьте изображение, чтобы укрупнить план. Вкладка «Настроить» содержит настройки освещения и цвета."
                 ],
                 [
-                    18.257304799997655,
-                    "Воспроизведите часть, чтобы увидеть приближённый кадр в движении."
+                    18.257,
+                    "Воспроизведите фрагмент, чтобы увидеть увеличенное изображение в движении, затем снова откройте его настройки."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 27.533333,
+            "duration": 27.533008,
             "height": 970,
-            "sha256": "003a5119b0a8f158e63e933009cb5466384c66df57ab9a70d57702be9f59a388",
-            "size": 7542226,
+            "sha256": "fcfa5164e589b7fddf559aaa0d5d792c8eb03e5f1a8e5d6ca7fef6f206158c88",
+            "size": 9790470,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1460,6 +1704,57 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:33:24.750015+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "8dd4964a48a6bd864701ca65c5c056d35c8e6922679c652300b3ee0579ce2593",
+                "randomSeed": "7948859601248132958",
+                "startSeconds": 47.472,
+                "narration": {
+                    "createdAt": "2026-10-29T13:07:58.182026+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "video.3",
+                            "text": "Откройте настройки видеофрагмента. На каждой вкладке можно изменить этот фрагмент ролика.",
+                            "voiceSeconds": 0.362,
+                            "durationSeconds": 5.102,
+                            "sha256": "c933494ff16a51eeed0d057d2bfea85695c99d5ce891161d7a601c8a0f685685"
+                        },
+                        {
+                            "key": "video.2",
+                            "text": "На вкладке «Кадр» приблизьте изображение, чтобы укрупнить план. Вкладка «Настроить» содержит настройки освещения и цвета.",
+                            "voiceSeconds": 6.751,
+                            "durationSeconds": 8.125,
+                            "sha256": "36cbc82eab386dca01cd8be341361e1c0124f769742f08bc9df497db57d51fa2"
+                        },
+                        {
+                            "key": "video.1",
+                            "text": "Воспроизведите фрагмент, чтобы увидеть увеличенное изображение в движении, затем снова откройте его настройки.",
+                            "voiceSeconds": 18.507,
+                            "durationSeconds": 6.599,
+                            "sha256": "cae0477e48a360d340c9bf901dccde4219d1259d0c5a9231654b3d7f08efd035"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "003a5119b0a8f158e63e933009cb5466384c66df57ab9a70d57702be9f59a388",
+                    "unnarratedDurationSeconds": 27.533333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -1477,19 +1772,6 @@
                 ],
                 "movingFps": 31.86813186813187,
                 "maximumStillSeconds": 0.05
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:33:24.750015+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "8dd4964a48a6bd864701ca65c5c056d35c8e6922679c652300b3ee0579ce2593",
-                "randomSeed": "7948859601248132958",
-                "startSeconds": 47.472
             }
         },
         "photo-capture": {
@@ -1600,7 +1882,7 @@
                     "flashSeconds": 0.8,
                     "holdSeconds": 3.0,
                     "previewSeconds": 4.301888,
-                    "videoSeconds": 13.306,
+                    "videoSeconds": 16.873,
                     "inputVideoSeconds": 11.78
                 },
                 {
@@ -1610,14 +1892,14 @@
                         0.5149609713790113
                     ],
                     "sequence": 61,
-                    "videoSeconds": 14.236
+                    "videoSeconds": 17.803
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-angle",
                     "value": "-12",
-                    "videoSeconds": 15.53,
-                    "inputVideoSeconds": 14.236
+                    "videoSeconds": 19.097,
+                    "inputVideoSeconds": 17.803
                 },
                 {
                     "event": "native-click",
@@ -1626,14 +1908,14 @@
                         0.5626626192541198
                     ],
                     "sequence": 62,
-                    "videoSeconds": 16.467
+                    "videoSeconds": 20.034
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-size",
                     "value": "76",
-                    "videoSeconds": 17.724,
-                    "inputVideoSeconds": 16.467
+                    "videoSeconds": 21.291,
+                    "inputVideoSeconds": 20.034
                 },
                 {
                     "event": "native-click",
@@ -1642,14 +1924,14 @@
                         0.6103642671292281
                     ],
                     "sequence": 63,
-                    "videoSeconds": 18.667
+                    "videoSeconds": 22.234
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-border-width",
                     "value": "16",
-                    "videoSeconds": 19.954,
-                    "inputVideoSeconds": 18.667
+                    "videoSeconds": 23.521,
+                    "inputVideoSeconds": 22.234
                 },
                 {
                     "event": "native-click",
@@ -1658,7 +1940,7 @@
                         0.31331309627059845
                     ],
                     "sequence": 64,
-                    "videoSeconds": 20.781
+                    "videoSeconds": 24.348
                 },
                 {
                     "event": "action",
@@ -1669,8 +1951,8 @@
                         0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 22.066,
-                    "inputVideoSeconds": 20.781
+                    "videoSeconds": 25.633,
+                    "inputVideoSeconds": 24.348
                 },
                 {
                     "event": "native-click",
@@ -1679,7 +1961,7 @@
                         0.9653078924544666
                     ],
                     "sequence": 65,
-                    "videoSeconds": 24.919
+                    "videoSeconds": 28.486
                 },
                 {
                     "event": "action",
@@ -1690,8 +1972,8 @@
                         0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 26.205,
-                    "inputVideoSeconds": 24.919
+                    "videoSeconds": 29.772,
+                    "inputVideoSeconds": 28.486
                 },
                 {
                     "event": "native-click",
@@ -1700,7 +1982,7 @@
                         0.13876843018213356
                     ],
                     "sequence": 66,
-                    "videoSeconds": 27.053
+                    "videoSeconds": 30.62
                 },
                 {
                     "event": "action",
@@ -1711,8 +1993,8 @@
                         0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 28.311,
-                    "inputVideoSeconds": 27.053
+                    "videoSeconds": 31.878,
+                    "inputVideoSeconds": 30.62
                 },
                 {
                     "event": "native-click",
@@ -1721,7 +2003,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 67,
-                    "videoSeconds": 28.628
+                    "videoSeconds": 32.195
                 },
                 {
                     "event": "native-click",
@@ -1730,7 +2012,7 @@
                         0.6969861231569818
                     ],
                     "sequence": 68,
-                    "videoSeconds": 29.596
+                    "videoSeconds": 33.163
                 },
                 {
                     "event": "action",
@@ -1741,42 +2023,42 @@
                         0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 30.91,
-                    "inputVideoSeconds": 29.596
+                    "videoSeconds": 34.477,
+                    "inputVideoSeconds": 33.163
                 }
             ],
             "captions": [
                 [
-                    0.226901000001817,
-                    "Откройте захват фото и включите его для этой части видео."
+                    0.227,
+                    "Откройте «Снимок» и включите его для этого видеофрагмента."
                 ],
                 [
-                    4.600856000004569,
-                    "Выберите момент захвата, короткую вспышку и удержание на три секунды."
+                    4.601,
+                    "Выберите момент снимка, затем задайте короткую вспышку и показ фото на три секунды."
                 ],
                 [
-                    11.469845900002838,
-                    "Переместите курсор воспроизведения за момент захвата, на удерживаемое фото, чтобы увидеть изменения."
+                    11.47,
+                    "Переместите курсор воспроизведения на участок показа фото, чтобы увидеть изменения."
                 ],
                 [
-                    13.306489700004022,
+                    16.873,
                     "Наклоните и уменьшите фото, добавьте белую рамку."
                 ],
                 [
-                    22.06607480000457,
-                    "Пользовательский кадр задаёт область снимка. Применить подтверждает обрезку."
+                    25.633,
+                    "«Свой кадр» позволяет выбрать область снимка. Кнопка «Применить» сохраняет обрезку."
                 ],
                 [
-                    28.74030170000333,
-                    "Нажмите воспроизведение: вспышка, наклонённое фото в рамке, затем снова движение."
+                    32.307,
+                    "Нажмите «Воспроизвести»: появится вспышка, видео остановится на наклонённом фото в рамке, затем продолжится."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 41.466667,
+            "duration": 45.034,
             "height": 970,
-            "sha256": "a2244105bab854e87f83a0ef08109d073d6406531a4724d413a9d15eb09b5bdd",
-            "size": 13606163,
+            "sha256": "ffbc6efc90fb44fb8e6d8962fd248633ee9a8ba4a3bcb93bbb7c6c99f1cf7f92",
+            "size": 16623963,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1786,33 +2068,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 30.046,
-                        "seconds": 1.6,
-                        "crop": "971:529:20:79",
-                        "changedFrames": 47,
-                        "encodedFps": 60,
-                        "frames": 96,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 29.68421052631579
-                    },
-                    {
-                        "startSeconds": 35.896,
-                        "seconds": 5.371,
-                        "crop": "971:529:20:79",
-                        "changedFrames": 164,
-                        "encodedFps": 60,
-                        "frames": 323,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.559006211180126
-                    }
-                ],
-                "movingFps": 29.68421052631579,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:25.728875+00:00",
@@ -1825,7 +2080,98 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "d633921f67af11326bc5f0311ff3de896e47f68eeb14b38ce4949f840fe9c668",
                 "randomSeed": "7948859601248132958",
-                "startSeconds": 22.652
+                "startSeconds": 22.652,
+                "narration": {
+                    "createdAt": "2026-10-29T13:08:10.951148+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "photo.6",
+                            "text": "Откройте «Снимок» и включите его для этого видеофрагмента.",
+                            "voiceSeconds": 0.477,
+                            "durationSeconds": 3.255,
+                            "sha256": "2e367abf6ac369e88586c0514561b94f30fe5e37776825332b73e3e5cfd304b6"
+                        },
+                        {
+                            "key": "photo.5",
+                            "text": "Выберите момент снимка, затем задайте короткую вспышку и показ фото на три секунды.",
+                            "voiceSeconds": 4.851,
+                            "durationSeconds": 4.987,
+                            "sha256": "d904c5fe8df1bb7f2191a8f173e8b2d677417564e700fc289babf576f7c5a9f8"
+                        },
+                        {
+                            "key": "photo.1",
+                            "text": "Переместите курсор воспроизведения на участок показа фото, чтобы увидеть изменения.",
+                            "voiceSeconds": 11.72,
+                            "durationSeconds": 4.804,
+                            "sha256": "abb3f4893d50ed83d9f770a8ef5a032cd3537935e7ffc406b548d2e4ec2e9650"
+                        },
+                        {
+                            "key": "photo.4",
+                            "text": "Наклоните и уменьшите фото, добавьте белую рамку.",
+                            "voiceSeconds": 17.123,
+                            "durationSeconds": 3.357,
+                            "sha256": "e13931515a1e92f713d52c18b29bfaed9e1e8f473a618535ff0b2233bb1f928e"
+                        },
+                        {
+                            "key": "photo.3",
+                            "text": "«Свой кадр» позволяет выбрать область снимка. Кнопка «Применить» сохраняет обрезку.",
+                            "voiceSeconds": 25.883,
+                            "durationSeconds": 5.623,
+                            "sha256": "9f786d893793b08c3cb29b68fcd486e185f6f4d6a17ec0439bd33d724828d43b"
+                        },
+                        {
+                            "key": "photo.2",
+                            "text": "Нажмите «Воспроизвести»: появится вспышка, видео остановится на наклонённом фото в рамке, затем продолжится.",
+                            "voiceSeconds": 32.557,
+                            "durationSeconds": 7.425,
+                            "sha256": "c629cb9847bc4e66dddaf2ba38da7620c9db44e73d9747a4e604e450eff757c9"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 13.306,
+                            "seconds": 3.567
+                        }
+                    ],
+                    "unnarratedSha256": "a2244105bab854e87f83a0ef08109d073d6406531a4724d413a9d15eb09b5bdd",
+                    "unnarratedDurationSeconds": 41.466667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 33.613,
+                        "seconds": 1.6,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 47,
+                        "encodedFps": 60,
+                        "frames": 96,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 29.68421052631579
+                    },
+                    {
+                        "startSeconds": 39.463,
+                        "seconds": 5.371,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 164,
+                        "encodedFps": 60,
+                        "frames": 323,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.559006211180126
+                    }
+                ],
+                "movingFps": 29.68421052631579,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "export-frame": {
@@ -1858,7 +2204,7 @@
                 {
                     "event": "action",
                     "key": "select-export-frame",
-                    "videoSeconds": 3.786,
+                    "videoSeconds": 7.473,
                     "inputVideoSeconds": 2.522
                 },
                 {
@@ -1868,13 +2214,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 71,
-                    "videoSeconds": 6.185
+                    "videoSeconds": 9.872
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 7.439,
-                    "inputVideoSeconds": 6.185
+                    "videoSeconds": 11.126,
+                    "inputVideoSeconds": 9.872
                 },
                 {
                     "event": "native-click",
@@ -1883,13 +2229,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 72,
-                    "videoSeconds": 8.253
+                    "videoSeconds": 11.94
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 9.493,
-                    "inputVideoSeconds": 8.253
+                    "videoSeconds": 13.18,
+                    "inputVideoSeconds": 11.94
                 },
                 {
                     "event": "native-click",
@@ -1898,13 +2244,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 73,
-                    "videoSeconds": 10.331
+                    "videoSeconds": 14.018
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-export",
-                    "videoSeconds": 11.669,
-                    "inputVideoSeconds": 10.331
+                    "videoSeconds": 15.356,
+                    "inputVideoSeconds": 14.018
                 },
                 {
                     "event": "native-click",
@@ -1913,13 +2259,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 74,
-                    "videoSeconds": 14.525
+                    "videoSeconds": 18.212
                 },
                 {
                     "event": "action",
                     "key": "still-export-start",
-                    "videoSeconds": 15.861,
-                    "inputVideoSeconds": 14.525
+                    "videoSeconds": 22.19,
+                    "inputVideoSeconds": 18.212
                 },
                 {
                     "event": "native-click",
@@ -1928,7 +2274,7 @@
                         0.030355594102341718
                     ],
                     "sequence": 75,
-                    "videoSeconds": 19.723
+                    "videoSeconds": 26.052
                 },
                 {
                     "event": "action",
@@ -1939,34 +2285,34 @@
                         0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 21.073,
-                    "inputVideoSeconds": 19.723
+                    "videoSeconds": 27.402,
+                    "inputVideoSeconds": 26.052
                 }
             ],
             "captions": [
                 [
-                    0.13369709999824408,
-                    "На странице Выбрать у видео Экспортировать кадр показывает все кадры от курсора воспроизведения."
+                    0.134,
+                    "На странице «Выбрать» установите курсор воспроизведения и откройте «Экспортировать кадр», чтобы просмотреть кадры."
                 ],
                 [
-                    3.787121199999092,
-                    "Переходите кнопкой Следующий кадр, чтобы найти самое чёткое изображение."
+                    7.474,
+                    "Нажимайте «Следующий кадр», чтобы найти самое чёткое изображение."
                 ],
                 [
-                    9.494119099999807,
-                    "Экспортировать этот кадр сохраняет его в PNG в исходном размере. Пример сохраняется в подготовленную папку."
+                    13.181,
+                    "Кнопка «Экспортировать» сохраняет этот кадр в исходном размере в формате PNG. В этом примере файл сохраняется в подготовленную папку."
                 ],
                 [
-                    15.861781199997495,
-                    "Кадр сохранён как изображение. Показать в папке открывает его расположение."
+                    22.191,
+                    "Кадр сохранён. Закройте окно «Выберите кадр», чтобы вернуться на страницу «Выбрать»."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.866667,
+            "duration": 29.2,
             "height": 970,
-            "sha256": "d04ce2c37a488d20f32ef5ed7b744723875acfe9717402c30ed05345761f58b1",
-            "size": 5748187,
+            "sha256": "d5e87ce4e1bf71d7cd7a2f6a9262a925ac68f44101f39644e4faf8dfbb17dd0a",
+            "size": 9056143,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1988,7 +2334,61 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "cf62254dbbcade4c1ee44b1b621795856bbbe48392948a24af74422a3f3be974",
                 "randomSeed": "7948859601248132958",
-                "startSeconds": 54.956
+                "startSeconds": 54.956,
+                "narration": {
+                    "createdAt": "2026-10-29T13:08:19.765080+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "exportFrame.4",
+                            "text": "На странице «Выбрать» установите курсор воспроизведения и откройте «Экспортировать кадр», чтобы просмотреть кадры.",
+                            "voiceSeconds": 0.384,
+                            "durationSeconds": 6.741,
+                            "sha256": "27bdb1121669c0f8398d66a31db731838db3d297f5cf9dd4d71d1c9bfb7a2fbe"
+                        },
+                        {
+                            "key": "exportFrame.3",
+                            "text": "Нажимайте «Следующий кадр», чтобы найти самое чёткое изображение.",
+                            "voiceSeconds": 7.724,
+                            "durationSeconds": 4.129,
+                            "sha256": "cdfbdad47e079fd667b70a3042d0f4180b60fa4cd94af7ab7d6926bab8fa14ae"
+                        },
+                        {
+                            "key": "exportFrame.2",
+                            "text": "Кнопка «Экспортировать» сохраняет этот кадр в исходном размере в формате PNG. В этом примере файл сохраняется в подготовленную папку.",
+                            "voiceSeconds": 13.431,
+                            "durationSeconds": 8.41,
+                            "sha256": "a7a1948af04d49e68270a8efa74636176b434f727dabc20e1188b3609688793c"
+                        },
+                        {
+                            "key": "exportFrame.1",
+                            "text": "Кадр сохранён. Закройте окно «Выберите кадр», чтобы вернуться на страницу «Выбрать».",
+                            "voiceSeconds": 22.441,
+                            "durationSeconds": 4.846,
+                            "sha256": "4bfddc81faed2a20907c03cec7f90319292eb8aec2ee0757b8653403ec671b24"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 3.787,
+                            "seconds": 3.687
+                        },
+                        {
+                            "atSeconds": 15.862,
+                            "seconds": 2.642
+                        }
+                    ],
+                    "unnarratedSha256": "d04ce2c37a488d20f32ef5ed7b744723875acfe9717402c30ed05345761f58b1",
+                    "unnarratedDurationSeconds": 22.866667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "split": {
@@ -2342,28 +2742,28 @@
             ],
             "captions": [
                 [
-                    0.20571050000216928,
-                    "Выберите Добавить, затем Разделение и место в ролике."
+                    0.206,
+                    "Выберите «Добавить», затем «Разделение» и укажите место в ролике."
                 ],
                 [
-                    6.529572300001746,
-                    "Рядом показывает два видео одновременно. Выберите видео и фрагмент для первой ячейки."
+                    6.53,
+                    "Выберите режим «Рядом», чтобы показывать два видео одновременно, затем выберите видео и фрагмент для первой ячейки."
                 ],
                 [
-                    18.04589450000276,
-                    "У каждой ячейки своя страница Выбрать. Выберите другой момент для второй ячейки."
+                    18.046,
+                    "У каждой ячейки своя страница «Выбрать». Выберите другой момент для второй ячейки."
                 ],
                 [
-                    27.450539800003753,
-                    "Воспроизведите разделение: обе части движутся вместе в одном кадре."
+                    27.451,
+                    "Нажмите «Воспроизвести», чтобы увидеть, как оба фрагмента проигрываются одновременно в одном кадре."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
             "duration": 38.35,
             "height": 970,
-            "sha256": "dca03484c2e7aa0df1ccc8bb5573a031839b8a34daa9e73705841d77c8f5600f",
-            "size": 22237237,
+            "sha256": "9edcdd2aa34b4e7c977ee9daffa3cfabfab98ea58fd74dcac4779229bce9303e",
+            "size": 22086394,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2373,6 +2773,64 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:33:27.601079+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "92419e908869f256841787fb1294b06a5f6cbb693cb8c423bf01ceb4c8dadbdf",
+                "randomSeed": "7948859601248132958",
+                "startSeconds": 44.69,
+                "narration": {
+                    "createdAt": "2026-10-29T13:08:30.943147+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "split.4",
+                            "text": "Выберите «Добавить», затем «Разделение» и укажите место в ролике.",
+                            "voiceSeconds": 0.456,
+                            "durationSeconds": 5.682,
+                            "sha256": "7bb64cf791b75263a504438edaa7f2e6879c05a80b5cdc7a959ea35987e83ae4"
+                        },
+                        {
+                            "key": "split.3",
+                            "text": "Выберите режим «Рядом», чтобы показывать два видео одновременно, затем выберите видео и фрагмент для первой ячейки.",
+                            "voiceSeconds": 6.78,
+                            "durationSeconds": 7.236,
+                            "sha256": "c92464af55faaf82ac4f1e8d9499f8416693b457abcb69b054d97f0a42394f41"
+                        },
+                        {
+                            "key": "split.2",
+                            "text": "У каждой ячейки своя страница «Выбрать». Выберите другой момент для второй ячейки.",
+                            "voiceSeconds": 18.296,
+                            "durationSeconds": 4.771,
+                            "sha256": "22f91581cbe1b53460b0713b8ef52ead6b4d342de2953900ab288e2801355ee9"
+                        },
+                        {
+                            "key": "split.1",
+                            "text": "Нажмите «Воспроизвести», чтобы увидеть, как оба фрагмента проигрываются одновременно в одном кадре.",
+                            "voiceSeconds": 27.701,
+                            "durationSeconds": 5.559,
+                            "sha256": "ef01b2ba6d4858b05b27e3bcba325a1ded95d00b7d4763c13fcd611ad4f98432"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "dca03484c2e7aa0df1ccc8bb5573a031839b8a34daa9e73705841d77c8f5600f",
+                    "unnarratedDurationSeconds": 38.35,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -2390,19 +2848,6 @@
                 ],
                 "movingFps": 37.28706624605678,
                 "maximumStillSeconds": 0.05
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:33:27.601079+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "92419e908869f256841787fb1294b06a5f6cbb693cb8c423bf01ceb4c8dadbdf",
-                "randomSeed": "7948859601248132958",
-                "startSeconds": 44.69
             }
         },
         "audio": {
@@ -2419,7 +2864,7 @@
                 {
                     "event": "action",
                     "key": "editor-top-audio",
-                    "videoSeconds": 2.329,
+                    "videoSeconds": 6.07,
                     "inputVideoSeconds": 1.065
                 },
                 {
@@ -2430,7 +2875,7 @@
                         0.9107437126551725
                     ],
                     "sequence": 95,
-                    "videoSeconds": 4.174
+                    "videoSeconds": 7.915
                 },
                 {
                     "event": "native-click",
@@ -2439,7 +2884,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 96,
-                    "videoSeconds": 8.166
+                    "videoSeconds": 16.067
                 },
                 {
                     "event": "action",
@@ -2450,8 +2895,8 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 9.422,
-                    "inputVideoSeconds": 8.166
+                    "videoSeconds": 17.323,
+                    "inputVideoSeconds": 16.067
                 },
                 {
                     "event": "native-click",
@@ -2460,7 +2905,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 97,
-                    "videoSeconds": 15.311
+                    "videoSeconds": 23.212
                 },
                 {
                     "event": "action",
@@ -2471,30 +2916,30 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 16.647,
-                    "inputVideoSeconds": 15.311
+                    "videoSeconds": 24.548,
+                    "inputVideoSeconds": 23.212
                 }
             ],
             "captions": [
                 [
-                    0.1943156999986968,
-                    "Откройте Аудио на левой панели, чтобы добавить закадровый голос или другую запись только в этот ролик."
+                    0.194,
+                    "Откройте «Аудио» слева, чтобы добавить в ролик закадровый голос или другую запись."
                 ],
                 [
-                    2.328864600000088,
-                    "Выберите запись в файлах Windows. Окно выбора файлов не входит в эту съёмку экрана."
+                    6.07,
+                    "Выберите «Файлы», затем выберите запись в окне выбора файлов Windows. В этом видео оно не показано."
                 ],
                 [
-                    5.81840160000138,
-                    "Запись получает свою дорожку под изображением. Воспроизведите, чтобы услышать её вместе с роликом."
+                    13.719,
+                    "Запись появляется на отдельной дорожке под изображениями. Нажмите «Воспроизвести», чтобы услышать её вместе с роликом."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 18.833333,
+            "duration": 26.734,
             "height": 970,
-            "sha256": "01419bc686e6fca8985b57e1a814e6c35046f32710b34560885f1aca62ee431d",
-            "size": 10331328,
+            "sha256": "77240635a538c3e68c29da859280b5805466d58bc05063b3871f4cde029bf086",
+            "size": 12447177,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2504,23 +2949,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 8.916,
-                        "seconds": 6.245,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 204,
-                        "encodedFps": 60,
-                        "frames": 375,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 32.72727272727273
-                    }
-                ],
-                "movingFps": 32.72727272727273,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:28.447841+00:00",
@@ -2533,7 +2961,71 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "43fff05bcdb1d45298119fc543b6af74fe9ed0256e5b7095930d1eec830af465",
                 "randomSeed": "7948859601248132958",
-                "startSeconds": 13.285
+                "startSeconds": 13.285,
+                "narration": {
+                    "createdAt": "2026-10-29T13:08:39.029358+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "audio.3",
+                            "text": "Откройте «Аудио» слева, чтобы добавить в ролик закадровый голос или другую запись.",
+                            "voiceSeconds": 0.444,
+                            "durationSeconds": 5.275,
+                            "sha256": "1d3fe7ce01ff273a169ba0ada40f70004486a4199c2475c88623842321a9f24e"
+                        },
+                        {
+                            "key": "audio.2",
+                            "text": "Выберите «Файлы», затем выберите запись в окне выбора файлов Windows. В этом видео оно не показано.",
+                            "voiceSeconds": 6.32,
+                            "durationSeconds": 7.05,
+                            "sha256": "7c2e0e126ea588c276dd7607d935ae0b45e86688b43662d5b5a002beb1f16548"
+                        },
+                        {
+                            "key": "audio.1",
+                            "text": "Запись появляется на отдельной дорожке под изображениями. Нажмите «Воспроизвести», чтобы услышать её вместе с роликом.",
+                            "voiceSeconds": 13.969,
+                            "durationSeconds": 7.437,
+                            "sha256": "284cc8ca950456b713737c3c7df0605148d54032d4336ab30f992657e010901f"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 2.329,
+                            "seconds": 3.741
+                        },
+                        {
+                            "atSeconds": 5.818,
+                            "seconds": 4.16
+                        }
+                    ],
+                    "unnarratedSha256": "01419bc686e6fca8985b57e1a814e6c35046f32710b34560885f1aca62ee431d",
+                    "unnarratedDurationSeconds": 18.833333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 16.817,
+                        "seconds": 6.245,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 204,
+                        "encodedFps": 60,
+                        "frames": 375,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 32.72727272727273
+                    }
+                ],
+                "movingFps": 32.72727272727273,
+                "maximumStillSeconds": 0.05
             }
         },
         "export": {
@@ -2650,28 +3142,28 @@
             ],
             "captions": [
                 [
-                    0.1794121000020823,
+                    0.179,
                     "Перед сохранением и экспортом просмотрите весь ролик со звуком."
                 ],
                 [
-                    17.89064420000068,
-                    "Сохранить оставляет редактируемый проект. Золотая кнопка Экспортировать создаёт отдельный видеофайл."
+                    17.891,
+                    "Кнопка «Сохранить» сохраняет проект для дальнейшего редактирования. Золотая кнопка «Экспортировать» создаёт отдельный видеофайл."
                 ],
                 [
-                    28.45255300000281,
-                    "Выберите размер, качество и формат, затем экспортируйте. Пример сохраняется в подготовленную папку."
+                    28.453,
+                    "Проверьте размер, качество и формат, затем нажмите «Экспортировать». В этом примере видео сохраняется в подготовленную папку."
                 ],
                 [
-                    43.75614400000268,
-                    "Экспортированное видео готово. Проект остаётся доступным для редактирования."
+                    43.756,
+                    "Ролик экспортирован. Кнопка «Готово» закрывает окно, а проект остаётся доступным для редактирования."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 50.8,
+            "duration": 51.166016,
             "height": 970,
-            "sha256": "e156d943d842a7e1e734cde277ff8684a52997951c4f34f6bc1564f8edfdb550",
-            "size": 15248610,
+            "sha256": "4f3cd8056459ec0439ba0adffd470171f10cd66d2ea051b67660040dbad063e5",
+            "size": 18089946,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2681,33 +3173,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 1.371,
-                        "seconds": 1.7,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 53,
-                        "encodedFps": 60,
-                        "frames": 101,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.799999999999997
-                    },
-                    {
-                        "startSeconds": 7.121,
-                        "seconds": 8.1,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 255,
-                        "encodedFps": 60,
-                        "frames": 485,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.611570247933884
-                    }
-                ],
-                "movingFps": 31.611570247933884,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:29.690921+00:00",
@@ -2720,7 +3185,84 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "f1115b323e8bb25d59c97a0b134bd131f3b05fc70dc3987c4a261ed1b04b08dc",
                 "randomSeed": "7948859601248132958",
-                "startSeconds": 20.626
+                "startSeconds": 20.626,
+                "narration": {
+                    "createdAt": "2026-10-29T13:09:00.872863+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "export.4",
+                            "text": "Перед сохранением и экспортом просмотрите весь ролик со звуком.",
+                            "voiceSeconds": 0.429,
+                            "durationSeconds": 3.361,
+                            "sha256": "dac0ddc4742b0abcf92e5dc42d0300ce16f394ae51403337125b8ebfb77e2681"
+                        },
+                        {
+                            "key": "export.3",
+                            "text": "Кнопка «Сохранить» сохраняет проект для дальнейшего редактирования. Золотая кнопка «Экспортировать» создаёт отдельный видеофайл.",
+                            "voiceSeconds": 18.141,
+                            "durationSeconds": 6.875,
+                            "sha256": "eeba7d7783dbd1c51987246ab8ecd31a58c9453f054108fb6f2f096e956609ac"
+                        },
+                        {
+                            "key": "export.2",
+                            "text": "Проверьте размер, качество и формат, затем нажмите «Экспортировать». В этом примере видео сохраняется в подготовленную папку.",
+                            "voiceSeconds": 28.703,
+                            "durationSeconds": 6.984,
+                            "sha256": "2e056d42255d3211e617faa7285abd9329c5cd81e59c333c945414f39b899ea6"
+                        },
+                        {
+                            "key": "export.1",
+                            "text": "Ролик экспортирован. Кнопка «Готово» закрывает окно, а проект остаётся доступным для редактирования.",
+                            "voiceSeconds": 44.006,
+                            "durationSeconds": 6.56,
+                            "sha256": "f48a0b2cfe2f7f3e268569f7a20fc9e7166a21227ea9b44a609a01937990d17c"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 50.8,
+                            "seconds": 0.366
+                        }
+                    ],
+                    "unnarratedSha256": "e156d943d842a7e1e734cde277ff8684a52997951c4f34f6bc1564f8edfdb550",
+                    "unnarratedDurationSeconds": 50.8,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 1.371,
+                        "seconds": 1.7,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 53,
+                        "encodedFps": 60,
+                        "frames": 102,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.485148514851485
+                    },
+                    {
+                        "startSeconds": 7.121,
+                        "seconds": 8.1,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 255,
+                        "encodedFps": 60,
+                        "frames": 486,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.546391752577318
+                    }
+                ],
+                "movingFps": 31.485148514851485,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "auto": {
@@ -2747,14 +3289,14 @@
                         0.24653078924544664
                     ],
                     "sequence": 105,
-                    "videoSeconds": 7.228
+                    "videoSeconds": 9.659
                 },
                 {
                     "event": "action",
                     "key": "auto-analysis-precision",
                     "value": "25",
-                    "videoSeconds": 8.586,
-                    "inputVideoSeconds": 7.228
+                    "videoSeconds": 11.017,
+                    "inputVideoSeconds": 9.659
                 },
                 {
                     "event": "native-click",
@@ -2763,13 +3305,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 106,
-                    "videoSeconds": 11.49
+                    "videoSeconds": 15.47
                 },
                 {
                     "event": "action",
                     "key": "auto-make",
-                    "videoSeconds": 12.865,
-                    "inputVideoSeconds": 11.49
+                    "videoSeconds": 16.845,
+                    "inputVideoSeconds": 15.47
                 },
                 {
                     "event": "native-click",
@@ -2778,7 +3320,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 107,
-                    "videoSeconds": 20.759
+                    "videoSeconds": 24.739
                 },
                 {
                     "event": "action",
@@ -2789,8 +3331,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 22.029,
-                    "inputVideoSeconds": 20.759
+                    "videoSeconds": 26.009,
+                    "inputVideoSeconds": 24.739
                 },
                 {
                     "event": "native-click",
@@ -2799,7 +3341,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 108,
-                    "videoSeconds": 28.889
+                    "videoSeconds": 32.869
                 },
                 {
                     "event": "action",
@@ -2810,8 +3352,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 30.15,
-                    "inputVideoSeconds": 28.889
+                    "videoSeconds": 34.13,
+                    "inputVideoSeconds": 32.869
                 },
                 {
                     "event": "shortened-analysis-wait",
@@ -2820,28 +3362,28 @@
             ],
             "captions": [
                 [
-                    0.11353650000091875,
-                    "Выбрать фрагменты за меня открывает Автомонтаж — другой способ начать. Задайте длительность, темп и точность анализа."
+                    0.114,
+                    "Кнопка «Выбрать фрагменты за меня» открывает «Автомонтаж» с настройками длительности и музыки. Это ещё один способ начать."
                 ],
                 [
-                    6.25977690000218,
-                    "Автоматическая длительность выбирает длину. Меньшая точность использует меньше образцов."
+                    8.691,
+                    "«Автоматическая длительность» подбирает длину ролика. При меньшей точности для анализа берётся меньше данных."
                 ],
                 [
-                    10.598319799999445,
-                    "Создание ролика анализирует медиа на этом устройстве. Ожидание в видео сокращено."
+                    14.578,
+                    "Команда «Создать ролик» анализирует медиафайлы на этом устройстве. Ожидание в видео сокращено."
                 ],
                 [
-                    17.87117980000039,
-                    "Проверьте созданные части и воспроизведите черновик перед экспортом."
+                    21.851,
+                    "Черновик готов: фрагменты уже в ролике. Воспроизведите его перед экспортом."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 31.816667,
+            "duration": 35.8,
             "height": 970,
-            "sha256": "d66d654153cb775bc3da505fa1333e808b5f55ae689c228495bd15c14849f167",
-            "size": 5137912,
+            "sha256": "4e51475924c78636bc608ee3606056686bb5ebababfd9cf70f1382518ebc252b",
+            "size": 9029466,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2851,23 +3393,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 21.109,
-                        "seconds": 4.4,
-                        "crop": "950:517:599:83",
-                        "changedFrames": 149,
-                        "encodedFps": 60,
-                        "frames": 264,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 33.99239543726235
-                    }
-                ],
-                "movingFps": 33.99239543726235,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:30.536030+00:00",
@@ -2880,7 +3405,78 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "456eb71a31a975f861f0a4c333a13de23f36b372be527dde63e75892891872c2",
                 "randomSeed": "7948859601248132958",
-                "startSeconds": 36.2
+                "startSeconds": 36.2,
+                "narration": {
+                    "createdAt": "2026-10-29T13:09:35.737913+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-vladimir-ru",
+                    "lines": [
+                        {
+                            "key": "auto.5",
+                            "text": "Кнопка «Выбрать фрагменты за меня» открывает «Автомонтаж» с настройками длительности и музыки. Это ещё один способ начать.",
+                            "voiceSeconds": 0.364,
+                            "durationSeconds": 7.977,
+                            "sha256": "c0bd144eb09e496c239b5560d014996967bdac9a5a7be1d23569d060c9dafaa5"
+                        },
+                        {
+                            "key": "auto.4",
+                            "text": "«Автоматическая длительность» подбирает длину ролика. При меньшей точности для анализа берётся меньше данных.",
+                            "voiceSeconds": 8.941,
+                            "durationSeconds": 5.288,
+                            "sha256": "de9eacb6815b21970800e22ab98c4c5888956e07260774826778683bb7206cfd"
+                        },
+                        {
+                            "key": "auto.3",
+                            "text": "Команда «Создать ролик» анализирует медиафайлы на этом устройстве. Ожидание в видео сокращено.",
+                            "voiceSeconds": 14.828,
+                            "durationSeconds": 5.681,
+                            "sha256": "c3de42d9c2faad39d34443575c3fac16553d3b45d6206487a6b95ec910e93627"
+                        },
+                        {
+                            "key": "auto.2",
+                            "text": "Черновик готов: фрагменты уже в ролике. Воспроизведите его перед экспортом.",
+                            "voiceSeconds": 22.101,
+                            "durationSeconds": 5.809,
+                            "sha256": "9de942d85e4489addff221bc93db9a8cf2c634ef7502300a5164af3de397f3d2"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 6.26,
+                            "seconds": 2.431
+                        },
+                        {
+                            "atSeconds": 10.598,
+                            "seconds": 1.549
+                        }
+                    ],
+                    "unnarratedSha256": "d66d654153cb775bc3da505fa1333e808b5f55ae689c228495bd15c14849f167",
+                    "unnarratedDurationSeconds": 31.816667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 25.089,
+                        "seconds": 4.4,
+                        "crop": "950:517:599:83",
+                        "changedFrames": 149,
+                        "encodedFps": 60,
+                        "frames": 264,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 33.99239543726235
+                    }
+                ],
+                "movingFps": 33.99239543726235,
+                "maximumStillSeconds": 0.05
             }
         }
     },
