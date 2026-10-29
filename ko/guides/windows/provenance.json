@@ -37,7 +37,7 @@
                         0.6470820189274448,
                         0.6454900260190807
                     ],
-                    "videoSeconds": 4.359,
+                    "videoSeconds": 4.627,
                     "inputVideoSeconds": 3.08
                 },
                 {
@@ -47,13 +47,13 @@
                         0.292714657415438
                     ],
                     "sequence": 3,
-                    "videoSeconds": 5.21
+                    "videoSeconds": 5.478
                 },
                 {
                     "event": "action",
                     "key": "reel-add-empty",
-                    "videoSeconds": 6.54,
-                    "inputVideoSeconds": 5.21
+                    "videoSeconds": 6.808,
+                    "inputVideoSeconds": 5.478
                 },
                 {
                     "event": "native-click",
@@ -62,13 +62,13 @@
                         0.30138768430182133
                     ],
                     "sequence": 4,
-                    "videoSeconds": 7.367
+                    "videoSeconds": 7.635
                 },
                 {
                     "event": "action",
                     "key": "add-media-video",
-                    "videoSeconds": 8.691,
-                    "inputVideoSeconds": 7.367
+                    "videoSeconds": 8.959,
+                    "inputVideoSeconds": 7.635
                 },
                 {
                     "event": "native-click",
@@ -78,29 +78,29 @@
                         0.9096323750066633
                     ],
                     "sequence": 5,
-                    "videoSeconds": 9.013
+                    "videoSeconds": 9.281
                 }
             ],
             "captions": [
                 [
-                    0.12544399999751477,
-                    "수동 릴을 만들고 빈 프로젝트를 선택하세요."
+                    0.125,
+                    "직접 편집을 선택한 뒤 빈 프로젝트로 시작을 눌러 새 릴을 만드세요."
                 ],
                 [
-                    4.358950199999526,
-                    "Windows 파일에서 영상을 추가하세요. 파일 대화상자는 이 앱 녹화에 포함되지 않습니다."
+                    4.627,
+                    "추가를 누르고 윈도 파일 선택 창에서 영상을 고르세요. 이 창은 영상에 나오지 않습니다."
                 ],
                 [
-                    10.647793799998908,
-                    "가져온 원본이 준비되었습니다. 선택을 열어 릴에 넣을 순간을 고르세요."
+                    11.022,
+                    "영상이 이 릴의 소스로 추가되었습니다. 아직 선택한 구간은 없습니다."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 15.583333,
+            "duration": 16.777,
             "height": 970,
-            "sha256": "89166d48fe611676938900ff6fbf157e0a15b8cf265d04e242595f8c5146dc75",
-            "size": 1205799,
+            "sha256": "7c9a5c1c315547e96be903c44e2936def2195ceac24c4d7e2b3271844da0552e",
+            "size": 1660282,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -122,7 +122,58 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "646a6aaa43866b5cecedd96a1c09aad86672d3f6aca7aef5490ff1a361cd15b3",
                 "randomSeed": "17532546066923132367",
-                "startSeconds": 61.365
+                "startSeconds": 61.365,
+                "narration": {
+                    "createdAt": "2026-10-29T12:35:13.288550+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "home.3",
+                            "text": "직접 편집을 선택한 뒤 빈 프로젝트로 시작을 눌러 새 릴을 만드세요.",
+                            "voiceSeconds": 0.375,
+                            "durationSeconds": 3.901,
+                            "sha256": "e8a12d977ffff95213de39520099dac303b4d1b0587310def0360cfb87e8be51"
+                        },
+                        {
+                            "key": "home.2",
+                            "text": "추가를 누르고 윈도 파일 선택 창에서 영상을 고르세요. 이 창은 영상에 나오지 않습니다.",
+                            "voiceSeconds": 4.877,
+                            "durationSeconds": 5.795,
+                            "sha256": "0c2b6c3ecc3b536ca17f49bb1f3d144fb4c4fe34944bfb3d5202468992bd7ae1"
+                        },
+                        {
+                            "key": "home.1",
+                            "text": "영상이 이 릴의 소스로 추가되었습니다. 아직 선택한 구간은 없습니다.",
+                            "voiceSeconds": 11.272,
+                            "durationSeconds": 4.905,
+                            "sha256": "0483d38f040be39a47f081e454785d25197c9eb5a17c3ce0173eeb2a91eca724"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 4.359,
+                            "seconds": 0.268
+                        },
+                        {
+                            "atSeconds": 10.648,
+                            "seconds": 0.106
+                        },
+                        {
+                            "atSeconds": 15.583,
+                            "seconds": 0.82
+                        }
+                    ],
+                    "unnarratedSha256": "89166d48fe611676938900ff6fbf157e0a15b8cf265d04e242595f8c5146dc75",
+                    "unnarratedDurationSeconds": 15.583333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "select": {
@@ -320,20 +371,20 @@
             ],
             "captions": [
                 [
-                    0.5083362000004854,
-                    "선택을 열고 순간의 시작점을 클릭한 뒤 더하기를 누르고 끝점을 클릭하세요."
+                    0.508,
+                    "선택을 열고 원하는 장면의 시작점을 클릭한 뒤 더하기 버튼을 누르고 끝점을 클릭하세요."
                 ],
                 [
-                    7.998254199999792,
-                    "두 번째 순간을 선택하세요. 미리보기는 선택한 파트만 재생하고 사이를 건너뜁니다."
+                    7.998,
+                    "두 번째 장면을 선택하세요. 미리보기는 선택한 구간만 재생하고 그 사이의 영상은 건너뜁니다."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 25.883333,
+            "duration": 25.883008,
             "height": 970,
-            "sha256": "4f2ad99c281ec5314810003c71e51149c30b6ef4a18b8f46eee9e256e9308e78",
-            "size": 11990088,
+            "sha256": "4e20a541f91c2ffb371b1c6e4b7986e579437bb0d866ddf6d8ccb40d3b1a27ee",
+            "size": 13260178,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -343,32 +394,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 16.787,
-                        "seconds": 5.731,
-                        "crop": "1009:550:20:79",
-                        "changedFrames": 172,
-                        "encodedFps": 60,
-                        "frames": 343,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.175438596491226
-                    }
-                ],
-                "movingFps": 30.175438596491226,
-                "maximumStillSeconds": 0.06666666666666667,
-                "sourceClock": {
-                    "confidenceMinimum": 0.9954890012741089,
-                    "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.06666666666666667,
-                    "movingFps": 30.175438596491226,
-                    "originalFrameConfidenceMinimum": 0.992592990398407,
-                    "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 1.0
-                }
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:52.131101+00:00",
@@ -381,7 +406,64 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "00ba7403ccb3fe548cd404461a184a816c0073cae0e1492539aa85c41541fc15",
                 "randomSeed": "17532546066923132367",
-                "startSeconds": 36.874
+                "startSeconds": 36.874,
+                "narration": {
+                    "createdAt": "2026-10-29T12:35:34.999150+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "select.2",
+                            "text": "선택을 열고 원하는 장면의 시작점을 클릭한 뒤 더하기 버튼을 누르고 끝점을 클릭하세요.",
+                            "voiceSeconds": 0.758,
+                            "durationSeconds": 5.303,
+                            "sha256": "d1d9bfd3e6114d0434ce637ef957c7d9f3b9cd0ecc3d2bddf0b6f898a3bdd640"
+                        },
+                        {
+                            "key": "select.1",
+                            "text": "두 번째 장면을 선택하세요. 미리보기는 선택한 구간만 재생하고 그 사이의 영상은 건너뜁니다.",
+                            "voiceSeconds": 8.248,
+                            "durationSeconds": 5.919,
+                            "sha256": "ca84ecb9c9bc42073562d85b95d4f6fd410451b55b4cd17d746a5aa091ff4cb9"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "4f2ad99c281ec5314810003c71e51149c30b6ef4a18b8f46eee9e256e9308e78",
+                    "unnarratedDurationSeconds": 25.883333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 16.787,
+                        "seconds": 5.731,
+                        "crop": "1009:550:20:79",
+                        "changedFrames": 172,
+                        "encodedFps": 60,
+                        "frames": 344,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.08746355685131
+                    }
+                ],
+                "movingFps": 30.08746355685131,
+                "maximumStillSeconds": 0.06666666666666667,
+                "sourceClock": {
+                    "confidenceMinimum": 0.9954623579978943,
+                    "matching": "original source frames or adjacent-frame interpolation",
+                    "maximumStillSeconds": 0.06666666666666667,
+                    "movingFps": 30.08746355685131,
+                    "originalFrameConfidenceMinimum": 0.992548406124115,
+                    "sourceFps": 30,
+                    "sourceSecondsPerRecordedSecond": 0.9970844984054565
+                }
             }
         },
         "text": {
@@ -555,20 +637,20 @@
             ],
             "captions": [
                 [
-                    0.14345260000118287,
-                    "선택한 파트 뒤에 이미지 위로 표시할 글을 추가하세요."
+                    0.143,
+                    "선택한 구간 뒤에 텍스트 오버레이를 추가하고 내용을 입력하세요."
                 ],
                 [
-                    8.9522180999993,
+                    8.952,
                     "미리보기에서 영상은 계속 움직이고 그 위에 제목이 나타납니다."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 19.316667,
+            "duration": 19.317,
             "height": 970,
-            "sha256": "93368e164a65d17904487aec1fcd846969b15e25d8adc576ca16fd44a982e657",
-            "size": 4110407,
+            "sha256": "368245b29e42523adcfec8abec4af8e12ca50b07de1e378859b136850ea57876",
+            "size": 6180176,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -578,23 +660,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 14.188,
-                        "seconds": 2.176,
-                        "crop": "1009:550:20:79",
-                        "changedFrames": 66,
-                        "encodedFps": 60,
-                        "frames": 130,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.697674418604652
-                    }
-                ],
-                "movingFps": 30.697674418604652,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:52.840052+00:00",
@@ -607,7 +672,55 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "49196f9f34e9e0377c112f0ccb8405c2760d0e42eb7969a964d9d192e94eab43",
                 "randomSeed": "17532546066923132367",
-                "startSeconds": 28.811
+                "startSeconds": 28.811,
+                "narration": {
+                    "createdAt": "2026-10-29T12:35:55.780771+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "text.2",
+                            "text": "선택한 구간 뒤에 텍스트 오버레이를 추가하고 내용을 입력하세요.",
+                            "voiceSeconds": 0.393,
+                            "durationSeconds": 4.36,
+                            "sha256": "db4085fb551ad2230eb21b18f5d1cfe83919d6f3f308dcaa16d9123a29ce7653"
+                        },
+                        {
+                            "key": "text.1",
+                            "text": "미리보기에서 영상은 계속 움직이고 그 위에 제목이 나타납니다.",
+                            "voiceSeconds": 9.202,
+                            "durationSeconds": 4.445,
+                            "sha256": "feea716cfb02ce59d9826e12dbf95cf13f919ee399742a3cbb4f75b96d6b551a"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "93368e164a65d17904487aec1fcd846969b15e25d8adc576ca16fd44a982e657",
+                    "unnarratedDurationSeconds": 19.316667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 14.188,
+                        "seconds": 2.176,
+                        "crop": "1009:550:20:79",
+                        "changedFrames": 66,
+                        "encodedFps": 60,
+                        "frames": 131,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.461538461538463
+                    }
+                ],
+                "movingFps": 30.461538461538463,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "parts": {
@@ -616,7 +729,7 @@
                     "event": "action",
                     "key": "parts-reorder",
                     "clipId": "65283d82-501b-48dd-a0e3-a49212c79125",
-                    "videoSeconds": 1.831
+                    "videoSeconds": 5.666
                 },
                 {
                     "event": "native-click",
@@ -625,7 +738,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 25,
-                    "videoSeconds": 2.162
+                    "videoSeconds": 5.997
                 },
                 {
                     "event": "native-click",
@@ -634,7 +747,7 @@
                         0.7190616850426997
                     ],
                     "sequence": 26,
-                    "videoSeconds": 3.067
+                    "videoSeconds": 6.902
                 },
                 {
                     "event": "action",
@@ -645,8 +758,8 @@
                         0.6557570957861739,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.42,
-                    "inputVideoSeconds": 3.067
+                    "videoSeconds": 8.255,
+                    "inputVideoSeconds": 6.902
                 },
                 {
                     "event": "native-click",
@@ -655,7 +768,7 @@
                         0.7190616850426997
                     ],
                     "sequence": 27,
-                    "videoSeconds": 9.288
+                    "videoSeconds": 13.123
                 },
                 {
                     "event": "action",
@@ -666,26 +779,26 @@
                         0.6557570957861739,
                         0.852558542931483
                     ],
-                    "videoSeconds": 10.546,
-                    "inputVideoSeconds": 9.288
+                    "videoSeconds": 14.381,
+                    "inputVideoSeconds": 13.123
                 }
             ],
             "captions": [
                 [
-                    0.17038189999948372,
-                    "구간 목록에 재생 순서가 표시됩니다. 번호 손잡이를 끌어 구간을 옮기세요."
+                    0.17,
+                    "구간 목록에 재생 순서가 표시됩니다. 번호가 있는 핸들을 끌어 구간을 옮기세요."
                 ],
                 [
-                    1.8321982999987085,
-                    "미리보기는 새 순서를 따릅니다. 제목은 해당 영상 블록과 함께 유지됩니다."
+                    5.667,
+                    "미리보기는 새 순서대로 재생됩니다. 제목도 해당 영상과 함께 이동합니다."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 12.533333,
+            "duration": 16.368,
             "height": 970,
-            "sha256": "fc2e60fbcf40afa9245ee900fca6d6cb0bb79c98df62ca502fd834786c363feb",
-            "size": 8756551,
+            "sha256": "47eab93abc0d32586514d4f93b7d4b79e9278ed570dbe72f992f9ac0d3213f9e",
+            "size": 9148950,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -695,32 +808,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 3.367,
-                        "seconds": 5.771,
-                        "crop": "1009:550:20:79",
-                        "changedFrames": 178,
-                        "encodedFps": 60,
-                        "frames": 346,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.956521739130434
-                    }
-                ],
-                "movingFps": 30.956521739130434,
-                "maximumStillSeconds": 0.06666666666666667,
-                "sourceClock": {
-                    "confidenceMinimum": 0.9952141046524048,
-                    "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.06666666666666667,
-                    "movingFps": 30.608695652173914,
-                    "originalFrameConfidenceMinimum": 0.9942595362663269,
-                    "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 0.9826087355613708
-                }
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:53.415684+00:00",
@@ -733,7 +820,69 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "cf393cc043086cd8f4873c854a44772f969a82ff817fc8a209660bf98e0dc8b8",
                 "randomSeed": "17532546066923132367",
-                "startSeconds": 36.469
+                "startSeconds": 36.469,
+                "narration": {
+                    "createdAt": "2026-10-29T12:36:14.661545+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "parts.2",
+                            "text": "구간 목록에 재생 순서가 표시됩니다. 번호가 있는 핸들을 끌어 구간을 옮기세요.",
+                            "voiceSeconds": 0.42,
+                            "durationSeconds": 4.897,
+                            "sha256": "8a33b5d2735e8f906d25ed0ac6d3ab8682b8ecb47a3733e5261e70f3c9129a4e"
+                        },
+                        {
+                            "key": "parts.1",
+                            "text": "미리보기는 새 순서대로 재생됩니다. 제목도 해당 영상과 함께 이동합니다.",
+                            "voiceSeconds": 5.917,
+                            "durationSeconds": 4.757,
+                            "sha256": "d4b58fd6d912213e0ec5708a17da17a0e3b261ab7d80ca99945a948544b97819"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 1.832,
+                            "seconds": 3.835
+                        }
+                    ],
+                    "unnarratedSha256": "fc2e60fbcf40afa9245ee900fca6d6cb0bb79c98df62ca502fd834786c363feb",
+                    "unnarratedDurationSeconds": 12.533333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 7.202,
+                        "seconds": 5.771,
+                        "crop": "1009:550:20:79",
+                        "changedFrames": 178,
+                        "encodedFps": 60,
+                        "frames": 347,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.86705202312139
+                    }
+                ],
+                "movingFps": 30.86705202312139,
+                "maximumStillSeconds": 0.06666666666666667,
+                "sourceClock": {
+                    "confidenceMinimum": 0.9951764345169067,
+                    "matching": "original source frames or adjacent-frame interpolation",
+                    "maximumStillSeconds": 0.06666666666666667,
+                    "movingFps": 30.520231213872833,
+                    "originalFrameConfidenceMinimum": 0.9942646026611328,
+                    "sourceFps": 30,
+                    "sourceSecondsPerRecordedSecond": 0.9797687530517578
+                }
             }
         },
         "image": {
@@ -893,20 +1042,20 @@
             ],
             "captions": [
                 [
-                    0.11676869999791961,
-                    "사진을 별도 파트로 추가하세요. 녹화 범위 밖의 Windows 파일 창에서 선택합니다."
+                    0.117,
+                    "사진을 별도 구간으로 추가하세요. 윈도 파일 선택 창에서 고르며, 이 창은 영상에 나오지 않습니다."
                 ],
                 [
-                    12.765608599998814,
-                    "길이를 설정하고 사진 파트를 재생하여 표시 시간을 확인하세요."
+                    12.766,
+                    "길이를 삼 초로 설정한 뒤 사진 구간을 재생해 얼마나 오래 표시되는지 확인하세요."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.316667,
+            "duration": 22.317,
             "height": 970,
-            "sha256": "bd11a4b4011120d8a771b83da6d5de57a7d64a76e657bc84c353e6a95c246916",
-            "size": 2573850,
+            "sha256": "88eccf27963707a2f55df90c1d0f4b36025b79246ca027588aa21cffa5666f0c",
+            "size": 4918055,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -928,7 +1077,38 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "3ed29ef230cd4e78558b16c6e5fc27e92a5bff3999ad71c25fed1bc25e3d7f73",
                 "randomSeed": "17532546066923132367",
-                "startSeconds": 2.72
+                "startSeconds": 2.72,
+                "narration": {
+                    "createdAt": "2026-10-29T12:36:37.258281+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "image.2",
+                            "text": "사진을 별도 구간으로 추가하세요. 윈도 파일 선택 창에서 고르며, 이 창은 영상에 나오지 않습니다.",
+                            "voiceSeconds": 0.367,
+                            "durationSeconds": 6.635,
+                            "sha256": "af553b1170e28b94eb9012fe325a6f58352d7cdc7d3b5e15a3359683b9b33d4f"
+                        },
+                        {
+                            "key": "image.1",
+                            "text": "길이를 삼 초로 설정한 뒤 사진 구간을 재생해 얼마나 오래 표시되는지 확인하세요.",
+                            "voiceSeconds": 13.016,
+                            "durationSeconds": 5.198,
+                            "sha256": "8f17d0d02f555f7d8fc17e83767bd565af2919164c7db22ae52276009937e9cd"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "bd11a4b4011120d8a771b83da6d5de57a7d64a76e657bc84c353e6a95c246916",
+                    "unnarratedDurationSeconds": 22.316667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "transition": {
@@ -1078,20 +1258,20 @@
             ],
             "captions": [
                 [
-                    0.16583059999902616,
-                    "사진 앞의 연결을 열고 갤러리에서 교차 디졸브를 고르세요."
+                    0.166,
+                    "사진 앞의 연결 부분을 열고 갤러리에서 크로스 디졸브를 고른 뒤 길이를 설정하세요."
                 ],
                 [
-                    10.872482899998431,
-                    "연결 부분을 재생하면 움직이는 영상이 사진으로 부드럽게 바뀝니다."
+                    10.872,
+                    "연결 부분을 재생해 움직이는 영상이 정지 사진으로 부드럽게 바뀌는 모습을 확인하세요."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 25.466667,
+            "duration": 25.467,
             "height": 970,
-            "sha256": "388ea963ce6dd6c3a3eb9b94cb1ff121c79c41bdb7482aae974f66e7afb068e1",
-            "size": 18345152,
+            "sha256": "12fe20700b65e9dd1e4f640eecf25a1ba16994bdbe7a70d4b39f9a5bedabf129",
+            "size": 16939222,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1101,23 +1281,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 12.319,
-                        "seconds": 6.3,
-                        "crop": "1009:550:20:79",
-                        "changedFrames": 199,
-                        "encodedFps": 60,
-                        "frames": 377,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.75531914893617
-                    }
-                ],
-                "movingFps": 31.75531914893617,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:54.864419+00:00",
@@ -1130,7 +1293,55 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "0b7daad81ff0d126c26327a915d22d06ca69d7768f6c8c697f3fdbffb2ad93d7",
                 "randomSeed": "17532546066923132367",
-                "startSeconds": 21.906
+                "startSeconds": 21.906,
+                "narration": {
+                    "createdAt": "2026-10-29T12:36:57.979077+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "transition.2",
+                            "text": "사진 앞의 연결 부분을 열고 갤러리에서 크로스 디졸브를 고른 뒤 길이를 설정하세요.",
+                            "voiceSeconds": 0.416,
+                            "durationSeconds": 5.099,
+                            "sha256": "559f627efe50066248fbef7eff291f42cd6f57117f1dd7ada125bc2b50d4e1aa"
+                        },
+                        {
+                            "key": "transition.1",
+                            "text": "연결 부분을 재생해 움직이는 영상이 정지 사진으로 부드럽게 바뀌는 모습을 확인하세요.",
+                            "voiceSeconds": 11.122,
+                            "durationSeconds": 5.332,
+                            "sha256": "fd824fd2f7ddc5144d8c87de2d912fab7c1fb8483f303f9d26338312d8abfe48"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "388ea963ce6dd6c3a3eb9b94cb1ff121c79c41bdb7482aae974f66e7afb068e1",
+                    "unnarratedDurationSeconds": 25.466667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 12.319,
+                        "seconds": 6.3,
+                        "crop": "1009:550:20:79",
+                        "changedFrames": 199,
+                        "encodedFps": 60,
+                        "frames": 378,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.6710875331565
+                    }
+                ],
+                "movingFps": 31.6710875331565,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "music": {
@@ -1231,20 +1442,20 @@
             ],
             "captions": [
                 [
-                    0.14188360000116518,
-                    "왼쪽 사이드바에서 음악을 열고 더하기로 기본 제공 곡 Bouncy Groove를 추가하세요."
+                    0.142,
+                    "왼쪽에서 음악을 열고 더하기 버튼으로 기본 제공 곡 바운시 그루브를 추가하세요."
                 ],
                 [
-                    6.614669300000969,
-                    "음악 트랙이 릴에 추가되었습니다. 재생하여 영상과 타이밍을 확인하세요."
+                    6.615,
+                    "이제 릴 전체에 배경 음악이 재생됩니다. 재생을 눌러 영상과 타이밍이 맞는지 확인하세요."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 17.733333,
+            "duration": 17.733008,
             "height": 970,
-            "sha256": "9652bb9171899a7bdf6acb75fd058c747ad2fa857a37b7b81fe680fead31c042",
-            "size": 10733141,
+            "sha256": "3dc49932a8046d974811166fd3b20b669fcb097702d8e56bcd55c6a06b7baf15",
+            "size": 10926552,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1254,6 +1465,50 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:34:55.596285+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "454b3afbf498fae2b55d57082d9cfa0ad67b8c6fa3c6facb688675c2247dc42a",
+                "randomSeed": "17532546066923132367",
+                "startSeconds": 14.06,
+                "narration": {
+                    "createdAt": "2026-10-29T12:37:15.288274+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "music.2",
+                            "text": "왼쪽에서 음악을 열고 더하기 버튼으로 기본 제공 곡 바운시 그루브를 추가하세요.",
+                            "voiceSeconds": 0.392,
+                            "durationSeconds": 5.621,
+                            "sha256": "bf678a52c105bbb7d3a75e3bae669e80ac8b1417e3fa2a23905d7efa9790f78a"
+                        },
+                        {
+                            "key": "music.1",
+                            "text": "이제 릴 전체에 배경 음악이 재생됩니다. 재생을 눌러 영상과 타이밍이 맞는지 확인하세요.",
+                            "voiceSeconds": 6.865,
+                            "durationSeconds": 6.132,
+                            "sha256": "a7ceef2c1b98367b318517963add6d6913feed2619a6b4469871c54867fab16d"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "9652bb9171899a7bdf6acb75fd058c747ad2fa857a37b7b81fe680fead31c042",
+                    "unnarratedDurationSeconds": 17.733333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -1271,19 +1526,6 @@
                 ],
                 "movingFps": 30.81081081081081,
                 "maximumStillSeconds": 0.06666666666666667
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:34:55.596285+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "454b3afbf498fae2b55d57082d9cfa0ad67b8c6fa3c6facb688675c2247dc42a",
-                "randomSeed": "17532546066923132367",
-                "startSeconds": 14.06
             }
         },
         "video": {
@@ -1433,24 +1675,24 @@
             ],
             "captions": [
                 [
-                    0.08410629999707453,
-                    "영상 파트 설정을 여세요. 각 탭은 릴의 이 파트를 변경합니다."
+                    0.084,
+                    "영상 구간의 설정을 여세요. 각 탭에서 릴의 이 구간을 조정할 수 있습니다."
                 ],
                 [
-                    6.402342499997758,
-                    "프레임 탭에서 확대해 구도를 다듬고 미리보기에서 결과를 비교하세요."
+                    6.402,
+                    "프레임 탭에서 화면을 확대해 구도를 좁히세요. 조정 탭에는 밝기와 색상 설정이 있습니다."
                 ],
                 [
-                    18.03545379999923,
-                    "파트를 재생하여 움직이는 영상에서 가까워진 구도를 확인하세요."
+                    18.035,
+                    "구간을 재생해 확대된 구도를 움직이는 영상으로 확인한 뒤 설정을 다시 여세요."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
             "duration": 27.45,
             "height": 970,
-            "sha256": "b6cae76f9038f82e80811348117b40e2a0f34e25069c1635cefa3f99e83c23b6",
-            "size": 7755793,
+            "sha256": "372b155228784962ee52432bc30051a0f68aca1187c6631ffbb0be9901042720",
+            "size": 9950506,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1460,6 +1702,57 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:34:56.394903+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "ca92e21c9db8c6f4e95b2a20366f04ce6fe681d4d8850dc259688514f9e94154",
+                "randomSeed": "17532546066923132367",
+                "startSeconds": 48.78,
+                "narration": {
+                    "createdAt": "2026-10-29T12:37:46.960714+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "video.3",
+                            "text": "영상 구간의 설정을 여세요. 각 탭에서 릴의 이 구간을 조정할 수 있습니다.",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.179,
+                            "sha256": "4a31f88e3de973efdc8f6ba4d4152cd38337c0a93d42d5967dc6acadee62acdf"
+                        },
+                        {
+                            "key": "video.2",
+                            "text": "프레임 탭에서 화면을 확대해 구도를 좁히세요. 조정 탭에는 밝기와 색상 설정이 있습니다.",
+                            "voiceSeconds": 6.652,
+                            "durationSeconds": 5.839,
+                            "sha256": "ba8bffa106726824586740dd79baec14471ac978cd652eaddcdc10c660a703a1"
+                        },
+                        {
+                            "key": "video.1",
+                            "text": "구간을 재생해 확대된 구도를 움직이는 영상으로 확인한 뒤 설정을 다시 여세요.",
+                            "voiceSeconds": 18.285,
+                            "durationSeconds": 5.233,
+                            "sha256": "cf11abd3bf34017960e389e43d4763b55670d6a416df9884beeec19cb3a92589"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "b6cae76f9038f82e80811348117b40e2a0f34e25069c1635cefa3f99e83c23b6",
+                    "unnarratedDurationSeconds": 27.45,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -1477,19 +1770,6 @@
                 ],
                 "movingFps": 30.437956204379564,
                 "maximumStillSeconds": 0.05
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:34:56.394903+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "ca92e21c9db8c6f4e95b2a20366f04ce6fe681d4d8850dc259688514f9e94154",
-                "randomSeed": "17532546066923132367",
-                "startSeconds": 48.78
             }
         },
         "photo-capture": {
@@ -1600,7 +1880,7 @@
                     "flashSeconds": 0.8,
                     "holdSeconds": 3.0,
                     "previewSeconds": 4.301888,
-                    "videoSeconds": 12.865,
+                    "videoSeconds": 16.121,
                     "inputVideoSeconds": 11.33
                 },
                 {
@@ -1610,14 +1890,14 @@
                         0.6027753686036427
                     ],
                     "sequence": 61,
-                    "videoSeconds": 13.8
+                    "videoSeconds": 17.056
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-angle",
                     "value": "-12",
-                    "videoSeconds": 15.156,
-                    "inputVideoSeconds": 13.8
+                    "videoSeconds": 18.412,
+                    "inputVideoSeconds": 17.056
                 },
                 {
                     "event": "native-click",
@@ -1626,14 +1906,14 @@
                         0.6504770164787511
                     ],
                     "sequence": 62,
-                    "videoSeconds": 16.108
+                    "videoSeconds": 19.364
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-size",
                     "value": "76",
-                    "videoSeconds": 17.385,
-                    "inputVideoSeconds": 16.108
+                    "videoSeconds": 20.641,
+                    "inputVideoSeconds": 19.364
                 },
                 {
                     "event": "native-click",
@@ -1642,14 +1922,14 @@
                         0.6981786643538596
                     ],
                     "sequence": 63,
-                    "videoSeconds": 18.348
+                    "videoSeconds": 21.604
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-border-width",
                     "value": "16",
-                    "videoSeconds": 19.632,
-                    "inputVideoSeconds": 18.348
+                    "videoSeconds": 22.888,
+                    "inputVideoSeconds": 21.604
                 },
                 {
                     "event": "native-click",
@@ -1658,7 +1938,7 @@
                         0.40112749349522986
                     ],
                     "sequence": 64,
-                    "videoSeconds": 20.47
+                    "videoSeconds": 23.726
                 },
                 {
                     "event": "action",
@@ -1669,8 +1949,8 @@
                         0.6557570957861739,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 21.849,
-                    "inputVideoSeconds": 20.47
+                    "videoSeconds": 25.105,
+                    "inputVideoSeconds": 23.726
                 },
                 {
                     "event": "native-click",
@@ -1679,7 +1959,7 @@
                         0.9653078924544666
                     ],
                     "sequence": 65,
-                    "videoSeconds": 24.728
+                    "videoSeconds": 27.984
                 },
                 {
                     "event": "action",
@@ -1690,8 +1970,8 @@
                         0.6557570957861739,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 25.98,
-                    "inputVideoSeconds": 24.728
+                    "videoSeconds": 29.236,
+                    "inputVideoSeconds": 27.984
                 },
                 {
                     "event": "native-click",
@@ -1700,7 +1980,7 @@
                         0.13876843018213356
                     ],
                     "sequence": 66,
-                    "videoSeconds": 26.802
+                    "videoSeconds": 30.058
                 },
                 {
                     "event": "action",
@@ -1711,8 +1991,8 @@
                         0.6557570957861739,
                         0.852558542931483
                     ],
-                    "videoSeconds": 28.063,
-                    "inputVideoSeconds": 26.802
+                    "videoSeconds": 31.319,
+                    "inputVideoSeconds": 30.058
                 },
                 {
                     "event": "native-click",
@@ -1721,7 +2001,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 67,
-                    "videoSeconds": 28.369
+                    "videoSeconds": 31.625
                 },
                 {
                     "event": "native-click",
@@ -1730,7 +2010,7 @@
                         0.7190616850426997
                     ],
                     "sequence": 68,
-                    "videoSeconds": 29.253
+                    "videoSeconds": 32.509
                 },
                 {
                     "event": "action",
@@ -1741,42 +2021,42 @@
                         0.6557570957861739,
                         0.852558542931483
                     ],
-                    "videoSeconds": 30.512,
-                    "inputVideoSeconds": 29.253
+                    "videoSeconds": 33.768,
+                    "inputVideoSeconds": 32.509
                 }
             ],
             "captions": [
                 [
-                    0.11998009999661008,
-                    "사진 캡처를 열고 이 영상 파트에서 켜세요."
+                    0.12,
+                    "이 영상 구간의 사진 촬영을 열고 기능을 켜세요."
                 ],
                 [
-                    4.328213399996457,
-                    "촬영 시점, 짧은 플래시, 3초간 사진 유지 시간을 정하세요."
+                    4.328,
+                    "촬영 시점을 고른 뒤 플래시는 짧게, 사진 유지 시간은 삼 초로 설정하세요."
                 ],
                 [
-                    11.016773899998952,
-                    "재생 위치를 촬영 시점 이후의 정지 사진으로 옮겨 변경 사항을 확인하세요."
+                    11.017,
+                    "사진이 유지되는 구간으로 재생 위치를 옮겨 변경 사항을 확인하세요."
                 ],
                 [
-                    12.865531499995996,
+                    16.122,
                     "사진을 기울이고 줄인 뒤 흰색 테두리를 추가하세요."
                 ],
                 [
-                    21.84921409999879,
-                    "사용자 지정 프레임으로 촬영 영역을 정하세요. 적용하면 자르기가 확정됩니다."
+                    25.105,
+                    "사용자 지정 프레임으로 촬영할 영역을 정하고 적용을 눌러 자른 영역을 확정하세요."
                 ],
                 [
-                    28.390874799999438,
-                    "재생을 누르면 플래시, 기울어진 액자 사진, 다시 움직이는 영상이 나옵니다."
+                    31.647,
+                    "재생을 누르면 영상에 플래시가 번쩍이고, 테두리를 두른 기울어진 사진에서 잠시 멈춘 뒤 계속됩니다."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 41.383333,
+            "duration": 44.639,
             "height": 970,
-            "sha256": "9ced456e52a4f4e27bd5915e35dfb48b4a5ba62e69aa3402ea83b51029ff28a7",
-            "size": 14426803,
+            "sha256": "dea0d21a9d7d5fe14b08625b68e36fd16ba624e47bec2d868cf4da04ace3c579",
+            "size": 17056879,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1786,33 +2066,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 29.703,
-                        "seconds": 1.6,
-                        "crop": "1009:550:20:79",
-                        "changedFrames": 48,
-                        "encodedFps": 60,
-                        "frames": 95,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.638297872340427
-                    },
-                    {
-                        "startSeconds": 35.553,
-                        "seconds": 5.63,
-                        "crop": "1009:550:20:79",
-                        "changedFrames": 174,
-                        "encodedFps": 60,
-                        "frames": 337,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.071428571428573
-                    }
-                ],
-                "movingFps": 30.638297872340427,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:57.348918+00:00",
@@ -1825,7 +2078,98 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "abc49fab03010be236da8e2628e12f574fda213ba6bf12be45f69f16b10ac121",
                 "randomSeed": "17532546066923132367",
-                "startSeconds": 30.913
+                "startSeconds": 30.913,
+                "narration": {
+                    "createdAt": "2026-10-29T12:38:34.193642+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "photo.6",
+                            "text": "이 영상 구간의 사진 촬영을 열고 기능을 켜세요.",
+                            "voiceSeconds": 0.37,
+                            "durationSeconds": 3.107,
+                            "sha256": "651b78cec75fbb0498033281c0a6fc712f29222acbd59300a3a5452ac5c63f06"
+                        },
+                        {
+                            "key": "photo.5",
+                            "text": "촬영 시점을 고른 뒤 플래시는 짧게, 사진 유지 시간은 삼 초로 설정하세요.",
+                            "voiceSeconds": 4.578,
+                            "durationSeconds": 4.363,
+                            "sha256": "306303cb9db8bb28789ec0735b6e6d81e381be41681d6546f0b905afa18ca7b7"
+                        },
+                        {
+                            "key": "photo.1",
+                            "text": "사진이 유지되는 구간으로 재생 위치를 옮겨 변경 사항을 확인하세요.",
+                            "voiceSeconds": 11.267,
+                            "durationSeconds": 4.505,
+                            "sha256": "969e2b97435c6d0477062cf7421e28d74783c7ee1da2532e96ab246e8214e703"
+                        },
+                        {
+                            "key": "photo.4",
+                            "text": "사진을 기울이고 줄인 뒤 흰색 테두리를 추가하세요.",
+                            "voiceSeconds": 16.372,
+                            "durationSeconds": 3.418,
+                            "sha256": "7289a49a87ee47fc1a332ee5c2859717ed9195fa95993d80badf696242ad36d2"
+                        },
+                        {
+                            "key": "photo.3",
+                            "text": "사용자 지정 프레임으로 촬영할 영역을 정하고 적용을 눌러 자른 영역을 확정하세요.",
+                            "voiceSeconds": 25.355,
+                            "durationSeconds": 5.172,
+                            "sha256": "a70e19aa8da5d8234426c4329829d8f6800b676bfa12ad3147c988f5b398b61d"
+                        },
+                        {
+                            "key": "photo.2",
+                            "text": "재생을 누르면 영상에 플래시가 번쩍이고, 테두리를 두른 기울어진 사진에서 잠시 멈춘 뒤 계속됩니다.",
+                            "voiceSeconds": 31.897,
+                            "durationSeconds": 6.971,
+                            "sha256": "922e7ca75eaf0708859ad022dbde8848e0b3d2d9fca6cfce0069a8bc06806a46"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 12.866,
+                            "seconds": 3.256
+                        }
+                    ],
+                    "unnarratedSha256": "9ced456e52a4f4e27bd5915e35dfb48b4a5ba62e69aa3402ea83b51029ff28a7",
+                    "unnarratedDurationSeconds": 41.383333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 32.959,
+                        "seconds": 1.6,
+                        "crop": "1009:550:20:79",
+                        "changedFrames": 48,
+                        "encodedFps": 60,
+                        "frames": 96,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 30.315789473684212
+                    },
+                    {
+                        "startSeconds": 38.809,
+                        "seconds": 5.63,
+                        "crop": "1009:550:20:79",
+                        "changedFrames": 174,
+                        "encodedFps": 60,
+                        "frames": 338,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.979228486646885
+                    }
+                ],
+                "movingFps": 30.315789473684212,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "export-frame": {
@@ -1858,7 +2202,7 @@
                 {
                     "event": "action",
                     "key": "select-export-frame",
-                    "videoSeconds": 3.939,
+                    "videoSeconds": 5.64,
                     "inputVideoSeconds": 2.52
                 },
                 {
@@ -1868,13 +2212,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 71,
-                    "videoSeconds": 6.312
+                    "videoSeconds": 8.013
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 7.538,
-                    "inputVideoSeconds": 6.312
+                    "videoSeconds": 9.239,
+                    "inputVideoSeconds": 8.013
                 },
                 {
                     "event": "native-click",
@@ -1883,13 +2227,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 72,
-                    "videoSeconds": 8.395
+                    "videoSeconds": 10.096
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 9.641,
-                    "inputVideoSeconds": 8.395
+                    "videoSeconds": 11.342,
+                    "inputVideoSeconds": 10.096
                 },
                 {
                     "event": "native-click",
@@ -1898,13 +2242,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 73,
-                    "videoSeconds": 10.469
+                    "videoSeconds": 12.17
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-export",
-                    "videoSeconds": 11.822,
-                    "inputVideoSeconds": 10.469
+                    "videoSeconds": 13.523,
+                    "inputVideoSeconds": 12.17
                 },
                 {
                     "event": "native-click",
@@ -1913,13 +2257,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 74,
-                    "videoSeconds": 14.693
+                    "videoSeconds": 16.394
                 },
                 {
                     "event": "action",
                     "key": "still-export-start",
-                    "videoSeconds": 16.058,
-                    "inputVideoSeconds": 14.693
+                    "videoSeconds": 21.836,
+                    "inputVideoSeconds": 16.394
                 },
                 {
                     "event": "native-click",
@@ -1928,7 +2272,7 @@
                         0.030355594102341718
                     ],
                     "sequence": 75,
-                    "videoSeconds": 19.93
+                    "videoSeconds": 25.708
                 },
                 {
                     "event": "action",
@@ -1939,34 +2283,34 @@
                         0.6557570957861739,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 21.185,
-                    "inputVideoSeconds": 19.93
+                    "videoSeconds": 26.963,
+                    "inputVideoSeconds": 25.708
                 }
             ],
             "captions": [
                 [
-                    0.08563620000131777,
-                    "영상의 선택 페이지에서 프레임 내보내기를 누르면 재생 위치부터 모든 프레임이 표시됩니다."
+                    0.086,
+                    "선택 페이지에서 재생 위치를 정하고 프레임 내보내기를 열어 프레임을 확인하세요."
                 ],
                 [
-                    3.940115600002173,
-                    "다음 프레임으로 넘기며 가장 선명한 장면을 찾으세요."
+                    5.641,
+                    "다음 프레임을 눌러 한 프레임씩 넘기며 가장 선명한 장면을 찾으세요."
                 ],
                 [
-                    9.642096100000344,
-                    "이 프레임 내보내기로 원본 크기의 PNG로 저장합니다. 이 시연은 준비된 폴더에 저장합니다."
+                    11.343,
+                    "내보내기를 누르면 이 프레임이 원본 크기의 PNG 이미지로 저장됩니다. 이 시연에서는 미리 준비한 폴더에 저장합니다."
                 ],
                 [
-                    16.05856810000114,
-                    "프레임이 이미지로 저장되었습니다. 폴더에서 보기로 저장 위치를 엽니다."
+                    21.837,
+                    "프레임이 저장되었습니다. 프레임 선택 창을 닫으면 선택 페이지로 돌아갑니다."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.8,
+            "duration": 28.583008,
             "height": 970,
-            "sha256": "559f062f22c61df9df04c3c6304c8472fefa4c087599768527b333cc357f130b",
-            "size": 5351292,
+            "sha256": "bf96047060f2eed9d9ec52441b0d6a5aa3692a846fb239fc2b89489852ac77e5",
+            "size": 8446880,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1988,7 +2332,62 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "280139b28cf7af5f96b504c7856a97d2c5f598142eab9b2d45d957c51cebc36f",
                 "randomSeed": "17532546066923132367",
-                "startSeconds": 57.956
+                "startSeconds": 56.596,
+                "narration": {
+                    "createdAt": "2026-10-29T12:39:10.021703+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "exportFrame.4",
+                            "text": "선택 페이지에서 재생 위치를 정하고 프레임 내보내기를 열어 프레임을 확인하세요.",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 4.941,
+                            "sha256": "723a0fa75c5765b98776bc04b52d197117d7f58dc56e68666cee7ec5b3c41d34"
+                        },
+                        {
+                            "key": "exportFrame.3",
+                            "text": "다음 프레임을 눌러 한 프레임씩 넘기며 가장 선명한 장면을 찾으세요.",
+                            "voiceSeconds": 5.891,
+                            "durationSeconds": 3.955,
+                            "sha256": "3b2f07dd2c26586ff160e27f00906859d6cf73fc655088996582997ea279188b"
+                        },
+                        {
+                            "key": "exportFrame.2",
+                            "text": "내보내기를 누르면 이 프레임이 원본 크기의 PNG 이미지로 저장됩니다. 이 시연에서는 미리 준비한 폴더에 저장합니다.",
+                            "voiceSeconds": 11.593,
+                            "durationSeconds": 9.893,
+                            "sha256": "2d19ce9f9b493a086336bdde2fbbdd047d1d789da1e9f25c5dd207fcf3c3d971"
+                        },
+                        {
+                            "key": "exportFrame.1",
+                            "text": "프레임이 저장되었습니다. 프레임 선택 창을 닫으면 선택 페이지로 돌아갑니다.",
+                            "voiceSeconds": 22.087,
+                            "durationSeconds": 5.346,
+                            "sha256": "40b41aa4fc478bc9a2ba724bc5d90bf7945d1e8a8dc569337b4bbfd44d05114f"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 3.94,
+                            "seconds": 1.701
+                        },
+                        {
+                            "atSeconds": 16.059,
+                            "seconds": 4.077
+                        }
+                    ],
+                    "unnarratedSha256": "559f062f22c61df9df04c3c6304c8472fefa4c087599768527b333cc357f130b",
+                    "unnarratedDurationSeconds": 22.8,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "musicStartMovedFromSeconds": 57.956,
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "split": {
@@ -2342,28 +2741,28 @@
             ],
             "captions": [
                 [
-                    0.18698800000129268,
-                    "추가, 분할을 차례로 선택하고 릴에서 들어갈 위치를 정하세요."
+                    0.187,
+                    "추가와 분할을 차례로 선택하고 릴에 넣을 위치를 정하세요."
                 ],
                 [
-                    6.557495000000927,
-                    "좌우는 두 영상을 동시에 보여 줍니다. 첫 번째 셀의 영상과 구간을 고르세요."
+                    6.557,
+                    "두 영상을 동시에 표시하려면 좌우를 선택한 뒤 첫 번째 셀에 넣을 영상과 구간을 고르세요."
                 ],
                 [
-                    18.027937999999267,
-                    "각 셀에는 자체 선택 페이지가 있습니다. 두 번째 셀에는 다른 순간을 고르세요."
+                    18.028,
+                    "각 셀에는 별도의 선택 페이지가 있습니다. 두 번째 셀에는 다른 장면을 고르세요."
                 ],
                 [
-                    27.29583089999869,
-                    "분할을 재생하세요. 두 파트가 한 화면에서 함께 움직입니다."
+                    27.296,
+                    "분할 화면을 재생해 두 구간이 한 화면에서 함께 재생되는 모습을 확인하세요."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
             "duration": 37.8,
             "height": 970,
-            "sha256": "68ca1124fbac957d570aa8ddc49edfb65af17046a1088c8d5c80323773bae36f",
-            "size": 21405994,
+            "sha256": "24420f751631fb9ca8562a43f63d7d46561882cb527b4d9e22e0c66971a2a3b8",
+            "size": 21185122,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2373,6 +2772,64 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:34:59.046620+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "3c971c2c561dd4b2297acf0c2fa55d707dd212c5bfddb06d98946704b06e383e",
+                "randomSeed": "17532546066923132367",
+                "startSeconds": 20.953,
+                "narration": {
+                    "createdAt": "2026-10-29T12:39:48.716445+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "split.4",
+                            "text": "추가와 분할을 차례로 선택하고 릴에 넣을 위치를 정하세요.",
+                            "voiceSeconds": 0.437,
+                            "durationSeconds": 3.689,
+                            "sha256": "d09b8b1f801b66f9d1d2008c685fd6627f14c4ecab294bd5a6b08d3d69e03885"
+                        },
+                        {
+                            "key": "split.3",
+                            "text": "두 영상을 동시에 표시하려면 좌우를 선택한 뒤 첫 번째 셀에 넣을 영상과 구간을 고르세요.",
+                            "voiceSeconds": 6.807,
+                            "durationSeconds": 5.631,
+                            "sha256": "0c61c7c5e8c4148a82e3c4bf89084877c66310ce0383e694435f7fe6578fb183"
+                        },
+                        {
+                            "key": "split.2",
+                            "text": "각 셀에는 별도의 선택 페이지가 있습니다. 두 번째 셀에는 다른 장면을 고르세요.",
+                            "voiceSeconds": 18.278,
+                            "durationSeconds": 5.407,
+                            "sha256": "7e6f2d1b08a525d2191ab504abe0ce4c1aad4ad9ba5f96940d57ddec39ffde17"
+                        },
+                        {
+                            "key": "split.1",
+                            "text": "분할 화면을 재생해 두 구간이 한 화면에서 함께 재생되는 모습을 확인하세요.",
+                            "voiceSeconds": 27.546,
+                            "durationSeconds": 4.32,
+                            "sha256": "ee54aac4e113ca9ff7ac2007ffd497d1a8e3942490c6590a09e5fdab48117fd9"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "68ca1124fbac957d570aa8ddc49edfb65af17046a1088c8d5c80323773bae36f",
+                    "unnarratedDurationSeconds": 37.8,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -2390,19 +2847,6 @@
                 ],
                 "movingFps": 37.85488958990536,
                 "maximumStillSeconds": 0.05
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:34:59.046620+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "3c971c2c561dd4b2297acf0c2fa55d707dd212c5bfddb06d98946704b06e383e",
-                "randomSeed": "17532546066923132367",
-                "startSeconds": 20.953
             }
         },
         "audio": {
@@ -2419,7 +2863,7 @@
                 {
                     "event": "action",
                     "key": "editor-top-audio",
-                    "videoSeconds": 2.254,
+                    "videoSeconds": 5.249,
                     "inputVideoSeconds": 0.916
                 },
                 {
@@ -2430,7 +2874,7 @@
                         0.9096323750066633
                     ],
                     "sequence": 95,
-                    "videoSeconds": 4.113
+                    "videoSeconds": 7.108
                 },
                 {
                     "event": "native-click",
@@ -2439,7 +2883,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 96,
-                    "videoSeconds": 8.068
+                    "videoSeconds": 14.771
                 },
                 {
                     "event": "action",
@@ -2450,8 +2894,8 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 9.327,
-                    "inputVideoSeconds": 8.068
+                    "videoSeconds": 16.03,
+                    "inputVideoSeconds": 14.771
                 },
                 {
                     "event": "native-click",
@@ -2460,7 +2904,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 97,
-                    "videoSeconds": 15.198
+                    "videoSeconds": 21.901
                 },
                 {
                     "event": "action",
@@ -2471,30 +2915,30 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 16.459,
-                    "inputVideoSeconds": 15.198
+                    "videoSeconds": 23.162,
+                    "inputVideoSeconds": 21.901
                 }
             ],
             "captions": [
                 [
-                    0.07580900000175461,
-                    "왼쪽 사이드바에서 오디오를 열어 내레이션이나 다른 녹음을 이 릴에만 추가하세요."
+                    0.076,
+                    "왼쪽에서 오디오를 열어 이 릴에 내레이션이나 다른 녹음 파일을 추가하세요."
                 ],
                 [
-                    2.254005099999631,
-                    "Windows 파일에서 녹음 파일을 선택하세요. 파일 대화상자는 이 앱 녹화에 포함되지 않습니다."
+                    5.249,
+                    "파일을 누른 뒤 윈도 파일 선택 창에서 녹음 파일을 선택하세요. 이 창은 영상에 나오지 않습니다."
                 ],
                 [
-                    5.6570233999991615,
-                    "녹음은 영상 아래에 자체 레인을 갖습니다. 재생하여 릴과 함께 들어 보세요."
+                    12.36,
+                    "녹음 파일이 영상 아래에 별도 트랙으로 추가됩니다. 재생을 눌러 릴과 함께 들어 보세요."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 18.216667,
+            "duration": 24.92,
             "height": 970,
-            "sha256": "9caad71998a2e909ffe33fa0e55a0e6848d07c839538e02467980679b37daf6a",
-            "size": 10338050,
+            "sha256": "03467f9d45a58fc76028c3d9f335c2f02370f1dd719ac059e32d99d170e4dc7e",
+            "size": 11930272,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2504,23 +2948,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 8.818,
-                        "seconds": 6.23,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 198,
-                        "encodedFps": 60,
-                        "frames": 373,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.93548387096774
-                    }
-                ],
-                "movingFps": 31.93548387096774,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:59.663520+00:00",
@@ -2533,7 +2960,71 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "e43c98036e75a5911ade9674c6d3f2c8cb4c44f8d4ea83725d98025065deb81e",
                 "randomSeed": "17532546066923132367",
-                "startSeconds": 9.901
+                "startSeconds": 9.901,
+                "narration": {
+                    "createdAt": "2026-10-29T12:40:16.783018+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "audio.3",
+                            "text": "왼쪽에서 오디오를 열어 이 릴에 내레이션이나 다른 녹음 파일을 추가하세요.",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 4.549,
+                            "sha256": "5cf91f2db06ca490e7f27e3352bba266dd7e149dee65bbc596dacab7b58d711d"
+                        },
+                        {
+                            "key": "audio.2",
+                            "text": "파일을 누른 뒤 윈도 파일 선택 창에서 녹음 파일을 선택하세요. 이 창은 영상에 나오지 않습니다.",
+                            "voiceSeconds": 5.499,
+                            "durationSeconds": 6.511,
+                            "sha256": "ca2825103a2af8896aacf2ba904f15c6ae400f8bc280115148b72a35222ff1cc"
+                        },
+                        {
+                            "key": "audio.1",
+                            "text": "녹음 파일이 영상 아래에 별도 트랙으로 추가됩니다. 재생을 눌러 릴과 함께 들어 보세요.",
+                            "voiceSeconds": 12.61,
+                            "durationSeconds": 5.342,
+                            "sha256": "09fb7394967d9b9b11ff1a77e52a1d10e5871950b62e8ef7b4e14fd85d420866"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 2.254,
+                            "seconds": 2.995
+                        },
+                        {
+                            "atSeconds": 5.657,
+                            "seconds": 3.708
+                        }
+                    ],
+                    "unnarratedSha256": "9caad71998a2e909ffe33fa0e55a0e6848d07c839538e02467980679b37daf6a",
+                    "unnarratedDurationSeconds": 18.216667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 15.521,
+                        "seconds": 6.23,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 198,
+                        "encodedFps": 60,
+                        "frames": 374,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.849865951742625
+                    }
+                ],
+                "movingFps": 31.849865951742625,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "export": {
@@ -2650,28 +3141,28 @@
             ],
             "captions": [
                 [
-                    0.0802105999973719,
+                    0.08,
                     "저장하고 내보내기 전에 전체 릴을 소리와 함께 재생하세요."
                 ],
                 [
-                    17.77874509999674,
-                    "저장은 편집 가능한 프로젝트를 보존합니다. 금색 내보내기 버튼은 별도의 영상 파일을 만듭니다."
+                    17.779,
+                    "저장을 누르면 편집 가능한 프로젝트가 저장됩니다. 금색 내보내기 버튼은 별도의 영상 파일을 만듭니다."
                 ],
                 [
-                    28.19582679999803,
-                    "크기, 품질, 형식을 선택하고 내보내세요. 이 시연은 준비된 폴더에 저장합니다."
+                    28.196,
+                    "크기와 품질, 형식을 확인한 뒤 내보내기를 누르세요. 이 시연에서는 미리 준비한 폴더에 저장합니다."
                 ],
                 [
-                    43.36986969999998,
-                    "내보낸 영상이 준비되었습니다. 프로젝트는 나중에 수정할 수 있습니다."
+                    43.37,
+                    "릴 내보내기가 완료되었습니다. 완료를 누르면 이 창이 닫히며, 프로젝트는 계속 수정할 수 있습니다."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 50.766667,
+            "duration": 50.767,
             "height": 970,
-            "sha256": "7a62a6f99ab4125c6d250b980904d07c80b16067e131fe870196ac067c8c98b3",
-            "size": 15037773,
+            "sha256": "3658d154b90fd4d0843dc2c48711c8373dea79d2f8d2873990ee5df65212085e",
+            "size": 17785575,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2681,33 +3172,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 1.268,
-                        "seconds": 1.7,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 50,
-                        "encodedFps": 60,
-                        "frames": 101,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.0
-                    },
-                    {
-                        "startSeconds": 7.018,
-                        "seconds": 8.1,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 255,
-                        "encodedFps": 60,
-                        "frames": 485,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 31.611570247933884
-                    }
-                ],
-                "movingFps": 30.0,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:35:00.818467+00:00",
@@ -2720,7 +3184,79 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "14aa24d351b53b0a723d7c490dbb8254eee249600de9492906e36b3585e63a82",
                 "randomSeed": "17532546066923132367",
-                "startSeconds": 2.965
+                "startSeconds": 2.965,
+                "narration": {
+                    "createdAt": "2026-10-29T12:40:57.084042+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "export.4",
+                            "text": "저장하고 내보내기 전에 전체 릴을 소리와 함께 재생하세요.",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 3.537,
+                            "sha256": "97909bf6f53a44f73e41a18590d02db8bb07d90bb50694fe485219c73a2f89a1"
+                        },
+                        {
+                            "key": "export.3",
+                            "text": "저장을 누르면 편집 가능한 프로젝트가 저장됩니다. 금색 내보내기 버튼은 별도의 영상 파일을 만듭니다.",
+                            "voiceSeconds": 18.029,
+                            "durationSeconds": 7.752,
+                            "sha256": "10924d8ccbce5601a385e93381d97c5d862164f4490bd0173ba4aab719a4bc82"
+                        },
+                        {
+                            "key": "export.2",
+                            "text": "크기와 품질, 형식을 확인한 뒤 내보내기를 누르세요. 이 시연에서는 미리 준비한 폴더에 저장합니다.",
+                            "voiceSeconds": 28.446,
+                            "durationSeconds": 7.332,
+                            "sha256": "9818e35c59199047cc570bd1709a804c2abe70b4f4418bd8e801514763877b59"
+                        },
+                        {
+                            "key": "export.1",
+                            "text": "릴 내보내기가 완료되었습니다. 완료를 누르면 이 창이 닫히며, 프로젝트는 계속 수정할 수 있습니다.",
+                            "voiceSeconds": 43.62,
+                            "durationSeconds": 6.12,
+                            "sha256": "d072d051abe5789ccda14f5cb421767b9705735782a53d2b27c9f9cab84a1223"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "7a62a6f99ab4125c6d250b980904d07c80b16067e131fe870196ac067c8c98b3",
+                    "unnarratedDurationSeconds": 50.766667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 1.268,
+                        "seconds": 1.7,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 50,
+                        "encodedFps": 60,
+                        "frames": 102,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 29.702970297029704
+                    },
+                    {
+                        "startSeconds": 7.018,
+                        "seconds": 8.1,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 255,
+                        "encodedFps": 60,
+                        "frames": 486,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.546391752577318
+                    }
+                ],
+                "movingFps": 29.702970297029704,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "auto": {
@@ -2763,13 +3299,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 106,
-                    "videoSeconds": 11.555
+                    "videoSeconds": 14.241
                 },
                 {
                     "event": "action",
                     "key": "auto-make",
-                    "videoSeconds": 12.917,
-                    "inputVideoSeconds": 11.555
+                    "videoSeconds": 15.603,
+                    "inputVideoSeconds": 14.241
                 },
                 {
                     "event": "native-click",
@@ -2778,7 +3314,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 107,
-                    "videoSeconds": 20.761
+                    "videoSeconds": 23.861
                 },
                 {
                     "event": "action",
@@ -2789,8 +3325,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 22.001,
-                    "inputVideoSeconds": 20.761
+                    "videoSeconds": 25.101,
+                    "inputVideoSeconds": 23.861
                 },
                 {
                     "event": "native-click",
@@ -2799,7 +3335,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 108,
-                    "videoSeconds": 28.884
+                    "videoSeconds": 31.984
                 },
                 {
                     "event": "action",
@@ -2810,8 +3346,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 30.125,
-                    "inputVideoSeconds": 28.884
+                    "videoSeconds": 33.225,
+                    "inputVideoSeconds": 31.984
                 },
                 {
                     "event": "shortened-analysis-wait",
@@ -2820,28 +3356,28 @@
             ],
             "captions": [
                 [
-                    0.18238239999845973,
-                    "구간 자동 선택을 누르면 또 다른 시작 방법인 자동 릴이 열립니다. 길이, 속도감, 분석 정밀도를 설정하세요."
+                    0.182,
+                    "구간 자동 선택을 누르면 또 다른 시작 방법인 자동 릴이 열립니다. 길이와 음악 설정이 있습니다."
                 ],
                 [
-                    6.337011999999959,
-                    "자동 길이가 재생 시간을 정합니다. 정밀도가 낮으면 분석 샘플 수가 줄어듭니다."
+                    6.337,
+                    "길이 자동 설정을 사용하면 재생 시간이 자동으로 정해집니다. 정밀도가 낮을수록 분석 샘플 수가 줄어듭니다."
                 ],
                 [
-                    10.680593000000954,
-                    "릴 만들기는 이 기기에서 미디어를 분석합니다. 이 영상에서는 대기 시간을 줄였습니다."
+                    13.367,
+                    "릴 만들기를 누르면 이 기기에서 미디어를 분석합니다. 이 영상에서는 대기 시간을 줄여 보여 줍니다."
                 ],
                 [
-                    17.920274199997948,
-                    "생성된 파트를 확인하고 내보내기 전에 초안을 재생하세요."
+                    21.02,
+                    "구간이 릴에 배치되어 초안이 준비되었습니다. 내보내기 전에 재생하세요."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 32.083333,
+            "duration": 35.183008,
             "height": 970,
-            "sha256": "e8acce0a7bcd56725a256daee06152ca681717ac8d58df3c8b1847ca875d0bac",
-            "size": 5005042,
+            "sha256": "87c11064346e0756039bb11c31f011083d6c1660cb246f2137c92c59cdcac2e1",
+            "size": 8795854,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2851,23 +3387,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 21.111,
-                        "seconds": 4.4,
-                        "crop": "950:517:599:83",
-                        "changedFrames": 142,
-                        "encodedFps": 60,
-                        "frames": 264,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 32.39543726235741
-                    }
-                ],
-                "movingFps": 32.39543726235741,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:35:01.515882+00:00",
@@ -2880,7 +3399,78 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "d4e541011dd57f3d9aae32ffb95d9a8f602add33c339274d99aa506d8f09e584",
                 "randomSeed": "17532546066923132367",
-                "startSeconds": 47.383
+                "startSeconds": 47.383,
+                "narration": {
+                    "createdAt": "2026-10-29T12:41:30.636932+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-minjun-ko",
+                    "lines": [
+                        {
+                            "key": "auto.5",
+                            "text": "구간 자동 선택을 누르면 또 다른 시작 방법인 자동 릴이 열립니다. 길이와 음악 설정이 있습니다.",
+                            "voiceSeconds": 0.432,
+                            "durationSeconds": 5.338,
+                            "sha256": "3a86c59ea334d404b5ec572e83ea4934a3bdc0b97d02e1047c6dfd86a0db12c5"
+                        },
+                        {
+                            "key": "auto.4",
+                            "text": "길이 자동 설정을 사용하면 재생 시간이 자동으로 정해집니다. 정밀도가 낮을수록 분석 샘플 수가 줄어듭니다.",
+                            "voiceSeconds": 6.587,
+                            "durationSeconds": 6.429,
+                            "sha256": "1a919b9baca7138414b852d18e8ed2737a74dc883faa36445129d9316a6e41f4"
+                        },
+                        {
+                            "key": "auto.3",
+                            "text": "릴 만들기를 누르면 이 기기에서 미디어를 분석합니다. 이 영상에서는 대기 시간을 줄여 보여 줍니다.",
+                            "voiceSeconds": 13.617,
+                            "durationSeconds": 7.054,
+                            "sha256": "7ce545f2d8ab8d39ea587b7605d716b6f27f23f9f22c8e3c02f47951ed4cd782"
+                        },
+                        {
+                            "key": "auto.2",
+                            "text": "구간이 릴에 배치되어 초안이 준비되었습니다. 내보내기 전에 재생하세요.",
+                            "voiceSeconds": 21.27,
+                            "durationSeconds": 4.713,
+                            "sha256": "ab3e505f7ce2678c36126220bef9976d968af168918de0c62774e6c393fa07a3"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 10.681,
+                            "seconds": 2.686
+                        },
+                        {
+                            "atSeconds": 17.92,
+                            "seconds": 0.414
+                        }
+                    ],
+                    "unnarratedSha256": "e8acce0a7bcd56725a256daee06152ca681717ac8d58df3c8b1847ca875d0bac",
+                    "unnarratedDurationSeconds": 32.083333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 24.211,
+                        "seconds": 4.4,
+                        "crop": "950:517:599:83",
+                        "changedFrames": 142,
+                        "encodedFps": 60,
+                        "frames": 264,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 32.39543726235741
+                    }
+                ],
+                "movingFps": 32.39543726235741,
+                "maximumStillSeconds": 0.05
             }
         }
     },
