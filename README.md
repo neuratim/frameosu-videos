@@ -9,13 +9,15 @@ recordings become available. Within a language use purpose folders such as
 `guides/`, `campaigns/` or `advertisements/`, followed by a platform where useful.
 Windows guide recordings are available in all eighteen supported app languages.
 
-Each `<language>/guides/windows/` contains eleven native MP4 recordings,
+Each `<language>/guides/windows/` contains fourteen native MP4 recordings,
 translated WebVTT captions and capture provenance. The English folder also
-retains its earlier unpublished AI chapter. The October 13 sets use the optimized Windows
-app with GPU capture/encoding at 60 fps, a visible cursor and blue click rings.
-Nine chapters demonstrate playback; picture-only motion checks cover their
+retains its earlier unpublished AI chapter, no longer listed in its provenance.
+The October 28–29 sets record app 1.4.1 (the redesigned interface, plus the
+Split, Audio and Export a frame chapters) in the optimized Windows app with GPU
+capture/encoding at 60 fps, a visible cursor and blue click rings.
+Eleven chapters demonstrate playback; picture-only motion checks cover their
 moving spans, excluding decoder startup. Original 30 fps
-source-frame matching confirms normal playback speed in Parts and Pick. Capture
+source-frame matching confirms normal playback speed in Parts and Select. Capture
 provenance includes every measured span and excludes authored photo holds and
 still-image parts. Recording and audit tools live in the sibling app's `tool/`.
 The clips include quiet supplied instrumental music and no narration.
