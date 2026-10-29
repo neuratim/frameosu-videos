@@ -37,7 +37,7 @@
                         0.6470820189274448,
                         0.6454900260190807
                     ],
-                    "videoSeconds": 4.355,
+                    "videoSeconds": 8.752,
                     "inputVideoSeconds": 3.04
                 },
                 {
@@ -47,13 +47,13 @@
                         0.2688638334778838
                     ],
                     "sequence": 3,
-                    "videoSeconds": 5.205
+                    "videoSeconds": 9.602
                 },
                 {
                     "event": "action",
                     "key": "reel-add-empty",
-                    "videoSeconds": 6.433,
-                    "inputVideoSeconds": 5.205
+                    "videoSeconds": 10.83,
+                    "inputVideoSeconds": 9.602
                 },
                 {
                     "event": "native-click",
@@ -62,13 +62,13 @@
                         0.2775368603642671
                     ],
                     "sequence": 4,
-                    "videoSeconds": 7.279
+                    "videoSeconds": 11.676
                 },
                 {
                     "event": "action",
                     "key": "add-media-video",
-                    "videoSeconds": 8.511,
-                    "inputVideoSeconds": 7.279
+                    "videoSeconds": 12.908,
+                    "inputVideoSeconds": 11.676
                 },
                 {
                     "event": "native-click",
@@ -78,29 +78,29 @@
                         0.909783242478747
                     ],
                     "sequence": 5,
-                    "videoSeconds": 8.825
+                    "videoSeconds": 13.222
                 }
             ],
             "captions": [
                 [
-                    0.07820830000127899,
-                    "创建手动短片，并选择空白项目。"
+                    0.078,
+                    "选择“手动剪辑”，再选“从空项目开始”，新建一部短片。"
                 ],
                 [
-                    4.355659699998796,
-                    "从 Windows 文件中添加视频。文件对话框不包含在此应用录屏中。"
+                    8.753,
+                    "添加视频，再在 Windows 文件对话框中选择素材。视频没有展示这个对话框。"
                 ],
                 [
-                    10.46820149999985,
-                    "导入的素材已就绪。打开选择，挑选短片中的时刻。"
+                    15.664,
+                    "视频已添加为这部短片的素材，尚未选择片段。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 15.666667,
+            "duration": 20.95,
             "height": 970,
-            "sha256": "0b18569054c9633d190f8201787f42d38651a78861e49cb352705c5956fc30db",
-            "size": 1211683,
+            "sha256": "bcf16a2ed767b03dc1c0eda4da56742bda049bda8c2f0a80337923230962302f",
+            "size": 1841692,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -122,7 +122,58 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "ee139ef03c5a68a567fd59330435d0804ad016625be52e7603976ad76b194c22",
                 "randomSeed": "18445218583353789504",
-                "startSeconds": 44.319
+                "startSeconds": 44.319,
+                "narration": {
+                    "createdAt": "2026-10-29T12:56:36.073047+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "home.3",
+                            "text": "选择“手动剪辑”，再选“从空项目开始”，新建一部短片。",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 8.052,
+                            "sha256": "6a8a7169ac248d33fd6e73e7500ff82598e905b21f109562a1ba756110c95613"
+                        },
+                        {
+                            "key": "home.2",
+                            "text": "添加视频，再在 Windows 文件对话框中选择素材。视频没有展示这个对话框。",
+                            "voiceSeconds": 9.003,
+                            "durationSeconds": 6.312,
+                            "sha256": "a3e672399779f2b05585c79fbb55f01028f7d86cfed210b730a7e8a7f424bb23"
+                        },
+                        {
+                            "key": "home.1",
+                            "text": "视频已添加为这部短片的素材，尚未选择片段。",
+                            "voiceSeconds": 15.914,
+                            "durationSeconds": 4.423,
+                            "sha256": "a89a4093bf5d873cb0d135c51a3e2cb6dd80a267550941bae162ada21db43843"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 4.356,
+                            "seconds": 4.397
+                        },
+                        {
+                            "atSeconds": 10.468,
+                            "seconds": 0.799
+                        },
+                        {
+                            "atSeconds": 15.667,
+                            "seconds": 0.075
+                        }
+                    ],
+                    "unnarratedSha256": "0b18569054c9633d190f8201787f42d38651a78861e49cb352705c5956fc30db",
+                    "unnarratedDurationSeconds": 15.666667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "select": {
@@ -320,20 +371,20 @@
             ],
             "captions": [
                 [
-                    0.5622518999989552,
-                    "打开选择，点击某个时刻的起点，按加号，再点击其终点。"
+                    0.562,
+                    "打开“选择”，点击片段的起点，再点击加号按钮，最后点击终点。"
                 ],
                 [
-                    8.159848499999498,
-                    "选择第二个时刻。预览只播放所选片段，跳过中间空隙。"
+                    8.16,
+                    "选择第二个片段。预览只播放所选片段，跳过中间未选的部分。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
             "duration": 25.85,
             "height": 970,
-            "sha256": "2bac5cd86c04ce99beffc8cf332843b5d7bf75e81e348bc418335c1f3fd44865",
-            "size": 12678627,
+            "sha256": "659e672d041545a98f2f10c62a42fc9d3a5e29b2e9c1ade692f80a3f99f3b6fa",
+            "size": 14004558,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -343,32 +394,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 16.901,
-                        "seconds": 5.666,
-                        "crop": "1069:584:20:79",
-                        "changedFrames": 173,
-                        "encodedFps": 60,
-                        "frames": 339,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.71005917159763
-                    }
-                ],
-                "movingFps": 30.71005917159763,
-                "maximumStillSeconds": 0.05,
-                "sourceClock": {
-                    "confidenceMinimum": 0.9932904243469238,
-                    "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.05,
-                    "movingFps": 30.532544378698223,
-                    "originalFrameConfidenceMinimum": 0.991783082485199,
-                    "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 0.9985207319259644
-                }
             },
             "audio": {
                 "createdAt": "2026-10-28T23:35:05.327936+00:00",
@@ -381,7 +406,64 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "3841205be92a30117467e3180e1322e72284d9bdd4b12b19eb9ad1cd927cd48d",
                 "randomSeed": "18445218583353789504",
-                "startSeconds": 0.864
+                "startSeconds": 0.864,
+                "narration": {
+                    "createdAt": "2026-10-29T12:57:00.663724+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "select.2",
+                            "text": "打开“选择”，点击片段的起点，再点击加号按钮，最后点击终点。",
+                            "voiceSeconds": 0.812,
+                            "durationSeconds": 4.967,
+                            "sha256": "3e2362aef8906dfe6ed061b88bbdaaefa3f1e0c9d3a89e013f1e1b5e8f77256c"
+                        },
+                        {
+                            "key": "select.1",
+                            "text": "选择第二个片段。预览只播放所选片段，跳过中间未选的部分。",
+                            "voiceSeconds": 8.41,
+                            "durationSeconds": 4.879,
+                            "sha256": "4ba5e0ac8a19f87c179a0427ed3507171a9a87eef7654014a9adfb1892b1da81"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "2bac5cd86c04ce99beffc8cf332843b5d7bf75e81e348bc418335c1f3fd44865",
+                    "unnarratedDurationSeconds": 25.85,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 16.901,
+                        "seconds": 5.666,
+                        "crop": "1069:584:20:79",
+                        "changedFrames": 173,
+                        "encodedFps": 60,
+                        "frames": 340,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 30.61946902654867
+                    }
+                ],
+                "movingFps": 30.61946902654867,
+                "maximumStillSeconds": 0.05,
+                "sourceClock": {
+                    "confidenceMinimum": 0.9932612180709839,
+                    "matching": "original source frames or adjacent-frame interpolation",
+                    "maximumStillSeconds": 0.05,
+                    "movingFps": 30.61946902654867,
+                    "originalFrameConfidenceMinimum": 0.9917361736297607,
+                    "sourceFps": 30,
+                    "sourceSecondsPerRecordedSecond": 0.9955751895904541
+                }
             }
         },
         "text": {
@@ -555,20 +637,20 @@
             ],
             "captions": [
                 [
-                    0.15982269999949494,
-                    "在所选片段之后添加覆盖画面的文字。"
+                    0.16,
+                    "在所选片段之后添加叠加文字，再输入内容。"
                 ],
                 [
-                    9.14663279999877,
-                    "画面继续运动，标题在预览中显示在上方。"
+                    9.147,
+                    "预览时，视频画面继续播放，标题叠加在画面上。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
             "duration": 19.25,
             "height": 970,
-            "sha256": "a0449b086af74d117ab82389d560327d3087dd61f5dd398e8fa5378a104ef8e6",
-            "size": 4284798,
+            "sha256": "daa3f8443ba04441486c6701cf728105c4fd529fabe5aa39bf40ea52c770ca51",
+            "size": 6452568,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -578,6 +660,50 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:35:05.928147+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "9352811734029ca2b0ecd9cdff15880038641b76897eb4f90a1d8369c7cbc311",
+                "randomSeed": "18445218583353789504",
+                "startSeconds": 4.204,
+                "narration": {
+                    "createdAt": "2026-10-29T12:57:15.773916+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "text.2",
+                            "text": "在所选片段之后添加叠加文字，再输入内容。",
+                            "voiceSeconds": 0.41,
+                            "durationSeconds": 4.8,
+                            "sha256": "d63f717e674b36c6a1bd8371c2a505826299c5c29fc625d872310691ca4cfaa0"
+                        },
+                        {
+                            "key": "text.1",
+                            "text": "预览时，视频画面继续播放，标题叠加在画面上。",
+                            "voiceSeconds": 9.397,
+                            "durationSeconds": 4.193,
+                            "sha256": "dfa594af9f9494574d693e7a157bb6858c0eedffc18d4f9fd9db6c96d58221fa"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "a0449b086af74d117ab82389d560327d3087dd61f5dd398e8fa5378a104ef8e6",
+                    "unnarratedDurationSeconds": 19.25,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -595,19 +721,6 @@
                 ],
                 "movingFps": 30.9375,
                 "maximumStillSeconds": 0.05
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:35:05.928147+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "9352811734029ca2b0ecd9cdff15880038641b76897eb4f90a1d8369c7cbc311",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 4.204
             }
         },
         "parts": {
@@ -616,7 +729,7 @@
                     "event": "action",
                     "key": "parts-reorder",
                     "clipId": "89aa6245-5aa5-4261-9cfd-7a4e1c18eff2",
-                    "videoSeconds": 1.865
+                    "videoSeconds": 5.646
                 },
                 {
                     "event": "native-click",
@@ -625,7 +738,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 25,
-                    "videoSeconds": 2.178
+                    "videoSeconds": 5.959
                 },
                 {
                     "event": "native-click",
@@ -634,7 +747,7 @@
                         0.7534556582195285
                     ],
                     "sequence": 26,
-                    "videoSeconds": 3.076
+                    "videoSeconds": 6.857
                 },
                 {
                     "event": "action",
@@ -645,8 +758,8 @@
                         0.6928233428457683,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.417,
-                    "inputVideoSeconds": 3.076
+                    "videoSeconds": 8.198,
+                    "inputVideoSeconds": 6.857
                 },
                 {
                     "event": "native-click",
@@ -655,7 +768,7 @@
                         0.7534556582195285
                     ],
                     "sequence": 27,
-                    "videoSeconds": 9.309
+                    "videoSeconds": 13.09
                 },
                 {
                     "event": "action",
@@ -666,26 +779,26 @@
                         0.6928233428457683,
                         0.852558542931483
                     ],
-                    "videoSeconds": 10.638,
-                    "inputVideoSeconds": 9.309
+                    "videoSeconds": 14.419,
+                    "inputVideoSeconds": 13.09
                 }
             ],
             "captions": [
                 [
-                    0.2113549999994575,
-                    "片段列表显示播放顺序。拖动编号手柄即可移动片段。"
+                    0.211,
+                    "“片段”列表显示播放顺序。拖动编号处即可移动片段。"
                 ],
                 [
-                    1.8648896000013337,
-                    "预览按新顺序播放。标题仍跟随所属视频块。"
+                    5.646,
+                    "预览会按新顺序播放。标题仍会跟随对应的视频。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 12.633333,
+            "duration": 16.416016,
             "height": 970,
-            "sha256": "d891ad7dba8a7636a83881a4543d0a089daba6ac62b78793b9e41de369e641d7",
-            "size": 9485385,
+            "sha256": "ea05e7bbb85aff82832aa2358dc298fdd3ced7cb2909ae85866a8d506b297da4",
+            "size": 9768674,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -695,32 +808,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 3.376,
-                        "seconds": 5.783,
-                        "crop": "1069:584:20:79",
-                        "changedFrames": 175,
-                        "encodedFps": 60,
-                        "frames": 347,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.346820809248555
-                    }
-                ],
-                "movingFps": 30.346820809248555,
-                "maximumStillSeconds": 0.05,
-                "sourceClock": {
-                    "confidenceMinimum": 0.9936496019363403,
-                    "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.05,
-                    "movingFps": 30.346820809248555,
-                    "originalFrameConfidenceMinimum": 0.9903209209442139,
-                    "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 0.9913294315338135
-                }
             },
             "audio": {
                 "createdAt": "2026-10-28T23:35:06.451141+00:00",
@@ -733,7 +820,69 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "1903d34f9099a646900200399a518a62003d0f79d6b797dc4fc925b046b97fef",
                 "randomSeed": "18445218583353789504",
-                "startSeconds": 62.814
+                "startSeconds": 62.814,
+                "narration": {
+                    "createdAt": "2026-10-29T12:57:33.383170+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "parts.2",
+                            "text": "“片段”列表显示播放顺序。拖动编号处即可移动片段。",
+                            "voiceSeconds": 0.461,
+                            "durationSeconds": 4.835,
+                            "sha256": "072ab68876773c1f485bab232e6ef4d518379343f5f53b2c78aa6ed76f44aad3"
+                        },
+                        {
+                            "key": "parts.1",
+                            "text": "预览会按新顺序播放。标题仍会跟随对应的视频。",
+                            "voiceSeconds": 5.896,
+                            "durationSeconds": 4.494,
+                            "sha256": "c11be7866716c1c918b40a05681dea866977249b78eccc69b7300ff20bc2595e"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 1.865,
+                            "seconds": 3.781
+                        }
+                    ],
+                    "unnarratedSha256": "d891ad7dba8a7636a83881a4543d0a089daba6ac62b78793b9e41de369e641d7",
+                    "unnarratedDurationSeconds": 12.633333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 7.157,
+                        "seconds": 5.783,
+                        "crop": "1069:584:20:79",
+                        "changedFrames": 175,
+                        "encodedFps": 60,
+                        "frames": 347,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 30.346820809248555
+                    }
+                ],
+                "movingFps": 30.346820809248555,
+                "maximumStillSeconds": 0.05,
+                "sourceClock": {
+                    "confidenceMinimum": 0.9936537146568298,
+                    "matching": "original source frames or adjacent-frame interpolation",
+                    "maximumStillSeconds": 0.05,
+                    "movingFps": 30.520231213872833,
+                    "originalFrameConfidenceMinimum": 0.9903461933135986,
+                    "sourceFps": 30,
+                    "sourceSecondsPerRecordedSecond": 0.9913294315338135
+                }
             }
         },
         "image": {
@@ -893,20 +1042,20 @@
             ],
             "captions": [
                 [
-                    0.04384159999608528,
-                    "将照片添加为独立片段。在录屏之外的 Windows 文件对话框中选择图片。"
+                    0.044,
+                    "将照片添加为独立片段。在 Windows 文件对话框中选择照片，视频没有展示这个对话框。"
                 ],
                 [
-                    12.800746699998854,
-                    "设置时长，然后播放照片片段，查看照片停留多久。"
+                    12.801,
+                    "将“时长”设为三秒，再播放照片片段，查看照片停留多久。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.816667,
+            "duration": 22.817,
             "height": 970,
-            "sha256": "f7f7a1a19c02b99118b8da55eef396e9472f43ab449130355e54ca94d532796a",
-            "size": 2885496,
+            "sha256": "68ec8a952e5ffd253dbbdd44962abfc1b54798d38d6f9c297338954a44535da0",
+            "size": 5137044,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -928,7 +1077,38 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "328d53993adf850fcf5c9883a503bc11ae8d0f94d51d65c7002e85c6049d8de1",
                 "randomSeed": "18445218583353789504",
-                "startSeconds": 20.936
+                "startSeconds": 20.936,
+                "narration": {
+                    "createdAt": "2026-10-29T12:57:53.675853+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "image.2",
+                            "text": "将照片添加为独立片段。在 Windows 文件对话框中选择照片，视频没有展示这个对话框。",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 7.421,
+                            "sha256": "0f85c0397549df82176ec872a2ef7ed46237a6f9e46508d11b92b508b731a63b"
+                        },
+                        {
+                            "key": "image.1",
+                            "text": "将“时长”设为三秒，再播放照片片段，查看照片停留多久。",
+                            "voiceSeconds": 13.051,
+                            "durationSeconds": 5.782,
+                            "sha256": "aa7ceee802cb66a158433732a43c3b788528d1fd163a61b46fa61fa346148734"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "f7f7a1a19c02b99118b8da55eef396e9472f43ab449130355e54ca94d532796a",
+                    "unnarratedDurationSeconds": 22.816667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "transition": {
@@ -1078,20 +1258,20 @@
             ],
             "captions": [
                 [
-                    0.1383564000025217,
-                    "打开照片前的连接处，从图库选择交叉溶解。"
+                    0.138,
+                    "打开照片前的衔接处，从效果库中选择“交叉溶解”，并设置时长。"
                 ],
                 [
-                    11.01958260000174,
-                    "播放连接处：动态画面渐渐融合为静态照片。"
+                    11.02,
+                    "播放衔接处，看看动态画面如何渐渐融入静态照片。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
             "duration": 25.45,
             "height": 970,
-            "sha256": "8daaacbc8462cf468cd46aa34a7f310e7bbfeccc07f97c3746c826b15c72d836",
-            "size": 19529523,
+            "sha256": "9c5859b9cedf944f3f55dcfaf04850b456c4a1df553d437fdddced7a1d7bea2c",
+            "size": 17894622,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1101,6 +1281,50 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:35:07.896417+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "a99f02b92e00f162b4cb0edfb14884b9184e06e6241ae1a215950a3b2a3d847c",
+                "randomSeed": "18445218583353789504",
+                "startSeconds": 49.746,
+                "narration": {
+                    "createdAt": "2026-10-29T12:58:17.334930+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "transition.2",
+                            "text": "打开照片前的衔接处，从效果库中选择“交叉溶解”，并设置时长。",
+                            "voiceSeconds": 0.388,
+                            "durationSeconds": 5.396,
+                            "sha256": "f0f1c859be6c2eff80c835ab7715a74ab8c8af991c18a7c7631e72452700c4c6"
+                        },
+                        {
+                            "key": "transition.1",
+                            "text": "播放衔接处，看看动态画面如何渐渐融入静态照片。",
+                            "voiceSeconds": 11.27,
+                            "durationSeconds": 4.12,
+                            "sha256": "53bda5316ef1f18fe19de1d8c4269713a3c54ebfe1c02d78a22f81cc3a908f90"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "8daaacbc8462cf468cd46aa34a7f310e7bbfeccc07f97c3746c826b15c72d836",
+                    "unnarratedDurationSeconds": 25.45,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -1118,19 +1342,6 @@
                 ],
                 "movingFps": 31.6710875331565,
                 "maximumStillSeconds": 0.06666666666666667
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:35:07.896417+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "a99f02b92e00f162b4cb0edfb14884b9184e06e6241ae1a215950a3b2a3d847c",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 49.746
             }
         },
         "music": {
@@ -1231,20 +1442,20 @@
             ],
             "captions": [
                 [
-                    0.1388939999997092,
-                    "在左侧栏打开音乐，用加号添加内置曲目 Bouncy Groove。"
+                    0.139,
+                    "打开左侧的“音乐”，点击加号按钮，添加内置曲目 Bouncy Groove。"
                 ],
                 [
-                    6.508550799997465,
-                    "音乐轨道现已加入短片。播放以检查音乐与画面的时间配合。"
+                    6.509,
+                    "音乐现在会贯穿整部短片播放。点击“播放”，检查音乐与画面是否合拍。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 17.733333,
+            "duration": 17.733008,
             "height": 970,
-            "sha256": "5f2047c13ec67f2f9acb99600f1e716b24415ed86fb2336747a586a36120101e",
-            "size": 10844514,
+            "sha256": "1daae3b37cfeb69e87b977f5cdbfac93f8dea6cb5564d315bada74ed9111c036",
+            "size": 10908566,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1254,6 +1465,50 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:35:08.567683+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "8b42cd6198160263c1daa2c177ef3baa27e8ae4f8502b127c116fdcdfc180ac4",
+                "randomSeed": "18445218583353789504",
+                "startSeconds": 16.531,
+                "narration": {
+                    "createdAt": "2026-10-29T12:58:34.182994+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "music.2",
+                            "text": "打开左侧的“音乐”，点击加号按钮，添加内置曲目 Bouncy Groove。",
+                            "voiceSeconds": 0.389,
+                            "durationSeconds": 5.51,
+                            "sha256": "9a21a89e5a79fffdc3296f1dfd7eac5c28aa74df2d4cd55a3d4f00f480a29b9e"
+                        },
+                        {
+                            "key": "music.1",
+                            "text": "音乐现在会贯穿整部短片播放。点击“播放”，检查音乐与画面是否合拍。",
+                            "voiceSeconds": 6.759,
+                            "durationSeconds": 6.434,
+                            "sha256": "7f3adaa3392a8f4586f2a236f8bd79d14cbf3f9754ec36e3e01d7c4a0e3be1a0"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "5f2047c13ec67f2f9acb99600f1e716b24415ed86fb2336747a586a36120101e",
+                    "unnarratedDurationSeconds": 17.733333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -1271,19 +1526,6 @@
                 ],
                 "movingFps": 30.731707317073173,
                 "maximumStillSeconds": 0.08333333333333333
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:35:08.567683+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "8b42cd6198160263c1daa2c177ef3baa27e8ae4f8502b127c116fdcdfc180ac4",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 16.531
             }
         },
         "video": {
@@ -1433,24 +1675,24 @@
             ],
             "captions": [
                 [
-                    0.07926939999742899,
-                    "打开视频片段设置。每个选项卡都调整此短片片段。"
+                    0.079,
+                    "打开视频片段的设置。各选项卡调整的都是短片中的这个片段。"
                 ],
                 [
-                    6.4268169999995735,
-                    "在画幅选项卡中放大以调整构图，再在预览中比较结果。"
+                    6.427,
+                    "在“画框”选项卡中放大画面，让构图更紧凑。“调整”选项卡中有明暗和色彩设置。"
                 ],
                 [
-                    17.951597199997195,
-                    "播放片段，查看动态画面中更近的取景。"
+                    17.952,
+                    "播放片段，查看拉近取景后的动态效果，然后重新打开片段设置。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
             "duration": 26.85,
             "height": 970,
-            "sha256": "9b1a8b9019cd6c6eca106356f0e042819326a2835869f22ebafb962722956908",
-            "size": 8212913,
+            "sha256": "4059cc19a64ecdd940c1a5e7158071c99b47d95cc9e06400a1d3bf09ac7cc8d0",
+            "size": 10413799,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1460,6 +1702,57 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:35:09.274854+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "c86aa15bd369a9a88ffc3b83990a6def3c6ebc68d54f0307eef5d8f5ebe7c608",
+                "randomSeed": "18445218583353789504",
+                "startSeconds": 25.275,
+                "narration": {
+                    "createdAt": "2026-10-29T12:59:01.229525+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "video.3",
+                            "text": "打开视频片段的设置。各选项卡调整的都是短片中的这个片段。",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.228,
+                            "sha256": "efe740e78f2cd36c736246794cd9925e414cdaf6cfdd7a819a38b4b6bf478d8a"
+                        },
+                        {
+                            "key": "video.2",
+                            "text": "在“画框”选项卡中放大画面，让构图更紧凑。“调整”选项卡中有明暗和色彩设置。",
+                            "voiceSeconds": 6.677,
+                            "durationSeconds": 7.907,
+                            "sha256": "21389ad6154ab2e445c4eb0a31dd01e5fc9422feeb7e9e1b4d18a0af3cb9602c"
+                        },
+                        {
+                            "key": "video.1",
+                            "text": "播放片段，查看拉近取景后的动态效果，然后重新打开片段设置。",
+                            "voiceSeconds": 18.202,
+                            "durationSeconds": 5.916,
+                            "sha256": "77ec7a4c26fd71964fd0be38fb4003699d83582ca0925b663a0912f84ccd59c4"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "9b1a8b9019cd6c6eca106356f0e042819326a2835869f22ebafb962722956908",
+                    "unnarratedDurationSeconds": 26.85,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -1477,19 +1770,6 @@
                 ],
                 "movingFps": 30.55350553505535,
                 "maximumStillSeconds": 0.06666666666666667
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:35:09.274854+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "c86aa15bd369a9a88ffc3b83990a6def3c6ebc68d54f0307eef5d8f5ebe7c608",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 25.275
             }
         },
         "photo-capture": {
@@ -1533,7 +1813,7 @@
                         0.6928233428457683,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 4.379,
+                    "videoSeconds": 5.524,
                     "inputVideoSeconds": 3.09
                 },
                 {
@@ -1543,14 +1823,14 @@
                         0.34258456201214227
                     ],
                     "sequence": 57,
-                    "videoSeconds": 5.353
+                    "videoSeconds": 6.498
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-at",
                     "value": "2.000",
-                    "videoSeconds": 6.641,
-                    "inputVideoSeconds": 5.353
+                    "videoSeconds": 7.786,
+                    "inputVideoSeconds": 6.498
                 },
                 {
                     "event": "native-click",
@@ -1559,14 +1839,14 @@
                         0.45967042497831745
                     ],
                     "sequence": 58,
-                    "videoSeconds": 7.574
+                    "videoSeconds": 8.719
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-flash-duration",
                     "value": "0.800",
-                    "videoSeconds": 8.992,
-                    "inputVideoSeconds": 7.574
+                    "videoSeconds": 10.137,
+                    "inputVideoSeconds": 8.719
                 },
                 {
                     "event": "native-click",
@@ -1575,14 +1855,14 @@
                         0.5550737207285342
                     ],
                     "sequence": 59,
-                    "videoSeconds": 9.939
+                    "videoSeconds": 11.084
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-hold-duration",
                     "value": "3.000",
-                    "videoSeconds": 11.284,
-                    "inputVideoSeconds": 9.939
+                    "videoSeconds": 12.429,
+                    "inputVideoSeconds": 11.084
                 },
                 {
                     "event": "native-click",
@@ -1591,7 +1871,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 60,
-                    "videoSeconds": 11.591
+                    "videoSeconds": 12.736
                 },
                 {
                     "event": "action",
@@ -1600,8 +1880,8 @@
                     "flashSeconds": 0.8,
                     "holdSeconds": 3.0,
                     "previewSeconds": 4.301888,
-                    "videoSeconds": 13.121,
-                    "inputVideoSeconds": 11.591
+                    "videoSeconds": 17.171,
+                    "inputVideoSeconds": 12.736
                 },
                 {
                     "event": "native-click",
@@ -1610,14 +1890,14 @@
                         0.6027753686036427
                     ],
                     "sequence": 61,
-                    "videoSeconds": 14.08
+                    "videoSeconds": 18.13
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-angle",
                     "value": "-12",
-                    "videoSeconds": 15.355,
-                    "inputVideoSeconds": 14.08
+                    "videoSeconds": 19.405,
+                    "inputVideoSeconds": 18.13
                 },
                 {
                     "event": "native-click",
@@ -1626,14 +1906,14 @@
                         0.6504770164787511
                     ],
                     "sequence": 62,
-                    "videoSeconds": 16.316
+                    "videoSeconds": 20.366
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-size",
                     "value": "76",
-                    "videoSeconds": 17.602,
-                    "inputVideoSeconds": 16.316
+                    "videoSeconds": 21.652,
+                    "inputVideoSeconds": 20.366
                 },
                 {
                     "event": "native-click",
@@ -1642,14 +1922,14 @@
                         0.6981786643538596
                     ],
                     "sequence": 63,
-                    "videoSeconds": 18.537
+                    "videoSeconds": 22.587
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-border-width",
                     "value": "16",
-                    "videoSeconds": 19.838,
-                    "inputVideoSeconds": 18.537
+                    "videoSeconds": 23.888,
+                    "inputVideoSeconds": 22.587
                 },
                 {
                     "event": "native-click",
@@ -1658,7 +1938,7 @@
                         0.40112749349522986
                     ],
                     "sequence": 64,
-                    "videoSeconds": 20.664
+                    "videoSeconds": 24.714
                 },
                 {
                     "event": "action",
@@ -1669,8 +1949,8 @@
                         0.6928233428457683,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 21.926,
-                    "inputVideoSeconds": 20.664
+                    "videoSeconds": 25.976,
+                    "inputVideoSeconds": 24.714
                 },
                 {
                     "event": "native-click",
@@ -1679,7 +1959,7 @@
                         0.9653078924544666
                     ],
                     "sequence": 65,
-                    "videoSeconds": 24.84
+                    "videoSeconds": 28.89
                 },
                 {
                     "event": "action",
@@ -1690,8 +1970,8 @@
                         0.6928233428457683,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 26.1,
-                    "inputVideoSeconds": 24.84
+                    "videoSeconds": 30.15,
+                    "inputVideoSeconds": 28.89
                 },
                 {
                     "event": "native-click",
@@ -1700,7 +1980,7 @@
                         0.13876843018213356
                     ],
                     "sequence": 66,
-                    "videoSeconds": 26.932
+                    "videoSeconds": 30.982
                 },
                 {
                     "event": "action",
@@ -1711,8 +1991,8 @@
                         0.6928233428457683,
                         0.852558542931483
                     ],
-                    "videoSeconds": 28.283,
-                    "inputVideoSeconds": 26.932
+                    "videoSeconds": 32.333,
+                    "inputVideoSeconds": 30.982
                 },
                 {
                     "event": "native-click",
@@ -1721,7 +2001,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 67,
-                    "videoSeconds": 28.595
+                    "videoSeconds": 32.645
                 },
                 {
                     "event": "native-click",
@@ -1730,7 +2010,7 @@
                         0.7534556582195285
                     ],
                     "sequence": 68,
-                    "videoSeconds": 29.458
+                    "videoSeconds": 33.508
                 },
                 {
                     "event": "action",
@@ -1741,42 +2021,42 @@
                         0.6928233428457683,
                         0.852558542931483
                     ],
-                    "videoSeconds": 30.798,
-                    "inputVideoSeconds": 29.458
+                    "videoSeconds": 34.848,
+                    "inputVideoSeconds": 33.508
                 }
             ],
             "captions": [
                 [
-                    0.13730539999960456,
-                    "打开照片捕获，并为此视频片段启用它。"
+                    0.137,
+                    "打开“拍照定格”，为当前视频片段启用此功能。"
                 ],
                 [
-                    4.379449299998669,
-                    "选择捕获时刻、短暂闪光和三秒停留。"
+                    5.524,
+                    "选择拍照时刻，再设置短暂闪光和三秒的定格时间。"
                 ],
                 [
-                    11.283812199999375,
-                    "将播放头移到捕获时间之后、照片停留期间，才能看到调整效果。"
+                    12.429,
+                    "将播放头移到照片定格的时段，查看调整效果。"
                 ],
                 [
-                    13.121039499998005,
+                    17.171,
                     "倾斜并缩小照片，再添加白色边框。"
                 ],
                 [
-                    21.926576300000306,
-                    "自定义取景框选择拍摄区域。点击应用确认裁剪。"
+                    25.977,
+                    "用“自定义画框”选择拍摄区域，再点击“应用”保留裁剪结果。"
                 ],
                 [
-                    28.614979300000414,
-                    "点击播放：闪光、带边框的倾斜照片，然后恢复运动。"
+                    32.665,
+                    "点击“播放”：画面闪一下，定格在带边框的倾斜照片上，然后继续播放。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 41.916667,
+            "duration": 45.967,
             "height": 970,
-            "sha256": "7d8e9f0314f3bb6ddc838598dbc5a4bcea9de5b7c4c8d338db81b1655d5e831b",
-            "size": 15858817,
+            "sha256": "53780b0d5df0b8f7856453506b250532627430b64f1dc03aa5e58eb7073158e6",
+            "size": 18474529,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1786,33 +2066,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 29.908,
-                        "seconds": 1.6,
-                        "crop": "1069:584:20:79",
-                        "changedFrames": 48,
-                        "encodedFps": 60,
-                        "frames": 95,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.638297872340427
-                    },
-                    {
-                        "startSeconds": 35.758,
-                        "seconds": 5.959,
-                        "crop": "1069:584:20:79",
-                        "changedFrames": 189,
-                        "encodedFps": 60,
-                        "frames": 357,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 31.85393258426966
-                    }
-                ],
-                "movingFps": 30.638297872340427,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:35:10.217098+00:00",
@@ -1825,7 +2078,102 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "fc1dd43b6bba257c67fdd326766e5e1088cb24d9981e8baf667ee7ce036cbc47",
                 "randomSeed": "18445218583353789504",
-                "startSeconds": 8.041
+                "startSeconds": 8.041,
+                "narration": {
+                    "createdAt": "2026-10-29T12:59:52.711210+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "photo.6",
+                            "text": "打开“拍照定格”，为当前视频片段启用此功能。",
+                            "voiceSeconds": 0.387,
+                            "durationSeconds": 4.787,
+                            "sha256": "4184ddd9da96afe32ede37e033e4024449a2b5fd644b4b70a3009d530a3e3d64"
+                        },
+                        {
+                            "key": "photo.5",
+                            "text": "选择拍照时刻，再设置短暂闪光和三秒的定格时间。",
+                            "voiceSeconds": 5.774,
+                            "durationSeconds": 5.242,
+                            "sha256": "71c6d1936f6783edcfdd9e1f8bd3a33609f9bd2f7318912b3d6965b35da1fdc5"
+                        },
+                        {
+                            "key": "photo.1",
+                            "text": "将播放头移到照片定格的时段，查看调整效果。",
+                            "voiceSeconds": 12.679,
+                            "durationSeconds": 4.142,
+                            "sha256": "52233d545f6cb7a8b4023c7b225011fe2b3256e2704bfd881aaa30edc7ea6a01"
+                        },
+                        {
+                            "key": "photo.4",
+                            "text": "倾斜并缩小照片，再添加白色边框。",
+                            "voiceSeconds": 17.421,
+                            "durationSeconds": 3.084,
+                            "sha256": "3676d724455ae90bb364ae73cfa535ca40c23d2da7d38493b17bed2611be9585"
+                        },
+                        {
+                            "key": "photo.3",
+                            "text": "用“自定义画框”选择拍摄区域，再点击“应用”保留裁剪结果。",
+                            "voiceSeconds": 26.227,
+                            "durationSeconds": 4.957,
+                            "sha256": "c8ed05e0ca4bfbc51fdec20d9c8a5f9bc482c63a377b6b8592122ccc0b524e0d"
+                        },
+                        {
+                            "key": "photo.2",
+                            "text": "点击“播放”：画面闪一下，定格在带边框的倾斜照片上，然后继续播放。",
+                            "voiceSeconds": 32.915,
+                            "durationSeconds": 6.054,
+                            "sha256": "90310cbe52739c8056ed41205b48dc97130a0dc7bbe3b72a378c19b7b5cacd78"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 4.379,
+                            "seconds": 1.145
+                        },
+                        {
+                            "atSeconds": 13.121,
+                            "seconds": 2.905
+                        }
+                    ],
+                    "unnarratedSha256": "7d8e9f0314f3bb6ddc838598dbc5a4bcea9de5b7c4c8d338db81b1655d5e831b",
+                    "unnarratedDurationSeconds": 41.916667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 33.958,
+                        "seconds": 1.6,
+                        "crop": "1069:584:20:79",
+                        "changedFrames": 48,
+                        "encodedFps": 60,
+                        "frames": 96,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.315789473684212
+                    },
+                    {
+                        "startSeconds": 39.808,
+                        "seconds": 5.959,
+                        "crop": "1069:584:20:79",
+                        "changedFrames": 189,
+                        "encodedFps": 60,
+                        "frames": 358,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 31.76470588235294
+                    }
+                ],
+                "movingFps": 30.315789473684212,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "export-frame": {
@@ -1858,7 +2206,7 @@
                 {
                     "event": "action",
                     "key": "select-export-frame",
-                    "videoSeconds": 3.923,
+                    "videoSeconds": 5.922,
                     "inputVideoSeconds": 2.59
                 },
                 {
@@ -1868,13 +2216,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 71,
-                    "videoSeconds": 6.281
+                    "videoSeconds": 8.28
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 7.595,
-                    "inputVideoSeconds": 6.281
+                    "videoSeconds": 9.594,
+                    "inputVideoSeconds": 8.28
                 },
                 {
                     "event": "native-click",
@@ -1883,13 +2231,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 72,
-                    "videoSeconds": 8.446
+                    "videoSeconds": 10.445
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 9.708,
-                    "inputVideoSeconds": 8.446
+                    "videoSeconds": 11.707,
+                    "inputVideoSeconds": 10.445
                 },
                 {
                     "event": "native-click",
@@ -1898,13 +2246,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 73,
-                    "videoSeconds": 10.556
+                    "videoSeconds": 12.555
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-export",
-                    "videoSeconds": 11.913,
-                    "inputVideoSeconds": 10.556
+                    "videoSeconds": 13.912,
+                    "inputVideoSeconds": 12.555
                 },
                 {
                     "event": "native-click",
@@ -1913,13 +2261,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 74,
-                    "videoSeconds": 14.793
+                    "videoSeconds": 16.792
                 },
                 {
                     "event": "action",
                     "key": "still-export-start",
-                    "videoSeconds": 16.048,
-                    "inputVideoSeconds": 14.793
+                    "videoSeconds": 20.346,
+                    "inputVideoSeconds": 16.792
                 },
                 {
                     "event": "native-click",
@@ -1928,7 +2276,7 @@
                         0.030355594102341718
                     ],
                     "sequence": 75,
-                    "videoSeconds": 19.916
+                    "videoSeconds": 24.214
                 },
                 {
                     "event": "action",
@@ -1939,34 +2287,34 @@
                         0.6928233428457683,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 21.259,
-                    "inputVideoSeconds": 19.916
+                    "videoSeconds": 25.557,
+                    "inputVideoSeconds": 24.214
                 }
             ],
             "captions": [
                 [
-                    0.09867369999847142,
-                    "在视频的选择页面中，导出一帧会显示从播放头开始的每一帧。"
+                    0.099,
+                    "在“选择”页面设置播放头位置，再打开“导出一帧”查看各帧。"
                 ],
                 [
-                    3.9237722999969264,
-                    "用下一帧逐帧查找最清晰的画面。"
+                    5.923,
+                    "用“下一帧”逐帧查看，找到最清晰的画面。"
                 ],
                 [
-                    9.708641199998965,
-                    "导出此帧会以原始尺寸保存为 PNG。本演示保存到预先准备的文件夹。"
+                    11.708,
+                    "“导出”会将这一帧按原始尺寸保存为 PNG 图片。本演示将图片保存到预先准备的文件夹。"
                 ],
                 [
-                    16.048596399996313,
-                    "该帧已保存为图片。在文件夹中显示会打开其位置。"
+                    20.347,
+                    "这一帧已保存。关闭“选择一帧”，即可返回“选择”页面。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 23.333333,
+            "duration": 27.633008,
             "height": 970,
-            "sha256": "ba01268ec7df1a7c681c862ffceb552f857a56a6dc9a1291b5f6fa17d02d730b",
-            "size": 5867315,
+            "sha256": "cd2a0c213be7884bcd37ec61a943013302685761f3b95fd15d05853e01137c92",
+            "size": 8589761,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1988,7 +2336,61 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "4957762c83a2aa4c8469d1a68f49178a6e932dcd0550a6b120028896567f4c75",
                 "randomSeed": "18445218583353789504",
-                "startSeconds": 47.126
+                "startSeconds": 47.126,
+                "narration": {
+                    "createdAt": "2026-10-29T13:00:25.574710+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "exportFrame.4",
+                            "text": "在“选择”页面设置播放头位置，再打开“导出一帧”查看各帧。",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.223,
+                            "sha256": "f53c15b3f132223a15a4291bf4e6cdc9bfaec28167fd34f6071b3ed55bf0fc0a"
+                        },
+                        {
+                            "key": "exportFrame.3",
+                            "text": "用“下一帧”逐帧查看，找到最清晰的画面。",
+                            "voiceSeconds": 6.173,
+                            "durationSeconds": 3.374,
+                            "sha256": "88937e1364f51ba050fdbdbf65bcf20f1b608152399f6d502a97d8fdd650f3f0"
+                        },
+                        {
+                            "key": "exportFrame.2",
+                            "text": "“导出”会将这一帧按原始尺寸保存为 PNG 图片。本演示将图片保存到预先准备的文件夹。",
+                            "voiceSeconds": 11.958,
+                            "durationSeconds": 8.039,
+                            "sha256": "ce62ae315b68084cfeae40117316bcad74289190ed25da3f90569a33c9c283e8"
+                        },
+                        {
+                            "key": "exportFrame.1",
+                            "text": "这一帧已保存。关闭“选择一帧”，即可返回“选择”页面。",
+                            "voiceSeconds": 20.597,
+                            "durationSeconds": 5.032,
+                            "sha256": "8cc919e128cbad84e607e23706ece005aeaefcdbec64f21f528685ee4f7f0c12"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 3.924,
+                            "seconds": 1.999
+                        },
+                        {
+                            "atSeconds": 16.049,
+                            "seconds": 2.299
+                        }
+                    ],
+                    "unnarratedSha256": "ba01268ec7df1a7c681c862ffceb552f857a56a6dc9a1291b5f6fa17d02d730b",
+                    "unnarratedDurationSeconds": 23.333333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "split": {
@@ -2342,28 +2744,28 @@
             ],
             "captions": [
                 [
-                    0.09859009999854607,
-                    "依次选择添加、分屏，再选择它在短片中的位置。"
+                    0.099,
+                    "依次选择“添加”和“分屏”，再选择它在短片中的位置。"
                 ],
                 [
-                    6.494561199997406,
-                    "左右并排可同时显示两个视频。为第一个画格选择视频和片段。"
+                    6.495,
+                    "选择“左右并排”，同时显示两个视频，再为第一个画格选择视频和片段。"
                 ],
                 [
-                    17.77620240000033,
-                    "每个画格都有自己的选择页面。为第二个画格选择不同的时刻。"
+                    17.776,
+                    "每个画格都有自己的“选择”页面。为第二个画格选择不同的片段。"
                 ],
                 [
-                    27.11065519999829,
-                    "播放分屏：两个片段在同一画面中同时运动。"
+                    27.111,
+                    "播放分屏，看看两个片段如何在同一画面中同时播放。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 37.733333,
+            "duration": 37.733008,
             "height": 970,
-            "sha256": "aef0198363e7bcc9d499d4f04685547fd68b2e1fbdcd9052a117cea444ef4d74",
-            "size": 21953043,
+            "sha256": "4ea5b19ac5d1d5db09518ff005220a6f38626628adf49587f0c83f896fd592c8",
+            "size": 21785569,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2373,6 +2775,64 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:35:12.148607+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "46819208e5508d2d11fba4808ab8db6526bc44ee90f7cdeffad93d27e424bdf0",
+                "randomSeed": "18445218583353789504",
+                "startSeconds": 10.486,
+                "narration": {
+                    "createdAt": "2026-10-29T13:00:55.640855+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "split.4",
+                            "text": "依次选择“添加”和“分屏”，再选择它在短片中的位置。",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 4.185,
+                            "sha256": "12aa63781f423dfe775d8b5b981d8bc8610ed8d5b93864cc4aa0e81df51b0d97"
+                        },
+                        {
+                            "key": "split.3",
+                            "text": "选择“左右并排”，同时显示两个视频，再为第一个画格选择视频和片段。",
+                            "voiceSeconds": 6.745,
+                            "durationSeconds": 5.615,
+                            "sha256": "1191fbf556872a5f260d4bf96e58035c979cdd6de22cff11d3b8437ec9e1aee0"
+                        },
+                        {
+                            "key": "split.2",
+                            "text": "每个画格都有自己的“选择”页面。为第二个画格选择不同的片段。",
+                            "voiceSeconds": 18.026,
+                            "durationSeconds": 4.787,
+                            "sha256": "ccf30d12068c71ed14cf140909ffd27b2ce16d4e7b0116e4751690dcb3111a75"
+                        },
+                        {
+                            "key": "split.1",
+                            "text": "播放分屏，看看两个片段如何在同一画面中同时播放。",
+                            "voiceSeconds": 27.361,
+                            "durationSeconds": 4.025,
+                            "sha256": "6cb7fbf40ab21ba98ffc8efd0c410416395b14b753d8adaa5bef4d19bf8e608f"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "aef0198363e7bcc9d499d4f04685547fd68b2e1fbdcd9052a117cea444ef4d74",
+                    "unnarratedDurationSeconds": 37.733333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -2390,19 +2850,6 @@
                 ],
                 "movingFps": 36.15141955835962,
                 "maximumStillSeconds": 0.05
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:35:12.148607+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "46819208e5508d2d11fba4808ab8db6526bc44ee90f7cdeffad93d27e424bdf0",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 10.486
             }
         },
         "audio": {
@@ -2419,7 +2866,7 @@
                 {
                     "event": "action",
                     "key": "editor-top-audio",
-                    "videoSeconds": 2.232,
+                    "videoSeconds": 5.367,
                     "inputVideoSeconds": 0.967
                 },
                 {
@@ -2430,7 +2877,7 @@
                         0.909783242478747
                     ],
                     "sequence": 95,
-                    "videoSeconds": 4.051
+                    "videoSeconds": 7.186
                 },
                 {
                     "event": "native-click",
@@ -2439,7 +2886,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 96,
-                    "videoSeconds": 7.8
+                    "videoSeconds": 15.845
                 },
                 {
                     "event": "action",
@@ -2450,8 +2897,8 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 9.036,
-                    "inputVideoSeconds": 7.8
+                    "videoSeconds": 17.081,
+                    "inputVideoSeconds": 15.845
                 },
                 {
                     "event": "native-click",
@@ -2460,7 +2907,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 97,
-                    "videoSeconds": 14.906
+                    "videoSeconds": 22.951
                 },
                 {
                     "event": "action",
@@ -2471,30 +2918,30 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 16.151,
-                    "inputVideoSeconds": 14.906
+                    "videoSeconds": 24.196,
+                    "inputVideoSeconds": 22.951
                 }
             ],
             "captions": [
                 [
-                    0.1227441999981238,
-                    "在左侧栏打开音频，为此短片单独添加旁白或其他录音。"
+                    0.123,
+                    "打开左侧的“音频”，为这部短片添加旁白或其他录音。"
                 ],
                 [
-                    2.2319935000014084,
-                    "在 Windows 文件中选择录音。文件对话框不包含在此应用录屏中。"
+                    5.367,
+                    "点击“文件”，再在 Windows 文件对话框中选择录音。视频没有展示这个对话框。"
                 ],
                 [
-                    5.470096799999737,
-                    "录音在画面下方有自己的轨道。播放即可与短片一起收听。"
+                    13.515,
+                    "录音有独立的轨道，位于画面下方。点击“播放”，听听录音与短片搭配的效果。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 18.216667,
+            "duration": 26.266016,
             "height": 970,
-            "sha256": "7530aaa2140b75d22ac1d8e21860bcfb401ed4606a0eb10df6ef8c918501ac62",
-            "size": 10278742,
+            "sha256": "f73fa387bfe3dd44c457e63b0092c8db07ecb3dfce5410ec165f7230f98cebce",
+            "size": 12192485,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2504,23 +2951,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 8.55,
-                        "seconds": 6.206,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 194,
-                        "encodedFps": 60,
-                        "frames": 373,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.29032258064516
-                    }
-                ],
-                "movingFps": 31.29032258064516,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:35:12.985213+00:00",
@@ -2533,7 +2963,71 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "bffa41975b8a531b9e9cda5876f6c22812ae9cf72e1a52da8df36b24efd828a5",
                 "randomSeed": "18445218583353789504",
-                "startSeconds": 36.819
+                "startSeconds": 36.819,
+                "narration": {
+                    "createdAt": "2026-10-29T13:01:20.826467+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "audio.3",
+                            "text": "打开左侧的“音频”，为这部短片添加旁白或其他录音。",
+                            "voiceSeconds": 0.373,
+                            "durationSeconds": 4.644,
+                            "sha256": "1cb1295779ff20725ce86c5b52b3dd2d912a49897db8b2d1b39f241cc291a00d"
+                        },
+                        {
+                            "key": "audio.2",
+                            "text": "点击“文件”，再在 Windows 文件对话框中选择录音。视频没有展示这个对话框。",
+                            "voiceSeconds": 5.617,
+                            "durationSeconds": 7.548,
+                            "sha256": "7824cd5042517fc48a1cd362c77a6b09ed938d201b23e080ac999d304853c1b6"
+                        },
+                        {
+                            "key": "audio.1",
+                            "text": "录音有独立的轨道，位于画面下方。点击“播放”，听听录音与短片搭配的效果。",
+                            "voiceSeconds": 13.765,
+                            "durationSeconds": 6.768,
+                            "sha256": "5e2a5712c85b4efe77c2692e5bec3fb5d9d79766933d474388c95e28ea31d6e6"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 2.232,
+                            "seconds": 3.135
+                        },
+                        {
+                            "atSeconds": 5.47,
+                            "seconds": 4.91
+                        }
+                    ],
+                    "unnarratedSha256": "7530aaa2140b75d22ac1d8e21860bcfb401ed4606a0eb10df6ef8c918501ac62",
+                    "unnarratedDurationSeconds": 18.216667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 16.595,
+                        "seconds": 6.206,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 194,
+                        "encodedFps": 60,
+                        "frames": 373,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.29032258064516
+                    }
+                ],
+                "movingFps": 31.29032258064516,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "export": {
@@ -2650,28 +3144,28 @@
             ],
             "captions": [
                 [
-                    0.5584253000015451,
-                    "保存和导出前，带声音播放完整短片。"
+                    0.558,
+                    "保存和导出前，打开声音，看完整部短片。"
                 ],
                 [
-                    18.413636699999188,
-                    "保存保留可编辑项目。金色的导出按钮会创建独立的视频文件。"
+                    18.414,
+                    "“保存”会保留可编辑的项目。金色的“导出”按钮会创建独立的视频文件。"
                 ],
                 [
-                    28.82938020000074,
-                    "选择尺寸、质量和格式，然后导出。本演示保存到预先准备的文件夹。"
+                    28.829,
+                    "检查尺寸、质量和格式，然后点击“导出”。本演示将视频保存到预先准备的文件夹。"
                 ],
                 [
-                    44.586345800002164,
-                    "导出的视频已就绪。项目仍可继续编辑。"
+                    44.586,
+                    "视频已导出。点击“完成”关闭此界面，项目仍然保留，之后还可以继续编辑。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
             "duration": 51.75,
             "height": 970,
-            "sha256": "5aa3108d83e5706297228e99dc61609136dba9ff786f5782bd6bfa3f90da5666",
-            "size": 15158122,
+            "sha256": "124fef4274acb040cb3d52317f273e42a11db293ce6f75dc5ce7a467b8c682a0",
+            "size": 17770996,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2681,33 +3175,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 1.785,
-                        "seconds": 1.7,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 50,
-                        "encodedFps": 60,
-                        "frames": 101,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.0
-                    },
-                    {
-                        "startSeconds": 7.535,
-                        "seconds": 8.1,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 267,
-                        "encodedFps": 60,
-                        "frames": 485,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 33.09917355371901
-                    }
-                ],
-                "movingFps": 30.0,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:35:14.210313+00:00",
@@ -2720,7 +3187,79 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "8b509375be5c423fe1f9d8b94ff374cf2343599fb20a92b6afaf3889c4a52e32",
                 "randomSeed": "18445218583353789504",
-                "startSeconds": 32.12
+                "startSeconds": 32.12,
+                "narration": {
+                    "createdAt": "2026-10-29T13:01:55.443503+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "export.4",
+                            "text": "保存和导出前，打开声音，看完整部短片。",
+                            "voiceSeconds": 0.808,
+                            "durationSeconds": 3.74,
+                            "sha256": "46c429a851188320917f3cb0f8b560d42500ec659adac5aef2f6e0566404a7e0"
+                        },
+                        {
+                            "key": "export.3",
+                            "text": "“保存”会保留可编辑的项目。金色的“导出”按钮会创建独立的视频文件。",
+                            "voiceSeconds": 18.664,
+                            "durationSeconds": 5.744,
+                            "sha256": "19ba297a0d752a2f81937b96f53a6fe61f78ae81f15bc06cd83abe339fa751ca"
+                        },
+                        {
+                            "key": "export.2",
+                            "text": "检查尺寸、质量和格式，然后点击“导出”。本演示将视频保存到预先准备的文件夹。",
+                            "voiceSeconds": 29.079,
+                            "durationSeconds": 8.121,
+                            "sha256": "ef83874f7071174df76b277025143fad34622a71027a2200d3c04b221cec9c6c"
+                        },
+                        {
+                            "key": "export.1",
+                            "text": "视频已导出。点击“完成”关闭此界面，项目仍然保留，之后还可以继续编辑。",
+                            "voiceSeconds": 44.836,
+                            "durationSeconds": 6.154,
+                            "sha256": "9fb01403113442f7f7e8d2b4be7ab1323d6d16d96d73669719bf9de693af2cbf"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "5aa3108d83e5706297228e99dc61609136dba9ff786f5782bd6bfa3f90da5666",
+                    "unnarratedDurationSeconds": 51.75,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 1.785,
+                        "seconds": 1.7,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 50,
+                        "encodedFps": 60,
+                        "frames": 102,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 29.702970297029704
+                    },
+                    {
+                        "startSeconds": 7.535,
+                        "seconds": 8.1,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 267,
+                        "encodedFps": 60,
+                        "frames": 486,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 33.03092783505154
+                    }
+                ],
+                "movingFps": 29.702970297029704,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "auto": {
@@ -2747,14 +3286,14 @@
                         0.24653078924544664
                     ],
                     "sequence": 105,
-                    "videoSeconds": 7.369
+                    "videoSeconds": 10.458
                 },
                 {
                     "event": "action",
                     "key": "auto-analysis-precision",
                     "value": "25",
-                    "videoSeconds": 8.644,
-                    "inputVideoSeconds": 7.369
+                    "videoSeconds": 11.733,
+                    "inputVideoSeconds": 10.458
                 },
                 {
                     "event": "native-click",
@@ -2763,13 +3302,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 106,
-                    "videoSeconds": 11.513
+                    "videoSeconds": 16.374
                 },
                 {
                     "event": "action",
                     "key": "auto-make",
-                    "videoSeconds": 12.884,
-                    "inputVideoSeconds": 11.513
+                    "videoSeconds": 17.745,
+                    "inputVideoSeconds": 16.374
                 },
                 {
                     "event": "native-click",
@@ -2778,7 +3317,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 107,
-                    "videoSeconds": 20.779
+                    "videoSeconds": 25.64
                 },
                 {
                     "event": "action",
@@ -2789,8 +3328,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 22.118,
-                    "inputVideoSeconds": 20.779
+                    "videoSeconds": 26.979,
+                    "inputVideoSeconds": 25.64
                 },
                 {
                     "event": "native-click",
@@ -2799,7 +3338,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 108,
-                    "videoSeconds": 28.977
+                    "videoSeconds": 33.838
                 },
                 {
                     "event": "action",
@@ -2810,8 +3349,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 30.219,
-                    "inputVideoSeconds": 28.977
+                    "videoSeconds": 35.08,
+                    "inputVideoSeconds": 33.838
                 },
                 {
                     "event": "shortened-analysis-wait",
@@ -2820,28 +3359,28 @@
             ],
             "captions": [
                 [
-                    0.176135499998054,
-                    "帮我挑选片段会打开自动剪辑，这是另一种起点。设置时长、节奏和分析精度。"
+                    0.176,
+                    "点击“帮我挑选片段”会打开“自动剪辑”，这是另一种开始方式，里面有时长和音乐设置。"
                 ],
                 [
-                    6.4138246000002255,
-                    "自动时长决定长度。较低的精度使用更少的分析样本。"
+                    9.503,
+                    "“自动时长”会确定短片长度。精度越低，分析的样本越少。"
                 ],
                 [
-                    10.663165499998286,
-                    "创建短片会在本设备上分析媒体。本视频缩短了等待时间。"
+                    15.524,
+                    "“创建短片”会在本设备上分析素材。视频中的等待过程已缩短。"
                 ],
                 [
-                    17.885774099999253,
-                    "检查生成的片段，导出前先播放草稿。"
+                    22.747,
+                    "草稿已就绪，片段已加入短片。导出前先播放草稿。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 32.133333,
+            "duration": 36.994,
             "height": 970,
-            "sha256": "a6f4b319891ccbcb5716955ae65bdbd08a13a2f5ba456bf70385853e482793db",
-            "size": 4921897,
+            "sha256": "f9b7bf3b0d4094093b83546d71414a75dac95f20432e54e6679f108ea9dcb17e",
+            "size": 9295327,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2851,23 +3390,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 21.129,
-                        "seconds": 4.4,
-                        "crop": "950:517:599:83",
-                        "changedFrames": 146,
-                        "encodedFps": 60,
-                        "frames": 264,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 33.30798479087452
-                    }
-                ],
-                "movingFps": 33.30798479087452,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:35:15.059048+00:00",
@@ -2880,7 +3402,78 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "e160271e01a5edcbf092a8039a6c0e652266b5dd85f269acc64332875245e136",
                 "randomSeed": "18445218583353789504",
-                "startSeconds": 29.701
+                "startSeconds": 29.701,
+                "narration": {
+                    "createdAt": "2026-10-29T13:02:29.359442+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "auto.5",
+                            "text": "点击“帮我挑选片段”会打开“自动剪辑”，这是另一种开始方式，里面有时长和音乐设置。",
+                            "voiceSeconds": 0.426,
+                            "durationSeconds": 8.727,
+                            "sha256": "6ebbdaeff48783a14f2105003de31569348b549d53b0486298f166a812eca793"
+                        },
+                        {
+                            "key": "auto.4",
+                            "text": "“自动时长”会确定短片长度。精度越低，分析的样本越少。",
+                            "voiceSeconds": 9.753,
+                            "durationSeconds": 5.422,
+                            "sha256": "c8f425251f192daf7e2274fd6358f22e78b863bafccc8c56489826fcb2f9b589"
+                        },
+                        {
+                            "key": "auto.3",
+                            "text": "“创建短片”会在本设备上分析素材。视频中的等待过程已缩短。",
+                            "voiceSeconds": 15.774,
+                            "durationSeconds": 5.749,
+                            "sha256": "20ff2e156c245d437a6d79ced140c3b7083f9867c5a95687a0001bc6f01ad3cf"
+                        },
+                        {
+                            "key": "auto.2",
+                            "text": "草稿已就绪，片段已加入短片。导出前先播放草稿。",
+                            "voiceSeconds": 22.997,
+                            "durationSeconds": 5.877,
+                            "sha256": "4445486d182bdb1e16ff22612669cc4ba41961cb0f47e2b6ef0d459fe462cbb7"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 6.414,
+                            "seconds": 3.089
+                        },
+                        {
+                            "atSeconds": 10.663,
+                            "seconds": 1.772
+                        }
+                    ],
+                    "unnarratedSha256": "a6f4b319891ccbcb5716955ae65bdbd08a13a2f5ba456bf70385853e482793db",
+                    "unnarratedDurationSeconds": 32.133333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 25.99,
+                        "seconds": 4.4,
+                        "crop": "950:517:599:83",
+                        "changedFrames": 146,
+                        "encodedFps": 60,
+                        "frames": 264,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 33.30798479087452
+                    }
+                ],
+                "movingFps": 33.30798479087452,
+                "maximumStillSeconds": 0.06666666666666667
             }
         }
     },
