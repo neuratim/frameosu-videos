@@ -37,7 +37,7 @@
                         0.6470820189274448,
                         0.6454900260190807
                     ],
-                    "videoSeconds": 4.915,
+                    "videoSeconds": 6.385,
                     "inputVideoSeconds": 3.605
                 },
                 {
@@ -47,13 +47,13 @@
                         0.29054640069384213
                     ],
                     "sequence": 3,
-                    "videoSeconds": 5.772
+                    "videoSeconds": 7.242
                 },
                 {
                     "event": "action",
                     "key": "reel-add-empty",
-                    "videoSeconds": 7.113,
-                    "inputVideoSeconds": 5.772
+                    "videoSeconds": 8.583,
+                    "inputVideoSeconds": 7.242
                 },
                 {
                     "event": "native-click",
@@ -62,13 +62,13 @@
                         0.2992194275802255
                     ],
                     "sequence": 4,
-                    "videoSeconds": 7.957
+                    "videoSeconds": 9.427
                 },
                 {
                     "event": "action",
                     "key": "add-media-video",
-                    "videoSeconds": 9.229,
-                    "inputVideoSeconds": 7.957
+                    "videoSeconds": 10.699,
+                    "inputVideoSeconds": 9.427
                 },
                 {
                     "event": "native-click",
@@ -78,29 +78,29 @@
                         0.9107437126551725
                     ],
                     "sequence": 5,
-                    "videoSeconds": 9.55
+                    "videoSeconds": 11.02
                 }
             ],
             "captions": [
                 [
-                    0.6684789999999339,
-                    "Buat reel manual dan pilih proyek kosong."
+                    0.668,
+                    "Pilih Edit manual, lalu Mulai kosong untuk memulai montase baru."
                 ],
                 [
-                    4.915512399998988,
-                    "Tambahkan video dari berkas Windows. Dialog berkas berada di luar rekaman aplikasi ini."
+                    6.386,
+                    "Tambahkan video, lalu pilih rekamannya di dialog berkas Windows yang tidak ditampilkan dalam video ini."
                 ],
                 [
-                    11.1900784999998,
-                    "Sumber yang diimpor siap. Buka Pilih untuk memilih momen dalam reel."
+                    13.538,
+                    "Video Anda kini menjadi sumber montase ini. Belum ada bagian yang dipilih."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 16.133333,
+            "duration": 18.7,
             "height": 970,
-            "sha256": "6f593bd0ab6e484415058454b3b123a1f80275e7d33277d478dbdf1bac493a04",
-            "size": 1297311,
+            "sha256": "fb6fd79d29b7578b861dff4d91d3a9133346f08935da2bf088e900716cdbfc95",
+            "size": 1809030,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -122,7 +122,58 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "7fa3dcaad92b8285c9afb5c6e0f070aa9f713f0b2aafe59eb043ef5c934abb4a",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 17.057
+                "startSeconds": 17.057,
+                "narration": {
+                    "createdAt": "2026-10-29T12:34:32.581717+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "home.3",
+                            "text": "Pilih Edit manual, lalu Mulai kosong untuk memulai montase baru.",
+                            "voiceSeconds": 0.918,
+                            "durationSeconds": 5.117,
+                            "sha256": "4d5ac43f41ec1e58b53ba7a2a1c2b3e2a5d19071e48c899f2e42b2bf60002019"
+                        },
+                        {
+                            "key": "home.2",
+                            "text": "Tambahkan video, lalu pilih rekamannya di dialog berkas Windows yang tidak ditampilkan dalam video ini.",
+                            "voiceSeconds": 6.636,
+                            "durationSeconds": 6.553,
+                            "sha256": "a88440d1b58233a8c0aac20154669a8f75d064cd77a44b7abd2160c6ed7debf8"
+                        },
+                        {
+                            "key": "home.1",
+                            "text": "Video Anda kini menjadi sumber montase ini. Belum ada bagian yang dipilih.",
+                            "voiceSeconds": 13.788,
+                            "durationSeconds": 4.306,
+                            "sha256": "83298831cedb4e05e6efb4236dbb997e3b756b185c2f96d560c0f7218ec96a66"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 4.916,
+                            "seconds": 1.47
+                        },
+                        {
+                            "atSeconds": 11.19,
+                            "seconds": 0.878
+                        },
+                        {
+                            "atSeconds": 16.133,
+                            "seconds": 0.213
+                        }
+                    ],
+                    "unnarratedSha256": "6f593bd0ab6e484415058454b3b123a1f80275e7d33277d478dbdf1bac493a04",
+                    "unnarratedDurationSeconds": 16.133333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "select": {
@@ -320,20 +371,20 @@
             ],
             "captions": [
                 [
-                    0.13729369999782648,
-                    "Buka Pilih, klik awal momen, tekan tambah, lalu klik akhirnya."
+                    0.137,
+                    "Buka Pilih, klik posisi awal momen, tekan tombol tambah, lalu klik posisi akhirnya."
                 ],
                 [
-                    7.67160949999743,
-                    "Pilih momen kedua. Pratinjau hanya memutar bagian terpilih dan melewati celah."
+                    7.672,
+                    "Pilih momen kedua. Pratinjau hanya memutar bagian terpilih dan melewati jeda di antaranya."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 25.533333,
+            "duration": 25.533008,
             "height": 970,
-            "sha256": "6d26526fc773962c61d89b9f8d256d9cb1f474c8936d963a07ad4962b47ca8e8",
-            "size": 12157535,
+            "sha256": "7e892c5e268e82a35b9cdb4c189e9305e941248aad09744c69d896757c407f1a",
+            "size": 13501998,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -343,6 +394,50 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-10-28T23:33:49.595528+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "d6c2c6d0644d61ab3753fc99ade78a4dd5a4ad79d4187b3e720f827862afe1a5",
+                "randomSeed": "1948215421967042583",
+                "startSeconds": 7.647,
+                "narration": {
+                    "createdAt": "2026-10-29T12:34:53.386203+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "select.2",
+                            "text": "Buka Pilih, klik posisi awal momen, tekan tombol tambah, lalu klik posisi akhirnya.",
+                            "voiceSeconds": 0.387,
+                            "durationSeconds": 5.536,
+                            "sha256": "d1c9db1c3e2509de8a7c93f1100369b559110095357952cd739337b2500b9c1a"
+                        },
+                        {
+                            "key": "select.1",
+                            "text": "Pilih momen kedua. Pratinjau hanya memutar bagian terpilih dan melewati jeda di antaranya.",
+                            "voiceSeconds": 7.922,
+                            "durationSeconds": 6.203,
+                            "sha256": "72cc58a513cc8ee40ac38f059e68c4f925dee3d90cc889a451daaa9a087c93ac"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "6d26526fc773962c61d89b9f8d256d9cb1f474c8936d963a07ad4962b47ca8e8",
+                    "unnarratedDurationSeconds": 25.533333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             },
             "motionAudit": {
                 "method": "picture-difference-above-quantization-noise",
@@ -361,27 +456,14 @@
                 "movingFps": 31.47826086956522,
                 "maximumStillSeconds": 0.06666666666666667,
                 "sourceClock": {
-                    "confidenceMinimum": 0.9873929023742676,
+                    "confidenceMinimum": 0.9874619245529175,
                     "matching": "original source frames or adjacent-frame interpolation",
                     "maximumStillSeconds": 0.06666666666666667,
                     "movingFps": 30.608695652173914,
-                    "originalFrameConfidenceMinimum": 0.9831506013870239,
+                    "originalFrameConfidenceMinimum": 0.9832326173782349,
                     "sourceFps": 30,
                     "sourceSecondsPerRecordedSecond": 0.9971014261245728
                 }
-            },
-            "audio": {
-                "createdAt": "2026-10-28T23:33:49.595528+00:00",
-                "fadeInSeconds": 1.5,
-                "fadeOutSeconds": 2,
-                "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
-                "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "d6c2c6d0644d61ab3753fc99ade78a4dd5a4ad79d4187b3e720f827862afe1a5",
-                "randomSeed": "1948215421967042583",
-                "startSeconds": 7.647
             }
         },
         "text": {
@@ -555,20 +637,20 @@
             ],
             "captions": [
                 [
-                    0.16254559999651974,
-                    "Tambahkan tulisan di atas gambar setelah bagian terpilih."
+                    0.163,
+                    "Tambahkan lapisan teks setelah bagian yang dipilih, lalu ketik teksnya."
                 ],
                 [
-                    9.044809499999246,
-                    "Rekaman terus bergerak di pratinjau sementara judul muncul di atasnya."
+                    9.045,
+                    "Di Pratinjau, rekaman terus bergerak sementara judul muncul di atasnya."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 19.266667,
+            "duration": 19.267,
             "height": 970,
-            "sha256": "a30e37989ac5e86268e4413bf22e780a4077eef85340899ef8dcace837515ed5",
-            "size": 4188890,
+            "sha256": "304fc19032f65e8bd590d6c1a464624399d33fea8ec52330d2ed3900e2616315",
+            "size": 6261394,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -578,23 +660,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 14.356,
-                        "seconds": 2.177,
-                        "crop": "1004:547:20:79",
-                        "changedFrames": 66,
-                        "encodedFps": 60,
-                        "frames": 130,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.697674418604652
-                    }
-                ],
-                "movingFps": 30.697674418604652,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:50.190204+00:00",
@@ -607,7 +672,55 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "1c84b1179538f9d805073ca16d0febf7187659b0a5cd793ea69eaecc36838afa",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 10.648
+                "startSeconds": 10.648,
+                "narration": {
+                    "createdAt": "2026-10-29T12:35:12.755534+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "text.2",
+                            "text": "Tambahkan lapisan teks setelah bagian yang dipilih, lalu ketik teksnya.",
+                            "voiceSeconds": 0.413,
+                            "durationSeconds": 3.956,
+                            "sha256": "55e23c991998cd14e062429b25ac777a7ac1f6b22393b80a2b9fde2720e1b38a"
+                        },
+                        {
+                            "key": "text.1",
+                            "text": "Di Pratinjau, rekaman terus bergerak sementara judul muncul di atasnya.",
+                            "voiceSeconds": 9.295,
+                            "durationSeconds": 4.381,
+                            "sha256": "68e907f7f24b402728c15a9389b07df35d77aab535b0e6e2d851ab89bdfedbc9"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "a30e37989ac5e86268e4413bf22e780a4077eef85340899ef8dcace837515ed5",
+                    "unnarratedDurationSeconds": 19.266667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 14.356,
+                        "seconds": 2.177,
+                        "crop": "1004:547:20:79",
+                        "changedFrames": 66,
+                        "encodedFps": 60,
+                        "frames": 131,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 30.461538461538463
+                    }
+                ],
+                "movingFps": 30.461538461538463,
+                "maximumStillSeconds": 0.05
             }
         },
         "parts": {
@@ -616,7 +729,7 @@
                     "event": "action",
                     "key": "parts-reorder",
                     "clipId": "31cc5b50-2f10-4b8f-9dab-7443903291df",
-                    "videoSeconds": 2.145
+                    "videoSeconds": 7.12
                 },
                 {
                     "event": "native-click",
@@ -625,7 +738,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 25,
-                    "videoSeconds": 2.467
+                    "videoSeconds": 7.442
                 },
                 {
                     "event": "native-click",
@@ -634,7 +747,7 @@
                         0.7158223023542816
                     ],
                     "sequence": 26,
-                    "videoSeconds": 3.38
+                    "videoSeconds": 8.355
                 },
                 {
                     "event": "action",
@@ -645,8 +758,8 @@
                         0.6522660260446189,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.73,
-                    "inputVideoSeconds": 3.38
+                    "videoSeconds": 9.705,
+                    "inputVideoSeconds": 8.355
                 },
                 {
                     "event": "native-click",
@@ -655,7 +768,7 @@
                         0.7158223023542816
                     ],
                     "sequence": 27,
-                    "videoSeconds": 9.607
+                    "videoSeconds": 14.582
                 },
                 {
                     "event": "action",
@@ -666,26 +779,26 @@
                         0.6522660260446189,
                         0.852558542931483
                     ],
-                    "videoSeconds": 10.892,
-                    "inputVideoSeconds": 9.607
+                    "videoSeconds": 15.867,
+                    "inputVideoSeconds": 14.582
                 }
             ],
             "captions": [
                 [
-                    0.487319199997728,
+                    0.487,
                     "Daftar Bagian menunjukkan urutan putar. Seret pegangan bernomor untuk memindahkan bagian."
                 ],
                 [
-                    2.145036199999595,
-                    "Pratinjau mengikuti urutan baru. Judul tetap bersama blok videonya."
+                    7.12,
+                    "Pratinjau mengikuti urutan baru. Judul tetap mengikuti videonya."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 13.033333,
+            "duration": 18.016016,
             "height": 970,
-            "sha256": "a2f4e9703847a59da0f01fa06d44dd07d775b74470bc9cd36c07db3787d863b5",
-            "size": 8831475,
+            "sha256": "e58e346f65e7832121e0a6951613cf41256f5a02a7a86650cb0142600ebf9ff7",
+            "size": 9410195,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -695,32 +808,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 3.68,
-                        "seconds": 5.777,
-                        "crop": "1004:547:20:79",
-                        "changedFrames": 182,
-                        "encodedFps": 60,
-                        "frames": 347,
-                        "maximumStillSeconds": 0.08333333333333333,
-                        "movingFps": 31.560693641618496
-                    }
-                ],
-                "movingFps": 31.560693641618496,
-                "maximumStillSeconds": 0.08333333333333333,
-                "sourceClock": {
-                    "confidenceMinimum": 0.9906458258628845,
-                    "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.08333333333333333,
-                    "movingFps": 31.213872832369944,
-                    "originalFrameConfidenceMinimum": 0.98633873462677,
-                    "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 0.9826589226722717
-                }
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:50.730047+00:00",
@@ -733,7 +820,70 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "d70225d449c56ae4716e8923d0a7dc83a528d7bc5f90b9f1a6ce7cf1b26fda72",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 70.197
+                "startSeconds": 67.166,
+                "narration": {
+                    "createdAt": "2026-10-29T12:35:32.285911+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "parts.2",
+                            "text": "Daftar Bagian menunjukkan urutan putar. Seret pegangan bernomor untuk memindahkan bagian.",
+                            "voiceSeconds": 0.737,
+                            "durationSeconds": 6.032,
+                            "sha256": "910ac48536134c5556932ebab8fb4296076f1ddcaa9639f52dbaa33ebcdf1d19"
+                        },
+                        {
+                            "key": "parts.1",
+                            "text": "Pratinjau mengikuti urutan baru. Judul tetap mengikuti videonya.",
+                            "voiceSeconds": 7.37,
+                            "durationSeconds": 4.552,
+                            "sha256": "37870f7c497104dad909d93dbbe06d172e5c050c8f5ff569456c4b81f3a91d11"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 2.145,
+                            "seconds": 4.975
+                        }
+                    ],
+                    "unnarratedSha256": "a2f4e9703847a59da0f01fa06d44dd07d775b74470bc9cd36c07db3787d863b5",
+                    "unnarratedDurationSeconds": 13.033333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "musicStartMovedFromSeconds": 70.197,
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 8.655,
+                        "seconds": 5.777,
+                        "crop": "1004:547:20:79",
+                        "changedFrames": 182,
+                        "encodedFps": 60,
+                        "frames": 347,
+                        "maximumStillSeconds": 0.08333333333333333,
+                        "movingFps": 31.560693641618496
+                    }
+                ],
+                "movingFps": 31.560693641618496,
+                "maximumStillSeconds": 0.08333333333333333,
+                "sourceClock": {
+                    "confidenceMinimum": 0.9906864762306213,
+                    "matching": "original source frames or adjacent-frame interpolation",
+                    "maximumStillSeconds": 0.08333333333333333,
+                    "movingFps": 30.86705202312139,
+                    "originalFrameConfidenceMinimum": 0.9863332509994507,
+                    "sourceFps": 30,
+                    "sourceSecondsPerRecordedSecond": 0.9826589226722717
+                }
             }
         },
         "image": {
@@ -893,20 +1043,20 @@
             ],
             "captions": [
                 [
-                    0.1542026999995869,
-                    "Tambahkan foto sebagai bagian tersendiri. Pilih dalam dialog Windows di luar rekaman ini."
+                    0.154,
+                    "Tambahkan foto sebagai bagian tersendiri. Pilih fotonya di dialog berkas Windows yang tidak ditampilkan di sini."
                 ],
                 [
-                    12.571529500000906,
-                    "Atur durasi lalu putar bagian foto untuk melihat berapa lama foto ditampilkan."
+                    12.572,
+                    "Atur \"Durasi\" menjadi tiga detik, lalu putar bagian foto untuk melihat berapa lama foto tampil."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.433333,
+            "duration": 22.433008,
             "height": 970,
-            "sha256": "5da1e12c0c122a9df69e12aaf5614b8f2295b82a9dad43401a1d2d27503caf65",
-            "size": 2827457,
+            "sha256": "ce38e69011aab34a183be5dc577cc45c9182ea362013b8de70872d167ac67755",
+            "size": 5164909,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -928,7 +1078,38 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "4ed558c17a60ab3c22f5f28f742f64f1ed2f124a9d6eb535232e702d3e45fbdc",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 55.13
+                "startSeconds": 55.13,
+                "narration": {
+                    "createdAt": "2026-10-29T12:35:56.422877+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "image.2",
+                            "text": "Tambahkan foto sebagai bagian tersendiri. Pilih fotonya di dialog berkas Windows yang tidak ditampilkan di sini.",
+                            "voiceSeconds": 0.404,
+                            "durationSeconds": 6.609,
+                            "sha256": "566f62350a6b30571c0468c019825eed59768cb1611b2a622cbab6921e59674b"
+                        },
+                        {
+                            "key": "image.1",
+                            "text": "Atur \"Durasi\" menjadi tiga detik, lalu putar bagian foto untuk melihat berapa lama foto tampil.",
+                            "voiceSeconds": 12.822,
+                            "durationSeconds": 4.785,
+                            "sha256": "8f9939d974a0b00edd7a494b4b3a82998b0be434e47dcf9adf1be8591cf8b651"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "5da1e12c0c122a9df69e12aaf5614b8f2295b82a9dad43401a1d2d27503caf65",
+                    "unnarratedDurationSeconds": 22.433333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "transition": {
@@ -1078,20 +1259,20 @@
             ],
             "captions": [
                 [
-                    0.09358249999786494,
-                    "Buka sambungan sebelum foto dan pilih larut silang dari galeri."
+                    0.094,
+                    "Buka sambungan sebelum foto, pilih \"Larut silang\" dari galeri, lalu atur durasinya."
                 ],
                 [
-                    10.770538599997963,
-                    "Putar sambungan: rekaman bergerak berbaur ke foto diam."
+                    10.771,
+                    "Putar melewati sambungan untuk melihat video bertransisi halus menjadi foto diam."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 25.416667,
+            "duration": 25.417,
             "height": 970,
-            "sha256": "d3966716c50956f0ed37e89dd1495fd7ad185df144e33092da405670bc8d5013",
-            "size": 18498193,
+            "sha256": "adf8f0b9d70ac6e7ff7ca90cabaf94b2c60b2107162d76924eb4e7706e02d638",
+            "size": 17053131,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1101,23 +1282,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 12.206,
-                        "seconds": 6.3,
-                        "crop": "1004:547:20:79",
-                        "changedFrames": 190,
-                        "encodedFps": 60,
-                        "frames": 377,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.319148936170212
-                    }
-                ],
-                "movingFps": 30.319148936170212,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:52.460781+00:00",
@@ -1130,7 +1294,55 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "8e87df419e629aa89c8601785ccc3cc14133fbe1370c59f48c417e7136694d72",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 55.05
+                "startSeconds": 55.05,
+                "narration": {
+                    "createdAt": "2026-10-29T12:36:17.416621+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "transition.2",
+                            "text": "Buka sambungan sebelum foto, pilih \"Larut silang\" dari galeri, lalu atur durasinya.",
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.33,
+                            "sha256": "9ad4fbeda76fd8e77de3bd84714b0179aab73b0d97dab8601464298d0a0d789e"
+                        },
+                        {
+                            "key": "transition.1",
+                            "text": "Putar melewati sambungan untuk melihat video bertransisi halus menjadi foto diam.",
+                            "voiceSeconds": 11.021,
+                            "durationSeconds": 4.689,
+                            "sha256": "3457d552271befac0a27d1e74800f0f072f4d5a2abdaeda86d8fd3ff40f49909"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "d3966716c50956f0ed37e89dd1495fd7ad185df144e33092da405670bc8d5013",
+                    "unnarratedDurationSeconds": 25.416667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 12.206,
+                        "seconds": 6.3,
+                        "crop": "1004:547:20:79",
+                        "changedFrames": 190,
+                        "encodedFps": 60,
+                        "frames": 378,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 30.23872679045093
+                    }
+                ],
+                "movingFps": 30.23872679045093,
+                "maximumStillSeconds": 0.05
             }
         },
         "music": {
@@ -1231,20 +1443,20 @@
             ],
             "captions": [
                 [
-                    0.14067689999865252,
+                    0.141,
                     "Buka Musik di panel kiri dan tambahkan lagu bawaan Bouncy Groove dengan tombol tambah."
                 ],
                 [
-                    6.707916899998963,
-                    "Jalur musik kini menjadi bagian reel. Putar untuk memeriksa waktunya dengan gambar."
+                    6.708,
+                    "Musik kini mengiringi seluruh montase. Tekan Putar untuk memeriksa apakah waktunya pas dengan gambar."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 17.666667,
+            "duration": 17.667,
             "height": 970,
-            "sha256": "014a2654c932c7861f6e061f217d3506664db82e50e61d98e8b3454891dcd745",
-            "size": 10604403,
+            "sha256": "ea3b51566804f66f0127f906ac2bd70527e88c1cebafe21568ec83c6c4b4181d",
+            "size": 10761385,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1254,23 +1466,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 7.834,
-                        "seconds": 6.695,
-                        "crop": "950:517:599:83",
-                        "changedFrames": 205,
-                        "encodedFps": 60,
-                        "frames": 401,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.75
-                    }
-                ],
-                "movingFps": 30.75,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:53.100188+00:00",
@@ -1283,7 +1478,55 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "91418d7db038514ea937d207c09cae7c54e81f55d11bd3fae493ca8621fa624a",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 62.452
+                "startSeconds": 62.452,
+                "narration": {
+                    "createdAt": "2026-10-29T12:36:36.330165+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "music.2",
+                            "text": "Buka Musik di panel kiri dan tambahkan lagu bawaan Bouncy Groove dengan tombol tambah.",
+                            "voiceSeconds": 0.391,
+                            "durationSeconds": 4.873,
+                            "sha256": "f8d9ef64f01db55608de6480b757f9ef862fec390456ab58ec2bd7403c97ba9e"
+                        },
+                        {
+                            "key": "music.1",
+                            "text": "Musik kini mengiringi seluruh montase. Tekan Putar untuk memeriksa apakah waktunya pas dengan gambar.",
+                            "voiceSeconds": 6.958,
+                            "durationSeconds": 5.903,
+                            "sha256": "317ba645d6a1ad35025ffbd578fccdc38f14394c0c606922634f6ab857928da4"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "014a2654c932c7861f6e061f217d3506664db82e50e61d98e8b3454891dcd745",
+                    "unnarratedDurationSeconds": 17.666667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 7.834,
+                        "seconds": 6.695,
+                        "crop": "950:517:599:83",
+                        "changedFrames": 205,
+                        "encodedFps": 60,
+                        "frames": 402,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.673316708229425
+                    }
+                ],
+                "movingFps": 30.673316708229425,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "video": {
@@ -1433,24 +1676,24 @@
             ],
             "captions": [
                 [
-                    0.15921619999789982,
-                    "Buka pengaturan bagian video. Setiap tab mengubah bagian reel ini."
+                    0.159,
+                    "Buka pengaturan bagian video. Setiap tab mengubah bagian montase ini."
                 ],
                 [
-                    6.419677599998977,
-                    "Di tab Bingkai gambar, perbesar untuk menyempurnakan komposisi, lalu bandingkan hasilnya di Pratinjau."
+                    6.42,
+                    "Di tab \"Bingkai gambar\", perbesar untuk tampilan yang lebih dekat. Tab \"Sesuaikan\" berisi pengaturan cahaya dan warna."
                 ],
                 [
-                    17.92631149999943,
-                    "Putar bagian untuk melihat bingkai yang lebih dekat pada rekaman bergerak."
+                    17.926,
+                    "Putar bagian ini untuk melihat tampilan yang lebih dekat saat video bergerak, lalu buka kembali pengaturannya."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 26.966667,
+            "duration": 26.967,
             "height": 970,
-            "sha256": "e9f7548582d4893f2143e8f86ff7384a016e90a83e0337af1cce18fc1fe2c8a8",
-            "size": 7783766,
+            "sha256": "b2e9e127a0724137af0276783e5b81ca5af46f983a0f2d646238341fa5c40305",
+            "size": 10008856,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1460,23 +1703,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 19.219,
-                        "seconds": 4.512,
-                        "crop": "1004:547:20:79",
-                        "changedFrames": 141,
-                        "encodedFps": 60,
-                        "frames": 270,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.449814126394052
-                    }
-                ],
-                "movingFps": 31.449814126394052,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:53.846471+00:00",
@@ -1489,7 +1715,62 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "57509986b678a161cf0c2488a11952b7c35561eecf49fb2bbdfc11d57a42009e",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 4.661
+                "startSeconds": 4.661,
+                "narration": {
+                    "createdAt": "2026-10-29T12:37:01.889831+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "video.3",
+                            "text": "Buka pengaturan bagian video. Setiap tab mengubah bagian montase ini.",
+                            "voiceSeconds": 0.409,
+                            "durationSeconds": 4.754,
+                            "sha256": "06d984d41a43d7639c674cbf71297890b916b06c8b88071625e810aa49173910"
+                        },
+                        {
+                            "key": "video.2",
+                            "text": "Di tab \"Bingkai gambar\", perbesar untuk tampilan yang lebih dekat. Tab \"Sesuaikan\" berisi pengaturan cahaya dan warna.",
+                            "voiceSeconds": 6.67,
+                            "durationSeconds": 7.57,
+                            "sha256": "e2a9222bcc9e07ce89c90e24dd7a2570f272ada1515d48e399a9a3fc60559982"
+                        },
+                        {
+                            "key": "video.1",
+                            "text": "Putar bagian ini untuk melihat tampilan yang lebih dekat saat video bergerak, lalu buka kembali pengaturannya.",
+                            "voiceSeconds": 18.176,
+                            "durationSeconds": 5.73,
+                            "sha256": "4040381d32e6d81cfdaa7ca347770da3ff78e7f4139de925d70061cd5c0d3512"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "e9f7548582d4893f2143e8f86ff7384a016e90a83e0337af1cce18fc1fe2c8a8",
+                    "unnarratedDurationSeconds": 26.966667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 19.219,
+                        "seconds": 4.512,
+                        "crop": "1004:547:20:79",
+                        "changedFrames": 141,
+                        "encodedFps": 60,
+                        "frames": 271,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.333333333333332
+                    }
+                ],
+                "movingFps": 31.333333333333332,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "photo-capture": {
@@ -1600,7 +1881,7 @@
                     "flashSeconds": 0.8,
                     "holdSeconds": 3.0,
                     "previewSeconds": 4.301888,
-                    "videoSeconds": 12.941,
+                    "videoSeconds": 17.062,
                     "inputVideoSeconds": 11.406
                 },
                 {
@@ -1610,14 +1891,14 @@
                         0.5149609713790113
                     ],
                     "sequence": 61,
-                    "videoSeconds": 13.869
+                    "videoSeconds": 17.99
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-angle",
                     "value": "-12",
-                    "videoSeconds": 15.25,
-                    "inputVideoSeconds": 13.869
+                    "videoSeconds": 19.371,
+                    "inputVideoSeconds": 17.99
                 },
                 {
                     "event": "native-click",
@@ -1626,14 +1907,14 @@
                         0.5626626192541198
                     ],
                     "sequence": 62,
-                    "videoSeconds": 16.181
+                    "videoSeconds": 20.302
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-size",
                     "value": "76",
-                    "videoSeconds": 17.448,
-                    "inputVideoSeconds": 16.181
+                    "videoSeconds": 21.569,
+                    "inputVideoSeconds": 20.302
                 },
                 {
                     "event": "native-click",
@@ -1642,14 +1923,14 @@
                         0.6103642671292281
                     ],
                     "sequence": 63,
-                    "videoSeconds": 18.394
+                    "videoSeconds": 22.515
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-border-width",
                     "value": "16",
-                    "videoSeconds": 19.745,
-                    "inputVideoSeconds": 18.394
+                    "videoSeconds": 23.866,
+                    "inputVideoSeconds": 22.515
                 },
                 {
                     "event": "native-click",
@@ -1658,7 +1939,7 @@
                         0.31331309627059845
                     ],
                     "sequence": 64,
-                    "videoSeconds": 20.578
+                    "videoSeconds": 24.699
                 },
                 {
                     "event": "action",
@@ -1669,8 +1950,8 @@
                         0.6522660260446189,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 21.936,
-                    "inputVideoSeconds": 20.578
+                    "videoSeconds": 26.057,
+                    "inputVideoSeconds": 24.699
                 },
                 {
                     "event": "native-click",
@@ -1679,7 +1960,7 @@
                         0.9653078924544666
                     ],
                     "sequence": 65,
-                    "videoSeconds": 24.798
+                    "videoSeconds": 28.919
                 },
                 {
                     "event": "action",
@@ -1690,8 +1971,8 @@
                         0.6522660260446189,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 26.041,
-                    "inputVideoSeconds": 24.798
+                    "videoSeconds": 30.162,
+                    "inputVideoSeconds": 28.919
                 },
                 {
                     "event": "native-click",
@@ -1700,7 +1981,7 @@
                         0.13876843018213356
                     ],
                     "sequence": 66,
-                    "videoSeconds": 26.885
+                    "videoSeconds": 31.006
                 },
                 {
                     "event": "action",
@@ -1711,8 +1992,8 @@
                         0.6522660260446189,
                         0.852558542931483
                     ],
-                    "videoSeconds": 28.254,
-                    "inputVideoSeconds": 26.885
+                    "videoSeconds": 32.375,
+                    "inputVideoSeconds": 31.006
                 },
                 {
                     "event": "native-click",
@@ -1721,7 +2002,7 @@
                         0.9522983521248916
                     ],
                     "sequence": 67,
-                    "videoSeconds": 28.567
+                    "videoSeconds": 32.688
                 },
                 {
                     "event": "native-click",
@@ -1730,7 +2011,7 @@
                         0.7158223023542816
                     ],
                     "sequence": 68,
-                    "videoSeconds": 29.453
+                    "videoSeconds": 33.574
                 },
                 {
                     "event": "action",
@@ -1741,42 +2022,42 @@
                         0.6522660260446189,
                         0.852558542931483
                     ],
-                    "videoSeconds": 30.807,
-                    "inputVideoSeconds": 29.453
+                    "videoSeconds": 34.928,
+                    "inputVideoSeconds": 33.574
                 }
             ],
             "captions": [
                 [
-                    0.14096040000003995,
+                    0.141,
                     "Buka Pengambilan foto dan aktifkan untuk bagian video ini."
                 ],
                 [
-                    4.325701800000388,
-                    "Pilih waktu pengambilan, kilatan singkat, dan penahanan tiga detik."
+                    4.326,
+                    "Pilih waktu pengambilan, lalu atur kilatan singkat dan durasi tampil foto tiga detik."
                 ],
                 [
-                    11.093638499998633,
-                    "Geser posisi pemutaran melewati waktu pengambilan ke foto yang ditahan agar penyesuaian terlihat."
+                    11.094,
+                    "Geser penanda pemutaran ke bagian saat foto tampil diam untuk melihat perubahan Anda."
                 ],
                 [
-                    12.94147890000022,
-                    "Miringkan dan perkecil foto, lalu tambahkan tepi putih."
+                    17.062,
+                    "Miringkan dan perkecil foto, lalu tambahkan garis tepi putih."
                 ],
                 [
-                    21.936272499999177,
-                    "Bingkai khusus memilih area foto. Terapkan menyimpan potongan."
+                    26.057,
+                    "Gunakan Bingkai khusus untuk memilih area yang difoto, lalu Terapkan untuk menyimpan hasil pemotongannya."
                 ],
                 [
-                    28.589124800000718,
-                    "Tekan Putar: kilatan, foto miring berbingkai, lalu kembali bergerak."
+                    32.71,
+                    "Tekan Putar. Muncul kilatan, lalu video berhenti pada foto miring berbingkai sebelum bergerak lagi."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 41.483333,
+            "duration": 45.604,
             "height": 970,
-            "sha256": "74723f40fb66feeca67678f8037cf67a58fda8bb27102089498ba39e575ee631",
-            "size": 14258398,
+            "sha256": "a69f34740813948e4875b16cab0e6266bfd58a5ebb8a624d3bf36b33b746a51d",
+            "size": 17165247,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1786,33 +2067,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 29.903,
-                        "seconds": 1.6,
-                        "crop": "1004:547:20:79",
-                        "changedFrames": 48,
-                        "encodedFps": 60,
-                        "frames": 95,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.638297872340427
-                    },
-                    {
-                        "startSeconds": 35.753,
-                        "seconds": 5.53,
-                        "crop": "1004:547:20:79",
-                        "changedFrames": 171,
-                        "encodedFps": 60,
-                        "frames": 331,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.09090909090909
-                    }
-                ],
-                "movingFps": 30.638297872340427,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:54.816875+00:00",
@@ -1825,7 +2079,98 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "05e2f5189af323fdc4e7a25a9e30578a37b75e2b052fb493124e099c3b921d2d",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 38.116
+                "startSeconds": 38.116,
+                "narration": {
+                    "createdAt": "2026-10-29T12:37:51.519456+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "photo.6",
+                            "text": "Buka Pengambilan foto dan aktifkan untuk bagian video ini.",
+                            "voiceSeconds": 0.391,
+                            "durationSeconds": 3.447,
+                            "sha256": "639b83669565b8675633beca7b967679d9d8c3ff3e4818abc7badd8a9714fd06"
+                        },
+                        {
+                            "key": "photo.5",
+                            "text": "Pilih waktu pengambilan, lalu atur kilatan singkat dan durasi tampil foto tiga detik.",
+                            "voiceSeconds": 4.576,
+                            "durationSeconds": 4.99,
+                            "sha256": "89f5c0e8c115f2384f0d0cf1f4768944668961167773c0576c8875ef8a16dbbe"
+                        },
+                        {
+                            "key": "photo.1",
+                            "text": "Geser penanda pemutaran ke bagian saat foto tampil diam untuk melihat perubahan Anda.",
+                            "voiceSeconds": 11.344,
+                            "durationSeconds": 5.369,
+                            "sha256": "26db0e18beaef6f44d0dc161770abb948bc71270c3ddee5e1755e5d2a173a964"
+                        },
+                        {
+                            "key": "photo.4",
+                            "text": "Miringkan dan perkecil foto, lalu tambahkan garis tepi putih.",
+                            "voiceSeconds": 17.312,
+                            "durationSeconds": 4.05,
+                            "sha256": "bb6a7fd2647f6c5dea2016ff9568d0cdd3c28ef5f0989660fc80e352d7962b79"
+                        },
+                        {
+                            "key": "photo.3",
+                            "text": "Gunakan Bingkai khusus untuk memilih area yang difoto, lalu Terapkan untuk menyimpan hasil pemotongannya.",
+                            "voiceSeconds": 26.307,
+                            "durationSeconds": 5.371,
+                            "sha256": "243bfd6e24c94f6691daa740b09332d4445807b0e2e937a0f1421b42e18b5c77"
+                        },
+                        {
+                            "key": "photo.2",
+                            "text": "Tekan Putar. Muncul kilatan, lalu video berhenti pada foto miring berbingkai sebelum bergerak lagi.",
+                            "voiceSeconds": 32.96,
+                            "durationSeconds": 5.963,
+                            "sha256": "4ca421ed20c42db8bca2210850d9096dd00ac2214e0acd53fa1307847a192d7d"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 12.941,
+                            "seconds": 4.121
+                        }
+                    ],
+                    "unnarratedSha256": "74723f40fb66feeca67678f8037cf67a58fda8bb27102089498ba39e575ee631",
+                    "unnarratedDurationSeconds": 41.483333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 34.024,
+                        "seconds": 1.6,
+                        "crop": "1004:547:20:79",
+                        "changedFrames": 48,
+                        "encodedFps": 60,
+                        "frames": 96,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.315789473684212
+                    },
+                    {
+                        "startSeconds": 39.874,
+                        "seconds": 5.53,
+                        "crop": "1004:547:20:79",
+                        "changedFrames": 171,
+                        "encodedFps": 60,
+                        "frames": 332,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.996978851963746
+                    }
+                ],
+                "movingFps": 30.315789473684212,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "export-frame": {
@@ -1868,13 +2213,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 71,
-                    "videoSeconds": 6.342
+                    "videoSeconds": 10.761
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 7.7,
-                    "inputVideoSeconds": 6.342
+                    "videoSeconds": 12.119,
+                    "inputVideoSeconds": 10.761
                 },
                 {
                     "event": "native-click",
@@ -1883,13 +2228,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 72,
-                    "videoSeconds": 8.539
+                    "videoSeconds": 12.958
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 9.773,
-                    "inputVideoSeconds": 8.539
+                    "videoSeconds": 14.192,
+                    "inputVideoSeconds": 12.958
                 },
                 {
                     "event": "native-click",
@@ -1898,13 +2243,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 73,
-                    "videoSeconds": 10.617
+                    "videoSeconds": 15.036
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-export",
-                    "videoSeconds": 11.856,
-                    "inputVideoSeconds": 10.617
+                    "videoSeconds": 16.275,
+                    "inputVideoSeconds": 15.036
                 },
                 {
                     "event": "native-click",
@@ -1913,13 +2258,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 74,
-                    "videoSeconds": 14.745
+                    "videoSeconds": 19.164
                 },
                 {
                     "event": "action",
                     "key": "still-export-start",
-                    "videoSeconds": 16.001,
-                    "inputVideoSeconds": 14.745
+                    "videoSeconds": 22.095,
+                    "inputVideoSeconds": 19.164
                 },
                 {
                     "event": "native-click",
@@ -1928,7 +2273,7 @@
                         0.030355594102341718
                     ],
                     "sequence": 75,
-                    "videoSeconds": 19.867
+                    "videoSeconds": 25.961
                 },
                 {
                     "event": "action",
@@ -1939,34 +2284,34 @@
                         0.6522660260446189,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 21.208,
-                    "inputVideoSeconds": 19.867
+                    "videoSeconds": 27.302,
+                    "inputVideoSeconds": 25.961
                 }
             ],
             "captions": [
                 [
-                    0.13754179999887128,
-                    "Di halaman Pilih sebuah video, Ekspor bingkai menampilkan setiap bingkai mulai dari posisi pemutaran."
+                    0.138,
+                    "Di halaman \"Pilih\", atur posisi penanda pemutaran, lalu buka \"Ekspor bingkai\" untuk melihat bingkai-bingkainya."
                 ],
                 [
-                    3.9855474999967555,
+                    8.405,
                     "Telusuri dengan Bingkai berikutnya untuk menemukan gambar paling tajam."
                 ],
                 [
-                    9.773776899997756,
-                    "Ekspor bingkai ini menyimpannya sebagai PNG dalam ukuran asli. Demo menyimpan ke folder yang disiapkan."
+                    14.193,
+                    "\"Ekspor\" menyimpan bingkai ini sebagai PNG dengan ukuran aslinya. Demo ini menggunakan folder yang sudah disiapkan."
                 ],
                 [
-                    16.00099909999699,
-                    "Bingkai disimpan sebagai gambar. Tampilkan dalam folder membuka lokasinya."
+                    22.095,
+                    "Bingkai sudah disimpan. Menutup \"Pilih bingkai\" akan membawa Anda kembali ke halaman \"Pilih\"."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.816667,
+            "duration": 28.916016,
             "height": 970,
-            "sha256": "5416a2331c4cee74e64d2e2e155eeb5f90bd4a16ff0cdd6d134d51e9fee6fd0e",
-            "size": 5438681,
+            "sha256": "b70cc0701a21dd976c15ce9ef2eb1e8f1d2a26bae7e42617b409733d50642524",
+            "size": 8414197,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1988,7 +2333,61 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "cde0b85ba9822f9754f927b841caf879f8f57da69e767e283640c91844caeb8b",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 41.293
+                "startSeconds": 41.293,
+                "narration": {
+                    "createdAt": "2026-10-29T12:38:30.174461+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "exportFrame.4",
+                            "text": "Di halaman \"Pilih\", atur posisi penanda pemutaran, lalu buka \"Ekspor bingkai\" untuk melihat bingkai-bingkainya.",
+                            "voiceSeconds": 0.388,
+                            "durationSeconds": 7.667,
+                            "sha256": "0616d6dbd67dd42a358a12e8f41e4fc6eb2b3cab10a645b45e28a3a0ae5152de"
+                        },
+                        {
+                            "key": "exportFrame.3",
+                            "text": "Telusuri dengan Bingkai berikutnya untuk menemukan gambar paling tajam.",
+                            "voiceSeconds": 8.655,
+                            "durationSeconds": 3.618,
+                            "sha256": "c177ac202fc14a389452c455267dc56662b44244b7d57515552ee71ae6aa4665"
+                        },
+                        {
+                            "key": "exportFrame.2",
+                            "text": "\"Ekspor\" menyimpan bingkai ini sebagai PNG dengan ukuran aslinya. Demo ini menggunakan folder yang sudah disiapkan.",
+                            "voiceSeconds": 14.443,
+                            "durationSeconds": 7.302,
+                            "sha256": "ade76a7a20e64d1cf5d161cb0c936283b8d2b648ff6a2a670bf5df7e026ad9c4"
+                        },
+                        {
+                            "key": "exportFrame.1",
+                            "text": "Bingkai sudah disimpan. Menutup \"Pilih bingkai\" akan membawa Anda kembali ke halaman \"Pilih\".",
+                            "voiceSeconds": 22.345,
+                            "durationSeconds": 5.697,
+                            "sha256": "a410825f037607548f465974f51a7f5b9492c6d8cb8e806a9b1a65b2d345fc04"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 3.986,
+                            "seconds": 4.419
+                        },
+                        {
+                            "atSeconds": 16.001,
+                            "seconds": 1.675
+                        }
+                    ],
+                    "unnarratedSha256": "5416a2331c4cee74e64d2e2e155eeb5f90bd4a16ff0cdd6d134d51e9fee6fd0e",
+                    "unnarratedDurationSeconds": 22.816667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
             }
         },
         "split": {
@@ -2342,28 +2741,28 @@
             ],
             "captions": [
                 [
-                    0.18927890000122716,
-                    "Pilih Tambah, lalu Bagi, dan posisinya di reel."
+                    0.189,
+                    "Pilih Tambah, lalu Bagi, dan tentukan posisinya dalam montase."
                 ],
                 [
-                    6.807013300000108,
-                    "Berdampingan menampilkan dua video sekaligus. Pilih video dan bagiannya untuk sel pertama."
+                    6.807,
+                    "Pilih \"Berdampingan\" untuk menampilkan dua video sekaligus, lalu pilih video dan bagiannya untuk sel pertama."
                 ],
                 [
-                    18.372220999997808,
+                    18.372,
                     "Setiap sel punya halaman Pilih sendiri. Pilih momen lain untuk sel kedua."
                 ],
                 [
-                    27.59140969999862,
-                    "Putar layar terbagi: kedua bagian bergerak bersama dalam satu gambar."
+                    27.591,
+                    "Putar layar terbagi untuk melihat kedua bagian diputar bersamaan dalam satu gambar."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 38.366667,
+            "duration": 38.367,
             "height": 970,
-            "sha256": "6e6df27d18768bdf82d9f8b2d72224df89772c6050d32cc6244b30da3d8fc69a",
-            "size": 21419479,
+            "sha256": "f4ca792059a0ab88cca24367e979e43a0e75fc8c135e4ac6d5bfd33c920f0b3c",
+            "size": 21459096,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2373,23 +2772,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 28.884,
-                        "seconds": 5.3,
-                        "crop": "1135:621:28:152",
-                        "changedFrames": 183,
-                        "encodedFps": 60,
-                        "frames": 317,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 34.74683544303797
-                    }
-                ],
-                "movingFps": 34.74683544303797,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:56.648894+00:00",
@@ -2402,7 +2784,69 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "a397e941d4dcedc2be37b9080861a12c48cdafb390977f2751d9f67605b89874",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 46.619
+                "startSeconds": 46.619,
+                "narration": {
+                    "createdAt": "2026-10-29T12:39:06.156601+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "split.4",
+                            "text": "Pilih Tambah, lalu Bagi, dan tentukan posisinya dalam montase.",
+                            "voiceSeconds": 0.439,
+                            "durationSeconds": 4.34,
+                            "sha256": "c5e0b6e0b49e759abd077b26daee72c12fc2bf233fa900ab0af8a25014c33919"
+                        },
+                        {
+                            "key": "split.3",
+                            "text": "Pilih \"Berdampingan\" untuk menampilkan dua video sekaligus, lalu pilih video dan bagiannya untuk sel pertama.",
+                            "voiceSeconds": 7.057,
+                            "durationSeconds": 6.825,
+                            "sha256": "b329d8890c9a34df4c97924ef6aff92abb8f1cc3e9b27abc8804f43426dd995b"
+                        },
+                        {
+                            "key": "split.2",
+                            "text": "Setiap sel punya halaman Pilih sendiri. Pilih momen lain untuk sel kedua.",
+                            "voiceSeconds": 18.622,
+                            "durationSeconds": 4.686,
+                            "sha256": "3dac82ff0f1bc46412ed51afe55f43ac2b153e29c2ed08693baa48b91403ea99"
+                        },
+                        {
+                            "key": "split.1",
+                            "text": "Putar layar terbagi untuk melihat kedua bagian diputar bersamaan dalam satu gambar.",
+                            "voiceSeconds": 27.841,
+                            "durationSeconds": 5.268,
+                            "sha256": "42c98731952d4db647864791d16523f46113e64119e023c1ed645b3f5d2a5b5b"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "6e6df27d18768bdf82d9f8b2d72224df89772c6050d32cc6244b30da3d8fc69a",
+                    "unnarratedDurationSeconds": 38.366667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 28.884,
+                        "seconds": 5.3,
+                        "crop": "1135:621:28:152",
+                        "changedFrames": 183,
+                        "encodedFps": 60,
+                        "frames": 318,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 34.63722397476341
+                    }
+                ],
+                "movingFps": 34.63722397476341,
+                "maximumStillSeconds": 0.05
             }
         },
         "audio": {
@@ -2419,7 +2863,7 @@
                 {
                     "event": "action",
                     "key": "editor-top-audio",
-                    "videoSeconds": 2.364,
+                    "videoSeconds": 6.563,
                     "inputVideoSeconds": 1.029
                 },
                 {
@@ -2430,7 +2874,7 @@
                         0.9107437126551725
                     ],
                     "sequence": 95,
-                    "videoSeconds": 4.179
+                    "videoSeconds": 8.378
                 },
                 {
                     "event": "native-click",
@@ -2439,7 +2883,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 96,
-                    "videoSeconds": 8.132
+                    "videoSeconds": 15.679
                 },
                 {
                     "event": "action",
@@ -2450,8 +2894,8 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 9.402,
-                    "inputVideoSeconds": 8.132
+                    "videoSeconds": 16.949,
+                    "inputVideoSeconds": 15.679
                 },
                 {
                     "event": "native-click",
@@ -2460,7 +2904,7 @@
                         0.5175628794449263
                     ],
                     "sequence": 97,
-                    "videoSeconds": 15.29
+                    "videoSeconds": 22.837
                 },
                 {
                     "event": "action",
@@ -2471,30 +2915,30 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 16.535,
-                    "inputVideoSeconds": 15.29
+                    "videoSeconds": 24.082,
+                    "inputVideoSeconds": 22.837
                 }
             ],
             "captions": [
                 [
-                    0.1665699000004679,
-                    "Buka Audio di panel kiri untuk menambahkan narasi atau rekaman lain hanya ke reel ini."
+                    0.167,
+                    "Buka Audio di sebelah kiri untuk menambahkan narasi atau rekaman lain ke montase ini."
                 ],
                 [
-                    2.36436269999831,
-                    "Pilih rekaman dari berkas Windows. Dialog berkas tidak terlihat dalam video aplikasi ini."
+                    6.563,
+                    "Pilih \"Berkas\", lalu pilih rekaman di dialog berkas Windows yang tidak ditampilkan dalam video ini."
                 ],
                 [
-                    5.737071100000321,
-                    "Rekaman mendapat jalurnya sendiri di bawah gambar. Putar untuk mendengarnya bersama reel."
+                    13.284,
+                    "Rekaman memiliki jalur tersendiri di bawah gambar. Tekan Putar untuk mendengarnya bersama montase."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 18.233333,
+            "duration": 25.783008,
             "height": 970,
-            "sha256": "45aebeae85d3a7786f884c54b6942aa6294016e6ad0dc3b8eba021ba64bec44b",
-            "size": 10326159,
+            "sha256": "c8ada3ed42faa91c11bba1472c7dc8e52cfa9502468604a3f76c61ac9d4bd21f",
+            "size": 12063152,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2504,23 +2948,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 8.882,
-                        "seconds": 6.258,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 200,
-                        "encodedFps": 60,
-                        "frames": 376,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 32.0
-                    }
-                ],
-                "movingFps": 32.0,
-                "maximumStillSeconds": 0.05
             },
             "audio": {
                 "createdAt": "2026-10-28T23:33:57.302904+00:00",
@@ -2533,7 +2960,71 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "f148ffb57295a6c116194cf97a2f89c25f73e17fa27ab3cdff2833722a7dc9e0",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 25.738
+                "startSeconds": 25.738,
+                "narration": {
+                    "createdAt": "2026-10-29T12:39:42.042144+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "audio.3",
+                            "text": "Buka Audio di sebelah kiri untuk menambahkan narasi atau rekaman lain ke montase ini.",
+                            "voiceSeconds": 0.417,
+                            "durationSeconds": 5.797,
+                            "sha256": "2978fa0d4b1d5fbed112f237232ea8c6b773497014ad40731447c1571f8617ce"
+                        },
+                        {
+                            "key": "audio.2",
+                            "text": "Pilih \"Berkas\", lalu pilih rekaman di dialog berkas Windows yang tidak ditampilkan dalam video ini.",
+                            "voiceSeconds": 6.813,
+                            "durationSeconds": 6.121,
+                            "sha256": "4eb818aceea5b29ec19be14e50d079d7699d8a88d4046f4890ff5f5d79ac7e3f"
+                        },
+                        {
+                            "key": "audio.1",
+                            "text": "Rekaman memiliki jalur tersendiri di bawah gambar. Tekan Putar untuk mendengarnya bersama montase.",
+                            "voiceSeconds": 13.534,
+                            "durationSeconds": 6.028,
+                            "sha256": "0cf8d59c7569bbccbda44f1f91db3332d7c6f79b7210d44a83e8f381764ed8a6"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 2.364,
+                            "seconds": 4.199
+                        },
+                        {
+                            "atSeconds": 5.737,
+                            "seconds": 3.348
+                        }
+                    ],
+                    "unnarratedSha256": "45aebeae85d3a7786f884c54b6942aa6294016e6ad0dc3b8eba021ba64bec44b",
+                    "unnarratedDurationSeconds": 18.233333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 16.429,
+                        "seconds": 6.258,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 200,
+                        "encodedFps": 60,
+                        "frames": 376,
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 32.0
+                    }
+                ],
+                "movingFps": 32.0,
+                "maximumStillSeconds": 0.05
             }
         },
         "export": {
@@ -2650,28 +3141,28 @@
             ],
             "captions": [
                 [
-                    0.2076707999985956,
-                    "Putar seluruh reel dengan suara sebelum menyimpan dan mengekspor."
+                    0.208,
+                    "Tonton seluruh montase dengan suara sebelum menyimpan dan mengekspor."
                 ],
                 [
-                    17.926790800000163,
+                    17.927,
                     "Simpan mempertahankan proyek yang dapat diedit. Tombol Ekspor berwarna emas membuat berkas video terpisah."
                 ],
                 [
-                    28.402900099998078,
-                    "Pilih ukuran, kualitas, dan format lalu ekspor. Demo menyimpan ke folder yang disiapkan."
+                    28.403,
+                    "Periksa ukuran, kualitas, dan format, lalu gunakan \"Ekspor\". Demo ini menyimpannya ke folder yang sudah disiapkan."
                 ],
                 [
-                    44.00147039999865,
-                    "Video hasil ekspor siap. Proyek tetap tersedia untuk diedit lagi."
+                    44.001,
+                    "Montase sudah diekspor. \"Selesai\" menutup tampilan ini, dan proyek tetap tersedia untuk diedit lagi."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 50.783333,
+            "duration": 50.783008,
             "height": 970,
-            "sha256": "20f56301455803aa4dce25350ba0518dfc3534b1cc0a45a3c58612e139c7abc2",
-            "size": 15203271,
+            "sha256": "cd10a8d9f51464ef32912b8aa56ca472003a036619c10e9e8c0a392473588304",
+            "size": 17738041,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2681,33 +3172,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 1.421,
-                        "seconds": 1.7,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 50,
-                        "encodedFps": 60,
-                        "frames": 101,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.0
-                    },
-                    {
-                        "startSeconds": 7.171,
-                        "seconds": 8.1,
-                        "crop": "826:447:661:83",
-                        "changedFrames": 256,
-                        "encodedFps": 60,
-                        "frames": 485,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.735537190082646
-                    }
-                ],
-                "movingFps": 30.0,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:00.666006+00:00",
@@ -2720,7 +3184,79 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "9922417a43eb66e772dc3213fdbf1cf5008bf9b6164cb12c266e8004db0256e8",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 26.631
+                "startSeconds": 26.631,
+                "narration": {
+                    "createdAt": "2026-10-29T12:40:26.401506+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "export.4",
+                            "text": "Tonton seluruh montase dengan suara sebelum menyimpan dan mengekspor.",
+                            "voiceSeconds": 0.458,
+                            "durationSeconds": 4.07,
+                            "sha256": "d55d645f0653e967472bf7b4134d0dfb1f25d55c074a2d82f85303440a918731"
+                        },
+                        {
+                            "key": "export.3",
+                            "text": "Simpan mempertahankan proyek yang dapat diedit. Tombol Ekspor berwarna emas membuat berkas video terpisah.",
+                            "voiceSeconds": 18.177,
+                            "durationSeconds": 6.675,
+                            "sha256": "01d31cce9b872208394910c5ada9474c18e14743a26bc1a9da4765dfec1883ce"
+                        },
+                        {
+                            "key": "export.2",
+                            "text": "Periksa ukuran, kualitas, dan format, lalu gunakan \"Ekspor\". Demo ini menyimpannya ke folder yang sudah disiapkan.",
+                            "voiceSeconds": 28.653,
+                            "durationSeconds": 7.779,
+                            "sha256": "de7ac707c9e9a23254340e3179d53362b4ff9e2805329360c3017684a11db354"
+                        },
+                        {
+                            "key": "export.1",
+                            "text": "Montase sudah diekspor. \"Selesai\" menutup tampilan ini, dan proyek tetap tersedia untuk diedit lagi.",
+                            "voiceSeconds": 44.251,
+                            "durationSeconds": 5.675,
+                            "sha256": "a0d77d51a27e4c0c47f2257172177cc8855deb29495ac3fd4544c0f5a1a6ed14"
+                        }
+                    ],
+                    "pictureHolds": [],
+                    "unnarratedSha256": "20f56301455803aa4dce25350ba0518dfc3534b1cc0a45a3c58612e139c7abc2",
+                    "unnarratedDurationSeconds": 50.783333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 1.421,
+                        "seconds": 1.7,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 50,
+                        "encodedFps": 60,
+                        "frames": 102,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 29.702970297029704
+                    },
+                    {
+                        "startSeconds": 7.171,
+                        "seconds": 8.1,
+                        "crop": "826:447:661:83",
+                        "changedFrames": 256,
+                        "encodedFps": 60,
+                        "frames": 486,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.670103092783503
+                    }
+                ],
+                "movingFps": 29.702970297029704,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "auto": {
@@ -2747,14 +3283,14 @@
                         0.24653078924544664
                     ],
                     "sequence": 105,
-                    "videoSeconds": 7.192
+                    "videoSeconds": 8.647
                 },
                 {
                     "event": "action",
                     "key": "auto-analysis-precision",
                     "value": "25",
-                    "videoSeconds": 8.533,
-                    "inputVideoSeconds": 7.192
+                    "videoSeconds": 9.988,
+                    "inputVideoSeconds": 8.647
                 },
                 {
                     "event": "native-click",
@@ -2763,13 +3299,13 @@
                         0.9653078924544666
                     ],
                     "sequence": 106,
-                    "videoSeconds": 11.411
+                    "videoSeconds": 15.719
                 },
                 {
                     "event": "action",
                     "key": "auto-make",
-                    "videoSeconds": 12.747,
-                    "inputVideoSeconds": 11.411
+                    "videoSeconds": 17.055,
+                    "inputVideoSeconds": 15.719
                 },
                 {
                     "event": "native-click",
@@ -2778,7 +3314,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 107,
-                    "videoSeconds": 20.606
+                    "videoSeconds": 24.914
                 },
                 {
                     "event": "action",
@@ -2789,8 +3325,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 21.886,
-                    "inputVideoSeconds": 20.606
+                    "videoSeconds": 26.194,
+                    "inputVideoSeconds": 24.914
                 },
                 {
                     "event": "native-click",
@@ -2799,7 +3335,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 108,
-                    "videoSeconds": 28.779
+                    "videoSeconds": 33.087
                 },
                 {
                     "event": "action",
@@ -2810,8 +3346,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 30.02,
-                    "inputVideoSeconds": 28.779
+                    "videoSeconds": 34.328,
+                    "inputVideoSeconds": 33.087
                 },
                 {
                     "event": "shortened-analysis-wait",
@@ -2820,28 +3356,28 @@
             ],
             "captions": [
                 [
-                    0.11468310000054771,
-                    "Pilihkan bagian untuk saya membuka Montase otomatis, cara lain untuk memulai. Atur durasi, tempo, dan presisi analisis."
+                    0.115,
+                    "\"Pilihkan bagian untuk saya\" membuka \"Montase otomatis\", cara lain untuk memulai, dengan pengaturan durasi dan musik."
                 ],
                 [
-                    6.252307099999598,
-                    "Durasi otomatis memilih panjang. Presisi lebih rendah menggunakan lebih sedikit sampel."
+                    7.707,
+                    "\"Durasi otomatis\" menentukan durasinya. Dengan presisi yang lebih rendah, jumlah sampel yang dianalisis lebih sedikit."
                 ],
                 [
-                    10.554408399999375,
-                    "Buat reel menganalisis media di perangkat ini. Waktu tunggu dipersingkat dalam video ini."
+                    14.862,
+                    "Fitur Buat montase menganalisis media di perangkat ini. Waktu tunggu dipersingkat dalam video ini."
                 ],
                 [
-                    17.748981900003855,
-                    "Tinjau bagian yang dibuat dan putar draf sebelum mengekspor."
+                    22.057,
+                    "Draf sudah siap dengan bagian-bagiannya di montase. Putar sebelum mengekspor."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 31.7,
+            "duration": 36.008,
             "height": 970,
-            "sha256": "7c66c88fbf417cb10c881e9591e9f5916dafba24759c2f82bce6e77c10919177",
-            "size": 5016661,
+            "sha256": "b9b3d0923ef09bca7029d140c15f0af94aec4a1eaccae466308dec554dc07af5",
+            "size": 8529432,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2851,23 +3387,6 @@
             "pointer": {
                 "cursor": "actual Windows cursor",
                 "clickEffect": "expanding blue ring, 450 ms"
-            },
-            "motionAudit": {
-                "method": "picture-difference-above-quantization-noise",
-                "segments": [
-                    {
-                        "startSeconds": 20.956,
-                        "seconds": 4.4,
-                        "crop": "950:517:599:83",
-                        "changedFrames": 140,
-                        "encodedFps": 60,
-                        "frames": 263,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 32.06106870229008
-                    }
-                ],
-                "movingFps": 32.06106870229008,
-                "maximumStillSeconds": 0.06666666666666667
             },
             "audio": {
                 "createdAt": "2026-10-28T23:34:02.119674+00:00",
@@ -2880,7 +3399,78 @@
                 "minimumSpacingSeconds": 5.0,
                 "originalVideoSha256": "7f06feb7a874fd6566da0ac1cd3fa679a033a06b11174bdc92397f0a30641100",
                 "randomSeed": "1948215421967042583",
-                "startSeconds": 36.171
+                "startSeconds": 36.171,
+                "narration": {
+                    "createdAt": "2026-10-29T12:41:04.357560+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-teguh-id",
+                    "lines": [
+                        {
+                            "key": "auto.5",
+                            "text": "\"Pilihkan bagian untuk saya\" membuka \"Montase otomatis\", cara lain untuk memulai, dengan pengaturan durasi dan musik.",
+                            "voiceSeconds": 0.365,
+                            "durationSeconds": 6.993,
+                            "sha256": "cfa81b949800feb1a75f7a0c5ce020560fef25ee4b1b2482676ff97a465ebf9d"
+                        },
+                        {
+                            "key": "auto.4",
+                            "text": "\"Durasi otomatis\" menentukan durasinya. Dengan presisi yang lebih rendah, jumlah sampel yang dianalisis lebih sedikit.",
+                            "voiceSeconds": 7.957,
+                            "durationSeconds": 6.556,
+                            "sha256": "faa935ff593a895654f2e2c409f92a1800dd45d2cbfe45102482231e4a20f66c"
+                        },
+                        {
+                            "key": "auto.3",
+                            "text": "Fitur Buat montase menganalisis media di perangkat ini. Waktu tunggu dipersingkat dalam video ini.",
+                            "voiceSeconds": 15.112,
+                            "durationSeconds": 6.345,
+                            "sha256": "bceb827f85964d4bf7e84c7eda99d9c0ad1b1ab25fae5362f8302b7a2b6f505f"
+                        },
+                        {
+                            "key": "auto.2",
+                            "text": "Draf sudah siap dengan bagian-bagiannya di montase. Putar sebelum mengekspor.",
+                            "voiceSeconds": 22.307,
+                            "durationSeconds": 5.613,
+                            "sha256": "2b8281104ebfeaa9875600e694bd9abc6b6e568fec7edff6bba639c7cd6bff72"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 6.252,
+                            "seconds": 1.455
+                        },
+                        {
+                            "atSeconds": 10.554,
+                            "seconds": 2.853
+                        }
+                    ],
+                    "unnarratedSha256": "7c66c88fbf417cb10c881e9591e9f5916dafba24759c2f82bce6e77c10919177",
+                    "unnarratedDurationSeconds": 31.7,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 25.264,
+                        "seconds": 4.4,
+                        "crop": "950:517:599:83",
+                        "changedFrames": 140,
+                        "encodedFps": 60,
+                        "frames": 264,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 31.939163498098857
+                    }
+                ],
+                "movingFps": 31.939163498098857,
+                "maximumStillSeconds": 0.06666666666666667
             }
         }
     },
