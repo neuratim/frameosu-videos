@@ -1,6 +1,6 @@
 {
-    "appVersion": "1.4.1+13",
-    "capturedAt": "2026-10-28T22:02:13.139193+00:00",
+    "appVersion": "2.0.0+15",
+    "capturedAt": "2026-11-11T22:39:34.093142+00:00",
     "clips": {
         "home": {
             "actions": [
@@ -11,13 +11,13 @@
                         0.4358196010407632
                     ],
                     "sequence": 1,
-                    "videoSeconds": 1.442
+                    "videoSeconds": 1.02
                 },
                 {
                     "event": "action",
                     "key": "home-create-manual",
-                    "videoSeconds": 2.814,
-                    "inputVideoSeconds": 1.442
+                    "videoSeconds": 2.27,
+                    "inputVideoSeconds": 1.02
                 },
                 {
                     "event": "native-click",
@@ -26,7 +26,7 @@
                         0.906764960971379
                     ],
                     "sequence": 2,
-                    "videoSeconds": 3.668
+                    "videoSeconds": 3.176
                 },
                 {
                     "event": "action",
@@ -37,8 +37,8 @@
                         0.6470820189274448,
                         0.6454900260190807
                     ],
-                    "videoSeconds": 6.763,
-                    "inputVideoSeconds": 3.668
+                    "videoSeconds": 6.22,
+                    "inputVideoSeconds": 3.176
                 },
                 {
                     "event": "native-click",
@@ -47,13 +47,13 @@
                         0.29054640069384213
                     ],
                     "sequence": 3,
-                    "videoSeconds": 7.608
+                    "videoSeconds": 7.141
                 },
                 {
                     "event": "action",
                     "key": "reel-add-empty",
-                    "videoSeconds": 8.882,
-                    "inputVideoSeconds": 7.608
+                    "videoSeconds": 8.391,
+                    "inputVideoSeconds": 7.141
                 },
                 {
                     "event": "native-click",
@@ -62,45 +62,45 @@
                         0.2992194275802255
                     ],
                     "sequence": 4,
-                    "videoSeconds": 9.724
+                    "videoSeconds": 9.298
                 },
                 {
                     "event": "action",
                     "key": "add-media-video",
-                    "videoSeconds": 10.985,
-                    "inputVideoSeconds": 9.724
+                    "videoSeconds": 10.563,
+                    "inputVideoSeconds": 9.298
                 },
                 {
                     "event": "native-click",
-                    "path": "D:/code/neuratim/.tmp/frameosu-site/rec/pl-work/edit4-hd-water.mp4",
+                    "path": "D:/code/neuratim/.tmp/frameosu-refresh-20261111/videos/work-pl-t1/edit4-hd-water.mp4",
                     "position": [
                         0.5092008412197687,
                         0.9107437126551725
                     ],
                     "sequence": 5,
-                    "videoSeconds": 11.298
+                    "videoSeconds": 10.954
                 }
             ],
             "captions": [
                 [
-                    0.6,
+                    0.098,
                     "Wybierz „Montaż ręczny”, a potem „Zacznij od pustego projektu”, aby rozpocząć nową rolkę."
                 ],
                 [
-                    6.764,
+                    6.22,
                     "Wybierz „Dodaj”, a potem wskaż wideo w oknie wyboru plików systemu Windows, którego nie pokazano w tym filmie."
                 ],
                 [
-                    13.569,
+                    13.741,
                     "Twój film jest teraz źródłem tej rolki. Żaden fragment nie został jeszcze wybrany."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 19.533008,
+            "duration": 20.15,
             "height": 970,
-            "sha256": "0cf63b9fd581d7d26c74874f8074dec036972edc04071a64b8a0e6d80f77f84c",
-            "size": 1867817,
+            "sha256": "3d9ecc511c86160eaf843113b97e7b636a741656dbc81ff538259db582a9494e",
+            "size": 1979363,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -112,66 +112,67 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:07.320458+00:00",
+                "createdAt": "2026-11-12T01:39:00.859448+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "a38a8ce9396fdd08ba4a818bbbc131638c9387df451519615c5cf2b84116d5b7",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 26.756,
+                "originalVideoSha256": "1e15e802f4e0e44a2cb66c89d478e556677ca4e63405ad5aac7967753fa55688",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 64.12,
                 "narration": {
-                    "createdAt": "2026-10-29T12:41:45.236117+00:00",
+                    "createdAt": "2026-11-12T01:39:43.549061+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "home.3",
                             "text": "Wybierz „Montaż ręczny”, a potem „Zacznij od pustego projektu”, aby rozpocząć nową rolkę.",
-                            "voiceSeconds": 0.85,
-                            "durationSeconds": 5.563,
-                            "sha256": "c47bce5ee25b2fd8ef6071b627c1bd716ee3dafc67d843a4b88d58227d1366db"
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.519,
+                            "sha256": "45d330b3b81ab8fbde6a877179739d40006fd8cf52ea6d77ada36a11e4393cc4"
                         },
                         {
                             "key": "home.2",
                             "text": "Wybierz „Dodaj”, a potem wskaż wideo w oknie wyboru plików systemu Windows, którego nie pokazano w tym filmie.",
-                            "voiceSeconds": 7.014,
-                            "durationSeconds": 6.205,
-                            "sha256": "2b8654368716158ecbde44290c53455bab8112f23027a589ae5c47a6610bb2f3"
+                            "voiceSeconds": 6.47,
+                            "durationSeconds": 6.921,
+                            "sha256": "17f5767ccf7b6e729f0c853ec776fe5d9c8d87e2eddf9f10c915568c72dd565c"
                         },
                         {
                             "key": "home.1",
                             "text": "Twój film jest teraz źródłem tej rolki. Żaden fragment nie został jeszcze wybrany.",
-                            "voiceSeconds": 13.819,
-                            "durationSeconds": 5.113,
-                            "sha256": "30e12187f3ceca1fe0da520ee80afe6189ae5f8e2f9a904dfd02f3c412c80f00"
+                            "voiceSeconds": 13.991,
+                            "durationSeconds": 5.551,
+                            "sha256": "12ba7f10f8832945bb7819cd5d662a27b830a975b55a7edd923a294f4384068c"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 5.023,
-                            "seconds": 1.741
+                            "atSeconds": 4.458,
+                            "seconds": 1.762
                         },
                         {
-                            "atSeconds": 11.365,
-                            "seconds": 0.463
+                            "atSeconds": 10.77,
+                            "seconds": 1.209
                         },
                         {
-                            "atSeconds": 16.1,
-                            "seconds": 1.228
+                            "atSeconds": 15.667,
+                            "seconds": 1.504
                         }
                     ],
-                    "unnarratedSha256": "fd0e172c7c536028c6a0fbcc06b7745b305f4fbe99d928d1e5db6f7f4a26ef4e",
-                    "unnarratedDurationSeconds": 16.1,
+                    "unnarratedSha256": "f7a8a08ad5843b4cc3b037cd01bc2d86be86e88212dba127ffc88230bf519f62",
+                    "unnarratedDurationSeconds": 15.666667,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
                         "attack": 15,
                         "release": 450
                     },
+                    "musicStartMovedFromSeconds": 65.368,
                     "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
                 }
             }
@@ -185,19 +186,19 @@
                         0.22333044232437121
                     ],
                     "sequence": 6,
-                    "videoSeconds": 1.031
+                    "videoSeconds": 1.051
                 },
                 {
                     "event": "action",
-                    "key": "source-select-control-fa4d230c-bbd9-4a5c-8bbe-5ef542b251be",
+                    "key": "source-select-control-2f2069fe-441d-444d-aa5c-9308219d68ff",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 2.4,
-                    "inputVideoSeconds": 1.031
+                    "videoSeconds": 2.332,
+                    "inputVideoSeconds": 1.051
                 },
                 {
                     "event": "native-click",
@@ -206,14 +207,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 7,
-                    "videoSeconds": 2.731
+                    "videoSeconds": 2.738
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 1.0,
-                    "videoSeconds": 4.008,
-                    "inputVideoSeconds": 2.731
+                    "videoSeconds": 4.02,
+                    "inputVideoSeconds": 2.738
                 },
                 {
                     "event": "native-click",
@@ -222,7 +223,7 @@
                         0.853642671292281
                     ],
                     "sequence": 8,
-                    "videoSeconds": 4.857
+                    "videoSeconds": 4.942
                 },
                 {
                     "event": "action",
@@ -230,11 +231,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 6.126,
-                    "inputVideoSeconds": 4.857
+                    "videoSeconds": 6.192,
+                    "inputVideoSeconds": 4.942
                 },
                 {
                     "event": "native-click",
@@ -243,14 +244,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 9,
-                    "videoSeconds": 6.438
+                    "videoSeconds": 6.582
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 8.0,
-                    "videoSeconds": 8.45,
-                    "inputVideoSeconds": 6.438
+                    "videoSeconds": 9.03,
+                    "inputVideoSeconds": 6.582
                 },
                 {
                     "event": "native-click",
@@ -259,14 +260,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 10,
-                    "videoSeconds": 8.773
+                    "videoSeconds": 9.405
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 10.0,
-                    "videoSeconds": 10.042,
-                    "inputVideoSeconds": 8.773
+                    "videoSeconds": 10.687,
+                    "inputVideoSeconds": 9.405
                 },
                 {
                     "event": "native-click",
@@ -275,7 +276,7 @@
                         0.853642671292281
                     ],
                     "sequence": 11,
-                    "videoSeconds": 10.882
+                    "videoSeconds": 11.593
                 },
                 {
                     "event": "action",
@@ -283,11 +284,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 12.12,
-                    "inputVideoSeconds": 10.882
+                    "videoSeconds": 12.843,
+                    "inputVideoSeconds": 11.593
                 },
                 {
                     "event": "native-click",
@@ -296,23 +297,23 @@
                         0.8980919340849957
                     ],
                     "sequence": 12,
-                    "videoSeconds": 12.434
+                    "videoSeconds": 13.234
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 13.0,
-                    "videoSeconds": 13.779,
-                    "inputVideoSeconds": 12.434
+                    "videoSeconds": 14.484,
+                    "inputVideoSeconds": 13.234
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.7747594826354338,
-                        0.030355594102341718
+                        0.7226603575184016,
+                        0.08673026886383348
                     ],
                     "sequence": 13,
-                    "videoSeconds": 14.605
+                    "videoSeconds": 15.374
                 },
                 {
                     "event": "action",
@@ -320,20 +321,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 15.971,
-                    "inputVideoSeconds": 14.605
+                    "videoSeconds": 16.671,
+                    "inputVideoSeconds": 15.374
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7211034067382217
+                        0.6969861231569818
                     ],
                     "sequence": 14,
-                    "videoSeconds": 16.798
+                    "videoSeconds": 17.577
                 },
                 {
                     "event": "action",
@@ -341,20 +342,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 18.091,
-                    "inputVideoSeconds": 16.798
+                    "videoSeconds": 18.843,
+                    "inputVideoSeconds": 17.577
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7211034067382217
+                        0.6969861231569818
                     ],
                     "sequence": 15,
-                    "videoSeconds": 22.954
+                    "videoSeconds": 23.796
                 },
                 {
                     "event": "action",
@@ -362,29 +363,29 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 24.211,
-                    "inputVideoSeconds": 22.954
+                    "videoSeconds": 25.062,
+                    "inputVideoSeconds": 23.796
                 }
             ],
             "captions": [
                 [
-                    0.196,
+                    0.145,
                     "Otwórz „Wybierz”, kliknij miejsce rozpoczęcia fragmentu, naciśnij przycisk plus, a potem kliknij miejsce jego zakończenia."
                 ],
                 [
-                    8.451,
+                    9.03,
                     "Wybierz drugi moment. Podgląd odtwarza tylko wybrane fragmenty i pomija przerwę."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 26.236,
+            "duration": 27.167,
             "height": 970,
-            "sha256": "0f87d076fc141049ddcccfdec52df18b78fa1888688d421caf0aa8e3a88827cd",
-            "size": 13924762,
+            "sha256": "fd3da9af3277b42cf4eb6011efd77dcdb843fba594bd417d2c60efe8d97ef11f",
+            "size": 13792310,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -396,7 +397,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:08.023647+00:00",
+                "createdAt": "2026-11-12T01:39:02.573627+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -404,37 +405,37 @@
                 "musicDurationSeconds": 84.312,
                 "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "9e7c0244b8bd2fdc1bb686f06dd008a83ab3284d4bacd2aaba669eeaca6568c7",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 48.583,
+                "originalVideoSha256": "70c0e62b59af53de10f208a27091da369373e2a9cbe240a64f0d23b5ad0fc730",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 38.496,
                 "narration": {
-                    "createdAt": "2026-10-29T12:42:03.688694+00:00",
+                    "createdAt": "2026-11-12T01:40:04.744676+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "select.2",
                             "text": "Otwórz „Wybierz”, kliknij miejsce rozpoczęcia fragmentu, naciśnij przycisk plus, a potem kliknij miejsce jego zakończenia.",
-                            "voiceSeconds": 0.446,
-                            "durationSeconds": 7.656,
-                            "sha256": "d942d68c40a83e7530721bd601a1510c2d527b0536cd7ff69572090897b8ecf4"
+                            "voiceSeconds": 0.395,
+                            "durationSeconds": 8.285,
+                            "sha256": "8dda6fb5d901fc3a0479418d5fad4ae85e5acb85b69c7a4d08ee33b4031fe29e"
                         },
                         {
                             "key": "select.1",
                             "text": "Wybierz drugi moment. Podgląd odtwarza tylko wybrane fragmenty i pomija przerwę.",
-                            "voiceSeconds": 8.701,
-                            "durationSeconds": 4.649,
-                            "sha256": "9593724325874f2bed6e907ccf90382709da9f79d0c0de61c4966d6bc8e34eed"
+                            "voiceSeconds": 9.28,
+                            "durationSeconds": 5.235,
+                            "sha256": "4798ee2a3823411c8691b1e724bce760480904b31622f65e29dda77c24e0d074"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 7.715,
-                            "seconds": 0.736
+                            "atSeconds": 7.863,
+                            "seconds": 1.167
                         }
                     ],
-                    "unnarratedSha256": "5c05adbd2753fcdf30ee8c6e08972ad8f2ad20693c7e4f5ed2743a888bc61f19",
-                    "unnarratedDurationSeconds": 25.5,
+                    "unnarratedSha256": "3c31ba7828df3b95bceea20a5fd9079b83ca0bd3b99e3ea5a298f43c3394dc0a",
+                    "unnarratedDurationSeconds": 26.0,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -448,26 +449,26 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 17.098,
-                        "seconds": 5.706,
-                        "crop": "1013:552:20:79",
-                        "changedFrames": 181,
+                        "startSeconds": 17.877,
+                        "seconds": 5.769,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 172,
                         "encodedFps": 60,
-                        "frames": 343,
+                        "frames": 347,
                         "maximumStillSeconds": 0.05,
-                        "movingFps": 31.75438596491228
+                        "movingFps": 29.826589595375722
                     }
                 ],
-                "movingFps": 31.75438596491228,
+                "movingFps": 29.826589595375722,
                 "maximumStillSeconds": 0.05,
                 "sourceClock": {
-                    "confidenceMinimum": 0.9835056662559509,
+                    "confidenceMinimum": 0.9944486021995544,
                     "matching": "original source frames or adjacent-frame interpolation",
                     "maximumStillSeconds": 0.05,
-                    "movingFps": 31.403508771929822,
-                    "originalFrameConfidenceMinimum": 0.9676060080528259,
+                    "movingFps": 29.826589595375722,
+                    "originalFrameConfidenceMinimum": 0.9944486021995544,
                     "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 1.0043859481811523
+                    "sourceSecondsPerRecordedSecond": 0.9942196531791908
                 }
             }
         },
@@ -476,11 +477,11 @@
                 {
                     "event": "native-click",
                     "position": [
-                        0.693729002518358,
-                        0.08673026886383348
+                        0.6677379026523274,
+                        0.13768430182133565
                     ],
                     "sequence": 16,
-                    "videoSeconds": 0.938
+                    "videoSeconds": 1.103
                 },
                 {
                     "event": "action",
@@ -488,20 +489,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 2.289,
-                    "inputVideoSeconds": 0.938
+                    "videoSeconds": 2.384,
+                    "inputVideoSeconds": 1.103
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6282913005439766,
-                        0.2688638334778838
+                        0.6023002006779459,
+                        0.31981786643538596
                     ],
                     "sequence": 17,
-                    "videoSeconds": 3.174
+                    "videoSeconds": 3.291
                 },
                 {
                     "event": "action",
@@ -509,20 +510,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.559,
-                    "inputVideoSeconds": 3.174
+                    "videoSeconds": 4.541,
+                    "inputVideoSeconds": 3.291
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6282913005439766,
-                        0.1474414570685169
+                        0.6023002006779459,
+                        0.19839549002601908
                     ],
                     "sequence": 18,
-                    "videoSeconds": 5.394
+                    "videoSeconds": 5.447
                 },
                 {
                     "event": "action",
@@ -530,27 +531,27 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 6.699,
-                    "inputVideoSeconds": 5.394
+                    "videoSeconds": 6.713,
+                    "inputVideoSeconds": 5.447
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.8302931314261804,
-                        0.2862098872506505
+                        0.8518007360672976,
+                        0.31439722463139635
                     ],
                     "sequence": 19,
-                    "videoSeconds": 7.663
+                    "videoSeconds": 7.713
                 },
                 {
                     "event": "action",
                     "key": "item-panel-words",
                     "value": "Dzień nad morzem",
-                    "videoSeconds": 9.019,
-                    "inputVideoSeconds": 7.663
+                    "videoSeconds": 9.025,
+                    "inputVideoSeconds": 7.713
                 },
                 {
                     "event": "native-click",
@@ -559,22 +560,22 @@
                         0.9522983521248916
                     ],
                     "sequence": 20,
-                    "videoSeconds": 9.339
+                    "videoSeconds": 9.416
                 },
                 {
                     "event": "action",
                     "key": "text-preview-visible",
-                    "videoSeconds": 9.353,
-                    "inputVideoSeconds": 9.339
+                    "videoSeconds": 9.447,
+                    "inputVideoSeconds": 9.416
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6776735394033598,
-                        0.1344319167389419
+                        0.6516824395373291,
+                        0.18538594969644406
                     ],
                     "sequence": 21,
-                    "videoSeconds": 11.735
+                    "videoSeconds": 11.869
                 },
                 {
                     "event": "action",
@@ -582,11 +583,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 13.091,
-                    "inputVideoSeconds": 11.735
+                    "videoSeconds": 13.166,
+                    "inputVideoSeconds": 11.869
                 },
                 {
                     "event": "native-click",
@@ -595,16 +596,16 @@
                         0.9522983521248916
                     ],
                     "sequence": 22,
-                    "videoSeconds": 13.407
+                    "videoSeconds": 13.541
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7211034067382217
+                        0.6969861231569818
                     ],
                     "sequence": 23,
-                    "videoSeconds": 13.83
+                    "videoSeconds": 13.978
                 },
                 {
                     "event": "action",
@@ -612,20 +613,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 14.112,
-                    "inputVideoSeconds": 13.83
+                    "videoSeconds": 14.259,
+                    "inputVideoSeconds": 13.978
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7211034067382217
+                        0.6969861231569818
                     ],
                     "sequence": 24,
-                    "videoSeconds": 16.575
+                    "videoSeconds": 16.791
                 },
                 {
                     "event": "action",
@@ -633,29 +634,29 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 17.149,
-                    "inputVideoSeconds": 16.575
+                    "videoSeconds": 17.369,
+                    "inputVideoSeconds": 16.791
                 }
             ],
             "captions": [
                 [
-                    0.095,
+                    0.197,
                     "Dodaj nakładkę tekstową za wybranym fragmentem, a potem wpisz jej treść."
                 ],
                 [
-                    9.021,
+                    9.025,
                     "Podgląd nadal odtwarza film, gdy na obrazie pojawia się tytuł."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 19.283008,
+            "duration": 19.35,
             "height": 970,
-            "sha256": "c22dac8b6774fad6e8df823b1b2f969bdefc6f4cffe3dc33bd2ac8c8f7042ac5",
-            "size": 6318431,
+            "sha256": "ef69dc0be7296e5bc39ef83c6afb62c0d3d211a29cc3c6b75b86a03a5da38d31",
+            "size": 5881276,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -667,40 +668,40 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:08.597031+00:00",
+                "createdAt": "2026-11-12T01:39:03.351301+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "62a286dc7bc80bf33c39743173be6323d56ee642333d11d3862d90ffde4cc668",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 1.929,
+                "originalVideoSha256": "40e977a1777b9f0281f693e3b3ee98ade3ef818934d729396c9d6d5974d61e95",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 55.125,
                 "narration": {
-                    "createdAt": "2026-10-29T12:42:19.239148+00:00",
+                    "createdAt": "2026-11-12T01:40:19.843476+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "text.2",
                             "text": "Dodaj nakładkę tekstową za wybranym fragmentem, a potem wpisz jej treść.",
-                            "voiceSeconds": 0.35,
-                            "durationSeconds": 4.987,
-                            "sha256": "9305ca1835a879dcd71e7b23c84b79d1fd02d40120cd0a8b626fba531578c3df"
+                            "voiceSeconds": 0.447,
+                            "durationSeconds": 5.883,
+                            "sha256": "d30a6d9bb7d3c0d6419d1e72c3324afc91ce23dd7a83dce911f2ecf4e8c8336f"
                         },
                         {
                             "key": "text.1",
                             "text": "Podgląd nadal odtwarza film, gdy na obrazie pojawia się tytuł.",
-                            "voiceSeconds": 9.271,
-                            "durationSeconds": 3.846,
-                            "sha256": "eedd49a3117f743288148af34f106bab516a5cc6665128430a67cf2ab0e023b2"
+                            "voiceSeconds": 9.275,
+                            "durationSeconds": 3.505,
+                            "sha256": "3462d577aba34dff3483622959e68e74a83c5a55b75d3c5d9faec5f6e362b506"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "72cc1d6aa39ab4ee8ef7f173f6b12a63dd0fc3508a4c1f5d98722ec497da8fe2",
-                    "unnarratedDurationSeconds": 19.283333,
+                    "unnarratedSha256": "57cb17a84fd6b978ed4f4b94eb0b471b47dd243257c1d7bd311a15f01bab4762",
+                    "unnarratedDurationSeconds": 19.35,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -714,17 +715,17 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 14.28,
-                        "seconds": 2.145,
-                        "crop": "1013:552:20:79",
-                        "changedFrames": 68,
+                        "startSeconds": 14.428,
+                        "seconds": 2.213,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 67,
                         "encodedFps": 60,
-                        "frames": 129,
+                        "frames": 133,
                         "maximumStillSeconds": 0.05,
-                        "movingFps": 31.875
+                        "movingFps": 30.454545454545453
                     }
                 ],
-                "movingFps": 31.875,
+                "movingFps": 30.454545454545453,
                 "maximumStillSeconds": 0.05
             }
         },
@@ -733,8 +734,8 @@
                 {
                     "event": "action",
                     "key": "parts-reorder",
-                    "clipId": "41478ddb-058c-46d0-b325-5ba64ecb00f4",
-                    "videoSeconds": 9.069
+                    "clipId": "c6072869-a62c-40a6-846f-a825324f4ae1",
+                    "videoSeconds": 7.198
                 },
                 {
                     "event": "native-click",
@@ -743,16 +744,16 @@
                         0.9522983521248916
                     ],
                     "sequence": 25,
-                    "videoSeconds": 9.384
+                    "videoSeconds": 7.589
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7211034067382217
+                        0.6969861231569818
                     ],
                     "sequence": 26,
-                    "videoSeconds": 10.382
+                    "videoSeconds": 8.573
                 },
                 {
                     "event": "action",
@@ -760,20 +761,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 11.718,
-                    "inputVideoSeconds": 10.382
+                    "videoSeconds": 9.855,
+                    "inputVideoSeconds": 8.573
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7211034067382217
+                        0.6969861231569818
                     ],
                     "sequence": 27,
-                    "videoSeconds": 16.614
+                    "videoSeconds": 14.808
                 },
                 {
                     "event": "action",
@@ -781,29 +782,29 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 17.883,
-                    "inputVideoSeconds": 16.614
+                    "videoSeconds": 16.089,
+                    "inputVideoSeconds": 14.808
                 }
             ],
             "captions": [
                 [
-                    0.156,
+                    0.193,
                     "Lista „Fragmenty” pokazuje kolejność odtwarzania. Przeciągnij uchwyt z numerem, aby przenieść fragment."
                 ],
                 [
-                    9.07,
+                    7.198,
                     "Podgląd odtwarza fragmenty w nowej kolejności. Tytuł pozostaje przypisany do swojego fragmentu wideo."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 19.851,
+            "duration": 17.733008,
             "height": 970,
-            "sha256": "68c298f8bc9a4a22b3b5a1e80162dad7ede273b5d3fd6f8498f215bc7605a776",
-            "size": 9693847,
+            "sha256": "b3b8916dcc82b534f60f4647607b6d08e67a418c2beda66f6f56669959d1813e",
+            "size": 9327602,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -815,7 +816,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:09.155710+00:00",
+                "createdAt": "2026-11-12T01:39:04.012254+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -823,37 +824,37 @@
                 "musicDurationSeconds": 84.312,
                 "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "4b984e3b9625acae00d20a98fe09feff3cfccee7973abbb0947f197dac33b224",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 63.714,
+                "originalVideoSha256": "c3633551ff0e8338fd065f7f019bfa3c5d3d86f7015ec2b09c24c73ee7eb51cc",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 32.663,
                 "narration": {
-                    "createdAt": "2026-10-29T12:42:39.512670+00:00",
+                    "createdAt": "2026-11-12T01:40:36.864325+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "parts.2",
                             "text": "Lista „Fragmenty” pokazuje kolejność odtwarzania. Przeciągnij uchwyt z numerem, aby przenieść fragment.",
-                            "voiceSeconds": 0.406,
-                            "durationSeconds": 8.313,
-                            "sha256": "32144d1ce9915bfec46b1589c3ff649f4d3daa8973972eea5e43eab8988c0e9b"
+                            "voiceSeconds": 0.443,
+                            "durationSeconds": 6.405,
+                            "sha256": "609314941a705f2795991885300c60de0577ce68ec10fdaa55648ff6ee9855a6"
                         },
                         {
                             "key": "parts.1",
                             "text": "Podgląd odtwarza fragmenty w nowej kolejności. Tytuł pozostaje przypisany do swojego fragmentu wideo.",
-                            "voiceSeconds": 9.32,
-                            "durationSeconds": 6.439,
-                            "sha256": "549960a1c68a2f1284beb37bb51f06ad42077f8f35ca351b089c79a14eb6c01e"
+                            "voiceSeconds": 7.448,
+                            "durationSeconds": 5.832,
+                            "sha256": "dd277e37f2a4cdb9af04239ec1c159a1538792cb7dc880e814d70e01accd818e"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 1.802,
-                            "seconds": 7.268
+                            "atSeconds": 2.021,
+                            "seconds": 5.177
                         }
                     ],
-                    "unnarratedSha256": "84158770daa706fa991318136c90976dc84cd212c0e7e019d3bb44fd79d6a94e",
-                    "unnarratedDurationSeconds": 12.583333,
+                    "unnarratedSha256": "78b18ea61f2e662a793057abd6d0289ea5a1f62c182652c95789cb8d168f1592",
+                    "unnarratedDurationSeconds": 12.55,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -867,26 +868,26 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 10.682,
-                        "seconds": 5.782,
-                        "crop": "1013:552:20:79",
-                        "changedFrames": 181,
+                        "startSeconds": 9.023,
+                        "seconds": 5.635,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 168,
                         "encodedFps": 60,
-                        "frames": 347,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.38728323699422
+                        "frames": 339,
+                        "maximumStillSeconds": 0.08333333333333333,
+                        "movingFps": 29.82248520710059
                     }
                 ],
-                "movingFps": 31.38728323699422,
-                "maximumStillSeconds": 0.06666666666666667,
+                "movingFps": 29.82248520710059,
+                "maximumStillSeconds": 0.08333333333333333,
                 "sourceClock": {
-                    "confidenceMinimum": 0.9918556213378906,
+                    "confidenceMinimum": 0.9965512752532959,
                     "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.06666666666666667,
-                    "movingFps": 31.213872832369944,
-                    "originalFrameConfidenceMinimum": 0.9869962334632874,
+                    "maximumStillSeconds": 0.08333333333333333,
+                    "movingFps": 29.82248520710059,
+                    "originalFrameConfidenceMinimum": 0.9946286082267761,
                     "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 0.9797687530517578
+                    "sourceSecondsPerRecordedSecond": 0.9852071005917159
                 }
             }
         },
@@ -895,11 +896,11 @@
                 {
                     "event": "native-click",
                     "position": [
-                        0.693729002518358,
-                        0.08673026886383348
+                        0.6677379026523274,
+                        0.13768430182133565
                     ],
                     "sequence": 28,
-                    "videoSeconds": 0.911
+                    "videoSeconds": 1.037
                 },
                 {
                     "event": "action",
@@ -907,20 +908,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 2.162,
-                    "inputVideoSeconds": 0.911
+                    "videoSeconds": 2.303,
+                    "inputVideoSeconds": 1.037
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6282913005439766,
-                        0.09540329575021683
+                        0.6023002006779459,
+                        0.146357328707719
                     ],
                     "sequence": 29,
-                    "videoSeconds": 3.031
+                    "videoSeconds": 3.209
                 },
                 {
                     "event": "action",
@@ -928,20 +929,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.282,
-                    "inputVideoSeconds": 3.031
+                    "videoSeconds": 4.49,
+                    "inputVideoSeconds": 3.209
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6282913005439766,
-                        0.1474414570685169
+                        0.6023002006779459,
+                        0.25043365134431916
                     ],
                     "sequence": 30,
-                    "videoSeconds": 5.127
+                    "videoSeconds": 5.412
                 },
                 {
                     "event": "action",
@@ -949,30 +950,30 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 6.481,
-                    "inputVideoSeconds": 5.127
+                    "videoSeconds": 6.678,
+                    "inputVideoSeconds": 5.412
                 },
                 {
                     "event": "native-click",
-                    "path": "D:/code/neuratim/.tmp/frameosu-site/rec/pl-work/coastal-finale.png",
+                    "path": "D:/code/neuratim/.tmp/frameosu-refresh-20261111/videos/work-pl-t1/coastal-finale.png",
                     "position": [
                         0.5092008412197687,
                         0.9107437126551725
                     ],
                     "sequence": 31,
-                    "videoSeconds": 6.798
+                    "videoSeconds": 7.068
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6945794323140013,
-                        0.20056374674761493
+                        0.6700841219768664,
+                        0.2341717259323504
                     ],
                     "sequence": 32,
-                    "videoSeconds": 9.104
+                    "videoSeconds": 9.6
                 },
                 {
                     "event": "action",
@@ -980,36 +981,36 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 10.331,
-                    "inputVideoSeconds": 9.104
+                    "videoSeconds": 10.881,
+                    "inputVideoSeconds": 9.6
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9543243953732913,
-                        0.48352124891587167
+                        0.9470951629863302,
+                        0.44666088464874243
                     ],
                     "sequence": 33,
-                    "videoSeconds": 11.272
+                    "videoSeconds": 11.881
                 },
                 {
                     "event": "action",
                     "key": "item-panel-length-field",
                     "value": "3.00",
-                    "videoSeconds": 12.528,
-                    "inputVideoSeconds": 11.272
+                    "videoSeconds": 13.147,
+                    "inputVideoSeconds": 11.881
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6776735394033598,
-                        0.1344319167389419
+                        0.6516824395373291,
+                        0.18538594969644406
                     ],
                     "sequence": 34,
-                    "videoSeconds": 13.364
+                    "videoSeconds": 14.084
                 },
                 {
                     "event": "action",
@@ -1017,50 +1018,50 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 14.633,
-                    "inputVideoSeconds": 13.364
+                    "videoSeconds": 15.334,
+                    "inputVideoSeconds": 14.084
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9250788643533123,
-                        0.47267996530789247
+                        0.5236339982653946
                     ],
                     "sequence": 35,
-                    "videoSeconds": 15.488
+                    "videoSeconds": 16.225
                 },
                 {
                     "event": "action",
-                    "key": "part-play-a76ba19b-9738-4fd5-b375-0a170e9c478b",
+                    "key": "part-play-83c59544-efef-464c-9610-36165ddb06a2",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 16.847,
-                    "inputVideoSeconds": 15.488
+                    "videoSeconds": 17.49,
+                    "inputVideoSeconds": 16.225
                 }
             ],
             "captions": [
                 [
-                    0.072,
+                    0.131,
                     "Dodaj zdjęcie jako osobny fragment. Wybierz je w oknie wyboru plików systemu Windows, którego tutaj nie pokazano."
                 ],
                 [
-                    12.528,
+                    13.147,
                     "Ustaw „Długość” na trzy sekundy, a potem odtwórz fragment ze zdjęciem, aby sprawdzić, jak długo je widać."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.433008,
+            "duration": 22.833008,
             "height": 970,
-            "sha256": "fab2ccdf61c68d966099a5eace4ccc06fcd9a681ce2434f04b054d945508e2bf",
-            "size": 5050731,
+            "sha256": "c3fb4a49e3f30fcefee68bd3b56671bf7538e5945f8567951e5620ebf766861a",
+            "size": 4568436,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1072,7 +1073,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:09.797882+00:00",
+                "createdAt": "2026-11-12T01:39:04.806906+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -1080,32 +1081,32 @@
                 "musicDurationSeconds": 84.312,
                 "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "c3f4fd3c7f3ba1c231125acbce50d169acda6f3abf41becbb33e9517e0e21bd1",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 57.827,
+                "originalVideoSha256": "873bbcd27ebd260fab99b4f9354dbbb64cd48283386096d18db585e5b329ad6f",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 44.962,
                 "narration": {
-                    "createdAt": "2026-10-29T12:43:00.076164+00:00",
+                    "createdAt": "2026-11-12T01:40:56.679628+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "image.2",
                             "text": "Dodaj zdjęcie jako osobny fragment. Wybierz je w oknie wyboru plików systemu Windows, którego tutaj nie pokazano.",
-                            "voiceSeconds": 0.35,
-                            "durationSeconds": 7.568,
-                            "sha256": "22f1a54de395d0820555aca31bc81ef55b3a21a253ab22887fdd8fc55f9286b1"
+                            "voiceSeconds": 0.381,
+                            "durationSeconds": 7.554,
+                            "sha256": "e5d1ce9ca663cd309a2a5d84ba69947b68be567c9d14b3ea12cf11652899231f"
                         },
                         {
                             "key": "image.1",
                             "text": "Ustaw „Długość” na trzy sekundy, a potem odtwórz fragment ze zdjęciem, aby sprawdzić, jak długo je widać.",
-                            "voiceSeconds": 12.778,
-                            "durationSeconds": 6.646,
-                            "sha256": "2a1e4649f0c7ded17f0ec7aabb840131f82b2078e7087977e282f3ad6864301c"
+                            "voiceSeconds": 13.397,
+                            "durationSeconds": 7.882,
+                            "sha256": "dbeba3a5ceda6fe7e9e78c3f71869d8c016644c58352f58d4c3b18c0605c7844"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "852fba3ecdc759ac325b32fe619a53bd2cc30591872d73117c427cbc0131f513",
-                    "unnarratedDurationSeconds": 22.433333,
+                    "unnarratedSha256": "73c26e0674f385da27f24c8584a46610677d339962dabe18d2175e094068624a",
+                    "unnarratedDurationSeconds": 22.833333,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -1121,23 +1122,23 @@
                 {
                     "event": "native-click",
                     "position": [
-                        0.8309503343704496,
-                        0.3924544666088465
+                        0.8179547844374343,
+                        0.44340849956634865
                     ],
                     "sequence": 36,
-                    "videoSeconds": 0.986
+                    "videoSeconds": 1.067
                 },
                 {
                     "event": "action",
-                    "key": "junction-ce2cecf4-cfce-4212-93ea-1d377c209337",
+                    "key": "junction-6ec61a9c-43ac-4bf8-a825-c7e545eceaa4",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 2.346,
-                    "inputVideoSeconds": 0.986
+                    "videoSeconds": 2.333,
+                    "inputVideoSeconds": 1.067
                 },
                 {
                     "event": "native-click",
@@ -1146,7 +1147,7 @@
                         0.8460537727666956
                     ],
                     "sequence": 37,
-                    "videoSeconds": 3.207
+                    "videoSeconds": 3.239
                 },
                 {
                     "event": "action",
@@ -1154,11 +1155,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.568,
-                    "inputVideoSeconds": 3.207
+                    "videoSeconds": 4.52,
+                    "inputVideoSeconds": 3.239
                 },
                 {
                     "event": "native-click",
@@ -1167,7 +1168,7 @@
                         0.4007537002545036
                     ],
                     "sequence": 38,
-                    "videoSeconds": 5.41
+                    "videoSeconds": 5.442
                 },
                 {
                     "event": "action",
@@ -1175,11 +1176,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 6.707,
-                    "inputVideoSeconds": 5.41
+                    "videoSeconds": 6.739,
+                    "inputVideoSeconds": 5.442
                 },
                 {
                     "event": "native-click",
@@ -1188,14 +1189,14 @@
                         0.6682567215958369
                     ],
                     "sequence": 39,
-                    "videoSeconds": 7.684
+                    "videoSeconds": 7.739
                 },
                 {
                     "event": "action",
                     "key": "transition-duration-value",
                     "value": "0.80",
-                    "videoSeconds": 8.944,
-                    "inputVideoSeconds": 7.684
+                    "videoSeconds": 9.036,
+                    "inputVideoSeconds": 7.739
                 },
                 {
                     "event": "native-click",
@@ -1204,7 +1205,7 @@
                         0.9609713790112749
                     ],
                     "sequence": 40,
-                    "videoSeconds": 9.794
+                    "videoSeconds": 9.974
                 },
                 {
                     "event": "action",
@@ -1212,41 +1213,41 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 11.083,
-                    "inputVideoSeconds": 9.794
+                    "videoSeconds": 11.27,
+                    "inputVideoSeconds": 9.974
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9250788643533123,
-                        0.31222896790980054
+                        0.3631830008673027
                     ],
                     "sequence": 41,
-                    "videoSeconds": 11.905
+                    "videoSeconds": 12.192
                 },
                 {
                     "event": "action",
-                    "key": "part-play-ce2cecf4-cfce-4212-93ea-1d377c209337",
+                    "key": "part-play-6ec61a9c-43ac-4bf8-a825-c7e545eceaa4",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 13.223,
-                    "inputVideoSeconds": 11.905
+                    "videoSeconds": 13.458,
+                    "inputVideoSeconds": 12.192
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7211034067382217
+                        0.6969861231569818
                     ],
                     "sequence": 42,
-                    "videoSeconds": 22.361
+                    "videoSeconds": 22.677
                 },
                 {
                     "event": "action",
@@ -1254,29 +1255,29 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 23.65,
-                    "inputVideoSeconds": 22.361
+                    "videoSeconds": 23.958,
+                    "inputVideoSeconds": 22.677
                 }
             ],
             "captions": [
                 [
-                    0.149,
+                    0.177,
                     "Otwórz połączenie przed zdjęciem, wybierz „Przenikanie” z galerii i ustaw czas trwania przejścia."
                 ],
                 [
-                    11.084,
+                    11.27,
                     "Odtwórz fragment obejmujący połączenie, aby zobaczyć, jak film płynnie przechodzi w nieruchome zdjęcie."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 25.417,
+            "duration": 26.05,
             "height": 970,
-            "sha256": "1d28874c920d1795c4446e0577cbe015708f382d0211b388be3540d4e7ae8c6d",
-            "size": 17166434,
+            "sha256": "d728b5ae3320b16757400cf5cf05c156a6a6a7d5561f28d70ff3f39fe6de47a8",
+            "size": 14690017,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1288,7 +1289,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:10.557473+00:00",
+                "createdAt": "2026-11-12T01:39:05.696937+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -1296,32 +1297,32 @@
                 "musicDurationSeconds": 85.224,
                 "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "d3f0ad9096b6ff571da6d7b91d5922618c07c8abb8023f83a0ff4cfea019a413",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 51.335,
+                "originalVideoSha256": "afe96be9d5ac3e195b2b9a25cfcda68bb4ca0047cc61c42b5751a160fc9e66df",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 54.792,
                 "narration": {
-                    "createdAt": "2026-10-29T12:43:19.485491+00:00",
+                    "createdAt": "2026-11-12T01:41:15.730445+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "transition.2",
                             "text": "Otwórz połączenie przed zdjęciem, wybierz „Przenikanie” z galerii i ustaw czas trwania przejścia.",
-                            "voiceSeconds": 0.399,
-                            "durationSeconds": 7.363,
-                            "sha256": "0f3a1a4f7e1a1b786c66794620981cf1eb69144f5def07e27776aa116daf023a"
+                            "voiceSeconds": 0.427,
+                            "durationSeconds": 5.871,
+                            "sha256": "35037a80a49d50ab82959116390202551922a9b65cfbb994a61639d6efed26a4"
                         },
                         {
                             "key": "transition.1",
                             "text": "Odtwórz fragment obejmujący połączenie, aby zobaczyć, jak film płynnie przechodzi w nieruchome zdjęcie.",
-                            "voiceSeconds": 11.334,
-                            "durationSeconds": 6.224,
-                            "sha256": "50993920037a3bc0d202321750f9a0f3f1bc1d2ded73e1a6a45246787545c01d"
+                            "voiceSeconds": 11.52,
+                            "durationSeconds": 6.071,
+                            "sha256": "1880e95e83da5a346f27f0efc8a77ec31fa148313b0900ce4d2e142c0afb1c4c"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "bca84f75cc02cd30ba7e332846609a5bc19cabf2dcaaa0c6b39d28523b1ca0df",
-                    "unnarratedDurationSeconds": 25.416667,
+                    "unnarratedSha256": "fc6cc7847127f4f104e9ad9d79cb63e86a54570e61f6a49f30d9a84e70f9ddf5",
+                    "unnarratedDurationSeconds": 26.05,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -1335,17 +1336,17 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 12.505,
+                        "startSeconds": 12.792,
                         "seconds": 6.3,
-                        "crop": "1013:552:20:79",
-                        "changedFrames": 193,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 188,
                         "encodedFps": 60,
                         "frames": 378,
                         "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.716180371352785
+                        "movingFps": 29.920424403183024
                     }
                 ],
-                "movingFps": 30.716180371352785,
+                "movingFps": 29.920424403183024,
                 "maximumStillSeconds": 0.06666666666666667
             }
         },
@@ -1358,13 +1359,13 @@
                         0.4152211621856028
                     ],
                     "sequence": 43,
-                    "videoSeconds": 1.068
+                    "videoSeconds": 1.087
                 },
                 {
                     "event": "action",
                     "key": "editor-top-music",
-                    "videoSeconds": 2.426,
-                    "inputVideoSeconds": 1.068
+                    "videoSeconds": 2.383,
+                    "inputVideoSeconds": 1.087
                 },
                 {
                     "event": "native-click",
@@ -1373,13 +1374,13 @@
                         0.6139895923677364
                     ],
                     "sequence": 44,
-                    "videoSeconds": 3.267
+                    "videoSeconds": 3.321
                 },
                 {
                     "event": "action",
                     "key": "music-editor-add-bundled:general__bouncy-groove",
-                    "videoSeconds": 4.641,
-                    "inputVideoSeconds": 3.267
+                    "videoSeconds": 4.633,
+                    "inputVideoSeconds": 3.321
                 },
                 {
                     "event": "native-click",
@@ -1388,7 +1389,7 @@
                         0.1098699045967043
                     ],
                     "sequence": 45,
-                    "videoSeconds": 5.512
+                    "videoSeconds": 5.524
                 },
                 {
                     "event": "action",
@@ -1399,8 +1400,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 6.878,
-                    "inputVideoSeconds": 5.512
+                    "videoSeconds": 6.79,
+                    "inputVideoSeconds": 5.524
                 },
                 {
                     "event": "native-click",
@@ -1409,7 +1410,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 46,
-                    "videoSeconds": 7.723
+                    "videoSeconds": 7.68
                 },
                 {
                     "event": "action",
@@ -1420,8 +1421,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 9.089,
-                    "inputVideoSeconds": 7.723
+                    "videoSeconds": 8.962,
+                    "inputVideoSeconds": 7.68
                 },
                 {
                     "event": "native-click",
@@ -1430,7 +1431,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 47,
-                    "videoSeconds": 14.962
+                    "videoSeconds": 14.899
                 },
                 {
                     "event": "action",
@@ -1441,26 +1442,26 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 16.202,
-                    "inputVideoSeconds": 14.962
+                    "videoSeconds": 16.196,
+                    "inputVideoSeconds": 14.899
                 }
             ],
             "captions": [
                 [
-                    0.195,
+                    0.18,
                     "Otwórz Muzykę na lewym pasku i przyciskiem plus dodaj dołączony utwór Bouncy Groove."
                 ],
                 [
-                    6.878,
+                    6.79,
                     "Muzyka gra teraz w tle przez całą rolkę. Odtwórz ją i sprawdź dopasowanie muzyki do obrazu."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 18.2,
+            "duration": 18.317,
             "height": 970,
-            "sha256": "db5206fb71839589d75753939ed9bc13b313d7d599f0b89db85a9490d66624ba",
-            "size": 11184917,
+            "sha256": "007c094d5923b592dde4b667bfa4d577b0cfce78f7d788ef569ae4f7118a69c4",
+            "size": 11314224,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1472,40 +1473,40 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:11.189966+00:00",
+                "createdAt": "2026-11-12T01:39:06.682460+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "1304c431eaa50c683a65f71123e68a871ee266d1cca4df6ea8f71ad5af700a39",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 31.084,
+                "originalVideoSha256": "857cb79efc6c04e7bac8431dda0801baa03d78dd84bead880aa75efaede1fa76",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 41.438,
                 "narration": {
-                    "createdAt": "2026-10-29T12:43:39.667566+00:00",
+                    "createdAt": "2026-11-12T01:41:33.034161+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "music.2",
                             "text": "Otwórz Muzykę na lewym pasku i przyciskiem plus dodaj dołączony utwór Bouncy Groove.",
-                            "voiceSeconds": 0.445,
-                            "durationSeconds": 5.59,
-                            "sha256": "7f93c55841493e7327afa62d62cc3423b3491494b83f76d3bd8236c6be77f928"
+                            "voiceSeconds": 0.43,
+                            "durationSeconds": 5.383,
+                            "sha256": "b0a58ba62e10ea40c0a568eb5416b97e7701809e6b106c6a2732d0d84d3dd6a2"
                         },
                         {
                             "key": "music.1",
                             "text": "Muzyka gra teraz w tle przez całą rolkę. Odtwórz ją i sprawdź dopasowanie muzyki do obrazu.",
-                            "voiceSeconds": 7.128,
-                            "durationSeconds": 6.988,
-                            "sha256": "261d46dc450ff9c43a4bc1c9a4c17246a025ea8872df16d310e0c46f6cfc1153"
+                            "voiceSeconds": 7.04,
+                            "durationSeconds": 6.284,
+                            "sha256": "773de0f021c61a0677cdd489747c6c84bea870fc3a2d8554ed241e5bca8b3473"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "caed3f879265a9d5e0baf47011e87f9a0ec6524cb725b45ba0571a2a950f1c51",
-                    "unnarratedDurationSeconds": 18.2,
+                    "unnarratedSha256": "1ccef6b5a0c224cdd6550d1f98891b073fb7ba4076859949bc6c9496b4116492",
+                    "unnarratedDurationSeconds": 18.316667,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -1519,18 +1520,18 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 8.023,
-                        "seconds": 6.789,
+                        "startSeconds": 7.98,
+                        "seconds": 6.769,
                         "crop": "950:517:599:83",
-                        "changedFrames": 216,
+                        "changedFrames": 202,
                         "encodedFps": 60,
-                        "frames": 408,
-                        "maximumStillSeconds": 0.08333333333333333,
-                        "movingFps": 31.842751842751845
+                        "frames": 407,
+                        "maximumStillSeconds": 0.1,
+                        "movingFps": 29.852216748768473
                     }
                 ],
-                "movingFps": 31.842751842751845,
-                "maximumStillSeconds": 0.08333333333333333
+                "movingFps": 29.852216748768473,
+                "maximumStillSeconds": 0.1
             }
         },
         "video": {
@@ -1539,31 +1540,31 @@
                     "event": "native-click",
                     "position": [
                         0.9513669821240799,
-                        0.15177797051170858
+                        0.20273200346921075
                     ],
                     "sequence": 48,
-                    "videoSeconds": 1.083
+                    "videoSeconds": 1.019
                 },
                 {
                     "event": "action",
-                    "key": "part-tune-41478ddb-058c-46d0-b325-5ba64ecb00f4",
+                    "key": "part-tune-c6072869-a62c-40a6-846f-a825324f4ae1",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 2.33,
-                    "inputVideoSeconds": 1.083
+                    "videoSeconds": 2.3,
+                    "inputVideoSeconds": 1.019
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6908175982887437,
-                        0.20923677363399826
+                        0.6700841219768664,
+                        0.2862098872506505
                     ],
                     "sequence": 49,
-                    "videoSeconds": 5.173
+                    "videoSeconds": 5.207
                 },
                 {
                     "event": "action",
@@ -1571,36 +1572,36 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 6.526,
-                    "inputVideoSeconds": 5.173
+                    "videoSeconds": 6.472,
+                    "inputVideoSeconds": 5.207
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9549815983175605,
-                        0.3382480485689506
+                        0.5485689505637468
                     ],
                     "sequence": 50,
-                    "videoSeconds": 7.5
+                    "videoSeconds": 7.488
                 },
                 {
                     "event": "action",
                     "key": "video-zoom",
                     "value": "1.15",
-                    "videoSeconds": 8.888,
-                    "inputVideoSeconds": 7.5
+                    "videoSeconds": 8.785,
+                    "inputVideoSeconds": 7.488
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.7773185713935474,
-                        0.20923677363399826
+                        0.6700841219768664,
+                        0.546400693842151
                     ],
                     "sequence": 51,
-                    "videoSeconds": 11.74
+                    "videoSeconds": 11.738
                 },
                 {
                     "event": "action",
@@ -1608,20 +1609,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 13.001,
-                    "inputVideoSeconds": 11.74
+                    "videoSeconds": 13.019,
+                    "inputVideoSeconds": 11.738
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6776735394033598,
-                        0.13876843018213356
+                        0.6516824395373291,
+                        0.18538594969644406
                     ],
                     "sequence": 52,
-                    "videoSeconds": 16.865
+                    "videoSeconds": 16.91
                 },
                 {
                     "event": "action",
@@ -1629,75 +1630,75 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 18.154,
-                    "inputVideoSeconds": 16.865
+                    "videoSeconds": 18.191,
+                    "inputVideoSeconds": 16.91
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9250788643533123,
-                        0.15177797051170858
+                        0.20273200346921075
                     ],
                     "sequence": 53,
-                    "videoSeconds": 18.994
+                    "videoSeconds": 19.097
                 },
                 {
                     "event": "action",
-                    "key": "part-play-41478ddb-058c-46d0-b325-5ba64ecb00f4",
+                    "key": "part-play-c6072869-a62c-40a6-846f-a825324f4ae1",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 20.358,
-                    "inputVideoSeconds": 18.994
+                    "videoSeconds": 20.363,
+                    "inputVideoSeconds": 19.097
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9513669821240799,
-                        0.15177797051170858
+                        0.20273200346921075
                     ],
                     "sequence": 54,
-                    "videoSeconds": 24.231
+                    "videoSeconds": 24.316
                 },
                 {
                     "event": "action",
-                    "key": "part-tune-41478ddb-058c-46d0-b325-5ba64ecb00f4",
+                    "key": "part-tune-c6072869-a62c-40a6-846f-a825324f4ae1",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 25.504,
-                    "inputVideoSeconds": 24.231
+                    "videoSeconds": 25.582,
+                    "inputVideoSeconds": 24.316
                 }
             ],
             "captions": [
                 [
-                    0.225,
+                    0.097,
                     "Otwórz ustawienia fragmentu wideo. Każda karta zmienia ten fragment rolki."
                 ],
                 [
-                    6.526,
+                    6.472,
                     "Na karcie „Kadr” powiększ obraz, aby uzyskać ciaśniejszy kadr. Na karcie „Dostosuj” znajdziesz ustawienia światła i koloru."
                 ],
                 [
-                    18.154,
+                    18.191,
                     "Odtwórz fragment, aby zobaczyć bliższy kadr w ruchu, a potem ponownie otwórz jego ustawienia."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 27.5,
+            "duration": 27.45,
             "height": 970,
-            "sha256": "6d670dc7b59768ed617d12d84353a9dcea5b22f56aa3cebba7c86a5092e46c12",
-            "size": 10179623,
+            "sha256": "ad8e37f0f836021fe0289be2f3ef7c3960a19dbace37ea881b99eb131733dc2d",
+            "size": 9894194,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1709,7 +1710,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:11.931902+00:00",
+                "createdAt": "2026-11-12T01:39:08.841147+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -1717,39 +1718,39 @@
                 "musicDurationSeconds": 85.224,
                 "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "e7f1cc25384fabd5658485c3b9ebd2745c4c780148dda42f913d9916056f243c",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 41.909,
+                "originalVideoSha256": "746dee840cc51f4c9ade7cd724e71d242ea16f6e41278090e83ebd2554cc37e2",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 26.155,
                 "narration": {
-                    "createdAt": "2026-10-29T12:44:06.974712+00:00",
+                    "createdAt": "2026-11-12T01:41:58.264985+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "video.3",
                             "text": "Otwórz ustawienia fragmentu wideo. Każda karta zmienia ten fragment rolki.",
-                            "voiceSeconds": 0.475,
-                            "durationSeconds": 4.422,
-                            "sha256": "3c345779f0ce35cd4d68d95a6ad14953b80c9e36f987ceb41381e399b49f0968"
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.011,
+                            "sha256": "a4d940838ca63c4cbad5c4688f490ce408d5ff433ee73cb9443eeef4c5fc03c9"
                         },
                         {
                             "key": "video.2",
                             "text": "Na karcie „Kadr” powiększ obraz, aby uzyskać ciaśniejszy kadr. Na karcie „Dostosuj” znajdziesz ustawienia światła i koloru.",
-                            "voiceSeconds": 6.776,
-                            "durationSeconds": 8.049,
-                            "sha256": "0327873495dbf2cc6bfad61c6956fc1aeca92c39eff66c2d248c8da57719204a"
+                            "voiceSeconds": 6.722,
+                            "durationSeconds": 7.333,
+                            "sha256": "a07ea2a54dead82a5a0a63018881ff5cb251b9373c59347463b4a078cf611b11"
                         },
                         {
                             "key": "video.1",
                             "text": "Odtwórz fragment, aby zobaczyć bliższy kadr w ruchu, a potem ponownie otwórz jego ustawienia.",
-                            "voiceSeconds": 18.404,
-                            "durationSeconds": 5.62,
-                            "sha256": "1bb66cea6b8abef03b2cb29d8d9512ff6e84a81a06ba73636d7b2397ce514b73"
+                            "voiceSeconds": 18.441,
+                            "durationSeconds": 6.265,
+                            "sha256": "e54d418dcda52cb0d0c45940361cc2f976be0eaa161b5609a07556452eff8ce9"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "749992445056869ee2463923eff1dcdaa293144669a347460eaa3bf8994aed26",
-                    "unnarratedDurationSeconds": 27.5,
+                    "unnarratedSha256": "c2f160a5987f164aa606b8cd8f9d9028638cb0e2dca83cb3f7bbfc2cde939924",
+                    "unnarratedDurationSeconds": 27.45,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -1763,18 +1764,318 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 19.444,
-                        "seconds": 4.637,
-                        "crop": "1013:552:20:79",
-                        "changedFrames": 142,
+                        "startSeconds": 19.547,
+                        "seconds": 4.619,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 135,
                         "encodedFps": 60,
-                        "frames": 279,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.647482014388487
+                        "frames": 278,
+                        "maximumStillSeconds": 0.08333333333333333,
+                        "movingFps": 29.241877256317693
                     }
                 ],
-                "movingFps": 30.647482014388487,
-                "maximumStillSeconds": 0.06666666666666667
+                "movingFps": 29.241877256317693,
+                "maximumStillSeconds": 0.08333333333333333
+            }
+        },
+        "part-text": {
+            "actions": [
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.6700841219768664,
+                        0.2341717259323504
+                    ],
+                    "sequence": 55,
+                    "videoSeconds": 1.433
+                },
+                {
+                    "event": "action",
+                    "key": "part-tab-text",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.7528187337380746
+                    ],
+                    "videoSeconds": 2.699,
+                    "inputVideoSeconds": 1.433
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.8518007360672976,
+                        0.30355594102341715
+                    ],
+                    "sequence": 56,
+                    "videoSeconds": 3.714
+                },
+                {
+                    "event": "action",
+                    "key": "part-text-words",
+                    "value": "W błękit",
+                    "videoSeconds": 7.079,
+                    "inputVideoSeconds": 3.714
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.8518007360672976,
+                        0.6873373807458804
+                    ],
+                    "sequence": 57,
+                    "videoSeconds": 7.986
+                },
+                {
+                    "event": "action",
+                    "key": "settings-card-part.text.design",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.7528187337380746
+                    ],
+                    "videoSeconds": 9.251,
+                    "inputVideoSeconds": 7.986
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.8518007360672976,
+                        0.7426279271465742
+                    ],
+                    "sequence": 58,
+                    "videoSeconds": 10.142
+                },
+                {
+                    "event": "action",
+                    "key": "part-text-design",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.7528187337380746
+                    ],
+                    "videoSeconds": 11.501,
+                    "inputVideoSeconds": 10.142
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.2348186119873817,
+                        0.6760512135128602
+                    ],
+                    "sequence": 59,
+                    "videoSeconds": 16.454
+                },
+                {
+                    "event": "action",
+                    "key": "text-design-choice",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.7528187337380746
+                    ],
+                    "videoSeconds": 17.72,
+                    "inputVideoSeconds": 16.454
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.6516824395373291,
+                        0.18538594969644406
+                    ],
+                    "sequence": 60,
+                    "videoSeconds": 20.126
+                },
+                {
+                    "event": "action",
+                    "key": "part-panel-close",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.852558542931483
+                    ],
+                    "videoSeconds": 21.392,
+                    "inputVideoSeconds": 20.126
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.006572029442691904,
+                        0.9522983521248916
+                    ],
+                    "sequence": 61,
+                    "videoSeconds": 21.767
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.03220294426919033,
+                        0.6969861231569818
+                    ],
+                    "sequence": 62,
+                    "videoSeconds": 22.204
+                },
+                {
+                    "event": "action",
+                    "key": "select-preview-play",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.852558542931483
+                    ],
+                    "videoSeconds": 22.486,
+                    "inputVideoSeconds": 22.204
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.03220294426919033,
+                        0.6969861231569818
+                    ],
+                    "sequence": 63,
+                    "videoSeconds": 27.392
+                },
+                {
+                    "event": "action",
+                    "key": "select-preview-play",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.852558542931483
+                    ],
+                    "videoSeconds": 27.939,
+                    "inputVideoSeconds": 27.392
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.9513669821240799,
+                        0.20273200346921075
+                    ],
+                    "sequence": 64,
+                    "videoSeconds": 28.845
+                },
+                {
+                    "event": "action",
+                    "key": "part-tune-c6072869-a62c-40a6-846f-a825324f4ae1",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.7528187337380746
+                    ],
+                    "videoSeconds": 30.158,
+                    "inputVideoSeconds": 28.845
+                }
+            ],
+            "captions": [
+                [
+                    0.527,
+                    "Otwórz ustawienia fragmentu: Tekst jest pierwszy. Wpisz tekst należący do tego fragmentu."
+                ],
+                [
+                    7.079,
+                    "Oprawa graficzna odtwarza każdą oprawę tekstu z Twoimi słowami. Wybierz jedną dla tego fragmentu."
+                ],
+                [
+                    19.22,
+                    "Odtwórz fragment: jego tekst pojawia się, zostaje i znika w wybranej oprawie."
+                ]
+            ],
+            "captureMethod": "graphics",
+            "demonstration": "direct-editor",
+            "duration": 31.97,
+            "height": 970,
+            "sha256": "663f47f26f615a00a6790f8e6ca817a0e0a294ba934e207f21d15a9f6025b7be",
+            "size": 10772500,
+            "width": 1600,
+            "recording": {
+                "appBuildMode": "profile",
+                "encoder": "gpu",
+                "captureFps": 60
+            },
+            "pointer": {
+                "cursor": "actual Windows cursor",
+                "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-11-12T01:39:10.444717+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "01852e210f39641a7aacf214f87ffec833407f6bf451afb5a1a51c56fea342e1",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 26.994,
+                "narration": {
+                    "createdAt": "2026-11-12T01:42:24.080119+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-justyna-pl",
+                    "lines": [
+                        {
+                            "key": "partText.3",
+                            "text": "Otwórz ustawienia fragmentu: Tekst jest pierwszy. Wpisz tekst należący do tego fragmentu.",
+                            "voiceSeconds": 0.777,
+                            "durationSeconds": 5.952,
+                            "sha256": "8c7259da8dc897990893d90337a380d67139602dd18022d6cb416e436064bd8a"
+                        },
+                        {
+                            "key": "partText.2",
+                            "text": "Oprawa graficzna odtwarza każdą oprawę tekstu z Twoimi słowami. Wybierz jedną dla tego fragmentu.",
+                            "voiceSeconds": 7.329,
+                            "durationSeconds": 5.791,
+                            "sha256": "cfd739b6b3b44dc55c327df7b47fb6518dafefcf3a750e8dbf48146cc7fb9f43"
+                        },
+                        {
+                            "key": "partText.1",
+                            "text": "Odtwórz fragment: jego tekst pojawia się, zostaje i znika w wybranej oprawie.",
+                            "voiceSeconds": 19.47,
+                            "durationSeconds": 5.864,
+                            "sha256": "6b89fbb462971fbb08afbb1665dc7b644b9de0c80bcfc0c6acb81fb531e98f90"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 5.042,
+                            "seconds": 2.037
+                        }
+                    ],
+                    "unnarratedSha256": "a51ed5bb593201becab84b8cca8669c4405ad2f141449e232589740d35fa4971",
+                    "unnarratedDurationSeconds": 29.933333,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 22.654,
+                        "seconds": 4.588,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 140,
+                        "encodedFps": 60,
+                        "frames": 276,
+                        "maximumStillSeconds": 0.08333333333333333,
+                        "movingFps": 30.545454545454547
+                    }
+                ],
+                "movingFps": 30.545454545454547,
+                "maximumStillSeconds": 0.08333333333333333
             }
         },
         "photo-capture": {
@@ -1782,11 +2083,11 @@
                 {
                     "event": "native-click",
                     "position": [
-                        0.9609516095663847,
-                        0.20923677363399826
+                        0.6700841219768664,
+                        0.7025151777970512
                     ],
-                    "sequence": 55,
-                    "videoSeconds": 0.99
+                    "sequence": 65,
+                    "videoSeconds": 1.054
                 },
                 {
                     "event": "action",
@@ -1794,20 +2095,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 2.228,
-                    "inputVideoSeconds": 0.99
+                    "videoSeconds": 2.32,
+                    "inputVideoSeconds": 1.054
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9658254468980021,
-                        0.2883781439722463
+                        0.24284475281873374
                     ],
-                    "sequence": 56,
-                    "videoSeconds": 3.052
+                    "sequence": 66,
+                    "videoSeconds": 3.226
                 },
                 {
                     "event": "action",
@@ -1815,59 +2116,59 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 5.51,
-                    "inputVideoSeconds": 3.052
+                    "videoSeconds": 5.852,
+                    "inputVideoSeconds": 3.226
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9224500525762356,
-                        0.34258456201214227
+                        0.9152208201892744,
+                        0.29705117085862964
                     ],
-                    "sequence": 57,
-                    "videoSeconds": 6.445
+                    "sequence": 67,
+                    "videoSeconds": 6.884
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-at",
                     "value": "2.000",
-                    "videoSeconds": 7.749,
-                    "inputVideoSeconds": 6.445
+                    "videoSeconds": 8.196,
+                    "inputVideoSeconds": 6.884
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9592534174553102,
-                        0.45967042497831745
+                        0.9520241850683491,
+                        0.4141370338248049
                     ],
-                    "sequence": 58,
-                    "videoSeconds": 8.699
+                    "sequence": 68,
+                    "videoSeconds": 9.212
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-flash-duration",
                     "value": "0.800",
-                    "videoSeconds": 9.992,
-                    "inputVideoSeconds": 8.699
+                    "videoSeconds": 10.493,
+                    "inputVideoSeconds": 9.212
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9566246056782335,
-                        0.5550737207285342
+                        0.9493953732912723,
+                        0.5095403295750217
                     ],
-                    "sequence": 59,
-                    "videoSeconds": 10.967
+                    "sequence": 69,
+                    "videoSeconds": 11.477
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-hold-duration",
                     "value": "3.000",
-                    "videoSeconds": 12.309,
-                    "inputVideoSeconds": 10.967
+                    "videoSeconds": 12.743,
+                    "inputVideoSeconds": 11.477
                 },
                 {
                     "event": "native-click",
@@ -1875,8 +2176,8 @@
                         0.25856383522494464,
                         0.9522983521248916
                     ],
-                    "sequence": 60,
-                    "videoSeconds": 12.619
+                    "sequence": 70,
+                    "videoSeconds": 13.118
                 },
                 {
                     "event": "action",
@@ -1885,65 +2186,65 @@
                     "flashSeconds": 0.8,
                     "holdSeconds": 3.0,
                     "previewSeconds": 4.301888,
-                    "videoSeconds": 17.97,
-                    "inputVideoSeconds": 12.619
+                    "videoSeconds": 18.601,
+                    "inputVideoSeconds": 13.118
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9608964248159831,
-                        0.6027753686036427
+                        0.9536671924290221,
+                        0.5572419774501302
                     ],
-                    "sequence": 61,
-                    "videoSeconds": 18.895
+                    "sequence": 71,
+                    "videoSeconds": 19.586
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-angle",
                     "value": "-12",
-                    "videoSeconds": 20.273,
-                    "inputVideoSeconds": 18.895
+                    "videoSeconds": 20.883,
+                    "inputVideoSeconds": 19.586
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9631966351209253,
-                        0.6504770164787511
+                        0.9559674027339643,
+                        0.6049436253252385
                     ],
-                    "sequence": 62,
-                    "videoSeconds": 21.207
+                    "sequence": 72,
+                    "videoSeconds": 21.914
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-size",
                     "value": "76",
-                    "videoSeconds": 22.594,
-                    "inputVideoSeconds": 21.207
+                    "videoSeconds": 23.242,
+                    "inputVideoSeconds": 21.914
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9599106203995794,
-                        0.6981786643538596
+                        0.9526813880126183,
+                        0.6526452732003469
                     ],
-                    "sequence": 63,
-                    "videoSeconds": 23.553
+                    "sequence": 73,
+                    "videoSeconds": 24.226
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-border-width",
                     "value": "16",
-                    "videoSeconds": 24.85,
-                    "inputVideoSeconds": 23.553
+                    "videoSeconds": 25.523,
+                    "inputVideoSeconds": 24.226
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.8302931314261804,
-                        0.40112749349522986
+                        0.8518007360672976,
+                        0.3555941023417173
                     ],
-                    "sequence": 64,
-                    "videoSeconds": 25.693
+                    "sequence": 74,
+                    "videoSeconds": 26.43
                 },
                 {
                     "event": "action",
@@ -1951,11 +2252,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 27.098,
-                    "inputVideoSeconds": 25.693
+                    "videoSeconds": 27.742,
+                    "inputVideoSeconds": 26.43
                 },
                 {
                     "event": "native-click",
@@ -1963,8 +2264,8 @@
                         0.6767875920084122,
                         0.9653078924544666
                     ],
-                    "sequence": 65,
-                    "videoSeconds": 29.965
+                    "sequence": 75,
+                    "videoSeconds": 30.695
                 },
                 {
                     "event": "action",
@@ -1972,20 +2273,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 31.279,
-                    "inputVideoSeconds": 29.965
+                    "videoSeconds": 31.945,
+                    "inputVideoSeconds": 30.695
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6776735394033598,
-                        0.13876843018213356
+                        0.6516824395373291,
+                        0.18538594969644406
                     ],
-                    "sequence": 66,
-                    "videoSeconds": 32.114
+                    "sequence": 76,
+                    "videoSeconds": 32.883
                 },
                 {
                     "event": "action",
@@ -1993,11 +2294,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 33.454,
-                    "inputVideoSeconds": 32.114
+                    "videoSeconds": 34.148,
+                    "inputVideoSeconds": 32.883
                 },
                 {
                     "event": "native-click",
@@ -2005,17 +2306,17 @@
                         0.006572029442691904,
                         0.9522983521248916
                     ],
-                    "sequence": 67,
-                    "videoSeconds": 33.769
+                    "sequence": 77,
+                    "videoSeconds": 34.523
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7211034067382217
+                        0.6969861231569818
                     ],
-                    "sequence": 68,
-                    "videoSeconds": 36.095
+                    "sequence": 78,
+                    "videoSeconds": 36.606
                 },
                 {
                     "event": "action",
@@ -2023,45 +2324,45 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 37.4,
-                    "inputVideoSeconds": 36.095
+                    "videoSeconds": 37.887,
+                    "inputVideoSeconds": 36.606
                 }
             ],
             "captions": [
                 [
-                    0.149,
+                    0.164,
                     "Otwórz „Zrobienie zdjęcia” i włącz tę funkcję dla tego fragmentu wideo."
                 ],
                 [
-                    5.51,
+                    5.852,
                     "Wybierz moment przechwycenia, a potem ustaw krótki błysk i trzysekundowe zatrzymanie."
                 ],
                 [
-                    12.309,
+                    12.743,
                     "Przesuń głowicę odtwarzania na fragment, w którym wyświetlane jest zdjęcie, aby zobaczyć zmiany."
                 ],
                 [
-                    17.97,
+                    18.601,
                     "Pochyl i zmniejsz zdjęcie oraz dodaj białą ramkę."
                 ],
                 [
-                    27.098,
+                    27.742,
                     "Opcja „Własny kadr” pozwala wybrać fotografowany obszar, a przycisk „Zastosuj” zatwierdza przycięcie."
                 ],
                 [
-                    35.27,
+                    35.684,
                     "Naciśnij „Odtwórz”. Film rozbłyśnie, zatrzyma się na pochylonym zdjęciu w ramce, a potem ruszy dalej."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 48.216016,
+            "duration": 48.833008,
             "height": 970,
-            "sha256": "082746b99cb15d0946d5815793be5d5c324f6282aa770894f0507622d3218346",
-            "size": 17949888,
+            "sha256": "6dcca98b78f8674b82858040324e2f52715ca9d1ab5b5d455a255efaf74e3ee2",
+            "size": 17780326,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2073,7 +2374,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:12.869519+00:00",
+                "createdAt": "2026-11-12T01:39:11.744110+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -2081,73 +2382,73 @@
                 "musicDurationSeconds": 84.312,
                 "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "377fbb2b2c27d3aeb268a1a76810e2e2d29bd1d7f898f0845e4e95cd06af5060",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 15.761,
+                "originalVideoSha256": "1fe3a3f91cd25bcabc4623a9f58aa7a4b9836b02d5dc5be7fb43c242adb4f6c0",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 11.378,
                 "narration": {
-                    "createdAt": "2026-10-29T12:45:00.580740+00:00",
+                    "createdAt": "2026-11-12T01:43:06.823765+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "photo.6",
                             "text": "Otwórz „Zrobienie zdjęcia” i włącz tę funkcję dla tego fragmentu wideo.",
-                            "voiceSeconds": 0.399,
-                            "durationSeconds": 4.761,
-                            "sha256": "0f7b5fa4dde1a9f5b68726292d4ea4ab5104a44b4a7a92f61b18fbad68249692"
+                            "voiceSeconds": 0.414,
+                            "durationSeconds": 5.088,
+                            "sha256": "a88c1ac855eb80a21b9bbb2af25be7be94587300f827f47b11242cd8335263d3"
                         },
                         {
                             "key": "photo.5",
                             "text": "Wybierz moment przechwycenia, a potem ustaw krótki błysk i trzysekundowe zatrzymanie.",
-                            "voiceSeconds": 5.76,
-                            "durationSeconds": 5.611,
-                            "sha256": "855be5821d127b21162c8049bf43e3a7c330fa3dac35b774c4b871e61cfad5a9"
+                            "voiceSeconds": 6.102,
+                            "durationSeconds": 5.237,
+                            "sha256": "f601deac9e12b7ed2ae953719e1f150fe9bf04ce4605f0b67620e6ac9c43fc47"
                         },
                         {
                             "key": "photo.1",
                             "text": "Przesuń głowicę odtwarzania na fragment, w którym wyświetlane jest zdjęcie, aby zobaczyć zmiany.",
-                            "voiceSeconds": 12.559,
-                            "durationSeconds": 5.062,
-                            "sha256": "e2f5bdc90e7d4ef1b67d900578efacffaa41c64bc94d82bfb451a5bb7adb42f2"
+                            "voiceSeconds": 12.993,
+                            "durationSeconds": 5.258,
+                            "sha256": "714f392a07573f991c565374f9e127284270a8df3cd67d624fa100913cbe31fd"
                         },
                         {
                             "key": "photo.4",
                             "text": "Pochyl i zmniejsz zdjęcie oraz dodaj białą ramkę.",
-                            "voiceSeconds": 18.22,
-                            "durationSeconds": 2.787,
-                            "sha256": "4bf2002f66ec7a6e852103aa3d5e560b12a4aeba29ca6fe3f89f657ad4988adf"
+                            "voiceSeconds": 18.851,
+                            "durationSeconds": 3.29,
+                            "sha256": "9cf532ab2a3b0a055ccc005d68c7fd252c187be561b2e3e3d7976b10653999d3"
                         },
                         {
                             "key": "photo.3",
                             "text": "Opcja „Własny kadr” pozwala wybrać fotografowany obszar, a przycisk „Zastosuj” zatwierdza przycięcie.",
-                            "voiceSeconds": 27.348,
-                            "durationSeconds": 7.572,
-                            "sha256": "9e260bd7bee401a08c58d73ffeb39eb3b26fd31d583b42cd5eece9df4f1e9815"
+                            "voiceSeconds": 27.992,
+                            "durationSeconds": 7.342,
+                            "sha256": "d3d2bf5417571ae4580df4039a173c205622db78f7f31e753c6c136786381524"
                         },
                         {
                             "key": "photo.2",
                             "text": "Naciśnij „Odtwórz”. Film rozbłyśnie, zatrzyma się na pochylonym zdjęciu w ramce, a potem ruszy dalej.",
-                            "voiceSeconds": 35.52,
-                            "durationSeconds": 7.709,
-                            "sha256": "4acaafd875c71a91ec1fc3ca05980f864012961b516f66520821114e4b2344ee"
+                            "voiceSeconds": 35.934,
+                            "durationSeconds": 6.52,
+                            "sha256": "8289e417d1f4142ff3946326b9bac79144e23af2df32585139880cb5a19a7f5c"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 4.334,
-                            "seconds": 1.176
+                            "atSeconds": 4.507,
+                            "seconds": 1.345
                         },
                         {
-                            "atSeconds": 13.104,
-                            "seconds": 3.69
+                            "atSeconds": 13.335,
+                            "seconds": 3.921
                         },
                         {
-                            "atSeconds": 28.926,
-                            "seconds": 1.478
+                            "atSeconds": 29.32,
+                            "seconds": 1.098
                         }
                     ],
-                    "unnarratedSha256": "7bc1fbb3e5a28df44a90a1db31dc4bb9ea3a89cf078a65637943497f4f6be25c",
-                    "unnarratedDurationSeconds": 41.866667,
+                    "unnarratedSha256": "26222910b6ec680f59fad2dc55fe15971c42869b75445d698a96a55419400520",
+                    "unnarratedDurationSeconds": 42.466667,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -2161,28 +2462,28 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 36.545,
+                        "startSeconds": 37.056,
                         "seconds": 1.6,
-                        "crop": "1013:552:20:79",
-                        "changedFrames": 50,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 47,
                         "encodedFps": 60,
                         "frames": 96,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 31.578947368421055
+                        "maximumStillSeconds": 0.08333333333333333,
+                        "movingFps": 29.68421052631579
                     },
                     {
-                        "startSeconds": 42.395,
-                        "seconds": 5.621,
-                        "crop": "1013:552:20:79",
-                        "changedFrames": 173,
+                        "startSeconds": 42.906,
+                        "seconds": 5.727,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 169,
                         "encodedFps": 60,
-                        "frames": 338,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.80118694362018
+                        "frames": 344,
+                        "maximumStillSeconds": 0.1,
+                        "movingFps": 29.56268221574344
                     }
                 ],
-                "movingFps": 30.80118694362018,
-                "maximumStillSeconds": 0.05
+                "movingFps": 29.56268221574344,
+                "maximumStillSeconds": 0.1
             }
         },
         "export-frame": {
@@ -2193,15 +2494,15 @@
                         0.06626173458047194,
                         0.8980919340849957
                     ],
-                    "sequence": 69,
-                    "videoSeconds": 0.444
+                    "sequence": 79,
+                    "videoSeconds": 0.539
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 4.0,
-                    "videoSeconds": 1.721,
-                    "inputVideoSeconds": 0.444
+                    "videoSeconds": 1.836,
+                    "inputVideoSeconds": 0.539
                 },
                 {
                     "event": "native-click",
@@ -2209,14 +2510,14 @@
                         0.18927444794952683,
                         0.7896790980052039
                     ],
-                    "sequence": 70,
-                    "videoSeconds": 2.582
+                    "sequence": 80,
+                    "videoSeconds": 2.758
                 },
                 {
                     "event": "action",
                     "key": "select-export-frame",
-                    "videoSeconds": 9.087,
-                    "inputVideoSeconds": 2.582
+                    "videoSeconds": 4.024,
+                    "inputVideoSeconds": 2.758
                 },
                 {
                     "event": "native-click",
@@ -2224,14 +2525,14 @@
                         0.09503481892005126,
                         0.9653078924544666
                     ],
-                    "sequence": 71,
-                    "videoSeconds": 11.422
+                    "sequence": 81,
+                    "videoSeconds": 9.453
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 12.778,
-                    "inputVideoSeconds": 11.422
+                    "videoSeconds": 10.719,
+                    "inputVideoSeconds": 9.453
                 },
                 {
                     "event": "native-click",
@@ -2239,14 +2540,14 @@
                         0.09503481892005126,
                         0.9653078924544666
                     ],
-                    "sequence": 72,
-                    "videoSeconds": 13.634
+                    "sequence": 82,
+                    "videoSeconds": 11.641
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 15.172,
-                    "inputVideoSeconds": 13.634
+                    "videoSeconds": 13.937,
+                    "inputVideoSeconds": 11.641
                 },
                 {
                     "event": "native-click",
@@ -2254,14 +2555,14 @@
                         0.9244216614090431,
                         0.9653078924544666
                     ],
-                    "sequence": 73,
-                    "videoSeconds": 16.017
+                    "sequence": 83,
+                    "videoSeconds": 14.828
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-export",
-                    "videoSeconds": 17.348,
-                    "inputVideoSeconds": 16.017
+                    "videoSeconds": 16.094,
+                    "inputVideoSeconds": 14.828
                 },
                 {
                     "event": "native-click",
@@ -2269,14 +2570,14 @@
                         0.5650630914826499,
                         0.9653078924544666
                     ],
-                    "sequence": 74,
-                    "videoSeconds": 20.21
+                    "sequence": 84,
+                    "videoSeconds": 19.0
                 },
                 {
                     "event": "action",
                     "key": "still-export-start",
-                    "videoSeconds": 24.143,
-                    "inputVideoSeconds": 20.21
+                    "videoSeconds": 24.142,
+                    "inputVideoSeconds": 19.0
                 },
                 {
                     "event": "native-click",
@@ -2284,8 +2585,8 @@
                         0.01840168243953733,
                         0.030355594102341718
                     ],
-                    "sequence": 75,
-                    "videoSeconds": 28.028
+                    "sequence": 85,
+                    "videoSeconds": 28.048
                 },
                 {
                     "event": "action",
@@ -2293,37 +2594,37 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 29.348,
-                    "inputVideoSeconds": 28.028
+                    "videoSeconds": 29.345,
+                    "inputVideoSeconds": 28.048
                 }
             ],
             "captions": [
                 [
-                    0.135,
+                    0.164,
                     "Na stronie „Wybierz” ustaw głowicę odtwarzania i otwórz „Eksportuj klatkę”, aby zobaczyć klatki w tym miejscu."
                 ],
                 [
-                    9.087,
+                    7.031,
                     "Przeglądaj klatki przyciskiem „Następna klatka”, aby znaleźć najostrzejszy obraz."
                 ],
                 [
-                    15.173,
+                    13.937,
                     "Opcja „Eksportuj” zapisuje tę klatkę w oryginalnym rozmiarze, w formacie PNG. W tym pokazie zapisujemy ją w przygotowanym folderze."
                 ],
                 [
-                    24.144,
+                    24.142,
                     "Klatka jest zapisana. Zamknięcie okna „Wybierz klatkę” przenosi z powrotem na stronę „Wybierz”."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 31.031,
+            "duration": 31.366016,
             "height": 970,
-            "sha256": "080ce7efa765eda8f73955f465e5fbc871a4b72809d22fde75319f64446e1690",
-            "size": 8871815,
+            "sha256": "37a5877bb9c2114c3d590d28cb4768d733b115bb99502001b2256b43391fe5f7",
+            "size": 8904018,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2335,67 +2636,67 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:13.508017+00:00",
+                "createdAt": "2026-11-12T01:39:12.814912+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "5c55d1fd0b3d28583bfa7341fcf6f91d7a12910fa28fafa2500acd7c8cd3def6",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 0.245,
+                "originalVideoSha256": "a9a736afd296598d3c102c0d4e06fab3c4f7b0d762efb7cbade538b88523869f",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 49.659,
                 "narration": {
-                    "createdAt": "2026-10-29T12:45:41.379932+00:00",
+                    "createdAt": "2026-11-12T01:43:39.138576+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "exportFrame.4",
                             "text": "Na stronie „Wybierz” ustaw głowicę odtwarzania i otwórz „Eksportuj klatkę”, aby zobaczyć klatki w tym miejscu.",
-                            "voiceSeconds": 0.385,
-                            "durationSeconds": 8.352,
-                            "sha256": "e8eb00487402a8cf55de46377e1dd633e20feb0c4dedc14a5e2438d6ba47cf09"
+                            "voiceSeconds": 0.414,
+                            "durationSeconds": 6.267,
+                            "sha256": "9e3236c3f57e8fa9401d7b217ad9cb132fc55050951cb8546be922073b8ca9ea"
                         },
                         {
                             "key": "exportFrame.3",
                             "text": "Przeglądaj klatki przyciskiem „Następna klatka”, aby znaleźć najostrzejszy obraz.",
-                            "voiceSeconds": 9.337,
-                            "durationSeconds": 5.485,
-                            "sha256": "94289c257eaffd6b1a5df89e1bfd681bb2d74faf6c1be72483e5940adc7acc7a"
+                            "voiceSeconds": 7.281,
+                            "durationSeconds": 6.306,
+                            "sha256": "1fd1927509f4e90f10301844d4eb99b5d8ad2f97f6f341e0d732d37e1ad2a428"
                         },
                         {
                             "key": "exportFrame.2",
                             "text": "Opcja „Eksportuj” zapisuje tę klatkę w oryginalnym rozmiarze, w formacie PNG. W tym pokazie zapisujemy ją w przygotowanym folderze.",
-                            "voiceSeconds": 15.423,
-                            "durationSeconds": 8.371,
-                            "sha256": "f597bf0838690f02972c84845ab509ed86e99c2c9d1033dfdcb488d13c5bf5cd"
+                            "voiceSeconds": 14.187,
+                            "durationSeconds": 9.605,
+                            "sha256": "3ee09d1897ee440b8834ce2a8ad8ba12c0af2898b621cdfd2695f3afaebbfb46"
                         },
                         {
                             "key": "exportFrame.1",
                             "text": "Klatka jest zapisana. Zamknięcie okna „Wybierz klatkę” przenosi z powrotem na stronę „Wybierz”.",
-                            "voiceSeconds": 24.394,
-                            "durationSeconds": 5.697,
-                            "sha256": "a5a47506bad2b075ef9ff64663e031eb5eaeef8a767749bb2dcc06ffd9295f9b"
+                            "voiceSeconds": 24.392,
+                            "durationSeconds": 6.145,
+                            "sha256": "11e99c2cb24539f612d025300f6fcfc3d78745ce67202893b8982f3f37c7a39e"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 3.85,
-                            "seconds": 5.237
+                            "atSeconds": 4.039,
+                            "seconds": 2.992
                         },
                         {
-                            "atSeconds": 9.633,
-                            "seconds": 0.303
+                            "atSeconds": 9.914,
+                            "seconds": 1.031
                         },
                         {
-                            "atSeconds": 15.93,
-                            "seconds": 2.674
+                            "atSeconds": 16.258,
+                            "seconds": 3.861
                         }
                     ],
-                    "unnarratedSha256": "423357c1b77824d91f6cae1d87548cb13d701e2aee041958a7162624747f9d5e",
-                    "unnarratedDurationSeconds": 22.816667,
+                    "unnarratedSha256": "9e06bc28e1a163b92657f68addb0aaf78b8fba8df84c373c2976c723330e6717",
+                    "unnarratedDurationSeconds": 23.466667,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -2414,14 +2715,14 @@
                         0.3132032119638662,
                         0.09106678230702515
                     ],
-                    "sequence": 76,
-                    "videoSeconds": 0.917
+                    "sequence": 86,
+                    "videoSeconds": 1.052
                 },
                 {
                     "event": "action",
                     "key": "reel-add-top",
-                    "videoSeconds": 2.249,
-                    "inputVideoSeconds": 0.917
+                    "videoSeconds": 2.333,
+                    "inputVideoSeconds": 1.052
                 },
                 {
                     "event": "native-click",
@@ -2429,14 +2730,14 @@
                         0.3760121021611708,
                         0.22116218560277537
                     ],
-                    "sequence": 77,
-                    "videoSeconds": 3.084
+                    "sequence": 87,
+                    "videoSeconds": 3.255
                 },
                 {
                     "event": "action",
                     "key": "add-media-split",
-                    "videoSeconds": 4.371,
-                    "inputVideoSeconds": 3.084
+                    "videoSeconds": 4.521,
+                    "inputVideoSeconds": 3.255
                 },
                 {
                     "event": "native-click",
@@ -2444,8 +2745,8 @@
                         0.3760121021611708,
                         0.15177797051170858
                     ],
-                    "sequence": 78,
-                    "videoSeconds": 5.207
+                    "sequence": 88,
+                    "videoSeconds": 5.442
                 },
                 {
                     "event": "action",
@@ -2456,8 +2757,8 @@
                         0.7344900105152471,
                         0.9219427580225499
                     ],
-                    "videoSeconds": 6.509,
-                    "inputVideoSeconds": 5.207
+                    "videoSeconds": 6.755,
+                    "inputVideoSeconds": 5.442
                 },
                 {
                     "event": "native-click",
@@ -2465,8 +2766,8 @@
                         0.7936382754994742,
                         0.22441457068516912
                     ],
-                    "sequence": 79,
-                    "videoSeconds": 7.332
+                    "sequence": 89,
+                    "videoSeconds": 7.646
                 },
                 {
                     "event": "action",
@@ -2477,17 +2778,17 @@
                         0.7344900105152471,
                         0.9219427580225499
                     ],
-                    "videoSeconds": 8.569,
-                    "inputVideoSeconds": 7.332
+                    "videoSeconds": 8.896,
+                    "inputVideoSeconds": 7.646
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.8718454258675079,
-                        0.47701647875108416
+                        0.46400693842150914
                     ],
-                    "sequence": 80,
-                    "videoSeconds": 9.389
+                    "sequence": 90,
+                    "videoSeconds": 9.786
                 },
                 {
                     "event": "action",
@@ -2498,8 +2799,8 @@
                         0.7344900105152471,
                         0.9219427580225499
                     ],
-                    "videoSeconds": 10.448,
-                    "inputVideoSeconds": 9.389
+                    "videoSeconds": 10.786,
+                    "inputVideoSeconds": 9.786
                 },
                 {
                     "event": "native-click",
@@ -2507,20 +2808,20 @@
                         0.5,
                         0.9436253252385083
                     ],
-                    "sequence": 81,
-                    "videoSeconds": 11.279
+                    "sequence": 91,
+                    "videoSeconds": 11.708
                 },
                 {
                     "event": "action",
-                    "key": "split-video-fa4d230c-bbd9-4a5c-8bbe-5ef542b251be",
+                    "key": "split-video-2f2069fe-441d-444d-aa5c-9308219d68ff",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 12.251,
-                    "inputVideoSeconds": 11.279
+                    "videoSeconds": 12.724,
+                    "inputVideoSeconds": 11.708
                 },
                 {
                     "event": "native-click",
@@ -2528,15 +2829,15 @@
                         0.016565433645117984,
                         0.8980919340849957
                     ],
-                    "sequence": 82,
-                    "videoSeconds": 12.56
+                    "sequence": 92,
+                    "videoSeconds": 13.114
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 1.0,
-                    "videoSeconds": 13.308,
-                    "inputVideoSeconds": 12.56
+                    "videoSeconds": 13.864,
+                    "inputVideoSeconds": 13.114
                 },
                 {
                     "event": "native-click",
@@ -2544,8 +2845,8 @@
                         0.01683048058343987,
                         0.853642671292281
                     ],
-                    "sequence": 83,
-                    "videoSeconds": 13.952
+                    "sequence": 93,
+                    "videoSeconds": 14.567
                 },
                 {
                     "event": "action",
@@ -2553,11 +2854,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 14.7,
-                    "inputVideoSeconds": 13.952
+                    "videoSeconds": 15.255,
+                    "inputVideoSeconds": 14.567
                 },
                 {
                     "event": "native-click",
@@ -2565,15 +2866,15 @@
                         0.11595803551582588,
                         0.8980919340849957
                     ],
-                    "sequence": 84,
-                    "videoSeconds": 15.009
+                    "sequence": 94,
+                    "videoSeconds": 15.63
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 7.0,
-                    "videoSeconds": 15.955,
-                    "inputVideoSeconds": 15.009
+                    "videoSeconds": 16.614,
+                    "inputVideoSeconds": 15.63
                 },
                 {
                     "event": "native-click",
@@ -2581,8 +2882,8 @@
                         0.01840168243953733,
                         0.030355594102341718
                     ],
-                    "sequence": 85,
-                    "videoSeconds": 16.792
+                    "sequence": 95,
+                    "videoSeconds": 17.521
                 },
                 {
                     "event": "action",
@@ -2593,17 +2894,17 @@
                         0.7344900105152471,
                         0.8156981786643539
                     ],
-                    "videoSeconds": 17.84,
-                    "inputVideoSeconds": 16.792
+                    "videoSeconds": 18.489,
+                    "inputVideoSeconds": 17.521
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.8718454258675079,
-                        0.6331309627059845
+                        0.6201214223764094
                     ],
-                    "sequence": 86,
-                    "videoSeconds": 18.678
+                    "sequence": 96,
+                    "videoSeconds": 19.396
                 },
                 {
                     "event": "action",
@@ -2614,8 +2915,8 @@
                         0.7344900105152471,
                         0.8156981786643539
                     ],
-                    "videoSeconds": 19.708,
-                    "inputVideoSeconds": 18.678
+                    "videoSeconds": 20.349,
+                    "inputVideoSeconds": 19.396
                 },
                 {
                     "event": "native-click",
@@ -2623,20 +2924,20 @@
                         0.5,
                         0.9436253252385083
                     ],
-                    "sequence": 87,
-                    "videoSeconds": 20.555
+                    "sequence": 97,
+                    "videoSeconds": 21.271
                 },
                 {
                     "event": "action",
-                    "key": "split-video-fa4d230c-bbd9-4a5c-8bbe-5ef542b251be",
+                    "key": "split-video-2f2069fe-441d-444d-aa5c-9308219d68ff",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 21.586,
-                    "inputVideoSeconds": 20.555
+                    "videoSeconds": 22.239,
+                    "inputVideoSeconds": 21.271
                 },
                 {
                     "event": "native-click",
@@ -2644,15 +2945,15 @@
                         0.21535063738653382,
                         0.8980919340849957
                     ],
-                    "sequence": 88,
-                    "videoSeconds": 21.899
+                    "sequence": 98,
+                    "videoSeconds": 22.614
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 13.0,
-                    "videoSeconds": 22.658,
-                    "inputVideoSeconds": 21.899
+                    "videoSeconds": 23.38,
+                    "inputVideoSeconds": 22.614
                 },
                 {
                     "event": "native-click",
@@ -2660,8 +2961,8 @@
                         0.21556598802392032,
                         0.853642671292281
                     ],
-                    "sequence": 89,
-                    "videoSeconds": 23.301
+                    "sequence": 99,
+                    "videoSeconds": 24.114
                 },
                 {
                     "event": "action",
@@ -2669,11 +2970,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6579574510752841,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 23.936,
-                    "inputVideoSeconds": 23.301
+                    "videoSeconds": 24.771,
+                    "inputVideoSeconds": 24.114
                 },
                 {
                     "event": "native-click",
@@ -2681,15 +2982,15 @@
                         0.3147432392572417,
                         0.8980919340849957
                     ],
-                    "sequence": 90,
-                    "videoSeconds": 24.244
+                    "sequence": 100,
+                    "videoSeconds": 25.161
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 19.0,
-                    "videoSeconds": 25.221,
-                    "inputVideoSeconds": 24.244
+                    "videoSeconds": 26.114,
+                    "inputVideoSeconds": 25.161
                 },
                 {
                     "event": "native-click",
@@ -2697,8 +2998,8 @@
                         0.01840168243953733,
                         0.030355594102341718
                     ],
-                    "sequence": 91,
-                    "videoSeconds": 26.06
+                    "sequence": 101,
+                    "videoSeconds": 27.005
                 },
                 {
                     "event": "action",
@@ -2709,8 +3010,8 @@
                         0.7344900105152471,
                         0.8156981786643539
                     ],
-                    "videoSeconds": 27.054,
-                    "inputVideoSeconds": 26.06
+                    "videoSeconds": 28.005,
+                    "inputVideoSeconds": 27.005
                 },
                 {
                     "event": "native-click",
@@ -2718,8 +3019,8 @@
                         0.03746056782334385,
                         0.8352124891587164
                     ],
-                    "sequence": 92,
-                    "videoSeconds": 27.918
+                    "sequence": 102,
+                    "videoSeconds": 28.911
                 },
                 {
                     "event": "action",
@@ -2730,8 +3031,8 @@
                         0.7344900105152471,
                         0.8156981786643539
                     ],
-                    "videoSeconds": 29.184,
-                    "inputVideoSeconds": 27.918
+                    "videoSeconds": 30.192,
+                    "inputVideoSeconds": 28.911
                 },
                 {
                     "event": "native-click",
@@ -2739,8 +3040,8 @@
                         0.03746056782334385,
                         0.8352124891587164
                     ],
-                    "sequence": 93,
-                    "videoSeconds": 34.589
+                    "sequence": 103,
+                    "videoSeconds": 35.661
                 },
                 {
                     "event": "action",
@@ -2751,34 +3052,34 @@
                         0.7344900105152471,
                         0.8156981786643539
                     ],
-                    "videoSeconds": 35.857,
-                    "inputVideoSeconds": 34.589
+                    "videoSeconds": 36.958,
+                    "inputVideoSeconds": 35.661
                 }
             ],
             "captions": [
                 [
-                    0.052,
+                    0.161,
                     "Wybierz „Dodaj”, potem „Podział” i wskaż miejsce w rolce."
                 ],
                 [
-                    6.509,
+                    6.755,
                     "Wybierz układ „Obok siebie”, aby wyświetlić dwa filmy naraz, a potem wybierz film i fragment dla pierwszej komórki."
                 ],
                 [
-                    17.848,
+                    18.489,
                     "Każda komórka ma własną stronę „Wybierz”. Dla drugiej komórki wybierz inny moment."
                 ],
                 [
-                    27.063,
+                    28.021,
                     "Odtwórz fragment z podziałem, aby zobaczyć obie części odtwarzane jednocześnie w jednym obrazie."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 37.75,
+            "duration": 38.783008,
             "height": 970,
-            "sha256": "edd88a91d492952dfc12878b4dffc97edada1c8c399501014519de884293ea4f",
-            "size": 22094237,
+            "sha256": "5dc4c0b9d27363193cecea8bc6156b7439f1f29b310b133405aabed8d127fb1f",
+            "size": 22178607,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2790,7 +3091,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:14.485871+00:00",
+                "createdAt": "2026-11-12T01:39:13.894211+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -2798,46 +3099,46 @@
                 "musicDurationSeconds": 84.312,
                 "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "72731959381897bbaaa60e114acfc4d359709b8a9e2e639de4eacaa79142fbf5",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 39.596,
+                "originalVideoSha256": "e9c9c872421010a2db0a1d10cf3637d811db45982a60a04e5e6ea59a9418d7ca",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 19.644,
                 "narration": {
-                    "createdAt": "2026-10-29T12:46:13.263063+00:00",
+                    "createdAt": "2026-11-12T01:44:10.476923+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "split.4",
                             "text": "Wybierz „Dodaj”, potem „Podział” i wskaż miejsce w rolce.",
-                            "voiceSeconds": 0.35,
-                            "durationSeconds": 3.905,
-                            "sha256": "7e4634be1e6f40ca631e98ac70f551c068f59df4081f9589d641c4ba19454a6e"
+                            "voiceSeconds": 0.411,
+                            "durationSeconds": 3.401,
+                            "sha256": "2a70849f20a7af56c1554ee53ba480ab46cf5e88d54a336fe5a60fea1f485153"
                         },
                         {
                             "key": "split.3",
                             "text": "Wybierz układ „Obok siebie”, aby wyświetlić dwa filmy naraz, a potem wybierz film i fragment dla pierwszej komórki.",
-                            "voiceSeconds": 6.759,
-                            "durationSeconds": 7.52,
-                            "sha256": "10c36cbe596e1be509fc02bc66c78aa01367924779cc836dff33bd2adfa8fa8e"
+                            "voiceSeconds": 7.005,
+                            "durationSeconds": 6.937,
+                            "sha256": "8ad226ddcf8ebf0649d20c5f80d9bd1d7a48bcf9c4cc54e7f6517ff9c635ec3c"
                         },
                         {
                             "key": "split.2",
                             "text": "Każda komórka ma własną stronę „Wybierz”. Dla drugiej komórki wybierz inny moment.",
-                            "voiceSeconds": 18.098,
-                            "durationSeconds": 5.709,
-                            "sha256": "404a4c8cd384c0ae6180df734540e8d3dad593b37c36ae55fc4da22fb86a8ac6"
+                            "voiceSeconds": 18.739,
+                            "durationSeconds": 5.559,
+                            "sha256": "29e3659d57fc67d2db98bb65243d3b7964d7bf4190deade267a9158477b04db1"
                         },
                         {
                             "key": "split.1",
                             "text": "Odtwórz fragment z podziałem, aby zobaczyć obie części odtwarzane jednocześnie w jednym obrazie.",
-                            "voiceSeconds": 27.313,
-                            "durationSeconds": 5.42,
-                            "sha256": "396a2c32f8c8dda1a4dd58bc00c6376d8f50704102a6a4919ef11a3f85c27470"
+                            "voiceSeconds": 28.271,
+                            "durationSeconds": 5.291,
+                            "sha256": "44657f4a0e66a0054a3e179dbbe35859308295b13e6f572722a0e91b9a43dbbe"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "b687fe2f8bb1be147d3ac538dc0eaab1244ab530a5a81c2d45ca5a8860cc2b60",
-                    "unnarratedDurationSeconds": 37.75,
+                    "unnarratedSha256": "9bca99385517674072e9fe146a754de8738cc1f33270271fee5312211f12f4c9",
+                    "unnarratedDurationSeconds": 38.783333,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -2851,17 +3152,17 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 28.368,
+                        "startSeconds": 29.361,
                         "seconds": 5.3,
                         "crop": "1135:621:28:152",
-                        "changedFrames": 193,
+                        "changedFrames": 187,
                         "encodedFps": 60,
                         "frames": 318,
                         "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 36.52996845425868
+                        "movingFps": 35.39432176656152
                     }
                 ],
-                "movingFps": 36.52996845425868,
+                "movingFps": 35.39432176656152,
                 "maximumStillSeconds": 0.06666666666666667
             }
         },
@@ -2873,24 +3174,24 @@
                         0.039432176656151424,
                         0.4932784041630529
                     ],
-                    "sequence": 94,
-                    "videoSeconds": 1.028
+                    "sequence": 104,
+                    "videoSeconds": 0.989
                 },
                 {
                     "event": "action",
                     "key": "editor-top-audio",
-                    "videoSeconds": 6.247,
-                    "inputVideoSeconds": 1.028
+                    "videoSeconds": 6.877,
+                    "inputVideoSeconds": 0.989
                 },
                 {
                     "event": "native-click",
-                    "path": "D:/code/neuratim/.tmp/frameosu-site/rec/pl-work/piano-motif.mp3",
+                    "path": "D:/code/neuratim/.tmp/frameosu-refresh-20261111/videos/work-pl-t1/piano-motif.mp3",
                     "position": [
                         0.5092008412197687,
                         0.9107437126551725
                     ],
-                    "sequence": 95,
-                    "videoSeconds": 8.075
+                    "sequence": 105,
+                    "videoSeconds": 8.799
                 },
                 {
                     "event": "native-click",
@@ -2898,8 +3199,8 @@
                         0.37986330178759203,
                         0.5175628794449263
                     ],
-                    "sequence": 96,
-                    "videoSeconds": 15.507
+                    "sequence": 106,
+                    "videoSeconds": 16.469
                 },
                 {
                     "event": "action",
@@ -2910,8 +3211,8 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 16.779,
-                    "inputVideoSeconds": 15.507
+                    "videoSeconds": 17.734,
+                    "inputVideoSeconds": 16.469
                 },
                 {
                     "event": "native-click",
@@ -2919,8 +3220,8 @@
                         0.37986330178759203,
                         0.5175628794449263
                     ],
-                    "sequence": 97,
-                    "videoSeconds": 22.67
+                    "sequence": 107,
+                    "videoSeconds": 23.656
                 },
                 {
                     "event": "action",
@@ -2931,30 +3232,30 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 23.945,
-                    "inputVideoSeconds": 22.67
+                    "videoSeconds": 24.938,
+                    "inputVideoSeconds": 23.656
                 }
             ],
             "captions": [
                 [
-                    0.191,
+                    0.114,
                     "Otwórz „Dźwięk” po lewej, aby dodać komentarz lektora lub inne nagranie do tej rolki."
                 ],
                 [
-                    6.247,
+                    6.877,
                     "Wybierz „Pliki”, a potem nagranie w oknie wyboru plików systemu Windows, którego nie pokazano w tym filmie."
                 ],
                 [
-                    13.174,
+                    14.047,
                     "Nagranie ma własną ścieżkę pod obrazem. Odtwórz rolkę, aby usłyszeć je razem z obrazem."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 25.633008,
+            "duration": 27.153,
             "height": 970,
-            "sha256": "c1f7a13fbd00c011c550d68d2410c847423761d97635970dac14abcad99d15c7",
-            "size": 12102058,
+            "sha256": "0ca6e662aa950ac22b0aeb0efddfe4203105060cdde5eade05ce0998ed61f078",
+            "size": 12123147,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2966,7 +3267,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:15.162769+00:00",
+                "createdAt": "2026-11-12T01:39:14.566793+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -2974,48 +3275,48 @@
                 "musicDurationSeconds": 85.224,
                 "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "08033173b426c3c107300fb2780b7ae5c07bdc22863613d78ae33b3da88259c5",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 35.069,
+                "originalVideoSha256": "fc05a6046d61908ea40ef203c8c5a76d7633f13d54b3f3281cea725e558940b0",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 14.619,
                 "narration": {
-                    "createdAt": "2026-10-29T12:46:36.876283+00:00",
+                    "createdAt": "2026-11-12T01:44:34.503093+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "audio.3",
                             "text": "Otwórz „Dźwięk” po lewej, aby dodać komentarz lektora lub inne nagranie do tej rolki.",
-                            "voiceSeconds": 0.441,
-                            "durationSeconds": 5.456,
-                            "sha256": "820756b0bbeea5442c669e4ac80f64cba444dfae397babb0c9c61909b16ab045"
+                            "voiceSeconds": 0.364,
+                            "durationSeconds": 6.163,
+                            "sha256": "2cd349807974c4fa61c65cf476a23786d02dc3c8999ec637c4b182d523de42ce"
                         },
                         {
                             "key": "audio.2",
                             "text": "Wybierz „Pliki”, a potem nagranie w oknie wyboru plików systemu Windows, którego nie pokazano w tym filmie.",
-                            "voiceSeconds": 6.497,
-                            "durationSeconds": 6.326,
-                            "sha256": "ad17f387006467bde876b24cf3d29fbe3a016551efe06479913ddc8e4c0fdb05"
+                            "voiceSeconds": 7.127,
+                            "durationSeconds": 6.57,
+                            "sha256": "d3850b8b9a78e0b9f0a3746e8b99cb2f4c6da6964ad87b319597595f79696aa9"
                         },
                         {
                             "key": "audio.1",
                             "text": "Nagranie ma własną ścieżkę pod obrazem. Odtwórz rolkę, aby usłyszeć je razem z obrazem.",
-                            "voiceSeconds": 13.424,
-                            "durationSeconds": 6.659,
-                            "sha256": "2424d4907d6092c8721f0f24b9419b8225bbe916e2a249c36e31d7e13f960313"
+                            "voiceSeconds": 14.297,
+                            "durationSeconds": 4.794,
+                            "sha256": "45ad4975a053c7a1228d693813cbd01687dbdbbb3287b7e7a2fa282ca5ea0243"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 2.401,
-                            "seconds": 3.846
+                            "atSeconds": 2.286,
+                            "seconds": 4.591
                         },
                         {
-                            "atSeconds": 5.734,
-                            "seconds": 3.594
+                            "atSeconds": 5.677,
+                            "seconds": 3.779
                         }
                     ],
-                    "unnarratedSha256": "c268329586773ae9a0303f7d6fa16a388f8f5d42bb102b7928fbb1a59618c8bd",
-                    "unnarratedDurationSeconds": 18.183333,
+                    "unnarratedSha256": "6128c916a4b3a8d44f1800bffeb1505d683116849508df889f339610440fa7d1",
+                    "unnarratedDurationSeconds": 18.783333,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -3029,18 +3330,18 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 16.257,
-                        "seconds": 6.263,
+                        "startSeconds": 17.219,
+                        "seconds": 6.287,
                         "crop": "826:447:661:83",
-                        "changedFrames": 197,
+                        "changedFrames": 188,
                         "encodedFps": 60,
-                        "frames": 376,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 31.52
+                        "frames": 378,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 29.920424403183024
                     }
                 ],
-                "movingFps": 31.52,
-                "maximumStillSeconds": 0.05
+                "movingFps": 29.920424403183024,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "export": {
@@ -3051,8 +3352,8 @@
                         0.37986330178759203,
                         0.5175628794449263
                     ],
-                    "sequence": 98,
-                    "videoSeconds": 0.919
+                    "sequence": 108,
+                    "videoSeconds": 1.07
                 },
                 {
                     "event": "action",
@@ -3063,8 +3364,8 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 2.192,
-                    "inputVideoSeconds": 0.919
+                    "videoSeconds": 2.367,
+                    "inputVideoSeconds": 1.07
                 },
                 {
                     "event": "native-click",
@@ -3072,14 +3373,14 @@
                         0.039432176656151424,
                         0.09106678230702515
                     ],
-                    "sequence": 99,
-                    "videoSeconds": 18.656
+                    "sequence": 109,
+                    "videoSeconds": 18.867
                 },
                 {
                     "event": "action",
                     "key": "editor-top-save",
-                    "videoSeconds": 19.918,
-                    "inputVideoSeconds": 18.656
+                    "videoSeconds": 20.132,
+                    "inputVideoSeconds": 18.867
                 },
                 {
                     "event": "native-click",
@@ -3087,8 +3388,8 @@
                         0.09726603575184017,
                         0.10407632263660017
                     ],
-                    "sequence": 100,
-                    "videoSeconds": 20.746
+                    "sequence": 110,
+                    "videoSeconds": 21.054
                 },
                 {
                     "event": "action",
@@ -3099,8 +3400,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 22.015,
-                    "inputVideoSeconds": 20.746
+                    "videoSeconds": 22.336,
+                    "inputVideoSeconds": 21.054
                 },
                 {
                     "event": "native-click",
@@ -3108,30 +3409,30 @@
                         0.9550736063286333,
                         0.025477016478751086
                     ],
-                    "sequence": 101,
-                    "videoSeconds": 22.838
+                    "sequence": 111,
+                    "videoSeconds": 23.226
                 },
                 {
                     "event": "action",
                     "key": "editor-top-export",
-                    "videoSeconds": 24.105,
-                    "inputVideoSeconds": 22.838
+                    "videoSeconds": 24.492,
+                    "inputVideoSeconds": 23.226
                 },
                 {
                     "event": "native-click",
-                    "save": "D:/code/neuratim/.tmp/frameosu-site/rec/pl-work/example-reel.mp4",
+                    "save": "D:/code/neuratim/.tmp/frameosu-refresh-20261111/videos/work-pl-t1/example-reel.mp4",
                     "position": [
                         0.6012092534174553,
                         0.9653078924544666
                     ],
-                    "sequence": 102,
-                    "videoSeconds": 28.983
+                    "sequence": 112,
+                    "videoSeconds": 29.414
                 },
                 {
                     "event": "action",
                     "key": "export-start",
-                    "videoSeconds": 30.704,
-                    "inputVideoSeconds": 28.983
+                    "videoSeconds": 30.976,
+                    "inputVideoSeconds": 29.414
                 },
                 {
                     "event": "native-click",
@@ -3139,8 +3440,8 @@
                         0.6012092534174553,
                         0.9653078924544666
                     ],
-                    "sequence": 103,
-                    "videoSeconds": 47.549
+                    "sequence": 113,
+                    "videoSeconds": 45.195
                 },
                 {
                     "event": "action",
@@ -3151,34 +3452,34 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 48.92,
-                    "inputVideoSeconds": 47.549
+                    "videoSeconds": 46.445,
+                    "inputVideoSeconds": 45.195
                 }
             ],
             "captions": [
                 [
-                    0.078,
+                    0.179,
                     "Przed zapisem i eksportem obejrzyj całą rolkę z dźwiękiem."
                 ],
                 [
-                    17.824,
+                    17.961,
                     "Opcja „Zapisz” zachowuje projekt do dalszej edycji. Złoty przycisk „Eksportuj” tworzy osobny plik wideo."
                 ],
                 [
-                    28.133,
+                    28.507,
                     "Sprawdź rozmiar, jakość i format, a potem wybierz „Eksportuj”. W tym pokazie film zapisujemy w przygotowanym folderze."
                 ],
                 [
-                    43.662,
+                    41.211,
                     "Rolka została wyeksportowana. Przycisk „Gotowe” zamyka to okno, a projekt pozostaje dostępny do edycji."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 51.783008,
+            "duration": 49.283008,
             "height": 970,
-            "sha256": "8713087996fccf1ca39d030c0f5c9d3444199e959c3bd9dca91f4d2743db35a8",
-            "size": 18001948,
+            "sha256": "ab9c89b8d4c272770a1588ab307a9a905c615efcf76ea14ea8bca03230d42882",
+            "size": 17366643,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -3190,7 +3491,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:16.292029+00:00",
+                "createdAt": "2026-11-12T01:39:15.936263+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -3198,51 +3499,51 @@
                 "musicDurationSeconds": 85.224,
                 "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "66c5d11630fa881f643e4794280ba89f7bcec63ab3e106d6de777daeb263b14d",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 14.526,
+                "originalVideoSha256": "7414245bd975b45ed11c1d7275ceff749a152127867ecab9a6c2b0a0d9e24c67",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 6.996,
                 "narration": {
-                    "createdAt": "2026-10-29T12:47:16.018341+00:00",
+                    "createdAt": "2026-11-12T01:45:09.026358+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "export.4",
                             "text": "Przed zapisem i eksportem obejrzyj całą rolkę z dźwiękiem.",
-                            "voiceSeconds": 0.35,
-                            "durationSeconds": 3.4,
-                            "sha256": "1c93b11f3df41c4851740eefaab414a64e59f5ea48f94f60bf9699634fe9dd32"
+                            "voiceSeconds": 0.429,
+                            "durationSeconds": 3.092,
+                            "sha256": "8a544839f0e608ebde308a9c1e0e57bd3e73a70a315d71cc03189b194a1a437f"
                         },
                         {
                             "key": "export.3",
                             "text": "Opcja „Zapisz” zachowuje projekt do dalszej edycji. Złoty przycisk „Eksportuj” tworzy osobny plik wideo.",
-                            "voiceSeconds": 18.074,
-                            "durationSeconds": 6.404,
-                            "sha256": "cacf0acd2effd99ed5b3fd58e20af92bf96a1ced95e357b6ef9c8235b004a57a"
+                            "voiceSeconds": 18.211,
+                            "durationSeconds": 6.107,
+                            "sha256": "0787d587c63e70e1e2116782b9c8bd18ae7d91f00c8c3324f5f8f391ecfa76b2"
                         },
                         {
                             "key": "export.2",
                             "text": "Sprawdź rozmiar, jakość i format, a potem wybierz „Eksportuj”. W tym pokazie film zapisujemy w przygotowanym folderze.",
-                            "voiceSeconds": 28.383,
-                            "durationSeconds": 8.061,
-                            "sha256": "102e946325b407487505666313390def52ce26f5a16de09deba63d5334d48b6f"
+                            "voiceSeconds": 28.757,
+                            "durationSeconds": 7.676,
+                            "sha256": "803ef89f0472e39b9357acc2a19818718bebd882431205416b6cd026399d0e62"
                         },
                         {
                             "key": "export.1",
                             "text": "Rolka została wyeksportowana. Przycisk „Gotowe” zamyka to okno, a projekt pozostaje dostępny do edycji.",
-                            "voiceSeconds": 43.912,
-                            "durationSeconds": 7.27,
-                            "sha256": "6ea3afcc9f14be80288364031f7fd6e78be0ecd024ad20c81ecd45d2b3601779"
+                            "voiceSeconds": 41.461,
+                            "durationSeconds": 7.219,
+                            "sha256": "f653ae9248d1787fe454747ebe502afa4cdd6670d2c21d2090e28074cd3fc5d7"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 50.667,
-                            "seconds": 1.115
+                            "atSeconds": 48.1,
+                            "seconds": 1.18
                         }
                     ],
-                    "unnarratedSha256": "f864dec356590783af6a3251ed55eec566e3f46dbfb3d0b07d1f4555b1be7ceb",
-                    "unnarratedDurationSeconds": 50.666667,
+                    "unnarratedSha256": "17121009e366b8b3ab1e96778671307ad5abe89ca59f75e91b0a06c06cb1eba6",
+                    "unnarratedDurationSeconds": 48.1,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -3256,27 +3557,27 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 1.269,
+                        "startSeconds": 1.42,
                         "seconds": 1.7,
                         "crop": "826:447:661:83",
-                        "changedFrames": 56,
+                        "changedFrames": 51,
                         "encodedFps": 60,
                         "frames": 102,
-                        "maximumStillSeconds": 0.08333333333333333,
-                        "movingFps": 33.26732673267327
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 30.297029702970296
                     },
                     {
-                        "startSeconds": 7.019,
+                        "startSeconds": 7.17,
                         "seconds": 8.1,
                         "crop": "826:447:661:83",
-                        "changedFrames": 256,
+                        "changedFrames": 246,
                         "encodedFps": 60,
                         "frames": 486,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.670103092783503
+                        "maximumStillSeconds": 0.08333333333333333,
+                        "movingFps": 30.432989690721648
                     }
                 ],
-                "movingFps": 31.670103092783503,
+                "movingFps": 30.297029702970296,
                 "maximumStillSeconds": 0.08333333333333333
             }
         },
@@ -3288,14 +3589,14 @@
                         0.039432176656151424,
                         0.33716392020815267
                     ],
-                    "sequence": 104,
-                    "videoSeconds": 0.983
+                    "sequence": 114,
+                    "videoSeconds": 1.532
                 },
                 {
                     "event": "action",
                     "key": "editor-top-auto",
-                    "videoSeconds": 2.252,
-                    "inputVideoSeconds": 0.983
+                    "videoSeconds": 2.829,
+                    "inputVideoSeconds": 1.532
                 },
                 {
                     "event": "native-click",
@@ -3303,15 +3604,15 @@
                         0.6721871713985279,
                         0.24653078924544664
                     ],
-                    "sequence": 105,
-                    "videoSeconds": 11.181
+                    "sequence": 115,
+                    "videoSeconds": 11.909
                 },
                 {
                     "event": "action",
                     "key": "auto-analysis-precision",
                     "value": "25",
-                    "videoSeconds": 12.558,
-                    "inputVideoSeconds": 11.181
+                    "videoSeconds": 13.206,
+                    "inputVideoSeconds": 11.909
                 },
                 {
                     "event": "native-click",
@@ -3319,14 +3620,14 @@
                         0.6012092534174553,
                         0.9653078924544666
                     ],
-                    "sequence": 106,
-                    "videoSeconds": 18.289
+                    "sequence": 116,
+                    "videoSeconds": 19.601
                 },
                 {
                     "event": "action",
                     "key": "auto-make",
-                    "videoSeconds": 19.59,
-                    "inputVideoSeconds": 18.289
+                    "videoSeconds": 20.882,
+                    "inputVideoSeconds": 19.601
                 },
                 {
                     "event": "native-click",
@@ -3334,8 +3635,8 @@
                         0.37986330178759203,
                         0.5891153512575888
                     ],
-                    "sequence": 107,
-                    "videoSeconds": 28.055
+                    "sequence": 117,
+                    "videoSeconds": 29.227
                 },
                 {
                     "event": "action",
@@ -3346,8 +3647,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 29.413,
-                    "inputVideoSeconds": 28.055
+                    "videoSeconds": 30.523,
+                    "inputVideoSeconds": 29.227
                 },
                 {
                     "event": "native-click",
@@ -3355,8 +3656,8 @@
                         0.37986330178759203,
                         0.5891153512575888
                     ],
-                    "sequence": 108,
-                    "videoSeconds": 36.294
+                    "sequence": 118,
+                    "videoSeconds": 37.477
                 },
                 {
                     "event": "action",
@@ -3367,38 +3668,38 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 37.532,
-                    "inputVideoSeconds": 36.294
+                    "videoSeconds": 38.758,
+                    "inputVideoSeconds": 37.477
                 },
                 {
                     "event": "shortened-analysis-wait",
-                    "removedSeconds": 20.919
+                    "removedSeconds": 15.985
                 }
             ],
             "captions": [
                 [
-                    0.165,
+                    0.595,
                     "Opcja „Wybierz fragmenty za mnie” otwiera „Automatyczny montaż” z ustawieniami długości i muzyki. To inny sposób na rozpoczęcie."
                 ],
                 [
-                    10.22,
+                    10.893,
                     "Opcja „Automatyczna długość” ustala czas trwania. Niższa dokładność oznacza mniej próbek do analizy."
                 ],
                 [
-                    17.433,
+                    18.679,
                     "Opcja „Utwórz rolkę” analizuje multimedia na tym urządzeniu. W tym filmie skrócono czas oczekiwania."
                 ],
                 [
-                    25.184,
+                    26.32,
                     "Wersja robocza jest gotowa, a jej fragmenty są już w rolce. Odtwórz ją przed eksportem."
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 39.306,
+            "duration": 40.383008,
             "height": 970,
-            "sha256": "b92119aa175a98622cf3cd65f3577c27160e9ed986636a0dac007a482a47e6a5",
-            "size": 9650132,
+            "sha256": "abaa017a461b33e20e735f24dce28f09f8532146b755bf748f2d3e66b520708a",
+            "size": 9263113,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -3410,7 +3711,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:33:17.005501+00:00",
+                "createdAt": "2026-11-12T01:39:16.955449+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -3418,59 +3719,59 @@
                 "musicDurationSeconds": 85.224,
                 "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "79bcf9d567056c4e4d3791317eeabdccf1005bd57980be2af8b4cc4ba995e9a9",
-                "randomSeed": "14854651017014597251",
-                "startSeconds": 21.594,
+                "originalVideoSha256": "deb1dd3b5793da4a03165470bcb8e68a6d307638ab385c25078539a5e08d9756",
+                "randomSeed": "14584675533092625138",
+                "startSeconds": 34.207,
                 "narration": {
-                    "createdAt": "2026-10-29T12:47:58.787110+00:00",
+                    "createdAt": "2026-11-12T01:45:44.589692+00:00",
                     "provider": "Deepgram",
                     "model": "flux-justyna-pl",
                     "lines": [
                         {
                             "key": "auto.5",
                             "text": "Opcja „Wybierz fragmenty za mnie” otwiera „Automatyczny montaż” z ustawieniami długości i muzyki. To inny sposób na rozpoczęcie.",
-                            "voiceSeconds": 0.415,
-                            "durationSeconds": 9.456,
-                            "sha256": "676ba013b4733ec11b4cc5c67b245d1839aa7695a6d75128ae067780186c1078"
+                            "voiceSeconds": 0.845,
+                            "durationSeconds": 9.698,
+                            "sha256": "178881ad0f3352517853bdd2babf2bef354954dfc36f1a9b0cb710e7daaea524"
                         },
                         {
                             "key": "auto.4",
                             "text": "Opcja „Automatyczna długość” ustala czas trwania. Niższa dokładność oznacza mniej próbek do analizy.",
-                            "voiceSeconds": 10.47,
-                            "durationSeconds": 6.614,
-                            "sha256": "b28bd5809d79282cc019ae03c0f12530c4b08d052e05bda1599c0eb9ff10d89c"
+                            "voiceSeconds": 11.143,
+                            "durationSeconds": 7.186,
+                            "sha256": "10c4c11d3ddb3f2b7590a702639525753e40c8368aa89865d381e5d55de1a106"
                         },
                         {
                             "key": "auto.3",
                             "text": "Opcja „Utwórz rolkę” analizuje multimedia na tym urządzeniu. W tym filmie skrócono czas oczekiwania.",
-                            "voiceSeconds": 17.683,
-                            "durationSeconds": 7.15,
-                            "sha256": "c760f34273402fcbae227f7138d0b39d3019014b6d2a0c435d35327499a5540e"
+                            "voiceSeconds": 18.929,
+                            "durationSeconds": 7.041,
+                            "sha256": "f3b8f87d83dd5dce55c7dfcab4234fffd277850a764f5197b86df39bc62b92c0"
                         },
                         {
                             "key": "auto.2",
                             "text": "Wersja robocza jest gotowa, a jej fragmenty są już w rolce. Odtwórz ją przed eksportem.",
-                            "voiceSeconds": 25.434,
-                            "durationSeconds": 6.421,
-                            "sha256": "dbfb415cdfc613ddf848091b07bc1f52d635f30db7c420f4b224e9347b7db5e2"
+                            "voiceSeconds": 26.57,
+                            "durationSeconds": 5.507,
+                            "sha256": "c63b1f44b221bf9b82572e28855a323556aeeec167647cad706a26a3f0a47041"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 6.273,
-                            "seconds": 3.947
+                            "atSeconds": 6.86,
+                            "seconds": 4.033
                         },
                         {
-                            "atSeconds": 10.617,
-                            "seconds": 2.869
+                            "atSeconds": 11.204,
+                            "seconds": 3.442
                         },
                         {
-                            "atSeconds": 17.778,
-                            "seconds": 0.59
+                            "atSeconds": 18.422,
+                            "seconds": 0.423
                         }
                     ],
-                    "unnarratedSha256": "b687ceb5c568be49f261792186c997afd4303a6b48a5d53b26b924073095d362",
-                    "unnarratedDurationSeconds": 31.9,
+                    "unnarratedSha256": "33011db4394e81b51e97efa7e4307155c99fbc9f810e5147add05d77eda91a3c",
+                    "unnarratedDurationSeconds": 32.483333,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -3484,22 +3785,22 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 28.405,
+                        "startSeconds": 29.577,
                         "seconds": 4.4,
                         "crop": "950:517:599:83",
-                        "changedFrames": 142,
+                        "changedFrames": 137,
                         "encodedFps": 60,
                         "frames": 264,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 32.39543726235741
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 31.254752851711025
                     }
                 ],
-                "movingFps": 32.39543726235741,
-                "maximumStillSeconds": 0.06666666666666667
+                "movingFps": 31.254752851711025,
+                "maximumStillSeconds": 0.05
             }
         }
     },
     "language": "pl",
     "platform": "windows",
-    "sourceCommit": "1ed1ddf354d521109d13efc794f28be3386bf112"
+    "sourceCommit": "4954c3ad42f5d0c6ebb2479cd346ffc07ac10b8f"
 }
