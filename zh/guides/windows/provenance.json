@@ -1,6 +1,6 @@
 {
-    "appVersion": "1.4.1+13",
-    "capturedAt": "2026-10-28T23:07:01.193425+00:00",
+    "appVersion": "2.0.0+15",
+    "capturedAt": "2026-11-12T00:41:55.233236+00:00",
     "clips": {
         "home": {
             "actions": [
@@ -11,13 +11,13 @@
                         0.3517996530789246
                     ],
                     "sequence": 1,
-                    "videoSeconds": 0.94
+                    "videoSeconds": 1.133
                 },
                 {
                     "event": "action",
                     "key": "home-create-manual",
-                    "videoSeconds": 2.208,
-                    "inputVideoSeconds": 0.94
+                    "videoSeconds": 2.43,
+                    "inputVideoSeconds": 1.133
                 },
                 {
                     "event": "native-click",
@@ -26,7 +26,7 @@
                         0.9170641803989592
                     ],
                     "sequence": 2,
-                    "videoSeconds": 3.04
+                    "videoSeconds": 3.321
                 },
                 {
                     "event": "action",
@@ -37,8 +37,8 @@
                         0.6470820189274448,
                         0.6454900260190807
                     ],
-                    "videoSeconds": 8.752,
-                    "inputVideoSeconds": 3.04
+                    "videoSeconds": 6.474,
+                    "inputVideoSeconds": 3.321
                 },
                 {
                     "event": "native-click",
@@ -47,13 +47,13 @@
                         0.2688638334778838
                     ],
                     "sequence": 3,
-                    "videoSeconds": 9.602
+                    "videoSeconds": 7.381
                 },
                 {
                     "event": "action",
                     "key": "reel-add-empty",
-                    "videoSeconds": 10.83,
-                    "inputVideoSeconds": 9.602
+                    "videoSeconds": 8.677,
+                    "inputVideoSeconds": 7.381
                 },
                 {
                     "event": "native-click",
@@ -62,45 +62,45 @@
                         0.2775368603642671
                     ],
                     "sequence": 4,
-                    "videoSeconds": 11.676
+                    "videoSeconds": 9.584
                 },
                 {
                     "event": "action",
                     "key": "add-media-video",
-                    "videoSeconds": 12.908,
-                    "inputVideoSeconds": 11.676
+                    "videoSeconds": 10.881,
+                    "inputVideoSeconds": 9.584
                 },
                 {
                     "event": "native-click",
-                    "path": "D:/code/neuratim/.tmp/frameosu-site/rec/zh-work/edit4-hd-water.mp4",
+                    "path": "D:/code/neuratim/.tmp/frameosu-refresh-20261111/videos/work-zh-t2/edit4-hd-water.mp4",
                     "position": [
                         0.5092008412197687,
                         0.909783242478747
                     ],
                     "sequence": 5,
-                    "videoSeconds": 13.222
+                    "videoSeconds": 11.271
                 }
             ],
             "captions": [
                 [
-                    0.078,
+                    0.196,
                     "选择“手动剪辑”，再选“从空项目开始”，新建一部短片。"
                 ],
                 [
-                    8.753,
+                    6.474,
                     "添加视频，再在 Windows 文件对话框中选择素材。视频没有展示这个对话框。"
                 ],
                 [
-                    15.664,
+                    12.927,
                     "视频已添加为这部短片的素材，尚未选择片段。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 20.95,
+            "duration": 17.974,
             "height": 970,
-            "sha256": "bcf16a2ed767b03dc1c0eda4da56742bda049bda8c2f0a80337923230962302f",
-            "size": 1841692,
+            "sha256": "302d17b78f9ac825b0b0894ed91f71a9ba51badc293d19bc67081846b2759abf",
+            "size": 1627035,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -112,7 +112,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:04.670503+00:00",
+                "createdAt": "2026-11-12T02:41:43.438494+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -120,52 +120,44 @@
                 "musicDurationSeconds": 85.224,
                 "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "ee139ef03c5a68a567fd59330435d0804ad016625be52e7603976ad76b194c22",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 44.319,
+                "originalVideoSha256": "76c7858ba2bc56b2badd3701d803ee1f3580ec913bda7d53cef4aeadf7ca3944",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 63.413,
                 "narration": {
-                    "createdAt": "2026-10-29T12:56:36.073047+00:00",
+                    "createdAt": "2026-11-12T02:42:21.631071+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "home.3",
                             "text": "选择“手动剪辑”，再选“从空项目开始”，新建一部短片。",
-                            "voiceSeconds": 0.35,
-                            "durationSeconds": 8.052,
-                            "sha256": "6a8a7169ac248d33fd6e73e7500ff82598e905b21f109562a1ba756110c95613"
+                            "voiceSeconds": 0.446,
+                            "durationSeconds": 5.678,
+                            "sha256": "5bf2834686850ab3c65c2ca41beddd37aa12520a684141968051e3b4fe3f966f"
                         },
                         {
                             "key": "home.2",
                             "text": "添加视频，再在 Windows 文件对话框中选择素材。视频没有展示这个对话框。",
-                            "voiceSeconds": 9.003,
-                            "durationSeconds": 6.312,
-                            "sha256": "a3e672399779f2b05585c79fbb55f01028f7d86cfed210b730a7e8a7f424bb23"
+                            "voiceSeconds": 6.724,
+                            "durationSeconds": 5.703,
+                            "sha256": "bab75d0d92b6dc62ba71aaef0bd317411483ca3ebb2968d185667544789a0ded"
                         },
                         {
                             "key": "home.1",
                             "text": "视频已添加为这部短片的素材，尚未选择片段。",
-                            "voiceSeconds": 15.914,
-                            "durationSeconds": 4.423,
-                            "sha256": "a89a4093bf5d873cb0d135c51a3e2cb6dd80a267550941bae162ada21db43843"
+                            "voiceSeconds": 13.177,
+                            "durationSeconds": 3.692,
+                            "sha256": "0f92b232b2cfd60d2c23e673ddb0a8b5649ea3d2e5b2e75a258f1a8b57052023"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 4.356,
-                            "seconds": 4.397
-                        },
-                        {
-                            "atSeconds": 10.468,
-                            "seconds": 0.799
-                        },
-                        {
-                            "atSeconds": 15.667,
-                            "seconds": 0.075
+                            "atSeconds": 4.633,
+                            "seconds": 1.841
                         }
                     ],
-                    "unnarratedSha256": "0b18569054c9633d190f8201787f42d38651a78861e49cb352705c5956fc30db",
-                    "unnarratedDurationSeconds": 15.666667,
+                    "unnarratedSha256": "d863ef9f049a021c479c08ea1bf10ec0f2092057421dec26345022efc9970b0d",
+                    "unnarratedDurationSeconds": 16.133333,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -185,19 +177,19 @@
                         0.22333044232437121
                     ],
                     "sequence": 6,
-                    "videoSeconds": 1.4
+                    "videoSeconds": 1.055
                 },
                 {
                     "event": "action",
-                    "key": "source-select-control-b85121a3-bc62-4917-8ce5-6f5ca0dd3a6f",
+                    "key": "source-select-control-fe8478f0-b60b-400b-9d2c-1cd38ee6ee05",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 2.809,
-                    "inputVideoSeconds": 1.4
+                    "videoSeconds": 2.351,
+                    "inputVideoSeconds": 1.055
                 },
                 {
                     "event": "native-click",
@@ -206,14 +198,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 7,
-                    "videoSeconds": 3.137
+                    "videoSeconds": 2.726
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 1.0,
-                    "videoSeconds": 4.416,
-                    "inputVideoSeconds": 3.137
+                    "videoSeconds": 4.023,
+                    "inputVideoSeconds": 2.726
                 },
                 {
                     "event": "native-click",
@@ -222,7 +214,7 @@
                         0.853642671292281
                     ],
                     "sequence": 8,
-                    "videoSeconds": 5.273
+                    "videoSeconds": 4.945
                 },
                 {
                     "event": "action",
@@ -230,11 +222,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 6.528,
-                    "inputVideoSeconds": 5.273
+                    "videoSeconds": 6.226,
+                    "inputVideoSeconds": 4.945
                 },
                 {
                     "event": "native-click",
@@ -243,14 +235,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 9,
-                    "videoSeconds": 6.84
+                    "videoSeconds": 6.601
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 8.0,
-                    "videoSeconds": 8.156,
-                    "inputVideoSeconds": 6.84
+                    "videoSeconds": 7.883,
+                    "inputVideoSeconds": 6.601
                 },
                 {
                     "event": "native-click",
@@ -259,14 +251,14 @@
                         0.8980919340849957
                     ],
                     "sequence": 10,
-                    "videoSeconds": 8.477
+                    "videoSeconds": 8.273
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 10.0,
-                    "videoSeconds": 9.768,
-                    "inputVideoSeconds": 8.477
+                    "videoSeconds": 9.555,
+                    "inputVideoSeconds": 8.273
                 },
                 {
                     "event": "native-click",
@@ -275,7 +267,7 @@
                         0.853642671292281
                     ],
                     "sequence": 11,
-                    "videoSeconds": 10.636
+                    "videoSeconds": 10.445
                 },
                 {
                     "event": "action",
@@ -283,11 +275,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 11.999,
-                    "inputVideoSeconds": 10.636
+                    "videoSeconds": 11.726,
+                    "inputVideoSeconds": 10.445
                 },
                 {
                     "event": "native-click",
@@ -296,23 +288,23 @@
                         0.8980919340849957
                     ],
                     "sequence": 12,
-                    "videoSeconds": 12.312
+                    "videoSeconds": 12.101
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 13.0,
-                    "videoSeconds": 13.578,
-                    "inputVideoSeconds": 12.312
+                    "videoSeconds": 13.383,
+                    "inputVideoSeconds": 12.101
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.792192428520676,
-                        0.030355594102341718
+                        0.7226603575184016,
+                        0.08673026886383348
                     ],
                     "sequence": 13,
-                    "videoSeconds": 14.417
+                    "videoSeconds": 14.289
                 },
                 {
                     "event": "action",
@@ -320,20 +312,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 15.762,
-                    "inputVideoSeconds": 14.417
+                    "videoSeconds": 15.57,
+                    "inputVideoSeconds": 14.289
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7534556582195285
+                        0.6969861231569818
                     ],
                     "sequence": 14,
-                    "videoSeconds": 16.601
+                    "videoSeconds": 16.476
                 },
                 {
                     "event": "action",
@@ -341,20 +333,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 17.864,
-                    "inputVideoSeconds": 16.601
+                    "videoSeconds": 17.742,
+                    "inputVideoSeconds": 16.476
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7534556582195285
+                        0.6969861231569818
                     ],
                     "sequence": 15,
-                    "videoSeconds": 22.717
+                    "videoSeconds": 22.711
                 },
                 {
                     "event": "action",
@@ -362,29 +354,29 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 24.004,
-                    "inputVideoSeconds": 22.717
+                    "videoSeconds": 23.976,
+                    "inputVideoSeconds": 22.711
                 }
             ],
             "captions": [
                 [
-                    0.562,
+                    0.148,
                     "打开“选择”，点击片段的起点，再点击加号按钮，最后点击终点。"
                 ],
                 [
-                    8.16,
+                    7.883,
                     "选择第二个片段。预览只播放所选片段，跳过中间未选的部分。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 25.85,
+            "duration": 26.033008,
             "height": 970,
-            "sha256": "659e672d041545a98f2f10c62a42fc9d3a5e29b2e9c1ade692f80a3f99f3b6fa",
-            "size": 14004558,
+            "sha256": "3ac0ec355081f42931f1582be7887120c377931dbf3e01bed3f2d5b10b0853a6",
+            "size": 13805688,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -396,7 +388,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:05.327936+00:00",
+                "createdAt": "2026-11-12T02:41:44.146239+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -404,32 +396,32 @@
                 "musicDurationSeconds": 85.224,
                 "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "3841205be92a30117467e3180e1322e72284d9bdd4b12b19eb9ad1cd927cd48d",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 0.864,
+                "originalVideoSha256": "7270556065b7f4d337531a2990ddf4100a607fd58a981a1c6c24f50d20fbf0da",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 7.044,
                 "narration": {
-                    "createdAt": "2026-10-29T12:57:00.663724+00:00",
+                    "createdAt": "2026-11-12T02:42:40.442284+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "select.2",
                             "text": "打开“选择”，点击片段的起点，再点击加号按钮，最后点击终点。",
-                            "voiceSeconds": 0.812,
-                            "durationSeconds": 4.967,
-                            "sha256": "3e2362aef8906dfe6ed061b88bbdaaefa3f1e0c9d3a89e013f1e1b5e8f77256c"
+                            "voiceSeconds": 0.398,
+                            "durationSeconds": 5.215,
+                            "sha256": "f30216204a3b56ff56e9efcd87cc2d4bcb5fd02ad1fef16867f18bfd91e80d01"
                         },
                         {
                             "key": "select.1",
                             "text": "选择第二个片段。预览只播放所选片段，跳过中间未选的部分。",
-                            "voiceSeconds": 8.41,
-                            "durationSeconds": 4.879,
-                            "sha256": "4ba5e0ac8a19f87c179a0427ed3507171a9a87eef7654014a9adfb1892b1da81"
+                            "voiceSeconds": 8.133,
+                            "durationSeconds": 4.93,
+                            "sha256": "2cad47566b78f9b02e6e45be9c7b14e4f74cf94d9edf9faa9207d3be79a5426c"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "2bac5cd86c04ce99beffc8cf332843b5d7bf75e81e348bc418335c1f3fd44865",
-                    "unnarratedDurationSeconds": 25.85,
+                    "unnarratedSha256": "680a1370b170a7575434505f07e5de07235d2d20daeaba8b624475fcb18ac1a9",
+                    "unnarratedDurationSeconds": 26.033333,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -443,26 +435,26 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 16.901,
-                        "seconds": 5.666,
-                        "crop": "1069:584:20:79",
-                        "changedFrames": 173,
+                        "startSeconds": 16.776,
+                        "seconds": 5.785,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 174,
                         "encodedFps": 60,
-                        "frames": 340,
+                        "frames": 348,
                         "maximumStillSeconds": 0.05,
-                        "movingFps": 30.61946902654867
+                        "movingFps": 30.086455331412104
                     }
                 ],
-                "movingFps": 30.61946902654867,
+                "movingFps": 30.086455331412104,
                 "maximumStillSeconds": 0.05,
                 "sourceClock": {
-                    "confidenceMinimum": 0.9932612180709839,
+                    "confidenceMinimum": 0.9944668412208557,
                     "matching": "original source frames or adjacent-frame interpolation",
                     "maximumStillSeconds": 0.05,
-                    "movingFps": 30.61946902654867,
-                    "originalFrameConfidenceMinimum": 0.9917361736297607,
+                    "movingFps": 30.086455331412104,
+                    "originalFrameConfidenceMinimum": 0.9944668412208557,
                     "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 0.9955751895904541
+                    "sourceSecondsPerRecordedSecond": 1.0028818443804035
                 }
             }
         },
@@ -471,11 +463,11 @@
                 {
                     "event": "native-click",
                     "position": [
-                        0.7250920076600886,
-                        0.08673026886383348
+                        0.6642350160235737,
+                        0.13768430182133565
                     ],
                     "sequence": 16,
-                    "videoSeconds": 1.006
+                    "videoSeconds": 1.022
                 },
                 {
                     "event": "action",
@@ -483,20 +475,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 2.342,
-                    "inputVideoSeconds": 1.006
+                    "videoSeconds": 2.303,
+                    "inputVideoSeconds": 1.022
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6561514190569535,
-                        0.2688638334778838
+                        0.5952944274204386,
+                        0.31981786643538596
                     ],
                     "sequence": 17,
-                    "videoSeconds": 3.192
+                    "videoSeconds": 3.209
                 },
                 {
                     "event": "action",
@@ -504,20 +496,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.564,
-                    "inputVideoSeconds": 3.192
+                    "videoSeconds": 4.49,
+                    "inputVideoSeconds": 3.209
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6561514190569535,
-                        0.1474414570685169
+                        0.5952944274204386,
+                        0.19839549002601908
                     ],
                     "sequence": 18,
-                    "videoSeconds": 5.41
+                    "videoSeconds": 5.397
                 },
                 {
                     "event": "action",
@@ -525,27 +517,27 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 6.802,
-                    "inputVideoSeconds": 5.41
+                    "videoSeconds": 6.709,
+                    "inputVideoSeconds": 5.397
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.8477260773114226,
-                        0.2862098872506505
+                        0.8518007360672976,
+                        0.31439722463139635
                     ],
                     "sequence": 19,
-                    "videoSeconds": 7.737
+                    "videoSeconds": 7.693
                 },
                 {
                     "event": "action",
                     "key": "item-panel-words",
                     "value": "海边的一天",
-                    "videoSeconds": 9.143,
-                    "inputVideoSeconds": 7.737
+                    "videoSeconds": 8.99,
+                    "inputVideoSeconds": 7.693
                 },
                 {
                     "event": "native-click",
@@ -554,22 +546,22 @@
                         0.9522983521248916
                     ],
                     "sequence": 20,
-                    "videoSeconds": 9.465
+                    "videoSeconds": 9.381
                 },
                 {
                     "event": "action",
                     "key": "text-preview-visible",
-                    "videoSeconds": 9.575,
-                    "inputVideoSeconds": 9.465
+                    "videoSeconds": 9.428,
+                    "inputVideoSeconds": 9.381
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.712539431173844,
-                        0.1344319167389419
+                        0.6516824395373291,
+                        0.18538594969644406
                     ],
                     "sequence": 21,
-                    "videoSeconds": 11.92
+                    "videoSeconds": 11.85
                 },
                 {
                     "event": "action",
@@ -577,11 +569,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 13.176,
-                    "inputVideoSeconds": 11.92
+                    "videoSeconds": 13.115,
+                    "inputVideoSeconds": 11.85
                 },
                 {
                     "event": "native-click",
@@ -590,16 +582,16 @@
                         0.9522983521248916
                     ],
                     "sequence": 22,
-                    "videoSeconds": 13.497
+                    "videoSeconds": 13.49
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7534556582195285
+                        0.6969861231569818
                     ],
                     "sequence": 23,
-                    "videoSeconds": 13.844
+                    "videoSeconds": 13.928
                 },
                 {
                     "event": "action",
@@ -607,20 +599,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 14.141,
-                    "inputVideoSeconds": 13.844
+                    "videoSeconds": 14.193,
+                    "inputVideoSeconds": 13.928
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7534556582195285
+                        0.6969861231569818
                     ],
                     "sequence": 24,
-                    "videoSeconds": 16.591
+                    "videoSeconds": 16.725
                 },
                 {
                     "event": "action",
@@ -628,29 +620,29 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 17.173,
-                    "inputVideoSeconds": 16.591
+                    "videoSeconds": 17.272,
+                    "inputVideoSeconds": 16.725
                 }
             ],
             "captions": [
                 [
-                    0.16,
+                    0.131,
                     "在所选片段之后添加叠加文字，再输入内容。"
                 ],
                 [
-                    9.147,
+                    8.99,
                     "预览时，视频画面继续播放，标题叠加在画面上。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 19.25,
+            "duration": 19.317,
             "height": 970,
-            "sha256": "daa3f8443ba04441486c6701cf728105c4fd529fabe5aa39bf40ea52c770ca51",
-            "size": 6452568,
+            "sha256": "28e54be7759de9c0a725302a6123e566f420c8efe9e90964dd4c244f964bb96d",
+            "size": 5737267,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -662,40 +654,40 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:05.928147+00:00",
+                "createdAt": "2026-11-12T02:41:44.877583+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "9352811734029ca2b0ecd9cdff15880038641b76897eb4f90a1d8369c7cbc311",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 4.204,
+                "originalVideoSha256": "ac17257127fb1bc562de213aabd1b6339ed3df1ec94249a5f1d77e62f4892431",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 53.303,
                 "narration": {
-                    "createdAt": "2026-10-29T12:57:15.773916+00:00",
+                    "createdAt": "2026-11-12T02:42:55.110646+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "text.2",
                             "text": "在所选片段之后添加叠加文字，再输入内容。",
-                            "voiceSeconds": 0.41,
-                            "durationSeconds": 4.8,
-                            "sha256": "d63f717e674b36c6a1bd8371c2a505826299c5c29fc625d872310691ca4cfaa0"
+                            "voiceSeconds": 0.381,
+                            "durationSeconds": 3.83,
+                            "sha256": "1cc2f1dbc743156ee4837c14fbad6d2d75a22171611685d973a748b4589791d6"
                         },
                         {
                             "key": "text.1",
                             "text": "预览时，视频画面继续播放，标题叠加在画面上。",
-                            "voiceSeconds": 9.397,
-                            "durationSeconds": 4.193,
-                            "sha256": "dfa594af9f9494574d693e7a157bb6858c0eedffc18d4f9fd9db6c96d58221fa"
+                            "voiceSeconds": 9.24,
+                            "durationSeconds": 4.611,
+                            "sha256": "38121f13695023d876b399c915e2c5744562e8413696cf47f87a968c426e2320"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "a0449b086af74d117ab82389d560327d3087dd61f5dd398e8fa5378a104ef8e6",
-                    "unnarratedDurationSeconds": 19.25,
+                    "unnarratedSha256": "2e0b8ac5c8423a662aca8e9bc2c5b50a3c9805b6902a62c5c20af12b50c6077b",
+                    "unnarratedDurationSeconds": 19.316667,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -709,18 +701,18 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 14.294,
-                        "seconds": 2.147,
-                        "crop": "1069:584:20:79",
-                        "changedFrames": 66,
+                        "startSeconds": 14.378,
+                        "seconds": 2.197,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 65,
                         "encodedFps": 60,
-                        "frames": 129,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.9375
+                        "frames": 132,
+                        "maximumStillSeconds": 0.06666666666666667,
+                        "movingFps": 29.770992366412216
                     }
                 ],
-                "movingFps": 30.9375,
-                "maximumStillSeconds": 0.05
+                "movingFps": 29.770992366412216,
+                "maximumStillSeconds": 0.06666666666666667
             }
         },
         "parts": {
@@ -728,8 +720,8 @@
                 {
                     "event": "action",
                     "key": "parts-reorder",
-                    "clipId": "89aa6245-5aa5-4261-9cfd-7a4e1c18eff2",
-                    "videoSeconds": 5.646
+                    "clipId": "65e30f0d-48ef-43d7-882b-cb345d86d451",
+                    "videoSeconds": 6.07
                 },
                 {
                     "event": "native-click",
@@ -738,16 +730,16 @@
                         0.9522983521248916
                     ],
                     "sequence": 25,
-                    "videoSeconds": 5.959
+                    "videoSeconds": 6.46
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7534556582195285
+                        0.6969861231569818
                     ],
                     "sequence": 26,
-                    "videoSeconds": 6.857
+                    "videoSeconds": 7.445
                 },
                 {
                     "event": "action",
@@ -755,20 +747,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 8.198,
-                    "inputVideoSeconds": 6.857
+                    "videoSeconds": 8.726,
+                    "inputVideoSeconds": 7.445
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7534556582195285
+                        0.6969861231569818
                     ],
                     "sequence": 27,
-                    "videoSeconds": 13.09
+                    "videoSeconds": 13.679
                 },
                 {
                     "event": "action",
@@ -776,29 +768,29 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 14.419,
-                    "inputVideoSeconds": 13.09
+                    "videoSeconds": 14.945,
+                    "inputVideoSeconds": 13.679
                 }
             ],
             "captions": [
                 [
-                    0.211,
+                    0.048,
                     "“片段”列表显示播放顺序。拖动编号处即可移动片段。"
                 ],
                 [
-                    5.646,
+                    6.07,
                     "预览会按新顺序播放。标题仍会跟随对应的视频。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 16.416016,
+            "duration": 16.616016,
             "height": 970,
-            "sha256": "ea05e7bbb85aff82832aa2358dc298fdd3ced7cb2909ae85866a8d506b297da4",
-            "size": 9768674,
+            "sha256": "0fb5941ad767e2b8a85ecbb1b252488cf13b31a6b71ec0a11d0d7e816cef88b9",
+            "size": 9124280,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -810,7 +802,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:06.451141+00:00",
+                "createdAt": "2026-11-12T02:41:45.781626+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -818,37 +810,37 @@
                 "musicDurationSeconds": 84.312,
                 "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "1903d34f9099a646900200399a518a62003d0f79d6b797dc4fc925b046b97fef",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 62.814,
+                "originalVideoSha256": "078cdda4fedf961a1eefd9c09571c23c25cf67c0a47c6a358daa460b738b85a1",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 64.244,
                 "narration": {
-                    "createdAt": "2026-10-29T12:57:33.383170+00:00",
+                    "createdAt": "2026-11-12T02:43:12.324776+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "parts.2",
                             "text": "“片段”列表显示播放顺序。拖动编号处即可移动片段。",
-                            "voiceSeconds": 0.461,
-                            "durationSeconds": 4.835,
-                            "sha256": "072ab68876773c1f485bab232e6ef4d518379343f5f53b2c78aa6ed76f44aad3"
+                            "voiceSeconds": 0.35,
+                            "durationSeconds": 5.37,
+                            "sha256": "542bbd5f3c1ef7e94bc17f19c6580ed1defb085b7e21aa0aefffc533d7a5c137"
                         },
                         {
                             "key": "parts.1",
                             "text": "预览会按新顺序播放。标题仍会跟随对应的视频。",
-                            "voiceSeconds": 5.896,
-                            "durationSeconds": 4.494,
-                            "sha256": "c11be7866716c1c918b40a05681dea866977249b78eccc69b7300ff20bc2595e"
+                            "voiceSeconds": 6.32,
+                            "durationSeconds": 4.483,
+                            "sha256": "e8de4ff5925ac9bc52e706d4b06fccf2c23e01b8d07fa3e02e720216d6b649d7"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 1.865,
-                            "seconds": 3.781
+                            "atSeconds": 1.908,
+                            "seconds": 4.162
                         }
                     ],
-                    "unnarratedSha256": "d891ad7dba8a7636a83881a4543d0a089daba6ac62b78793b9e41de369e641d7",
-                    "unnarratedDurationSeconds": 12.633333,
+                    "unnarratedSha256": "7b8584bc728e39cdd481bfefb851b6f618930c459438bb33063265c56b540db8",
+                    "unnarratedDurationSeconds": 12.45,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -862,26 +854,26 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 7.157,
-                        "seconds": 5.783,
-                        "crop": "1069:584:20:79",
-                        "changedFrames": 175,
+                        "startSeconds": 7.895,
+                        "seconds": 5.634,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 168,
                         "encodedFps": 60,
-                        "frames": 347,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 30.346820809248555
+                        "frames": 339,
+                        "maximumStillSeconds": 0.1,
+                        "movingFps": 29.82248520710059
                     }
                 ],
-                "movingFps": 30.346820809248555,
-                "maximumStillSeconds": 0.05,
+                "movingFps": 29.82248520710059,
+                "maximumStillSeconds": 0.1,
                 "sourceClock": {
-                    "confidenceMinimum": 0.9936537146568298,
+                    "confidenceMinimum": 0.9965490102767944,
                     "matching": "original source frames or adjacent-frame interpolation",
-                    "maximumStillSeconds": 0.05,
-                    "movingFps": 30.520231213872833,
-                    "originalFrameConfidenceMinimum": 0.9903461933135986,
+                    "maximumStillSeconds": 0.1,
+                    "movingFps": 29.82248520710059,
+                    "originalFrameConfidenceMinimum": 0.9945791363716125,
                     "sourceFps": 30,
-                    "sourceSecondsPerRecordedSecond": 0.9913294315338135
+                    "sourceSecondsPerRecordedSecond": 0.9837278106508875
                 }
             }
         },
@@ -890,11 +882,11 @@
                 {
                     "event": "native-click",
                     "position": [
-                        0.7250920076600886,
-                        0.08673026886383348
+                        0.6642350160235737,
+                        0.13768430182133565
                     ],
                     "sequence": 28,
-                    "videoSeconds": 0.888
+                    "videoSeconds": 1.052
                 },
                 {
                     "event": "action",
@@ -902,20 +894,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 2.235,
-                    "inputVideoSeconds": 0.888
+                    "videoSeconds": 2.317,
+                    "inputVideoSeconds": 1.052
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6561514190569535,
-                        0.09540329575021683
+                        0.5952944274204386,
+                        0.146357328707719
                     ],
                     "sequence": 29,
-                    "videoSeconds": 3.086
+                    "videoSeconds": 3.223
                 },
                 {
                     "event": "action",
@@ -923,20 +915,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.409,
-                    "inputVideoSeconds": 3.086
+                    "videoSeconds": 4.505,
+                    "inputVideoSeconds": 3.223
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.6561514190569535,
-                        0.1474414570685169
+                        0.5952944274204386,
+                        0.25043365134431916
                     ],
                     "sequence": 30,
-                    "videoSeconds": 5.261
+                    "videoSeconds": 5.411
                 },
                 {
                     "event": "action",
@@ -944,30 +936,30 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 6.531,
-                    "inputVideoSeconds": 5.261
+                    "videoSeconds": 6.708,
+                    "inputVideoSeconds": 5.411
                 },
                 {
                     "event": "native-click",
-                    "path": "D:/code/neuratim/.tmp/frameosu-site/rec/zh-work/coastal-finale.png",
+                    "path": "D:/code/neuratim/.tmp/frameosu-refresh-20261111/videos/work-zh-t2/coastal-finale.png",
                     "position": [
                         0.5092008412197687,
                         0.909783242478747
                     ],
                     "sequence": 31,
-                    "videoSeconds": 6.853
+                    "videoSeconds": 7.098
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.7256834900592278,
-                        0.20056374674761493
+                        0.6700841219768664,
+                        0.2341717259323504
                     ],
                     "sequence": 32,
-                    "videoSeconds": 9.277
+                    "videoSeconds": 9.552
                 },
                 {
                     "event": "action",
@@ -975,36 +967,36 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 10.608,
-                    "inputVideoSeconds": 9.277
+                    "videoSeconds": 10.817,
+                    "inputVideoSeconds": 9.552
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9543243953732913,
-                        0.48352124891587167
+                        0.9470951629863302,
+                        0.44666088464874243
                     ],
                     "sequence": 33,
-                    "videoSeconds": 11.546
+                    "videoSeconds": 11.833
                 },
                 {
                     "event": "action",
                     "key": "item-panel-length-field",
                     "value": "3.00",
-                    "videoSeconds": 12.8,
-                    "inputVideoSeconds": 11.546
+                    "videoSeconds": 13.114,
+                    "inputVideoSeconds": 11.833
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.712539431173844,
-                        0.1344319167389419
+                        0.6516824395373291,
+                        0.18538594969644406
                     ],
                     "sequence": 34,
-                    "videoSeconds": 13.655
+                    "videoSeconds": 14.005
                 },
                 {
                     "event": "action",
@@ -1012,50 +1004,50 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 14.995,
-                    "inputVideoSeconds": 13.655
+                    "videoSeconds": 15.286,
+                    "inputVideoSeconds": 14.005
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9250788643533123,
-                        0.47322202948829145
+                        0.5241760624457936
                     ],
                     "sequence": 35,
-                    "videoSeconds": 15.833
+                    "videoSeconds": 16.208
                 },
                 {
                     "event": "action",
-                    "key": "part-play-a5cd0b11-81fd-4c6d-94d6-b19032d6bc03",
+                    "key": "part-play-49ad30f6-c803-4d91-8450-a176d9b3bc63",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 17.182,
-                    "inputVideoSeconds": 15.833
+                    "videoSeconds": 17.473,
+                    "inputVideoSeconds": 16.208
                 }
             ],
             "captions": [
                 [
-                    0.044,
+                    0.145,
                     "将照片添加为独立片段。在 Windows 文件对话框中选择照片，视频没有展示这个对话框。"
                 ],
                 [
-                    12.801,
+                    13.114,
                     "将“时长”设为三秒，再播放照片片段，查看照片停留多久。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 22.817,
+            "duration": 22.95,
             "height": 970,
-            "sha256": "68ec8a952e5ffd253dbbdd44962abfc1b54798d38d6f9c297338954a44535da0",
-            "size": 5137044,
+            "sha256": "c26995bb576564e9aa1a9a490efd3243d8862225f81a6f8fa719a3e819b6e1cd",
+            "size": 4487084,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1067,40 +1059,40 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:07.131864+00:00",
+                "createdAt": "2026-11-12T02:41:46.991599+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "328d53993adf850fcf5c9883a503bc11ae8d0f94d51d65c7002e85c6049d8de1",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 20.936,
+                "originalVideoSha256": "c5bee2bcf738e03e193981e0e17e0b7549b73a284a96feebaef3efa9546aee55",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 58.567,
                 "narration": {
-                    "createdAt": "2026-10-29T12:57:53.675853+00:00",
+                    "createdAt": "2026-11-12T02:43:34.117916+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "image.2",
                             "text": "将照片添加为独立片段。在 Windows 文件对话框中选择照片，视频没有展示这个对话框。",
-                            "voiceSeconds": 0.35,
-                            "durationSeconds": 7.421,
-                            "sha256": "0f85c0397549df82176ec872a2ef7ed46237a6f9e46508d11b92b508b731a63b"
+                            "voiceSeconds": 0.395,
+                            "durationSeconds": 8.621,
+                            "sha256": "6ddc4cb52b4ed65e482f270a032ba2de4541e55ac1056195b124c06f4fb7c4a4"
                         },
                         {
                             "key": "image.1",
                             "text": "将“时长”设为三秒，再播放照片片段，查看照片停留多久。",
-                            "voiceSeconds": 13.051,
-                            "durationSeconds": 5.782,
-                            "sha256": "aa7ceee802cb66a158433732a43c3b788528d1fd163a61b46fa61fa346148734"
+                            "voiceSeconds": 13.364,
+                            "durationSeconds": 5.293,
+                            "sha256": "59089baff04b51e62de50353a8a5e6782aed86bf70e59f192a3ebc21ed141e85"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "f7f7a1a19c02b99118b8da55eef396e9472f43ab449130355e54ca94d532796a",
-                    "unnarratedDurationSeconds": 22.816667,
+                    "unnarratedSha256": "7cfc98fcef1ade1d208c5725bdd2b7c7298c6214ab97e4e59d0f05a779e16380",
+                    "unnarratedDurationSeconds": 22.95,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -1116,23 +1108,23 @@
                 {
                     "event": "native-click",
                     "position": [
-                        0.8483832802556918,
-                        0.3924544666088465
+                        0.8179547844374343,
+                        0.44340849956634865
                     ],
                     "sequence": 36,
-                    "videoSeconds": 0.969
+                    "videoSeconds": 1.067
                 },
                 {
                     "event": "action",
-                    "key": "junction-7048e6d3-dbb8-4de0-a881-a209a33dc930",
+                    "key": "junction-5a776df1-29b0-4299-89a4-63956a4029de",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 2.32,
-                    "inputVideoSeconds": 0.969
+                    "videoSeconds": 2.333,
+                    "inputVideoSeconds": 1.067
                 },
                 {
                     "event": "native-click",
@@ -1141,7 +1133,7 @@
                         0.8460537727666956
                     ],
                     "sequence": 37,
-                    "videoSeconds": 3.149
+                    "videoSeconds": 3.271
                 },
                 {
                     "event": "action",
@@ -1149,11 +1141,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 4.485,
-                    "inputVideoSeconds": 3.149
+                    "videoSeconds": 4.567,
+                    "inputVideoSeconds": 3.271
                 },
                 {
                     "event": "native-click",
@@ -1162,7 +1154,7 @@
                         0.4007537002545036
                     ],
                     "sequence": 38,
-                    "videoSeconds": 5.372
+                    "videoSeconds": 5.474
                 },
                 {
                     "event": "action",
@@ -1170,11 +1162,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 6.666,
-                    "inputVideoSeconds": 5.372
+                    "videoSeconds": 6.771,
+                    "inputVideoSeconds": 5.474
                 },
                 {
                     "event": "native-click",
@@ -1183,14 +1175,14 @@
                         0.6682567215958369
                     ],
                     "sequence": 39,
-                    "videoSeconds": 7.608
+                    "videoSeconds": 7.786
                 },
                 {
                     "event": "action",
                     "key": "transition-duration-value",
                     "value": "0.80",
-                    "videoSeconds": 8.851,
-                    "inputVideoSeconds": 7.608
+                    "videoSeconds": 9.052,
+                    "inputVideoSeconds": 7.786
                 },
                 {
                     "event": "native-click",
@@ -1199,7 +1191,7 @@
                         0.9609713790112749
                     ],
                     "sequence": 40,
-                    "videoSeconds": 9.712
+                    "videoSeconds": 9.974
                 },
                 {
                     "event": "action",
@@ -1207,41 +1199,41 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 11.017,
-                    "inputVideoSeconds": 9.712
+                    "videoSeconds": 11.271,
+                    "inputVideoSeconds": 9.974
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9250788643533123,
-                        0.31222896790980054
+                        0.3631830008673027
                     ],
                     "sequence": 41,
-                    "videoSeconds": 11.88
+                    "videoSeconds": 12.161
                 },
                 {
                     "event": "action",
-                    "key": "part-play-7048e6d3-dbb8-4de0-a881-a209a33dc930",
+                    "key": "part-play-5a776df1-29b0-4299-89a4-63956a4029de",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 13.215,
-                    "inputVideoSeconds": 11.88
+                    "videoSeconds": 13.442,
+                    "inputVideoSeconds": 12.161
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7534556582195285
+                        0.6969861231569818
                     ],
                     "sequence": 42,
-                    "videoSeconds": 22.353
+                    "videoSeconds": 22.661
                 },
                 {
                     "event": "action",
@@ -1249,29 +1241,29 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 23.633,
-                    "inputVideoSeconds": 22.353
+                    "videoSeconds": 23.927,
+                    "inputVideoSeconds": 22.661
                 }
             ],
             "captions": [
                 [
-                    0.138,
+                    0.161,
                     "打开照片前的衔接处，从效果库中选择“交叉溶解”，并设置时长。"
                 ],
                 [
-                    11.02,
+                    11.271,
                     "播放衔接处，看看动态画面如何渐渐融入静态照片。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 25.45,
+            "duration": 26.0,
             "height": 970,
-            "sha256": "9c5859b9cedf944f3f55dcfaf04850b456c4a1df553d437fdddced7a1d7bea2c",
-            "size": 17894622,
+            "sha256": "ceb2f677f75dbec2245c0cfc767eda152e7812f12b7c91e13478ded9bebc886b",
+            "size": 14754693,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1283,40 +1275,40 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:07.896417+00:00",
+                "createdAt": "2026-11-12T02:41:48.423372+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "a99f02b92e00f162b4cb0edfb14884b9184e06e6241ae1a215950a3b2a3d847c",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 49.746,
+                "originalVideoSha256": "8169881f20b920e668c6cc9daa2411349655d441f2cef9ddf7e79a2717973928",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 39.972,
                 "narration": {
-                    "createdAt": "2026-10-29T12:58:17.334930+00:00",
+                    "createdAt": "2026-11-12T02:43:50.968723+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "transition.2",
                             "text": "打开照片前的衔接处，从效果库中选择“交叉溶解”，并设置时长。",
-                            "voiceSeconds": 0.388,
-                            "durationSeconds": 5.396,
-                            "sha256": "f0f1c859be6c2eff80c835ab7715a74ab8c8af991c18a7c7631e72452700c4c6"
+                            "voiceSeconds": 0.411,
+                            "durationSeconds": 6.022,
+                            "sha256": "a8bdf5c9505d374176175f79eb1652779d1df526596f7ef116d3874de3515b9d"
                         },
                         {
                             "key": "transition.1",
                             "text": "播放衔接处，看看动态画面如何渐渐融入静态照片。",
-                            "voiceSeconds": 11.27,
-                            "durationSeconds": 4.12,
-                            "sha256": "53bda5316ef1f18fe19de1d8c4269713a3c54ebfe1c02d78a22f81cc3a908f90"
+                            "voiceSeconds": 11.521,
+                            "durationSeconds": 4.846,
+                            "sha256": "0e03dc2002d3c78f2fd8823aa12c385cd082705564adf25597c693db04b63f5d"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "8daaacbc8462cf468cd46aa34a7f310e7bbfeccc07f97c3746c826b15c72d836",
-                    "unnarratedDurationSeconds": 25.45,
+                    "unnarratedSha256": "5da38d538fd4c0db91113ad44c83144398fb6df96c5f258b68d78775d6c2ea3d",
+                    "unnarratedDurationSeconds": 26.0,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -1330,17 +1322,17 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 12.48,
+                        "startSeconds": 12.761,
                         "seconds": 6.3,
-                        "crop": "1069:584:20:79",
-                        "changedFrames": 199,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 188,
                         "encodedFps": 60,
                         "frames": 378,
                         "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.6710875331565
+                        "movingFps": 29.920424403183024
                     }
                 ],
-                "movingFps": 31.6710875331565,
+                "movingFps": 29.920424403183024,
                 "maximumStillSeconds": 0.06666666666666667
             }
         },
@@ -1353,13 +1345,13 @@
                         0.3469210754553339
                     ],
                     "sequence": 43,
-                    "videoSeconds": 0.962
+                    "videoSeconds": 1.086
                 },
                 {
                     "event": "action",
                     "key": "editor-top-music",
-                    "videoSeconds": 2.256,
-                    "inputVideoSeconds": 0.962
+                    "videoSeconds": 2.399,
+                    "inputVideoSeconds": 1.086
                 },
                 {
                     "event": "native-click",
@@ -1368,13 +1360,13 @@
                         0.6139895923677364
                     ],
                     "sequence": 44,
-                    "videoSeconds": 3.089
+                    "videoSeconds": 3.305
                 },
                 {
                     "event": "action",
                     "key": "music-editor-add-bundled:general__bouncy-groove",
-                    "videoSeconds": 4.39,
-                    "inputVideoSeconds": 3.089
+                    "videoSeconds": 4.586,
+                    "inputVideoSeconds": 3.305
                 },
                 {
                     "event": "native-click",
@@ -1383,7 +1375,7 @@
                         0.1098699045967043
                     ],
                     "sequence": 45,
-                    "videoSeconds": 5.233
+                    "videoSeconds": 5.493
                 },
                 {
                     "event": "action",
@@ -1394,8 +1386,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 6.508,
-                    "inputVideoSeconds": 5.233
+                    "videoSeconds": 6.79,
+                    "inputVideoSeconds": 5.493
                 },
                 {
                     "event": "native-click",
@@ -1404,7 +1396,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 46,
-                    "videoSeconds": 7.343
+                    "videoSeconds": 7.68
                 },
                 {
                     "event": "action",
@@ -1415,8 +1407,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 8.71,
-                    "inputVideoSeconds": 7.343
+                    "videoSeconds": 8.946,
+                    "inputVideoSeconds": 7.68
                 },
                 {
                     "event": "native-click",
@@ -1425,7 +1417,7 @@
                         0.5891153512575888
                     ],
                     "sequence": 47,
-                    "videoSeconds": 14.631
+                    "videoSeconds": 14.883
                 },
                 {
                     "event": "action",
@@ -1436,26 +1428,26 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 15.886,
-                    "inputVideoSeconds": 14.631
+                    "videoSeconds": 16.149,
+                    "inputVideoSeconds": 14.883
                 }
             ],
             "captions": [
                 [
-                    0.139,
+                    0.18,
                     "打开左侧的“音乐”，点击加号按钮，添加内置曲目 Bouncy Groove。"
                 ],
                 [
-                    6.509,
+                    6.79,
                     "音乐现在会贯穿整部短片播放。点击“播放”，检查音乐与画面是否合拍。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 17.733008,
+            "duration": 18.267,
             "height": 970,
-            "sha256": "1daae3b37cfeb69e87b977f5cdbfac93f8dea6cb5564d315bada74ed9111c036",
-            "size": 10908566,
+            "sha256": "bc3f6dad2cf323368deca1ff24c68c34c6319e898f9ad1c493681a3cfaa5a95e",
+            "size": 11085217,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1467,7 +1459,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:08.567683+00:00",
+                "createdAt": "2026-11-12T02:41:49.512796+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -1475,32 +1467,32 @@
                 "musicDurationSeconds": 84.312,
                 "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "8b42cd6198160263c1daa2c177ef3baa27e8ae4f8502b127c116fdcdfc180ac4",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 16.531,
+                "originalVideoSha256": "7c1bab24dfebac8104d092f980ee3ad003cb335bd0ede78bb8de1b2dd6da87c0",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 50.004,
                 "narration": {
-                    "createdAt": "2026-10-29T12:58:34.182994+00:00",
+                    "createdAt": "2026-11-12T02:44:05.752021+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "music.2",
                             "text": "打开左侧的“音乐”，点击加号按钮，添加内置曲目 Bouncy Groove。",
-                            "voiceSeconds": 0.389,
-                            "durationSeconds": 5.51,
-                            "sha256": "9a21a89e5a79fffdc3296f1dfd7eac5c28aa74df2d4cd55a3d4f00f480a29b9e"
+                            "voiceSeconds": 0.43,
+                            "durationSeconds": 4.901,
+                            "sha256": "e0edc7fa3ce5ed1fc90b08c6efd1c2c9118bec59cf7ed0d1033d9972e3daf41f"
                         },
                         {
                             "key": "music.1",
                             "text": "音乐现在会贯穿整部短片播放。点击“播放”，检查音乐与画面是否合拍。",
-                            "voiceSeconds": 6.759,
-                            "durationSeconds": 6.434,
-                            "sha256": "7f3adaa3392a8f4586f2a236f8bd79d14cbf3f9754ec36e3e01d7c4a0e3be1a0"
+                            "voiceSeconds": 7.04,
+                            "durationSeconds": 6.758,
+                            "sha256": "dcf040a8cb8331b407df5a61042436afb820562d4c02d9ea85da208062c3708d"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "5f2047c13ec67f2f9acb99600f1e716b24415ed86fb2336747a586a36120101e",
-                    "unnarratedDurationSeconds": 17.733333,
+                    "unnarratedSha256": "5cc5a8a0e683d90314d4b00e3c60057f185f8c7a493ce36f423d1efe117e8891",
+                    "unnarratedDurationSeconds": 18.266667,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -1514,18 +1506,18 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 7.643,
-                        "seconds": 6.838,
+                        "startSeconds": 7.98,
+                        "seconds": 6.753,
                         "crop": "950:517:599:83",
-                        "changedFrames": 210,
+                        "changedFrames": 200,
                         "encodedFps": 60,
-                        "frames": 411,
-                        "maximumStillSeconds": 0.08333333333333333,
-                        "movingFps": 30.731707317073173
+                        "frames": 406,
+                        "maximumStillSeconds": 0.1,
+                        "movingFps": 29.62962962962963
                     }
                 ],
-                "movingFps": 30.731707317073173,
-                "maximumStillSeconds": 0.08333333333333333
+                "movingFps": 29.62962962962963,
+                "maximumStillSeconds": 0.1
             }
         },
         "video": {
@@ -1534,31 +1526,31 @@
                     "event": "native-click",
                     "position": [
                         0.9513669821240799,
-                        0.15177797051170858
+                        0.20273200346921075
                     ],
                     "sequence": 48,
-                    "videoSeconds": 0.909
+                    "videoSeconds": 1.055
                 },
                 {
                     "event": "action",
-                    "key": "part-tune-89aa6245-5aa5-4261-9cfd-7a4e1c18eff2",
+                    "key": "part-tune-65e30f0d-48ef-43d7-882b-cb345d86d451",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 2.287,
-                    "inputVideoSeconds": 0.909
+                    "videoSeconds": 2.336,
+                    "inputVideoSeconds": 1.055
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.7256834900592278,
-                        0.20923677363399826
+                        0.6700841219768664,
+                        0.2862098872506505
                     ],
                     "sequence": 49,
-                    "videoSeconds": 5.162
+                    "videoSeconds": 5.273
                 },
                 {
                     "event": "action",
@@ -1566,36 +1558,36 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 6.427,
-                    "inputVideoSeconds": 5.162
+                    "videoSeconds": 6.539,
+                    "inputVideoSeconds": 5.273
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9549815983175605,
-                        0.3382480485689506
+                        0.5485689505637468
                     ],
                     "sequence": 50,
-                    "videoSeconds": 7.378
+                    "videoSeconds": 7.523
                 },
                 {
                     "event": "action",
                     "key": "video-zoom",
                     "value": "1.15",
-                    "videoSeconds": 8.738,
-                    "inputVideoSeconds": 7.378
+                    "videoSeconds": 8.805,
+                    "inputVideoSeconds": 7.523
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.7975814931650894,
-                        0.20923677363399826
+                        0.6700841219768664,
+                        0.546400693842151
                     ],
                     "sequence": 51,
-                    "videoSeconds": 11.563
+                    "videoSeconds": 11.742
                 },
                 {
                     "event": "action",
@@ -1603,20 +1595,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 12.854,
-                    "inputVideoSeconds": 11.563
+                    "videoSeconds": 13.023,
+                    "inputVideoSeconds": 11.742
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.712539431173844,
-                        0.13876843018213356
+                        0.6516824395373291,
+                        0.18538594969644406
                     ],
                     "sequence": 52,
-                    "videoSeconds": 16.689
+                    "videoSeconds": 16.945
                 },
                 {
                     "event": "action",
@@ -1624,75 +1616,75 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 17.951,
-                    "inputVideoSeconds": 16.689
+                    "videoSeconds": 18.211,
+                    "inputVideoSeconds": 16.945
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9250788643533123,
-                        0.15177797051170858
+                        0.20273200346921075
                     ],
                     "sequence": 53,
-                    "videoSeconds": 18.776
+                    "videoSeconds": 19.117
                 },
                 {
                     "event": "action",
-                    "key": "part-play-89aa6245-5aa5-4261-9cfd-7a4e1c18eff2",
+                    "key": "part-play-65e30f0d-48ef-43d7-882b-cb345d86d451",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 20.032,
-                    "inputVideoSeconds": 18.776
+                    "videoSeconds": 20.383,
+                    "inputVideoSeconds": 19.117
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9513669821240799,
-                        0.15177797051170858
+                        0.20273200346921075
                     ],
                     "sequence": 54,
-                    "videoSeconds": 23.905
+                    "videoSeconds": 24.305
                 },
                 {
                     "event": "action",
-                    "key": "part-tune-89aa6245-5aa5-4261-9cfd-7a4e1c18eff2",
+                    "key": "part-tune-65e30f0d-48ef-43d7-882b-cb345d86d451",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 25.169,
-                    "inputVideoSeconds": 23.905
+                    "videoSeconds": 25.57,
+                    "inputVideoSeconds": 24.305
                 }
             ],
             "captions": [
                 [
-                    0.079,
+                    0.148,
                     "打开视频片段的设置。各选项卡调整的都是短片中的这个片段。"
                 ],
                 [
-                    6.427,
+                    6.539,
                     "在“画框”选项卡中放大画面，让构图更紧凑。“调整”选项卡中有明暗和色彩设置。"
                 ],
                 [
-                    17.952,
+                    18.211,
                     "播放片段，查看拉近取景后的动态效果，然后重新打开片段设置。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 26.85,
+            "duration": 27.5,
             "height": 970,
-            "sha256": "4059cc19a64ecdd940c1a5e7158071c99b47d95cc9e06400a1d3bf09ac7cc8d0",
-            "size": 10413799,
+            "sha256": "9ac12502bbd24275514afe1d9aef6592a9ee929e4e3e6770209fe5adc6ab664f",
+            "size": 9704575,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -1704,47 +1696,47 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:09.274854+00:00",
+                "createdAt": "2026-11-12T02:41:50.866824+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "c86aa15bd369a9a88ffc3b83990a6def3c6ebc68d54f0307eef5d8f5ebe7c608",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 25.275,
+                "originalVideoSha256": "2ccbdc82cb3975b0f91003dc0afa1ffdea98730c5cee30c99a029750656b3de0",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 17.219,
                 "narration": {
-                    "createdAt": "2026-10-29T12:59:01.229525+00:00",
+                    "createdAt": "2026-11-12T02:44:32.543018+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "video.3",
                             "text": "打开视频片段的设置。各选项卡调整的都是短片中的这个片段。",
-                            "voiceSeconds": 0.35,
-                            "durationSeconds": 5.228,
-                            "sha256": "efe740e78f2cd36c736246794cd9925e414cdaf6cfdd7a819a38b4b6bf478d8a"
+                            "voiceSeconds": 0.398,
+                            "durationSeconds": 5.575,
+                            "sha256": "0d68f15e35715581711a73a8cad8957b1ea91372994ba6c5e2a9b3c75be7d3ec"
                         },
                         {
                             "key": "video.2",
                             "text": "在“画框”选项卡中放大画面，让构图更紧凑。“调整”选项卡中有明暗和色彩设置。",
-                            "voiceSeconds": 6.677,
-                            "durationSeconds": 7.907,
-                            "sha256": "21389ad6154ab2e445c4eb0a31dd01e5fc9422feeb7e9e1b4d18a0af3cb9602c"
+                            "voiceSeconds": 6.789,
+                            "durationSeconds": 7.803,
+                            "sha256": "8b5f19e23e3a0c0c69485b9be54441926b50407f2314a5cbcbf49820a879dc88"
                         },
                         {
                             "key": "video.1",
                             "text": "播放片段，查看拉近取景后的动态效果，然后重新打开片段设置。",
-                            "voiceSeconds": 18.202,
-                            "durationSeconds": 5.916,
-                            "sha256": "77ec7a4c26fd71964fd0be38fb4003699d83582ca0925b663a0912f84ccd59c4"
+                            "voiceSeconds": 18.461,
+                            "durationSeconds": 5.654,
+                            "sha256": "da01eb33959d08a0835b7f17d26714f83fa92829377b86e11052540de719b25b"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "9b1a8b9019cd6c6eca106356f0e042819326a2835869f22ebafb962722956908",
-                    "unnarratedDurationSeconds": 26.85,
+                    "unnarratedSha256": "844610f737222d0116db9854bb2287b016b6773ded8c8b7cd2ba8dba9fe310ef",
+                    "unnarratedDurationSeconds": 27.5,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -1758,18 +1750,318 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 19.226,
-                        "seconds": 4.529,
-                        "crop": "1069:584:20:79",
-                        "changedFrames": 138,
+                        "startSeconds": 19.567,
+                        "seconds": 4.588,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 135,
                         "encodedFps": 60,
-                        "frames": 272,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.55350553505535
+                        "frames": 276,
+                        "maximumStillSeconds": 0.1,
+                        "movingFps": 29.454545454545457
                     }
                 ],
-                "movingFps": 30.55350553505535,
-                "maximumStillSeconds": 0.06666666666666667
+                "movingFps": 29.454545454545457,
+                "maximumStillSeconds": 0.1
+            }
+        },
+        "part-text": {
+            "actions": [
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.6700841219768664,
+                        0.2341717259323504
+                    ],
+                    "sequence": 55,
+                    "videoSeconds": 1.101
+                },
+                {
+                    "event": "action",
+                    "key": "part-tab-text",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.7528187337380746
+                    ],
+                    "videoSeconds": 2.383,
+                    "inputVideoSeconds": 1.101
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.8518007360672976,
+                        0.30355594102341715
+                    ],
+                    "sequence": 56,
+                    "videoSeconds": 3.414
+                },
+                {
+                    "event": "action",
+                    "key": "part-text-words",
+                    "value": "奔向蔚蓝",
+                    "videoSeconds": 5.09,
+                    "inputVideoSeconds": 3.414
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.8518007360672976,
+                        0.6873373807458804
+                    ],
+                    "sequence": 57,
+                    "videoSeconds": 6.027
+                },
+                {
+                    "event": "action",
+                    "key": "settings-card-part.text.design",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.7528187337380746
+                    ],
+                    "videoSeconds": 7.277,
+                    "inputVideoSeconds": 6.027
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.8518007360672976,
+                        0.7426279271465742
+                    ],
+                    "sequence": 58,
+                    "videoSeconds": 8.183
+                },
+                {
+                    "event": "action",
+                    "key": "part-text-design",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.7528187337380746
+                    ],
+                    "videoSeconds": 9.496,
+                    "inputVideoSeconds": 8.183
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.2348186119873817,
+                        0.6771353418736582
+                    ],
+                    "sequence": 59,
+                    "videoSeconds": 14.465
+                },
+                {
+                    "event": "action",
+                    "key": "text-design-choice",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.7528187337380746
+                    ],
+                    "videoSeconds": 15.73,
+                    "inputVideoSeconds": 14.465
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.6516824395373291,
+                        0.18538594969644406
+                    ],
+                    "sequence": 60,
+                    "videoSeconds": 18.152
+                },
+                {
+                    "event": "action",
+                    "key": "part-panel-close",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.852558542931483
+                    ],
+                    "videoSeconds": 19.418,
+                    "inputVideoSeconds": 18.152
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.006572029442691904,
+                        0.9522983521248916
+                    ],
+                    "sequence": 61,
+                    "videoSeconds": 19.793
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.03220294426919033,
+                        0.6969861231569818
+                    ],
+                    "sequence": 62,
+                    "videoSeconds": 20.23
+                },
+                {
+                    "event": "action",
+                    "key": "select-preview-play",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.852558542931483
+                    ],
+                    "videoSeconds": 20.512,
+                    "inputVideoSeconds": 20.23
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.03220294426919033,
+                        0.6969861231569818
+                    ],
+                    "sequence": 63,
+                    "videoSeconds": 25.433
+                },
+                {
+                    "event": "action",
+                    "key": "select-preview-play",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.852558542931483
+                    ],
+                    "videoSeconds": 25.996,
+                    "inputVideoSeconds": 25.433
+                },
+                {
+                    "event": "native-click",
+                    "position": [
+                        0.9513669821240799,
+                        0.20273200346921075
+                    ],
+                    "sequence": 64,
+                    "videoSeconds": 26.918
+                },
+                {
+                    "event": "action",
+                    "key": "part-tune-65e30f0d-48ef-43d7-882b-cb345d86d451",
+                    "stageBounds": [
+                        0.0,
+                        0.060711188204683436,
+                        0.6319663512092534,
+                        0.7528187337380746
+                    ],
+                    "videoSeconds": 28.215,
+                    "inputVideoSeconds": 26.918
+                }
+            ],
+            "captions": [
+                [
+                    0.211,
+                    "打开片段设置：最先是文字。输入属于这个片段的文字。"
+                ],
+                [
+                    5.09,
+                    "设计会用你自己的文字播放每种文字设计。为这个片段选择一个。"
+                ],
+                [
+                    17.246,
+                    "播放片段：文字以所选设计出现、停留并离开。"
+                ]
+            ],
+            "captureMethod": "graphics",
+            "demonstration": "direct-editor",
+            "duration": 29.9,
+            "height": 970,
+            "sha256": "7a89f1a080e07c0a10ff5917c1db01361750ac286890966e6d8ca0bc6e40b78b",
+            "size": 10534302,
+            "width": 1600,
+            "recording": {
+                "appBuildMode": "profile",
+                "encoder": "gpu",
+                "captureFps": 60
+            },
+            "pointer": {
+                "cursor": "actual Windows cursor",
+                "clickEffect": "expanding blue ring, 450 ms"
+            },
+            "audio": {
+                "createdAt": "2026-11-12T02:41:51.881559+00:00",
+                "fadeInSeconds": 1.5,
+                "fadeOutSeconds": 2,
+                "gainDb": -16,
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "minimumSpacingSeconds": 5.0,
+                "originalVideoSha256": "edd5f043389ac33d0bcfbc4959525eb84cc1aabdc090ebac74a748507d778f91",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 33.183,
+                "narration": {
+                    "createdAt": "2026-11-12T02:44:55.207303+00:00",
+                    "provider": "Deepgram",
+                    "model": "flux-zhen-zh",
+                    "lines": [
+                        {
+                            "key": "partText.3",
+                            "text": "打开片段设置：最先是文字。输入属于这个片段的文字。",
+                            "voiceSeconds": 0.461,
+                            "durationSeconds": 4.279,
+                            "sha256": "31f9e6b7de98bb21931758105a7bd745ee52e3626534b2e95802f843ec0f5afd"
+                        },
+                        {
+                            "key": "partText.2",
+                            "text": "设计会用你自己的文字播放每种文字设计。为这个片段选择一个。",
+                            "voiceSeconds": 5.34,
+                            "durationSeconds": 5.757,
+                            "sha256": "5bfef129041257cfe013d6c0298c2e2ffb2f0ea5896d683a91bb71e107f9b2e5"
+                        },
+                        {
+                            "key": "partText.1",
+                            "text": "播放片段：文字以所选设计出现、停留并离开。",
+                            "voiceSeconds": 17.496,
+                            "durationSeconds": 4.472,
+                            "sha256": "604f54d64e823feacac3eae3d820211ac9a8ce31a307a89f5eaeff574ae79199"
+                        }
+                    ],
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 4.711,
+                            "seconds": 0.379
+                        }
+                    ],
+                    "unnarratedSha256": "96302f6e0913199ba7d6b16ef17a063494a27c3aa7cef7934972f8ba5d39436d",
+                    "unnarratedDurationSeconds": 29.516667,
+                    "musicDucking": {
+                        "threshold": 0.03,
+                        "ratio": 6,
+                        "attack": 15,
+                        "release": 450
+                    },
+                    "video": "re-encoded with h264_nvenc p7 cq 25 (original colour tags, about the original bitrate) to insert the picture holds"
+                }
+            },
+            "motionAudit": {
+                "method": "picture-difference-above-quantization-noise",
+                "segments": [
+                    {
+                        "startSeconds": 20.68,
+                        "seconds": 4.603,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 139,
+                        "encodedFps": 60,
+                        "frames": 277,
+                        "maximumStillSeconds": 0.08333333333333333,
+                        "movingFps": 30.217391304347828
+                    }
+                ],
+                "movingFps": 30.217391304347828,
+                "maximumStillSeconds": 0.08333333333333333
             }
         },
         "photo-capture": {
@@ -1777,11 +2069,11 @@
                 {
                     "event": "native-click",
                     "position": [
-                        0.9710830704521556,
-                        0.20923677363399826
+                        0.6700841219768664,
+                        0.7025151777970512
                     ],
-                    "sequence": 55,
-                    "videoSeconds": 0.975
+                    "sequence": 65,
+                    "videoSeconds": 1.115
                 },
                 {
                     "event": "action",
@@ -1789,20 +2081,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 2.238,
-                    "inputVideoSeconds": 0.975
+                    "videoSeconds": 2.381,
+                    "inputVideoSeconds": 1.115
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.9658254468980021,
-                        0.2883781439722463
+                        0.24284475281873374
                     ],
-                    "sequence": 56,
-                    "videoSeconds": 3.09
+                    "sequence": 66,
+                    "videoSeconds": 3.271
                 },
                 {
                     "event": "action",
@@ -1810,59 +2102,59 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 5.524,
-                    "inputVideoSeconds": 3.09
+                    "videoSeconds": 5.382,
+                    "inputVideoSeconds": 3.271
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9224500525762356,
-                        0.34258456201214227
+                        0.9152208201892744,
+                        0.29705117085862964
                     ],
-                    "sequence": 57,
-                    "videoSeconds": 6.498
+                    "sequence": 67,
+                    "videoSeconds": 6.382
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-at",
                     "value": "2.000",
-                    "videoSeconds": 7.786,
-                    "inputVideoSeconds": 6.498
+                    "videoSeconds": 7.695,
+                    "inputVideoSeconds": 6.382
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9592534174553102,
-                        0.45967042497831745
+                        0.9520241850683491,
+                        0.4141370338248049
                     ],
-                    "sequence": 58,
-                    "videoSeconds": 8.719
+                    "sequence": 68,
+                    "videoSeconds": 8.695
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-flash-duration",
                     "value": "0.800",
-                    "videoSeconds": 10.137,
-                    "inputVideoSeconds": 8.719
+                    "videoSeconds": 10.007,
+                    "inputVideoSeconds": 8.695
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9566246056782335,
-                        0.5550737207285342
+                        0.9493953732912723,
+                        0.5095403295750217
                     ],
-                    "sequence": 59,
-                    "videoSeconds": 11.084
+                    "sequence": 69,
+                    "videoSeconds": 11.007
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-hold-duration",
                     "value": "3.000",
-                    "videoSeconds": 12.429,
-                    "inputVideoSeconds": 11.084
+                    "videoSeconds": 12.288,
+                    "inputVideoSeconds": 11.007
                 },
                 {
                     "event": "native-click",
@@ -1870,8 +2162,8 @@
                         0.25856383522494464,
                         0.9522983521248916
                     ],
-                    "sequence": 60,
-                    "videoSeconds": 12.736
+                    "sequence": 70,
+                    "videoSeconds": 12.679
                 },
                 {
                     "event": "action",
@@ -1880,65 +2172,65 @@
                     "flashSeconds": 0.8,
                     "holdSeconds": 3.0,
                     "previewSeconds": 4.301888,
-                    "videoSeconds": 17.171,
-                    "inputVideoSeconds": 12.736
+                    "videoSeconds": 17.746,
+                    "inputVideoSeconds": 12.679
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9608964248159831,
-                        0.6027753686036427
+                        0.9536671924290221,
+                        0.5572419774501302
                     ],
-                    "sequence": 61,
-                    "videoSeconds": 18.13
+                    "sequence": 71,
+                    "videoSeconds": 18.746
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-angle",
                     "value": "-12",
-                    "videoSeconds": 19.405,
-                    "inputVideoSeconds": 18.13
+                    "videoSeconds": 20.043,
+                    "inputVideoSeconds": 18.746
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9631966351209253,
-                        0.6504770164787511
+                        0.9559674027339643,
+                        0.6049436253252385
                     ],
-                    "sequence": 62,
-                    "videoSeconds": 20.366
+                    "sequence": 72,
+                    "videoSeconds": 21.058
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-size",
                     "value": "76",
-                    "videoSeconds": 21.652,
-                    "inputVideoSeconds": 20.366
+                    "videoSeconds": 22.371,
+                    "inputVideoSeconds": 21.058
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.9599106203995794,
-                        0.6981786643538596
+                        0.9526813880126183,
+                        0.6526452732003469
                     ],
-                    "sequence": 63,
-                    "videoSeconds": 22.587
+                    "sequence": 73,
+                    "videoSeconds": 23.418
                 },
                 {
                     "event": "action",
                     "key": "photo-capture-border-width",
                     "value": "16",
-                    "videoSeconds": 23.888,
-                    "inputVideoSeconds": 22.587
+                    "videoSeconds": 24.699,
+                    "inputVideoSeconds": 23.418
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.8477260773114226,
-                        0.40112749349522986
+                        0.8518007360672976,
+                        0.3555941023417173
                     ],
-                    "sequence": 64,
-                    "videoSeconds": 24.714
+                    "sequence": 74,
+                    "videoSeconds": 25.636
                 },
                 {
                     "event": "action",
@@ -1946,11 +2238,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 25.976,
-                    "inputVideoSeconds": 24.714
+                    "videoSeconds": 26.886,
+                    "inputVideoSeconds": 25.636
                 },
                 {
                     "event": "native-click",
@@ -1958,8 +2250,8 @@
                         0.6767875920084122,
                         0.9653078924544666
                     ],
-                    "sequence": 65,
-                    "videoSeconds": 28.89
+                    "sequence": 75,
+                    "videoSeconds": 29.824
                 },
                 {
                     "event": "action",
@@ -1967,20 +2259,20 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7528187337380746
                     ],
-                    "videoSeconds": 30.15,
-                    "inputVideoSeconds": 28.89
+                    "videoSeconds": 31.121,
+                    "inputVideoSeconds": 29.824
                 },
                 {
                     "event": "native-click",
                     "position": [
-                        0.712539431173844,
-                        0.13876843018213356
+                        0.6516824395373291,
+                        0.18538594969644406
                     ],
-                    "sequence": 66,
-                    "videoSeconds": 30.982
+                    "sequence": 76,
+                    "videoSeconds": 32.058
                 },
                 {
                     "event": "action",
@@ -1988,11 +2280,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 32.333,
-                    "inputVideoSeconds": 30.982
+                    "videoSeconds": 33.324,
+                    "inputVideoSeconds": 32.058
                 },
                 {
                     "event": "native-click",
@@ -2000,17 +2292,17 @@
                         0.006572029442691904,
                         0.9522983521248916
                     ],
-                    "sequence": 67,
-                    "videoSeconds": 32.645
+                    "sequence": 77,
+                    "videoSeconds": 33.715
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.03220294426919033,
-                        0.7534556582195285
+                        0.6969861231569818
                     ],
-                    "sequence": 68,
-                    "videoSeconds": 33.508
+                    "sequence": 78,
+                    "videoSeconds": 34.683
                 },
                 {
                     "event": "action",
@@ -2018,45 +2310,45 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.852558542931483
                     ],
-                    "videoSeconds": 34.848,
-                    "inputVideoSeconds": 33.508
+                    "videoSeconds": 35.933,
+                    "inputVideoSeconds": 34.683
                 }
             ],
             "captions": [
                 [
-                    0.137,
+                    0.178,
                     "打开“拍照定格”，为当前视频片段启用此功能。"
                 ],
                 [
-                    5.524,
+                    5.382,
                     "选择拍照时刻，再设置短暂闪光和三秒的定格时间。"
                 ],
                 [
-                    12.429,
+                    12.288,
                     "将播放头移到照片定格的时段，查看调整效果。"
                 ],
                 [
-                    17.171,
+                    17.746,
                     "倾斜并缩小照片，再添加白色边框。"
                 ],
                 [
-                    25.977,
+                    26.886,
                     "用“自定义画框”选择拍摄区域，再点击“应用”保留裁剪结果。"
                 ],
                 [
-                    32.665,
+                    33.761,
                     "点击“播放”：画面闪一下，定格在带边框的倾斜照片上，然后继续播放。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 45.967,
+            "duration": 46.9,
             "height": 970,
-            "sha256": "53780b0d5df0b8f7856453506b250532627430b64f1dc03aa5e58eb7073158e6",
-            "size": 18474529,
+            "sha256": "ff9d41d93589807a94872e1338a64c05099a81191102138ec42029eaf554e826",
+            "size": 17203011,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2068,7 +2360,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:10.217098+00:00",
+                "createdAt": "2026-11-12T02:41:53.066491+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -2076,69 +2368,69 @@
                 "musicDurationSeconds": 85.224,
                 "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "fc1dd43b6bba257c67fdd326766e5e1088cb24d9981e8baf667ee7ce036cbc47",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 8.041,
+                "originalVideoSha256": "e17ce87598c39118fdb077ceaff7eab3cc2bdfa0330612d07be4efb9292bf0d5",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 28.998,
                 "narration": {
-                    "createdAt": "2026-10-29T12:59:52.711210+00:00",
+                    "createdAt": "2026-11-12T02:45:35.047712+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "photo.6",
                             "text": "打开“拍照定格”，为当前视频片段启用此功能。",
-                            "voiceSeconds": 0.387,
-                            "durationSeconds": 4.787,
-                            "sha256": "4184ddd9da96afe32ede37e033e4024449a2b5fd644b4b70a3009d530a3e3d64"
+                            "voiceSeconds": 0.428,
+                            "durationSeconds": 4.604,
+                            "sha256": "a53873c0b01bf3a031d1f4d856460d1ecaa359ebe42624f7ac9eb4024e3f3d4d"
                         },
                         {
                             "key": "photo.5",
                             "text": "选择拍照时刻，再设置短暂闪光和三秒的定格时间。",
-                            "voiceSeconds": 5.774,
-                            "durationSeconds": 5.242,
-                            "sha256": "71c6d1936f6783edcfdd9e1f8bd3a33609f9bd2f7318912b3d6965b35da1fdc5"
+                            "voiceSeconds": 5.632,
+                            "durationSeconds": 4.96,
+                            "sha256": "2fcb32a3e0d7a458493b4e84d83e8ade45fff33155fbc9f24132671821230a3d"
                         },
                         {
                             "key": "photo.1",
                             "text": "将播放头移到照片定格的时段，查看调整效果。",
-                            "voiceSeconds": 12.679,
-                            "durationSeconds": 4.142,
-                            "sha256": "52233d545f6cb7a8b4023c7b225011fe2b3256e2704bfd881aaa30edc7ea6a01"
+                            "voiceSeconds": 12.538,
+                            "durationSeconds": 4.858,
+                            "sha256": "22f70fabae02b1f186449266c9f812b82c3172ef5e00d8a22f95153439aa4053"
                         },
                         {
                             "key": "photo.4",
                             "text": "倾斜并缩小照片，再添加白色边框。",
-                            "voiceSeconds": 17.421,
-                            "durationSeconds": 3.084,
-                            "sha256": "3676d724455ae90bb364ae73cfa535ca40c23d2da7d38493b17bed2611be9585"
+                            "voiceSeconds": 17.996,
+                            "durationSeconds": 3.412,
+                            "sha256": "2c98f53258fc9b76b632c3528ebae56948805824b1a214cc29bf6ab3da5f5742"
                         },
                         {
                             "key": "photo.3",
                             "text": "用“自定义画框”选择拍摄区域，再点击“应用”保留裁剪结果。",
-                            "voiceSeconds": 26.227,
-                            "durationSeconds": 4.957,
-                            "sha256": "c8ed05e0ca4bfbc51fdec20d9c8a5f9bc482c63a377b6b8592122ccc0b524e0d"
+                            "voiceSeconds": 27.136,
+                            "durationSeconds": 5.494,
+                            "sha256": "e99cbcd5c97a63bc6091f384477857a037c136cca11014bddc02e2bbe5942d17"
                         },
                         {
                             "key": "photo.2",
                             "text": "点击“播放”：画面闪一下，定格在带边框的倾斜照片上，然后继续播放。",
-                            "voiceSeconds": 32.915,
-                            "durationSeconds": 6.054,
-                            "sha256": "90310cbe52739c8056ed41205b48dc97130a0dc7bbe3b72a378c19b7b5cacd78"
+                            "voiceSeconds": 34.011,
+                            "durationSeconds": 5.427,
+                            "sha256": "f9ddf1a773df84fd3c688fcc1998e3d5bd03fc6088e281d4b1ffaa55d10e84f3"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 4.379,
-                            "seconds": 1.145
+                            "atSeconds": 4.537,
+                            "seconds": 0.845
                         },
                         {
-                            "atSeconds": 13.121,
-                            "seconds": 2.905
+                            "atSeconds": 13.381,
+                            "seconds": 3.52
                         }
                     ],
-                    "unnarratedSha256": "7d8e9f0314f3bb6ddc838598dbc5a4bcea9de5b7c4c8d338db81b1655d5e831b",
-                    "unnarratedDurationSeconds": 41.916667,
+                    "unnarratedSha256": "ba2b6de947a9f2c2abde7fb92ca157cfe4aa8118ebbc4081c41e7d7671e07648",
+                    "unnarratedDurationSeconds": 42.533333,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -2152,28 +2444,28 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 33.958,
+                        "startSeconds": 35.133,
                         "seconds": 1.6,
-                        "crop": "1069:584:20:79",
-                        "changedFrames": 48,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 47,
                         "encodedFps": 60,
                         "frames": 96,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 30.315789473684212
+                        "maximumStillSeconds": 0.08333333333333333,
+                        "movingFps": 29.68421052631579
                     },
                     {
-                        "startSeconds": 39.808,
-                        "seconds": 5.959,
-                        "crop": "1069:584:20:79",
-                        "changedFrames": 189,
+                        "startSeconds": 40.983,
+                        "seconds": 5.717,
+                        "crop": "971:529:20:79",
+                        "changedFrames": 169,
                         "encodedFps": 60,
-                        "frames": 358,
-                        "maximumStillSeconds": 0.05,
-                        "movingFps": 31.76470588235294
+                        "frames": 344,
+                        "maximumStillSeconds": 0.1,
+                        "movingFps": 29.56268221574344
                     }
                 ],
-                "movingFps": 30.315789473684212,
-                "maximumStillSeconds": 0.06666666666666667
+                "movingFps": 29.56268221574344,
+                "maximumStillSeconds": 0.1
             }
         },
         "export-frame": {
@@ -2184,15 +2476,15 @@
                         0.06626173458047194,
                         0.8980919340849957
                     ],
-                    "sequence": 69,
-                    "videoSeconds": 0.412
+                    "sequence": 79,
+                    "videoSeconds": 0.539
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 4.0,
-                    "videoSeconds": 1.763,
-                    "inputVideoSeconds": 0.412
+                    "videoSeconds": 1.804,
+                    "inputVideoSeconds": 0.539
                 },
                 {
                     "event": "native-click",
@@ -2200,14 +2492,14 @@
                         0.18927444794952683,
                         0.7896790980052039
                     ],
-                    "sequence": 70,
-                    "videoSeconds": 2.59
+                    "sequence": 80,
+                    "videoSeconds": 2.71
                 },
                 {
                     "event": "action",
                     "key": "select-export-frame",
-                    "videoSeconds": 5.922,
-                    "inputVideoSeconds": 2.59
+                    "videoSeconds": 6.503,
+                    "inputVideoSeconds": 2.71
                 },
                 {
                     "event": "native-click",
@@ -2215,14 +2507,14 @@
                         0.09425469878845537,
                         0.9653078924544666
                     ],
-                    "sequence": 71,
-                    "videoSeconds": 8.28
+                    "sequence": 81,
+                    "videoSeconds": 8.956
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 9.594,
-                    "inputVideoSeconds": 8.28
+                    "videoSeconds": 10.237,
+                    "inputVideoSeconds": 8.956
                 },
                 {
                     "event": "native-click",
@@ -2230,14 +2522,14 @@
                         0.09425469878845537,
                         0.9653078924544666
                     ],
-                    "sequence": 72,
-                    "videoSeconds": 10.445
+                    "sequence": 82,
+                    "videoSeconds": 11.128
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-next",
-                    "videoSeconds": 11.707,
-                    "inputVideoSeconds": 10.445
+                    "videoSeconds": 12.425,
+                    "inputVideoSeconds": 11.128
                 },
                 {
                     "event": "native-click",
@@ -2245,14 +2537,14 @@
                         0.9244216614090431,
                         0.9653078924544666
                     ],
-                    "sequence": 73,
-                    "videoSeconds": 12.555
+                    "sequence": 83,
+                    "videoSeconds": 13.362
                 },
                 {
                     "event": "action",
                     "key": "frame-picker-export",
-                    "videoSeconds": 13.912,
-                    "inputVideoSeconds": 12.555
+                    "videoSeconds": 14.628,
+                    "inputVideoSeconds": 13.362
                 },
                 {
                     "event": "native-click",
@@ -2260,14 +2552,14 @@
                         0.5650630914826499,
                         0.9653078924544666
                     ],
-                    "sequence": 74,
-                    "videoSeconds": 16.792
+                    "sequence": 84,
+                    "videoSeconds": 17.565
                 },
                 {
                     "event": "action",
                     "key": "still-export-start",
-                    "videoSeconds": 20.346,
-                    "inputVideoSeconds": 16.792
+                    "videoSeconds": 21.233,
+                    "inputVideoSeconds": 17.565
                 },
                 {
                     "event": "native-click",
@@ -2275,8 +2567,8 @@
                         0.01840168243953733,
                         0.030355594102341718
                     ],
-                    "sequence": 75,
-                    "videoSeconds": 24.214
+                    "sequence": 85,
+                    "videoSeconds": 25.155
                 },
                 {
                     "event": "action",
@@ -2284,37 +2576,37 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 25.557,
-                    "inputVideoSeconds": 24.214
+                    "videoSeconds": 26.436,
+                    "inputVideoSeconds": 25.155
                 }
             ],
             "captions": [
                 [
-                    0.099,
+                    0.164,
                     "在“选择”页面设置播放头位置，再打开“导出一帧”查看各帧。"
                 ],
                 [
-                    5.923,
+                    6.503,
                     "用“下一帧”逐帧查看，找到最清晰的画面。"
                 ],
                 [
-                    11.708,
+                    12.425,
                     "“导出”会将这一帧按原始尺寸保存为 PNG 图片。本演示将图片保存到预先准备的文件夹。"
                 ],
                 [
-                    20.347,
+                    21.233,
                     "这一帧已保存。关闭“选择一帧”，即可返回“选择”页面。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 27.633008,
+            "duration": 28.366016,
             "height": 970,
-            "sha256": "cd2a0c213be7884bcd37ec61a943013302685761f3b95fd15d05853e01137c92",
-            "size": 8589761,
+            "sha256": "a324d7a0997b740a23a25a26ca059cb04b892329a618a5c7dfa4731a837926ce",
+            "size": 8098540,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2326,63 +2618,63 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:10.954556+00:00",
+                "createdAt": "2026-11-12T02:41:54.086407+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
-                "music": "Reel Guide Glow (1).mp3",
-                "musicDurationSeconds": 84.312,
-                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
+                "music": "Reel Guide Glow.mp3",
+                "musicDurationSeconds": 85.224,
+                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "4957762c83a2aa4c8469d1a68f49178a6e932dcd0550a6b120028896567f4c75",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 47.126,
+                "originalVideoSha256": "ebc6a9e97b2830c8d74174b27f1216d9eedf3eee94814f60f9dc62ba87885ea1",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 38.848,
                 "narration": {
-                    "createdAt": "2026-10-29T13:00:25.574710+00:00",
+                    "createdAt": "2026-11-12T02:46:03.934540+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "exportFrame.4",
                             "text": "在“选择”页面设置播放头位置，再打开“导出一帧”查看各帧。",
-                            "voiceSeconds": 0.35,
-                            "durationSeconds": 5.223,
-                            "sha256": "f53c15b3f132223a15a4291bf4e6cdc9bfaec28167fd34f6071b3ed55bf0fc0a"
+                            "voiceSeconds": 0.414,
+                            "durationSeconds": 5.739,
+                            "sha256": "324e2a69f0f0a7b99802932957bc1c021dcbe1108dd3f568d12e8b3b22fb6331"
                         },
                         {
                             "key": "exportFrame.3",
                             "text": "用“下一帧”逐帧查看，找到最清晰的画面。",
-                            "voiceSeconds": 6.173,
-                            "durationSeconds": 3.374,
-                            "sha256": "88937e1364f51ba050fdbdbf65bcf20f1b608152399f6d502a97d8fdd650f3f0"
+                            "voiceSeconds": 6.753,
+                            "durationSeconds": 4.124,
+                            "sha256": "07660444590000ce3f36d21d4b6c850a007616724662731d9942ac5004179871"
                         },
                         {
                             "key": "exportFrame.2",
                             "text": "“导出”会将这一帧按原始尺寸保存为 PNG 图片。本演示将图片保存到预先准备的文件夹。",
-                            "voiceSeconds": 11.958,
-                            "durationSeconds": 8.039,
-                            "sha256": "ce62ae315b68084cfeae40117316bcad74289190ed25da3f90569a33c9c283e8"
+                            "voiceSeconds": 12.675,
+                            "durationSeconds": 8.208,
+                            "sha256": "77c64451f52950e0e2bd51d5f6ea37cc14a7fffe41fa89da18ec6ca6d626112b"
                         },
                         {
                             "key": "exportFrame.1",
                             "text": "这一帧已保存。关闭“选择一帧”，即可返回“选择”页面。",
-                            "voiceSeconds": 20.597,
-                            "durationSeconds": 5.032,
-                            "sha256": "8cc919e128cbad84e607e23706ece005aeaefcdbec64f21f528685ee4f7f0c12"
+                            "voiceSeconds": 21.483,
+                            "durationSeconds": 3.844,
+                            "sha256": "e7772ad468f3825b0c72771d5e439e4076c3fa8aff72fbe75e87174f59dd6c45"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 3.924,
-                            "seconds": 1.999
+                            "atSeconds": 3.992,
+                            "seconds": 2.511
                         },
                         {
-                            "atSeconds": 16.049,
-                            "seconds": 2.299
+                            "atSeconds": 16.351,
+                            "seconds": 2.371
                         }
                     ],
-                    "unnarratedSha256": "ba01268ec7df1a7c681c862ffceb552f857a56a6dc9a1291b5f6fa17d02d730b",
-                    "unnarratedDurationSeconds": 23.333333,
+                    "unnarratedSha256": "94b92e2cae4911d7fa49e17e733d261aa112c8444787baa41fcf53c93cb283f0",
+                    "unnarratedDurationSeconds": 23.483333,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -2401,14 +2693,14 @@
                         0.31670609859261983,
                         0.09106678230702515
                     ],
-                    "sequence": 76,
-                    "videoSeconds": 0.93
+                    "sequence": 86,
+                    "videoSeconds": 1.003
                 },
                 {
                     "event": "action",
                     "key": "reel-add-top",
-                    "videoSeconds": 2.214,
-                    "inputVideoSeconds": 0.93
+                    "videoSeconds": 2.284,
+                    "inputVideoSeconds": 1.003
                 },
                 {
                     "event": "native-click",
@@ -2416,14 +2708,14 @@
                         0.3830178754186781,
                         0.22116218560277537
                     ],
-                    "sequence": 77,
-                    "videoSeconds": 3.073
+                    "sequence": 87,
+                    "videoSeconds": 3.19
                 },
                 {
                     "event": "action",
                     "key": "add-media-split",
-                    "videoSeconds": 4.338,
-                    "inputVideoSeconds": 3.073
+                    "videoSeconds": 4.456,
+                    "inputVideoSeconds": 3.19
                 },
                 {
                     "event": "native-click",
@@ -2431,8 +2723,8 @@
                         0.3830178754186781,
                         0.15177797051170858
                     ],
-                    "sequence": 78,
-                    "videoSeconds": 5.184
+                    "sequence": 88,
+                    "videoSeconds": 5.378
                 },
                 {
                     "event": "action",
@@ -2443,8 +2735,8 @@
                         0.7344900105152471,
                         0.9219427580225499
                     ],
-                    "videoSeconds": 6.494,
-                    "inputVideoSeconds": 5.184
+                    "videoSeconds": 6.659,
+                    "inputVideoSeconds": 5.378
                 },
                 {
                     "event": "native-click",
@@ -2452,8 +2744,8 @@
                         0.7936382754994742,
                         0.21736773633998266
                     ],
-                    "sequence": 79,
-                    "videoSeconds": 7.329
+                    "sequence": 89,
+                    "videoSeconds": 7.565
                 },
                 {
                     "event": "action",
@@ -2464,17 +2756,17 @@
                         0.7344900105152471,
                         0.9219427580225499
                     ],
-                    "videoSeconds": 8.579,
-                    "inputVideoSeconds": 7.329
+                    "videoSeconds": 8.831,
+                    "inputVideoSeconds": 7.565
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.8718454258675079,
-                        0.46400693842150914
+                        0.4509973980919341
                     ],
-                    "sequence": 80,
-                    "videoSeconds": 9.415
+                    "sequence": 90,
+                    "videoSeconds": 9.737
                 },
                 {
                     "event": "action",
@@ -2485,8 +2777,8 @@
                         0.7344900105152471,
                         0.9219427580225499
                     ],
-                    "videoSeconds": 10.397,
-                    "inputVideoSeconds": 9.415
+                    "videoSeconds": 10.722,
+                    "inputVideoSeconds": 9.737
                 },
                 {
                     "event": "native-click",
@@ -2494,20 +2786,20 @@
                         0.5,
                         0.9436253252385083
                     ],
-                    "sequence": 81,
-                    "videoSeconds": 11.217
+                    "sequence": 91,
+                    "videoSeconds": 11.628
                 },
                 {
                     "event": "action",
-                    "key": "split-video-b85121a3-bc62-4917-8ce5-6f5ca0dd3a6f",
+                    "key": "split-video-fe8478f0-b60b-400b-9d2c-1cd38ee6ee05",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 12.195,
-                    "inputVideoSeconds": 11.217
+                    "videoSeconds": 12.597,
+                    "inputVideoSeconds": 11.628
                 },
                 {
                     "event": "native-click",
@@ -2515,15 +2807,15 @@
                         0.016565433645117984,
                         0.8980919340849957
                     ],
-                    "sequence": 82,
-                    "videoSeconds": 12.503
+                    "sequence": 92,
+                    "videoSeconds": 12.972
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 1.0,
-                    "videoSeconds": 13.242,
-                    "inputVideoSeconds": 12.503
+                    "videoSeconds": 13.784,
+                    "inputVideoSeconds": 12.972
                 },
                 {
                     "event": "native-click",
@@ -2531,8 +2823,8 @@
                         0.01683048058343987,
                         0.853642671292281
                     ],
-                    "sequence": 83,
-                    "videoSeconds": 13.888
+                    "sequence": 93,
+                    "videoSeconds": 14.503
                 },
                 {
                     "event": "action",
@@ -2540,11 +2832,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 14.531,
-                    "inputVideoSeconds": 13.888
+                    "videoSeconds": 15.175,
+                    "inputVideoSeconds": 14.503
                 },
                 {
                     "event": "native-click",
@@ -2552,15 +2844,15 @@
                         0.11595803551582588,
                         0.8980919340849957
                     ],
-                    "sequence": 84,
-                    "videoSeconds": 14.843
+                    "sequence": 94,
+                    "videoSeconds": 15.55
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 7.0,
-                    "videoSeconds": 15.878,
-                    "inputVideoSeconds": 14.843
+                    "videoSeconds": 16.55,
+                    "inputVideoSeconds": 15.55
                 },
                 {
                     "event": "native-click",
@@ -2568,8 +2860,8 @@
                         0.01840168243953733,
                         0.030355594102341718
                     ],
-                    "sequence": 85,
-                    "videoSeconds": 16.711
+                    "sequence": 95,
+                    "videoSeconds": 17.472
                 },
                 {
                     "event": "action",
@@ -2580,17 +2872,17 @@
                         0.7344900105152471,
                         0.8156981786643539
                     ],
-                    "videoSeconds": 17.772,
-                    "inputVideoSeconds": 16.711
+                    "videoSeconds": 18.456,
+                    "inputVideoSeconds": 17.472
                 },
                 {
                     "event": "native-click",
                     "position": [
                         0.8718454258675079,
-                        0.6201214223764094
+                        0.6071118820468343
                     ],
-                    "sequence": 86,
-                    "videoSeconds": 18.636
+                    "sequence": 96,
+                    "videoSeconds": 19.362
                 },
                 {
                     "event": "action",
@@ -2601,8 +2893,8 @@
                         0.7344900105152471,
                         0.8156981786643539
                     ],
-                    "videoSeconds": 19.678,
-                    "inputVideoSeconds": 18.636
+                    "videoSeconds": 20.331,
+                    "inputVideoSeconds": 19.362
                 },
                 {
                     "event": "native-click",
@@ -2610,20 +2902,20 @@
                         0.5,
                         0.9436253252385083
                     ],
-                    "sequence": 87,
-                    "videoSeconds": 20.524
+                    "sequence": 97,
+                    "videoSeconds": 21.237
                 },
                 {
                     "event": "action",
-                    "key": "split-video-b85121a3-bc62-4917-8ce5-6f5ca0dd3a6f",
+                    "key": "split-video-fe8478f0-b60b-400b-9d2c-1cd38ee6ee05",
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 21.51,
-                    "inputVideoSeconds": 20.524
+                    "videoSeconds": 22.269,
+                    "inputVideoSeconds": 21.237
                 },
                 {
                     "event": "native-click",
@@ -2631,15 +2923,15 @@
                         0.21535063738653382,
                         0.8980919340849957
                     ],
-                    "sequence": 88,
-                    "videoSeconds": 21.824
+                    "sequence": 98,
+                    "videoSeconds": 22.644
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 13.0,
-                    "videoSeconds": 22.654,
-                    "inputVideoSeconds": 21.824
+                    "videoSeconds": 23.44,
+                    "inputVideoSeconds": 22.644
                 },
                 {
                     "event": "native-click",
@@ -2647,8 +2939,8 @@
                         0.21556598802392032,
                         0.853642671292281
                     ],
-                    "sequence": 89,
-                    "videoSeconds": 23.288
+                    "sequence": 99,
+                    "videoSeconds": 24.159
                 },
                 {
                     "event": "action",
@@ -2656,11 +2948,11 @@
                     "stageBounds": [
                         0.0,
                         0.060711188204683436,
-                        0.6928233428457683,
+                        0.6319663512092534,
                         0.7029488291413704
                     ],
-                    "videoSeconds": 23.945,
-                    "inputVideoSeconds": 23.288
+                    "videoSeconds": 24.815,
+                    "inputVideoSeconds": 24.159
                 },
                 {
                     "event": "native-click",
@@ -2668,15 +2960,15 @@
                         0.3147432392572417,
                         0.8980919340849957
                     ],
-                    "sequence": 90,
-                    "videoSeconds": 24.253
+                    "sequence": 100,
+                    "videoSeconds": 25.206
                 },
                 {
                     "event": "action",
                     "key": "select-strip",
                     "sourceSeconds": 19.0,
-                    "videoSeconds": 25.216,
-                    "inputVideoSeconds": 24.253
+                    "videoSeconds": 26.19,
+                    "inputVideoSeconds": 25.206
                 },
                 {
                     "event": "native-click",
@@ -2684,8 +2976,8 @@
                         0.01840168243953733,
                         0.030355594102341718
                     ],
-                    "sequence": 91,
-                    "videoSeconds": 26.088
+                    "sequence": 101,
+                    "videoSeconds": 27.097
                 },
                 {
                     "event": "action",
@@ -2696,8 +2988,8 @@
                         0.7344900105152471,
                         0.8156981786643539
                     ],
-                    "videoSeconds": 27.103,
-                    "inputVideoSeconds": 26.088
+                    "videoSeconds": 28.065,
+                    "inputVideoSeconds": 27.097
                 },
                 {
                     "event": "native-click",
@@ -2705,8 +2997,8 @@
                         0.03746056782334385,
                         0.8352124891587164
                     ],
-                    "sequence": 92,
-                    "videoSeconds": 27.981
+                    "sequence": 102,
+                    "videoSeconds": 28.972
                 },
                 {
                     "event": "action",
@@ -2717,8 +3009,8 @@
                         0.7344900105152471,
                         0.8156981786643539
                     ],
-                    "videoSeconds": 29.243,
-                    "inputVideoSeconds": 27.981
+                    "videoSeconds": 30.269,
+                    "inputVideoSeconds": 28.972
                 },
                 {
                     "event": "native-click",
@@ -2726,8 +3018,8 @@
                         0.03746056782334385,
                         0.8352124891587164
                     ],
-                    "sequence": 93,
-                    "videoSeconds": 34.647
+                    "sequence": 103,
+                    "videoSeconds": 35.659
                 },
                 {
                     "event": "action",
@@ -2738,34 +3030,34 @@
                         0.7344900105152471,
                         0.8156981786643539
                     ],
-                    "videoSeconds": 36.022,
-                    "inputVideoSeconds": 34.647
+                    "videoSeconds": 36.956,
+                    "inputVideoSeconds": 35.659
                 }
             ],
             "captions": [
                 [
-                    0.099,
+                    0.112,
                     "依次选择“添加”和“分屏”，再选择它在短片中的位置。"
                 ],
                 [
-                    6.495,
+                    6.659,
                     "选择“左右并排”，同时显示两个视频，再为第一个画格选择视频和片段。"
                 ],
                 [
-                    17.776,
+                    18.456,
                     "每个画格都有自己的“选择”页面。为第二个画格选择不同的片段。"
                 ],
                 [
-                    27.111,
+                    28.065,
                     "播放分屏，看看两个片段如何在同一画面中同时播放。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 37.733008,
+            "duration": 38.85,
             "height": 970,
-            "sha256": "4ea5b19ac5d1d5db09518ff005220a6f38626628adf49587f0c83f896fd592c8",
-            "size": 21785569,
+            "sha256": "1724753f78eef0c4808f182eae2403c9ea1bb9d66ff77aacdcbdc6a273758a8f",
+            "size": 21573778,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2777,7 +3069,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:12.148607+00:00",
+                "createdAt": "2026-11-12T02:41:55.822314+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -2785,46 +3077,46 @@
                 "musicDurationSeconds": 84.312,
                 "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "46819208e5508d2d11fba4808ab8db6526bc44ee90f7cdeffad93d27e424bdf0",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 10.486,
+                "originalVideoSha256": "90d34af497b97f6fd051117fe6e1b5bd246898f9f55a11697bf3fdbd6a9af59e",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 12.911,
                 "narration": {
-                    "createdAt": "2026-10-29T13:00:55.640855+00:00",
+                    "createdAt": "2026-11-12T02:46:35.084046+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "split.4",
                             "text": "依次选择“添加”和“分屏”，再选择它在短片中的位置。",
-                            "voiceSeconds": 0.35,
-                            "durationSeconds": 4.185,
-                            "sha256": "12aa63781f423dfe775d8b5b981d8bc8610ed8d5b93864cc4aa0e81df51b0d97"
+                            "voiceSeconds": 0.362,
+                            "durationSeconds": 4.83,
+                            "sha256": "4138e8082855c70f53bba6a421ece8a7c3069270e46e9dc664d21a536f46cd4e"
                         },
                         {
                             "key": "split.3",
                             "text": "选择“左右并排”，同时显示两个视频，再为第一个画格选择视频和片段。",
-                            "voiceSeconds": 6.745,
-                            "durationSeconds": 5.615,
-                            "sha256": "1191fbf556872a5f260d4bf96e58035c979cdd6de22cff11d3b8437ec9e1aee0"
+                            "voiceSeconds": 6.909,
+                            "durationSeconds": 5.966,
+                            "sha256": "26f6684689f9a3c4ea3cb55bd8fd47891b5591a5be131de74fb9bd9112f19594"
                         },
                         {
                             "key": "split.2",
                             "text": "每个画格都有自己的“选择”页面。为第二个画格选择不同的片段。",
-                            "voiceSeconds": 18.026,
-                            "durationSeconds": 4.787,
-                            "sha256": "ccf30d12068c71ed14cf140909ffd27b2ce16d4e7b0116e4751690dcb3111a75"
+                            "voiceSeconds": 18.706,
+                            "durationSeconds": 4.753,
+                            "sha256": "b3652111f3824e80a1f21f70d410dc0c3b35c996e191d0a07e84bcf4c029732c"
                         },
                         {
                             "key": "split.1",
                             "text": "播放分屏，看看两个片段如何在同一画面中同时播放。",
-                            "voiceSeconds": 27.361,
-                            "durationSeconds": 4.025,
-                            "sha256": "6cb7fbf40ab21ba98ffc8efd0c410416395b14b753d8adaa5bef4d19bf8e608f"
+                            "voiceSeconds": 28.315,
+                            "durationSeconds": 4.647,
+                            "sha256": "c42f6d461c58562fcde8b097ec7c0582c3736e0d396bdbe5ce5c22c39d26892f"
                         }
                     ],
                     "pictureHolds": [],
-                    "unnarratedSha256": "aef0198363e7bcc9d499d4f04685547fd68b2e1fbdcd9052a117cea444ef4d74",
-                    "unnarratedDurationSeconds": 37.733333,
+                    "unnarratedSha256": "6b333f5c2f4227663468fa4329f10600b1a1a3d9d3ea4048542dd4b3034961f7",
+                    "unnarratedDurationSeconds": 38.85,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -2838,17 +3130,17 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 28.431,
+                        "startSeconds": 29.422,
                         "seconds": 5.3,
                         "crop": "1135:621:28:152",
-                        "changedFrames": 191,
+                        "changedFrames": 181,
                         "encodedFps": 60,
                         "frames": 318,
                         "maximumStillSeconds": 0.05,
-                        "movingFps": 36.15141955835962
+                        "movingFps": 34.25867507886436
                     }
                 ],
-                "movingFps": 36.15141955835962,
+                "movingFps": 34.25867507886436,
                 "maximumStillSeconds": 0.05
             }
         },
@@ -2860,24 +3152,24 @@
                         0.039432176656151424,
                         0.4054640069384215
                     ],
-                    "sequence": 94,
-                    "videoSeconds": 0.967
+                    "sequence": 104,
+                    "videoSeconds": 1.052
                 },
                 {
                     "event": "action",
                     "key": "editor-top-audio",
-                    "videoSeconds": 5.367,
-                    "inputVideoSeconds": 0.967
+                    "videoSeconds": 5.392,
+                    "inputVideoSeconds": 1.052
                 },
                 {
                     "event": "native-click",
-                    "path": "D:/code/neuratim/.tmp/frameosu-site/rec/zh-work/piano-motif.mp3",
+                    "path": "D:/code/neuratim/.tmp/frameosu-refresh-20261111/videos/work-zh-t2/piano-motif.mp3",
                     "position": [
                         0.5092008412197687,
                         0.909783242478747
                     ],
-                    "sequence": 95,
-                    "videoSeconds": 7.186
+                    "sequence": 105,
+                    "videoSeconds": 7.299
                 },
                 {
                     "event": "native-click",
@@ -2885,8 +3177,8 @@
                         0.37986330178759203,
                         0.5175628794449263
                     ],
-                    "sequence": 96,
-                    "videoSeconds": 15.845
+                    "sequence": 106,
+                    "videoSeconds": 14.433
                 },
                 {
                     "event": "action",
@@ -2897,8 +3189,8 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 17.081,
-                    "inputVideoSeconds": 15.845
+                    "videoSeconds": 15.715,
+                    "inputVideoSeconds": 14.433
                 },
                 {
                     "event": "native-click",
@@ -2906,8 +3198,8 @@
                         0.37986330178759203,
                         0.5175628794449263
                     ],
-                    "sequence": 97,
-                    "videoSeconds": 22.951
+                    "sequence": 107,
+                    "videoSeconds": 21.683
                 },
                 {
                     "event": "action",
@@ -2918,30 +3210,30 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 24.196,
-                    "inputVideoSeconds": 22.951
+                    "videoSeconds": 22.949,
+                    "inputVideoSeconds": 21.683
                 }
             ],
             "captions": [
                 [
-                    0.123,
+                    0.161,
                     "打开左侧的“音频”，为这部短片添加旁白或其他录音。"
                 ],
                 [
-                    5.367,
+                    5.392,
                     "点击“文件”，再在 Windows 文件对话框中选择录音。视频没有展示这个对话框。"
                 ],
                 [
-                    13.515,
+                    12.011,
                     "录音有独立的轨道，位于画面下方。点击“播放”，听听录音与短片搭配的效果。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 26.266016,
+            "duration": 24.933008,
             "height": 970,
-            "sha256": "f73fa387bfe3dd44c457e63b0092c8db07ecb3dfce5410ec165f7230f98cebce",
-            "size": 12192485,
+            "sha256": "da750fa0542ad6f4a97f5b7753b0d5aaaf4f90b9c93681d574569062e5e4c40c",
+            "size": 11752786,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -2953,56 +3245,56 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:12.985213+00:00",
+                "createdAt": "2026-11-12T02:41:57.173653+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
-                "music": "Reel Guide Glow.mp3",
-                "musicDurationSeconds": 85.224,
-                "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
+                "music": "Reel Guide Glow (1).mp3",
+                "musicDurationSeconds": 84.312,
+                "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "bffa41975b8a531b9e9cda5876f6c22812ae9cf72e1a52da8df36b24efd828a5",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 36.819,
+                "originalVideoSha256": "92fbecbd4bf8d043d407b2ca772c439ffa93aecab22c870c58241fcf061376b6",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 19.144,
                 "narration": {
-                    "createdAt": "2026-10-29T13:01:20.826467+00:00",
+                    "createdAt": "2026-11-12T02:46:57.411807+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "audio.3",
                             "text": "打开左侧的“音频”，为这部短片添加旁白或其他录音。",
-                            "voiceSeconds": 0.373,
-                            "durationSeconds": 4.644,
-                            "sha256": "1cb1295779ff20725ce86c5b52b3dd2d912a49897db8b2d1b39f241cc291a00d"
+                            "voiceSeconds": 0.411,
+                            "durationSeconds": 4.631,
+                            "sha256": "e3e4fd752aca02c38e2be5c009675783ad954f4a73a5dfa72be6368c41adf390"
                         },
                         {
                             "key": "audio.2",
                             "text": "点击“文件”，再在 Windows 文件对话框中选择录音。视频没有展示这个对话框。",
-                            "voiceSeconds": 5.617,
-                            "durationSeconds": 7.548,
-                            "sha256": "7824cd5042517fc48a1cd362c77a6b09ed938d201b23e080ac999d304853c1b6"
+                            "voiceSeconds": 5.642,
+                            "durationSeconds": 6.019,
+                            "sha256": "e16972926421106fb6cfe57e63bf5e3ee2edcd391e72357469fd273341c26a95"
                         },
                         {
                             "key": "audio.1",
                             "text": "录音有独立的轨道，位于画面下方。点击“播放”，听听录音与短片搭配的效果。",
-                            "voiceSeconds": 13.765,
-                            "durationSeconds": 6.768,
-                            "sha256": "5e2a5712c85b4efe77c2692e5bec3fb5d9d79766933d474388c95e28ea31d6e6"
+                            "voiceSeconds": 12.261,
+                            "durationSeconds": 6.333,
+                            "sha256": "770dbf3d00a7c94daa058aa54c1ec2d75e3db7f556283344936e39439acc6557"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 2.232,
-                            "seconds": 3.135
+                            "atSeconds": 2.348,
+                            "seconds": 3.044
                         },
                         {
-                            "atSeconds": 5.47,
-                            "seconds": 4.91
+                            "atSeconds": 5.848,
+                            "seconds": 3.119
                         }
                     ],
-                    "unnarratedSha256": "7530aaa2140b75d22ac1d8e21860bcfb401ed4606a0eb10df6ef8c918501ac62",
-                    "unnarratedDurationSeconds": 18.216667,
+                    "unnarratedSha256": "24694a0e2cd1a21ebef1751e79967226855cbab9fbc648fcdddcd21a7d06ef58",
+                    "unnarratedDurationSeconds": 18.766667,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -3016,17 +3308,17 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 16.595,
-                        "seconds": 6.206,
+                        "startSeconds": 15.183,
+                        "seconds": 6.35,
                         "crop": "826:447:661:83",
-                        "changedFrames": 194,
+                        "changedFrames": 190,
                         "encodedFps": 60,
-                        "frames": 373,
+                        "frames": 381,
                         "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 31.29032258064516
+                        "movingFps": 30.0
                     }
                 ],
-                "movingFps": 31.29032258064516,
+                "movingFps": 30.0,
                 "maximumStillSeconds": 0.06666666666666667
             }
         },
@@ -3038,8 +3330,8 @@
                         0.37986330178759203,
                         0.5175628794449263
                     ],
-                    "sequence": 98,
-                    "videoSeconds": 1.435
+                    "sequence": 108,
+                    "videoSeconds": 1.036
                 },
                 {
                     "event": "action",
@@ -3050,8 +3342,8 @@
                         0.6470820189274448,
                         0.5023850823937555
                     ],
-                    "videoSeconds": 2.784,
-                    "inputVideoSeconds": 1.435
+                    "videoSeconds": 2.317,
+                    "inputVideoSeconds": 1.036
                 },
                 {
                     "event": "native-click",
@@ -3059,14 +3351,14 @@
                         0.039432176656151424,
                         0.09106678230702515
                     ],
-                    "sequence": 99,
-                    "videoSeconds": 19.238
+                    "sequence": 109,
+                    "videoSeconds": 18.833
                 },
                 {
                     "event": "action",
                     "key": "editor-top-save",
-                    "videoSeconds": 20.531,
-                    "inputVideoSeconds": 19.238
+                    "videoSeconds": 20.114,
+                    "inputVideoSeconds": 18.833
                 },
                 {
                     "event": "native-click",
@@ -3074,8 +3366,8 @@
                         0.09726603575184017,
                         0.10407632263660017
                     ],
-                    "sequence": 100,
-                    "videoSeconds": 21.383
+                    "sequence": 110,
+                    "videoSeconds": 21.02
                 },
                 {
                     "event": "action",
@@ -3086,8 +3378,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 22.621,
-                    "inputVideoSeconds": 21.383
+                    "videoSeconds": 22.317,
+                    "inputVideoSeconds": 21.02
                 },
                 {
                     "event": "native-click",
@@ -3095,30 +3387,30 @@
                         0.9605678233438486,
                         0.025477016478751086
                     ],
-                    "sequence": 101,
-                    "videoSeconds": 23.452
+                    "sequence": 111,
+                    "videoSeconds": 23.223
                 },
                 {
                     "event": "action",
                     "key": "editor-top-export",
-                    "videoSeconds": 24.79,
-                    "inputVideoSeconds": 23.452
+                    "videoSeconds": 24.489,
+                    "inputVideoSeconds": 23.223
                 },
                 {
                     "event": "native-click",
-                    "save": "D:/code/neuratim/.tmp/frameosu-site/rec/zh-work/example-reel.mp4",
+                    "save": "D:/code/neuratim/.tmp/frameosu-refresh-20261111/videos/work-zh-t2/example-reel.mp4",
                     "position": [
                         0.6012092534174553,
                         0.9653078924544666
                     ],
-                    "sequence": 102,
-                    "videoSeconds": 29.669
+                    "sequence": 112,
+                    "videoSeconds": 29.442
                 },
                 {
                     "event": "action",
                     "key": "export-start",
-                    "videoSeconds": 31.225,
-                    "inputVideoSeconds": 29.669
+                    "videoSeconds": 31.13,
+                    "inputVideoSeconds": 29.442
                 },
                 {
                     "event": "native-click",
@@ -3126,8 +3418,8 @@
                         0.6012092534174553,
                         0.9653078924544666
                     ],
-                    "sequence": 103,
-                    "videoSeconds": 48.453
+                    "sequence": 113,
+                    "videoSeconds": 45.551
                 },
                 {
                     "event": "action",
@@ -3138,34 +3430,34 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 49.722,
-                    "inputVideoSeconds": 48.453
+                    "videoSeconds": 46.817,
+                    "inputVideoSeconds": 45.551
                 }
             ],
             "captions": [
                 [
-                    0.558,
+                    0.13,
                     "保存和导出前，打开声音，看完整部短片。"
                 ],
                 [
-                    18.414,
+                    17.942,
                     "“保存”会保留可编辑的项目。金色的“导出”按钮会创建独立的视频文件。"
                 ],
                 [
-                    28.829,
+                    28.536,
                     "检查尺寸、质量和格式，然后点击“导出”。本演示将视频保存到预先准备的文件夹。"
                 ],
                 [
-                    44.586,
+                    41.614,
                     "视频已导出。点击“完成”关闭此界面，项目仍然保留，之后还可以继续编辑。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 51.75,
+            "duration": 50.567,
             "height": 970,
-            "sha256": "124fef4274acb040cb3d52317f273e42a11db293ce6f75dc5ce7a467b8c682a0",
-            "size": 17770996,
+            "sha256": "1c5cd7a7961795618aedc76ea345d5625c0e3d07d9b12adeeb3ac3cbab0e2805",
+            "size": 17254823,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -3177,7 +3469,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:14.210313+00:00",
+                "createdAt": "2026-11-12T02:41:58.331227+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -3185,46 +3477,51 @@
                 "musicDurationSeconds": 84.312,
                 "musicSourceSha256": "356004fbb1556f9b7b09d4e61f2c37da6764e8d0ea4be3a1042fe68639b9070e",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "8b509375be5c423fe1f9d8b94ff374cf2343599fb20a92b6afaf3889c4a52e32",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 32.12,
+                "originalVideoSha256": "b83b7640957260cc115228d884e4010660b0e739ab448016d0d036f8e925ff64",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 1.234,
                 "narration": {
-                    "createdAt": "2026-10-29T13:01:55.443503+00:00",
+                    "createdAt": "2026-11-12T02:47:35.378627+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "export.4",
                             "text": "保存和导出前，打开声音，看完整部短片。",
-                            "voiceSeconds": 0.808,
-                            "durationSeconds": 3.74,
-                            "sha256": "46c429a851188320917f3cb0f8b560d42500ec659adac5aef2f6e0566404a7e0"
+                            "voiceSeconds": 0.38,
+                            "durationSeconds": 3.841,
+                            "sha256": "cd7cbd5c148a0325ce5e6200ab7b4ff28b8136a12abe42993f211805386427e7"
                         },
                         {
                             "key": "export.3",
                             "text": "“保存”会保留可编辑的项目。金色的“导出”按钮会创建独立的视频文件。",
-                            "voiceSeconds": 18.664,
-                            "durationSeconds": 5.744,
-                            "sha256": "19ba297a0d752a2f81937b96f53a6fe61f78ae81f15bc06cd83abe339fa751ca"
+                            "voiceSeconds": 18.192,
+                            "durationSeconds": 6.013,
+                            "sha256": "8a3300f1b2ef91b4983973513cbd8470128303ede83a1ba5eaa311c582f98795"
                         },
                         {
                             "key": "export.2",
                             "text": "检查尺寸、质量和格式，然后点击“导出”。本演示将视频保存到预先准备的文件夹。",
-                            "voiceSeconds": 29.079,
-                            "durationSeconds": 8.121,
-                            "sha256": "ef83874f7071174df76b277025143fad34622a71027a2200d3c04b221cec9c6c"
+                            "voiceSeconds": 28.786,
+                            "durationSeconds": 7.579,
+                            "sha256": "2591966c0a7da24572511da19d1ce1c8165832aa317f01041f4415262f37aa49"
                         },
                         {
                             "key": "export.1",
                             "text": "视频已导出。点击“完成”关闭此界面，项目仍然保留，之后还可以继续编辑。",
-                            "voiceSeconds": 44.836,
-                            "durationSeconds": 6.154,
-                            "sha256": "9fb01403113442f7f7e8d2b4be7ab1323d6d16d96d73669719bf9de693af2cbf"
+                            "voiceSeconds": 41.864,
+                            "durationSeconds": 8.103,
+                            "sha256": "d9a6575bc5abce67e00f6fa396ee7447ad96e305349663fb1ba7c94af31c57b5"
                         }
                     ],
-                    "pictureHolds": [],
-                    "unnarratedSha256": "5aa3108d83e5706297228e99dc61609136dba9ff786f5782bd6bfa3f90da5666",
-                    "unnarratedDurationSeconds": 51.75,
+                    "pictureHolds": [
+                        {
+                            "atSeconds": 48.65,
+                            "seconds": 1.917
+                        }
+                    ],
+                    "unnarratedSha256": "a34d43678b54af2cb23c648b46119967f43615b8f00b9f7346213e9dfc573b12",
+                    "unnarratedDurationSeconds": 48.65,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -3238,7 +3535,7 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 1.785,
+                        "startSeconds": 1.386,
                         "seconds": 1.7,
                         "crop": "826:447:661:83",
                         "changedFrames": 50,
@@ -3248,18 +3545,18 @@
                         "movingFps": 29.702970297029704
                     },
                     {
-                        "startSeconds": 7.535,
+                        "startSeconds": 7.136,
                         "seconds": 8.1,
                         "crop": "826:447:661:83",
-                        "changedFrames": 267,
+                        "changedFrames": 245,
                         "encodedFps": 60,
                         "frames": 486,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 33.03092783505154
+                        "maximumStillSeconds": 0.1,
+                        "movingFps": 30.309278350515463
                     }
                 ],
                 "movingFps": 29.702970297029704,
-                "maximumStillSeconds": 0.06666666666666667
+                "maximumStillSeconds": 0.1
             }
         },
         "auto": {
@@ -3270,14 +3567,14 @@
                         0.039432176656151424,
                         0.2883781439722463
                     ],
-                    "sequence": 104,
-                    "videoSeconds": 1.002
+                    "sequence": 114,
+                    "videoSeconds": 1.052
                 },
                 {
                     "event": "action",
                     "key": "editor-top-auto",
-                    "videoSeconds": 2.364,
-                    "inputVideoSeconds": 1.002
+                    "videoSeconds": 2.333,
+                    "inputVideoSeconds": 1.052
                 },
                 {
                     "event": "native-click",
@@ -3285,15 +3582,15 @@
                         0.6721871713985279,
                         0.24653078924544664
                     ],
-                    "sequence": 105,
-                    "videoSeconds": 10.458
+                    "sequence": 115,
+                    "videoSeconds": 8.778
                 },
                 {
                     "event": "action",
                     "key": "auto-analysis-precision",
                     "value": "25",
-                    "videoSeconds": 11.733,
-                    "inputVideoSeconds": 10.458
+                    "videoSeconds": 10.028,
+                    "inputVideoSeconds": 8.778
                 },
                 {
                     "event": "native-click",
@@ -3301,14 +3598,14 @@
                         0.6012092534174553,
                         0.9653078924544666
                     ],
-                    "sequence": 106,
-                    "videoSeconds": 16.374
+                    "sequence": 116,
+                    "videoSeconds": 15.247
                 },
                 {
                     "event": "action",
                     "key": "auto-make",
-                    "videoSeconds": 17.745,
-                    "inputVideoSeconds": 16.374
+                    "videoSeconds": 16.529,
+                    "inputVideoSeconds": 15.247
                 },
                 {
                     "event": "native-click",
@@ -3316,8 +3613,8 @@
                         0.37986330178759203,
                         0.5891153512575888
                     ],
-                    "sequence": 107,
-                    "videoSeconds": 25.64
+                    "sequence": 117,
+                    "videoSeconds": 24.498
                 },
                 {
                     "event": "action",
@@ -3328,8 +3625,8 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 26.979,
-                    "inputVideoSeconds": 25.64
+                    "videoSeconds": 25.748,
+                    "inputVideoSeconds": 24.498
                 },
                 {
                     "event": "native-click",
@@ -3337,8 +3634,8 @@
                         0.37986330178759203,
                         0.5891153512575888
                     ],
-                    "sequence": 108,
-                    "videoSeconds": 33.838
+                    "sequence": 118,
+                    "videoSeconds": 32.717
                 },
                 {
                     "event": "action",
@@ -3349,38 +3646,38 @@
                         0.6470820189274448,
                         0.573937554206418
                     ],
-                    "videoSeconds": 35.08,
-                    "inputVideoSeconds": 33.838
+                    "videoSeconds": 33.982,
+                    "inputVideoSeconds": 32.717
                 },
                 {
                     "event": "shortened-analysis-wait",
-                    "removedSeconds": 21.152
+                    "removedSeconds": 15.437
                 }
             ],
             "captions": [
                 [
-                    0.176,
+                    0.146,
                     "点击“帮我挑选片段”会打开“自动剪辑”，这是另一种开始方式，里面有时长和音乐设置。"
                 ],
                 [
-                    9.503,
+                    7.763,
                     "“自动时长”会确定短片长度。精度越低，分析的样本越少。"
                 ],
                 [
-                    15.524,
+                    14.326,
                     "“创建短片”会在本设备上分析素材。视频中的等待过程已缩短。"
                 ],
                 [
-                    22.747,
+                    21.529,
                     "草稿已就绪，片段已加入短片。导出前先播放草稿。"
                 ]
             ],
             "captureMethod": "graphics",
             "demonstration": "direct-editor",
-            "duration": 36.994,
+            "duration": 35.833008,
             "height": 970,
-            "sha256": "f9b7bf3b0d4094093b83546d71414a75dac95f20432e54e6679f108ea9dcb17e",
-            "size": 9295327,
+            "sha256": "d0cfdea0567ced96d9e5c7050e175b57c279fa54405e37feb6d2bbcabe7ed12e",
+            "size": 8589798,
             "width": 1600,
             "recording": {
                 "appBuildMode": "profile",
@@ -3392,7 +3689,7 @@
                 "clickEffect": "expanding blue ring, 450 ms"
             },
             "audio": {
-                "createdAt": "2026-10-28T23:35:15.059048+00:00",
+                "createdAt": "2026-11-12T02:41:59.282524+00:00",
                 "fadeInSeconds": 1.5,
                 "fadeOutSeconds": 2,
                 "gainDb": -16,
@@ -3400,55 +3697,55 @@
                 "musicDurationSeconds": 85.224,
                 "musicSourceSha256": "cd3b3c1d9ed7c33e9a23e4ab390a73e9c7148c5c5649713d331de2452bcfd196",
                 "minimumSpacingSeconds": 5.0,
-                "originalVideoSha256": "e160271e01a5edcbf092a8039a6c0e652266b5dd85f269acc64332875245e136",
-                "randomSeed": "18445218583353789504",
-                "startSeconds": 29.701,
+                "originalVideoSha256": "e19b9e5039fa1525610398c1e5ae49d996672531cf1f302ad183dd8249bb856e",
+                "randomSeed": "4757076523038623920",
+                "startSeconds": 48.019,
                 "narration": {
-                    "createdAt": "2026-10-29T13:02:29.359442+00:00",
+                    "createdAt": "2026-11-12T02:48:08.414920+00:00",
                     "provider": "Deepgram",
                     "model": "flux-zhen-zh",
                     "lines": [
                         {
                             "key": "auto.5",
                             "text": "点击“帮我挑选片段”会打开“自动剪辑”，这是另一种开始方式，里面有时长和音乐设置。",
-                            "voiceSeconds": 0.426,
-                            "durationSeconds": 8.727,
-                            "sha256": "6ebbdaeff48783a14f2105003de31569348b549d53b0486298f166a812eca793"
+                            "voiceSeconds": 0.396,
+                            "durationSeconds": 7.017,
+                            "sha256": "dc6dfdf23292c179e7dc054974c5609606930a7ec3605a9880689a3bed1be683"
                         },
                         {
                             "key": "auto.4",
                             "text": "“自动时长”会确定短片长度。精度越低，分析的样本越少。",
-                            "voiceSeconds": 9.753,
-                            "durationSeconds": 5.422,
-                            "sha256": "c8f425251f192daf7e2274fd6358f22e78b863bafccc8c56489826fcb2f9b589"
+                            "voiceSeconds": 8.013,
+                            "durationSeconds": 5.963,
+                            "sha256": "75e3e6cdeef5042b0d9c0b239106ec763d8285b0d35d90a9e9eb4da0a4145920"
                         },
                         {
                             "key": "auto.3",
                             "text": "“创建短片”会在本设备上分析素材。视频中的等待过程已缩短。",
-                            "voiceSeconds": 15.774,
-                            "durationSeconds": 5.749,
-                            "sha256": "20ff2e156c245d437a6d79ced140c3b7083f9867c5a95687a0001bc6f01ad3cf"
+                            "voiceSeconds": 14.576,
+                            "durationSeconds": 5.715,
+                            "sha256": "dd7bf2aad430aeb788fd8be0d83353159066b3018ecf89a7a4bd0cd0091517a8"
                         },
                         {
                             "key": "auto.2",
                             "text": "草稿已就绪，片段已加入短片。导出前先播放草稿。",
-                            "voiceSeconds": 22.997,
-                            "durationSeconds": 5.877,
-                            "sha256": "4445486d182bdb1e16ff22612669cc4ba41961cb0f47e2b6ef0d459fe462cbb7"
+                            "voiceSeconds": 21.779,
+                            "durationSeconds": 5.203,
+                            "sha256": "d0ea869d6e0585f0b83e947cb11d7e0f2422a9b05f24fa8a99a446c1724f372e"
                         }
                     ],
                     "pictureHolds": [
                         {
-                            "atSeconds": 6.414,
-                            "seconds": 3.089
+                            "atSeconds": 6.365,
+                            "seconds": 1.398
                         },
                         {
-                            "atSeconds": 10.663,
-                            "seconds": 1.772
+                            "atSeconds": 10.662,
+                            "seconds": 2.266
                         }
                     ],
-                    "unnarratedSha256": "a6f4b319891ccbcb5716955ae65bdbd08a13a2f5ba456bf70385853e482793db",
-                    "unnarratedDurationSeconds": 32.133333,
+                    "unnarratedSha256": "94aad04edd832213376e0603fc785787aa9ee18749d7823b9d3d010a297314eb",
+                    "unnarratedDurationSeconds": 32.166667,
                     "musicDucking": {
                         "threshold": 0.03,
                         "ratio": 6,
@@ -3462,22 +3759,22 @@
                 "method": "picture-difference-above-quantization-noise",
                 "segments": [
                     {
-                        "startSeconds": 25.99,
+                        "startSeconds": 24.848,
                         "seconds": 4.4,
                         "crop": "950:517:599:83",
-                        "changedFrames": 146,
+                        "changedFrames": 137,
                         "encodedFps": 60,
                         "frames": 264,
-                        "maximumStillSeconds": 0.06666666666666667,
-                        "movingFps": 33.30798479087452
+                        "maximumStillSeconds": 0.05,
+                        "movingFps": 31.254752851711025
                     }
                 ],
-                "movingFps": 33.30798479087452,
-                "maximumStillSeconds": 0.06666666666666667
+                "movingFps": 31.254752851711025,
+                "maximumStillSeconds": 0.05
             }
         }
     },
     "language": "zh",
     "platform": "windows",
-    "sourceCommit": "1ed1ddf354d521109d13efc794f28be3386bf112"
+    "sourceCommit": "4954c3ad42f5d0c6ebb2479cd346ffc07ac10b8f"
 }
